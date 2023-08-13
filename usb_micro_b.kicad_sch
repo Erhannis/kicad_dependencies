@@ -6,6 +6,8 @@
 
   (title_block
     (title "USB Micro B and 3V3 Power")
+    (comment 1 "From https://github.com/gregdavill/advent-calendar-of-circuits-2020 (CERN-OHL-P-2.0)")
+    (comment 2 "and https://github.com/sqfmi/beepy-hardware")
   )
 
   (lib_symbols
@@ -607,7 +609,6 @@
     (uuid fdbbf0bb-7e00-429f-a957-7b53bfc819dd)
   )
 
-  (no_connect (at 166.37 68.58) (uuid 1a6c9371-cf60-4f6d-a6ac-d2720ce1acfb))
   (no_connect (at 116.84 103.505) (uuid 1f0dfb65-3168-4cdf-9c83-202372ba820b))
 
   (wire (pts (xy 143.51 63.5) (xy 148.59 63.5))
