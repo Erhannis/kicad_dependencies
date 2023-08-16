@@ -208,6 +208,31 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 125.095 84.455 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9dd21f3a-e109-4c80-9820-45cc5fbe8d39)
+    (property "Reference" "#PWR08" (at 118.745 84.455 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 121.285 84.455 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 125.095 84.455 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 125.095 84.455 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6aa8466c-0302-4acc-8193-1d218ba48468))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+3V3") (at 75.565 64.135 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b09c63a4-a01f-4c36-bdaf-cb486489ae3e)

@@ -631,7 +631,7 @@
     (property "Value" "D" (at 135.255 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 135.255 88.265 0)
+    (property "Footprint" "Diode_SMD:D_0805_2012Metric" (at 135.255 88.265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 135.255 88.265 0)
