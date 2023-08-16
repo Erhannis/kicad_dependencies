@@ -200,6 +200,31 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 125.095 58.42 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d5489ac4-01ea-4b96-9233-3ce5dc0a081a)
+    (property "Reference" "#PWR05" (at 118.745 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 121.285 58.42 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 125.095 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 125.095 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 391c2399-0e85-4919-b06f-1c632d2a98aa))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+    )
+  )
+
   (sheet (at 59.055 49.53) (size 16.51 36.83) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
