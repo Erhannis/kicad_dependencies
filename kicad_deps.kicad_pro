@@ -504,7 +504,11 @@
     ],
     [
       "eb026739-dd90-4a67-80eb-0b6b28837c6d",
-      "DC-DC Boost"
+      "DC Boost 10v"
+    ],
+    [
+      "c75f3a8a-ae5a-4385-a905-86493e5c224f",
+      "DC Boost 8.5v"
     ]
   ],
   "text_variables": {}

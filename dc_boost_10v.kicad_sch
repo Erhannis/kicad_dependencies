@@ -4,6 +4,11 @@
 
   (paper "A4")
 
+  (title_block
+    (title "DC/DC Boost Converter: 10V")
+    (comment 1 "Voltage is approximate.  See resistor calculation.")
+  )
+
   (lib_symbols
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
@@ -454,6 +459,9 @@
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
           (reference "C7") (unit 1)
         )
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c75f3a8a-ae5a-4385-a905-86493e5c224f"
+          (reference "C9") (unit 1)
+        )
       )
     )
   )
@@ -492,6 +500,9 @@
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
           (reference "U2") (unit 1)
         )
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c75f3a8a-ae5a-4385-a905-86493e5c224f"
+          (reference "U6") (unit 1)
+        )
       )
     )
   )
@@ -526,6 +537,9 @@
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
           (reference "L1") (unit 1)
+        )
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c75f3a8a-ae5a-4385-a905-86493e5c224f"
+          (reference "L2") (unit 1)
         )
       )
     )
@@ -565,6 +579,9 @@
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
           (reference "R1") (unit 1)
         )
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c75f3a8a-ae5a-4385-a905-86493e5c224f"
+          (reference "R3") (unit 1)
+        )
       )
     )
   )
@@ -603,6 +620,9 @@
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
           (reference "R2") (unit 1)
         )
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c75f3a8a-ae5a-4385-a905-86493e5c224f"
+          (reference "R11") (unit 1)
+        )
       )
     )
   )
@@ -640,6 +660,9 @@
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
           (reference "D1") (unit 1)
+        )
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c75f3a8a-ae5a-4385-a905-86493e5c224f"
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -694,6 +717,9 @@
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
           (reference "C8") (unit 1)
+        )
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c75f3a8a-ae5a-4385-a905-86493e5c224f"
+          (reference "C10") (unit 1)
         )
       )
     )
