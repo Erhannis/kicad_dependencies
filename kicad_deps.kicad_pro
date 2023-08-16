@@ -492,6 +492,10 @@
     [
       "3a7bd670-a7f7-48d6-9018-c06d9d518e7f",
       "EEPROM"
+    ],
+    [
+      "ae208133-afa9-4b97-890f-a7922fc377b4",
+      "Voltage Inverter"
     ]
   ],
   "text_variables": {}
