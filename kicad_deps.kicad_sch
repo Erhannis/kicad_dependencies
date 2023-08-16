@@ -100,6 +100,14 @@
   )
 
 
+  (text_box "Note: for many of these, I'd pick a symbol available by default, but a different pin-compatible component available on JLCPCB.  I'd expect the default symbol component to work, but I'm focusing on the real JLCPCB component.\nI tried to pick the most-available (highest stock) components with the required properties, occasionally picking a significantly cheaper option."
+    (at 41.275 119.38 0) (size 93.345 41.91)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid d58e55e2-afe0-469a-87e2-c5550c448573)
+  )
+
   (symbol (lib_id "power:GND") (at 75.565 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3938aa14-610f-4a4f-a5ed-a04371b15385)
@@ -330,6 +338,23 @@
     (instances
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 154.94 26.035) (size 18.415 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid eb026739-dd90-4a67-80eb-0b6b28837c6d)
+    (property "Sheetname" "DC-DC Boost" (at 154.94 25.3234 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "dc_boost.kicad_sch" (at 154.94 41.8596 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3" (page "5"))
       )
     )
   )

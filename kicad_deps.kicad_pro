@@ -501,6 +501,10 @@
     [
       "ae208133-afa9-4b97-890f-a7922fc377b4",
       "Voltage Inverter"
+    ],
+    [
+      "eb026739-dd90-4a67-80eb-0b6b28837c6d",
+      "DC-DC Boost"
     ]
   ],
   "text_variables": {}
