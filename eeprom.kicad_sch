@@ -297,7 +297,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 82b3c59c-d55d-47a4-8000-2bb2a4de46d8)
   )
-  (hierarchical_label "GND" (shape output) (at 106.68 97.79 180) (fields_autoplaced)
+  (hierarchical_label "GND" (shape input) (at 106.68 97.79 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 89907839-c5d2-4d13-81d6-d20f07d64a31)
   )
