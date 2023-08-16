@@ -510,6 +510,10 @@
     [
       "c75f3a8a-ae5a-4385-a905-86493e5c224f",
       "DC Boost 8.5v"
+    ],
+    [
+      "74d68ab0-d50a-4b8f-b812-a4c54dddafa8",
+      "Voltage Inverter alt"
     ]
   ],
   "text_variables": {}
