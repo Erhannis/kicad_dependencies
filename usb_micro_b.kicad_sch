@@ -833,7 +833,7 @@
   (symbol (lib_id "Connector:USB_B_Micro") (at 109.22 98.425 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 061b3666-ac2b-47b9-93e1-411c05209549)
-    (property "Reference" "RP_USB1" (at 109.22 85.725 0)
+    (property "Reference" "USB1_UM1" (at 109.22 85.725 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_B_Micro" (at 109.22 88.265 0)
@@ -863,12 +863,12 @@
     (instances
       (project "Pico_FT232H_pair"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "RP_USB1") (unit 1)
+          (reference "USB1_UM1") (unit 1)
         )
       )
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "RP_USB1") (unit 1)
+          (reference "USB1_UM1") (unit 1)
         )
       )
     )
@@ -877,7 +877,7 @@
   (symbol (lib_id "Device:R") (at 107.95 114.3 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23c9c7e8-8f53-424e-87b2-17573df00096)
-    (property "Reference" "R1" (at 107.95 116.84 90)
+    (property "Reference" "R1_10B1" (at 107.95 116.84 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 107.95 111.76 90)
@@ -906,17 +906,17 @@
     (instances
       (project "Pico_FT232H_pair"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "R1") (unit 1)
+          (reference "R1_10B1") (unit 1)
         )
       )
       (project "jtag-programmer"
         (path "/e06305fb-998f-48af-a66f-06af1aebcaf0"
-          (reference "R1") (unit 1)
+          (reference "R1_10B1") (unit 1)
         )
       )
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "R8") (unit 1)
+          (reference "R1_UM1") (unit 1)
         )
       )
     )
@@ -925,7 +925,7 @@
   (symbol (lib_id "Device:R") (at 151.765 93.345 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 354c4a75-479e-472e-a737-bc397196d2ee)
-    (property "Reference" "R7" (at 153.2636 89.535 0)
+    (property "Reference" "R4_EP1" (at 153.2636 89.535 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "27" (at 148.463 92.075 0)
@@ -948,17 +948,17 @@
     (instances
       (project "RP2040Breakout"
         (path "/c784a5d7-6d3a-4c20-8207-f0b3ca3fe9b6"
-          (reference "R7") (unit 1)
+          (reference "R4_EP1") (unit 1)
         )
       )
       (project "Pico_FT232H_pair"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "R2") (unit 1)
+          (reference "R2_10B1") (unit 1)
         )
       )
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "R9") (unit 1)
+          (reference "R2_UM1") (unit 1)
         )
       )
     )
@@ -967,7 +967,7 @@
   (symbol (lib_id "Device:C") (at 138.43 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ff5a45b-5251-445a-8880-98dd4a9a2b6e)
-    (property "Reference" "C4" (at 136.14 71.14 90)
+    (property "Reference" "C1_UM1" (at 136.14 71.14 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 140.73 71.14 90)
@@ -990,17 +990,17 @@
     (instances
       (project "RP2040Breakout"
         (path "/c784a5d7-6d3a-4c20-8207-f0b3ca3fe9b6"
-          (reference "C4") (unit 1)
+          (reference "C1_UM1") (unit 1)
         )
       )
       (project "Pico_FT232H_pair"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "C1") (unit 1)
+          (reference "C1_VI1") (unit 1)
         )
       )
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "C4") (unit 1)
+          (reference "C1_UM1") (unit 1)
         )
       )
     )
@@ -1009,7 +1009,7 @@
   (symbol (lib_id "Power_Protection:USBLC6-2P6") (at 131.445 114.935 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60e575f0-da4f-4d63-913f-a34db1524cae)
-    (property "Reference" "U3" (at 125.095 106.045 0)
+    (property "Reference" "MEM1_EP1" (at 125.095 106.045 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USBLC6-2P6" (at 140.335 106.045 0)
@@ -1036,17 +1036,17 @@
     (instances
       (project "Pico_FT232H_pair"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "U3") (unit 1)
+          (reference "MEM1_EP1") (unit 1)
         )
       )
       (project "jtag-programmer"
         (path "/e06305fb-998f-48af-a66f-06af1aebcaf0"
-          (reference "U2") (unit 1)
+          (reference "POW1_10B1") (unit 1)
         )
       )
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "U4") (unit 1)
+          (reference "ESD1_UM1") (unit 1)
         )
       )
     )
@@ -1055,7 +1055,7 @@
   (symbol (lib_id "Device:R") (at 151.765 100.965 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 69cb18ae-3528-4ef5-a1de-f1d63b443da6)
-    (property "Reference" "R4" (at 153.2636 97.155 0)
+    (property "Reference" "R1_EP1" (at 153.2636 97.155 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "27" (at 148.463 99.695 0)
@@ -1078,17 +1078,17 @@
     (instances
       (project "RP2040Breakout"
         (path "/c784a5d7-6d3a-4c20-8207-f0b3ca3fe9b6"
-          (reference "R4") (unit 1)
+          (reference "R1_EP1") (unit 1)
         )
       )
       (project "Pico_FT232H_pair"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "R3") (unit 1)
+          (reference "R1_85B1") (unit 1)
         )
       )
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "R10") (unit 1)
+          (reference "R3_UM1") (unit 1)
         )
       )
     )
@@ -1097,7 +1097,7 @@
   (symbol (lib_id "Device:C") (at 171.45 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88bd8c7c-25fc-42b3-a748-26ad20f74262)
-    (property "Reference" "C1" (at 169.16 71.14 90)
+    (property "Reference" "C1_VI1" (at 169.16 71.14 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 173.75 71.14 90)
@@ -1120,17 +1120,17 @@
     (instances
       (project "RP2040Breakout"
         (path "/c784a5d7-6d3a-4c20-8207-f0b3ca3fe9b6"
-          (reference "C1") (unit 1)
+          (reference "C1_VI1") (unit 1)
         )
       )
       (project "Pico_FT232H_pair"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "C2") (unit 1)
+          (reference "C2_VI1") (unit 1)
         )
       )
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "C5") (unit 1)
+          (reference "C2_UM1") (unit 1)
         )
       )
     )
@@ -1139,7 +1139,7 @@
   (symbol (lib_id "Regulator_Linear:AP2112K-3.3") (at 156.21 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dcca89da-1cf5-44b4-82f4-a875a19e7a84)
-    (property "Reference" "U2" (at 148.59 59.944 0)
+    (property "Reference" "POW1_10B1" (at 148.59 59.944 0)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
     (property "Value" "AP2112K-3.3" (at 148.59 73.66 0)
@@ -1165,17 +1165,17 @@
     (instances
       (project "RP2040Breakout"
         (path "/c784a5d7-6d3a-4c20-8207-f0b3ca3fe9b6"
-          (reference "U2") (unit 1)
+          (reference "POW1_10B1") (unit 1)
         )
       )
       (project "Pico_FT232H_pair"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "U5") (unit 1)
+          (reference "REG1_UM1") (unit 1)
         )
       )
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "U5") (unit 1)
+          (reference "REG1_UM1") (unit 1)
         )
       )
     )

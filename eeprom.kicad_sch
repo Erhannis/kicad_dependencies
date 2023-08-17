@@ -313,7 +313,7 @@
   (symbol (lib_id "Device:R") (at 152.4 92.71 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 10ab7494-9d18-4005-8bf5-e06c24effb78)
-    (property "Reference" "R5" (at 153.8986 88.9 0)
+    (property "Reference" "R2_EP1" (at 153.8986 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "2K" (at 149.098 91.44 0)
@@ -336,20 +336,20 @@
     (instances
       (project "RP2040Breakout"
         (path "/c784a5d7-6d3a-4c20-8207-f0b3ca3fe9b6"
-          (reference "R5") (unit 1)
+          (reference "R2_EP1") (unit 1)
         )
       )
       (project "Pico_FT232H_pair"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "R7") (unit 1)
+          (reference "R4_EP1") (unit 1)
         )
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/94a86c12-05b9-4da1-af0c-af11b6995a59"
-          (reference "R11") (unit 1)
+          (reference "R2_85B1") (unit 1)
         )
       )
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/3a7bd670-a7f7-48d6-9018-c06d9d518e7f"
-          (reference "R6") (unit 1)
+          (reference "R3_EP1") (unit 1)
         )
       )
     )
@@ -358,7 +358,7 @@
   (symbol (lib_id "Device:R") (at 147.32 78.105 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 18f4879f-2493-4f1a-b429-c8586c422c3f)
-    (property "Reference" "R5" (at 151.13 79.6036 0)
+    (property "Reference" "R2_EP1" (at 151.13 79.6036 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "10K" (at 148.59 74.803 0)
@@ -381,20 +381,20 @@
     (instances
       (project "RP2040Breakout"
         (path "/c784a5d7-6d3a-4c20-8207-f0b3ca3fe9b6"
-          (reference "R5") (unit 1)
+          (reference "R2_EP1") (unit 1)
         )
       )
       (project "Pico_FT232H_pair"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "R7") (unit 1)
+          (reference "R4_EP1") (unit 1)
         )
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/94a86c12-05b9-4da1-af0c-af11b6995a59"
-          (reference "R9") (unit 1)
+          (reference "R2_UM1") (unit 1)
         )
       )
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/3a7bd670-a7f7-48d6-9018-c06d9d518e7f"
-          (reference "R5") (unit 1)
+          (reference "R2_EP1") (unit 1)
         )
       )
     )
@@ -403,7 +403,7 @@
   (symbol (lib_id "Device:R") (at 153.67 78.105 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3385b073-386a-4c3c-82dd-46982cb24415)
-    (property "Reference" "R5" (at 157.48 79.6036 0)
+    (property "Reference" "R2_EP1" (at 157.48 79.6036 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "10K" (at 154.94 74.803 0)
@@ -426,20 +426,20 @@
     (instances
       (project "RP2040Breakout"
         (path "/c784a5d7-6d3a-4c20-8207-f0b3ca3fe9b6"
-          (reference "R5") (unit 1)
+          (reference "R2_EP1") (unit 1)
         )
       )
       (project "Pico_FT232H_pair"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "R7") (unit 1)
+          (reference "R4_EP1") (unit 1)
         )
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/94a86c12-05b9-4da1-af0c-af11b6995a59"
-          (reference "R10") (unit 1)
+          (reference "R3_UM1") (unit 1)
         )
       )
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/3a7bd670-a7f7-48d6-9018-c06d9d518e7f"
-          (reference "R7") (unit 1)
+          (reference "R4_EP1") (unit 1)
         )
       )
     )
@@ -479,12 +479,12 @@
           (reference "C12(P33)") (unit 1)
         )
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/94a86c12-05b9-4da1-af0c-af11b6995a59"
-          (reference "C8") (unit 1)
+          (reference "C2_10B1") (unit 1)
         )
       )
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/3a7bd670-a7f7-48d6-9018-c06d9d518e7f"
-          (reference "C3") (unit 1)
+          (reference "C1_EP1") (unit 1)
         )
       )
     )
@@ -493,7 +493,7 @@
   (symbol (lib_id "Memory_EEPROM:93LCxxBxxOT") (at 132.08 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4cca20e-5766-4009-b192-101cab523f4a)
-    (property "Reference" "U6" (at 134.0359 80.645 0)
+    (property "Reference" "POW1_85B1" (at 134.0359 80.645 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "93LCxxB" (at 134.0359 83.185 0)
@@ -520,15 +520,15 @@
     (instances
       (project "Pico_FT232H_pair"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "U6") (unit 1)
+          (reference "POW1_85B1") (unit 1)
         )
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/94a86c12-05b9-4da1-af0c-af11b6995a59"
-          (reference "U6") (unit 1)
+          (reference "POW1_85B1") (unit 1)
         )
       )
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/3a7bd670-a7f7-48d6-9018-c06d9d518e7f"
-          (reference "U3") (unit 1)
+          (reference "MEM1_EP1") (unit 1)
         )
       )
     )
@@ -537,7 +537,7 @@
   (symbol (lib_id "Device:R") (at 111.76 78.105 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb726ffc-1f3b-4b74-9c5c-cd0a7bf235bf)
-    (property "Reference" "R5" (at 115.57 79.6036 0)
+    (property "Reference" "R2_EP1" (at 115.57 79.6036 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "10K" (at 113.03 74.803 0)
@@ -560,20 +560,20 @@
     (instances
       (project "RP2040Breakout"
         (path "/c784a5d7-6d3a-4c20-8207-f0b3ca3fe9b6"
-          (reference "R5") (unit 1)
+          (reference "R2_EP1") (unit 1)
         )
       )
       (project "Pico_FT232H_pair"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "R7") (unit 1)
+          (reference "R4_EP1") (unit 1)
         )
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/94a86c12-05b9-4da1-af0c-af11b6995a59"
-          (reference "R8") (unit 1)
+          (reference "R1_UM1") (unit 1)
         )
       )
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/3a7bd670-a7f7-48d6-9018-c06d9d518e7f"
-          (reference "R4") (unit 1)
+          (reference "R1_EP1") (unit 1)
         )
       )
     )

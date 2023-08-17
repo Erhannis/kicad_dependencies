@@ -208,7 +208,7 @@
   (symbol (lib_id "Device:C") (at 118.11 59.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1cf22646-3c2c-4149-9abd-cfe2396931d5)
-    (property "Reference" "C4" (at 116.86 61.98 90)
+    (property "Reference" "C1_UM1" (at 116.86 61.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 116.86 57.39 90)
@@ -231,20 +231,20 @@
     (instances
       (project "RP2040Breakout"
         (path "/c784a5d7-6d3a-4c20-8207-f0b3ca3fe9b6"
-          (reference "C4") (unit 1)
+          (reference "C1_UM1") (unit 1)
         )
       )
       (project "Pico_FT232H_pair"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "C1") (unit 1)
+          (reference "C1_VI1") (unit 1)
         )
       )
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "C4") (unit 1)
+          (reference "C1_UM1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/ae208133-afa9-4b97-890f-a7922fc377b4"
-          (reference "C6") (unit 1)
+          (reference "C3_VI1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
           (reference "C11") (unit 1)
@@ -256,7 +256,7 @@
   (symbol (lib_id "Device:C") (at 139.065 64.135 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5eb754b0-1d9c-4f06-9e56-de15b599e5ac)
-    (property "Reference" "C4" (at 136.775 62.885 90)
+    (property "Reference" "C1_UM1" (at 136.775 62.885 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 141.365 62.885 90)
@@ -279,20 +279,20 @@
     (instances
       (project "RP2040Breakout"
         (path "/c784a5d7-6d3a-4c20-8207-f0b3ca3fe9b6"
-          (reference "C4") (unit 1)
+          (reference "C1_UM1") (unit 1)
         )
       )
       (project "Pico_FT232H_pair"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "C1") (unit 1)
+          (reference "C1_VI1") (unit 1)
         )
       )
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "C4") (unit 1)
+          (reference "C1_UM1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/ae208133-afa9-4b97-890f-a7922fc377b4"
-          (reference "C2") (unit 1)
+          (reference "C2_VI1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
           (reference "C13") (unit 1)
@@ -304,7 +304,7 @@
   (symbol (lib_id "Device:C") (at 135.255 78.105 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b433f2d5-0153-4ece-a1bc-ea267abfda1a)
-    (property "Reference" "C4" (at 132.965 76.855 90)
+    (property "Reference" "C1_UM1" (at 132.965 76.855 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 137.555 76.855 90)
@@ -327,20 +327,20 @@
     (instances
       (project "RP2040Breakout"
         (path "/c784a5d7-6d3a-4c20-8207-f0b3ca3fe9b6"
-          (reference "C4") (unit 1)
+          (reference "C1_UM1") (unit 1)
         )
       )
       (project "Pico_FT232H_pair"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "C1") (unit 1)
+          (reference "C1_VI1") (unit 1)
         )
       )
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "C4") (unit 1)
+          (reference "C1_UM1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/ae208133-afa9-4b97-890f-a7922fc377b4"
-          (reference "C1") (unit 1)
+          (reference "C1_VI1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
           (reference "C12") (unit 1)
@@ -352,7 +352,7 @@
   (symbol (lib_id "Converter_DCDC:TC7662Bx0A") (at 121.92 75.565 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c1ac9470-8dbb-487e-8356-fa85d20c7ec9)
-    (property "Reference" "U1" (at 123.8759 60.96 0)
+    (property "Reference" "POW1_VI1" (at 123.8759 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TC7662Bx0A" (at 123.8759 63.5 0)
@@ -384,7 +384,7 @@
     (instances
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/ae208133-afa9-4b97-890f-a7922fc377b4"
-          (reference "U1") (unit 1)
+          (reference "POW1_VI1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
           (reference "U7") (unit 1)
