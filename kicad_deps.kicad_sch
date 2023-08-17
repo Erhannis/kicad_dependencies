@@ -398,6 +398,27 @@
     )
   )
 
+  (sheet (at 241.935 47.625) (size 12.7 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 35239e06-84d0-40bd-9443-42ea2915452e)
+    (property "Sheetname" "Splitter(3)" (at 241.935 46.9134 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "splitter_3.kicad_sch" (at 241.935 55.8296 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "IN" input (at 241.935 51.435 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid ca7e66c2-f9fb-4dcc-93e4-3ad5a80784da)
+    )
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3" (page "10"))
+      )
+    )
+  )
+
   (sheet (at 93.98 49.53) (size 12.7 13.97) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

@@ -522,6 +522,10 @@
     [
       "d70369ca-178e-441f-8f5f-de4aab7868d5",
       "Negative LDO -10v"
+    ],
+    [
+      "35239e06-84d0-40bd-9443-42ea2915452e",
+      "Splitter(3)"
     ]
   ],
   "text_variables": {}
