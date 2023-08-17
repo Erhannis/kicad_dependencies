@@ -514,6 +514,14 @@
     [
       "74d68ab0-d50a-4b8f-b812-a4c54dddafa8",
       "Voltage Inverter alt"
+    ],
+    [
+      "9727ef59-e241-4c54-bf6d-3746069e955b",
+      "Negative LDO -11v"
+    ],
+    [
+      "d70369ca-178e-441f-8f5f-de4aab7868d5",
+      "Negative LDO -10v"
     ]
   ],
   "text_variables": {}
