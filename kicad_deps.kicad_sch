@@ -100,7 +100,7 @@
   )
 
 
-  (text_box "Note: for many of these, I'd pick a symbol available by default, but a different pin-compatible component available on JLCPCB.  I'd expect the default symbol component to work, but I'm focusing on the real JLCPCB component.\nI tried to pick the most-available (highest stock) components with the required properties, occasionally picking a significantly cheaper option.\n\n\nRef: (COMPONENT)(#)_(SHEET)1"
+  (text_box "Note: for many of these, I'd pick a symbol available by default, but a different pin-compatible component available on JLCPCB.  I'd expect the default symbol component to work, but I'm focusing on the real JLCPCB component.\nI tried to pick the most-available (highest stock) components with the required properties, occasionally picking a significantly cheaper option.\n\n\nRef: (COMPONENT)(#)_(SHEET)1\nNumbers in SHEET come at the beginning."
     (at 41.275 119.38 0) (size 93.345 41.91)
     (stroke (width 0) (type default))
     (fill (type none))

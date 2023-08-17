@@ -247,7 +247,7 @@
           (reference "C3_VI1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
-          (reference "C11") (unit 1)
+          (reference "C3_VIA1") (unit 1)
         )
       )
     )
@@ -295,7 +295,7 @@
           (reference "C2_VI1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
-          (reference "C13") (unit 1)
+          (reference "C2_VIA1") (unit 1)
         )
       )
     )
@@ -343,7 +343,7 @@
           (reference "C1_VI1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
-          (reference "C12") (unit 1)
+          (reference "C1_VIA1") (unit 1)
         )
       )
     )
@@ -387,7 +387,7 @@
           (reference "POW1_VI1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
-          (reference "U7") (unit 1)
+          (reference "POW1_VIA1") (unit 1)
         )
       )
     )

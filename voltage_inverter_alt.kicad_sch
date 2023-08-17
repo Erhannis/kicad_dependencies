@@ -429,7 +429,7 @@
           (reference "C3_VI1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
-          (reference "C11") (unit 1)
+          (reference "C3_VIA1") (unit 1)
         )
       )
     )
@@ -477,7 +477,7 @@
           (reference "C2_VI1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
-          (reference "C13") (unit 1)
+          (reference "C2_VIA1") (unit 1)
         )
       )
     )
@@ -525,7 +525,7 @@
           (reference "C1_VI1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
-          (reference "C12") (unit 1)
+          (reference "C1_VIA1") (unit 1)
         )
       )
     )
@@ -572,7 +572,7 @@
           (reference "POW1_VI1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
-          (reference "U7") (unit 1)
+          (reference "POW1_VIA1") (unit 1)
         )
       )
     )
@@ -616,7 +616,7 @@
           (reference "D1_85B1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
-          (reference "D3") (unit 1)
+          (reference "D1_VIA1") (unit 1)
         )
       )
     )
@@ -625,7 +625,7 @@
   (symbol (lib_id "Device:D") (at 135.255 88.265 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d8edda96-3959-4d50-8b15-ef9aad97cda2)
-    (property "Reference" "D4" (at 135.255 82.55 0)
+    (property "Reference" "D2_VIA1" (at 135.255 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 135.255 85.09 0)
@@ -660,7 +660,7 @@
     (instances
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
-          (reference "D4") (unit 1)
+          (reference "D2_VIA1") (unit 1)
         )
       )
     )

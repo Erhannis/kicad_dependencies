@@ -448,7 +448,7 @@
   (symbol (lib_id "Device:C") (at 119.38 79.375 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56181880-c3d0-4c92-8ad0-e29df22e1317)
-    (property "Reference" "C12" (at 117.09 78.125 90)
+    (property "Reference" "C1_VIA1" (at 117.09 78.125 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 121.68 78.125 90)
@@ -471,7 +471,7 @@
     (instances
       (project "RP2040Breakout"
         (path "/c784a5d7-6d3a-4c20-8207-f0b3ca3fe9b6"
-          (reference "C12") (unit 1)
+          (reference "C1_VIA1") (unit 1)
         )
       )
       (project "Pico_FT232H_pair"

@@ -329,10 +329,10 @@
           (reference "R2_85B1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/d70369ca-178e-441f-8f5f-de4aab7868d5"
-          (reference "R16") (unit 1)
+          (reference "R1B_N10L1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9727ef59-e241-4c54-bf6d-3746069e955b"
-          (reference "R14") (unit 1)
+          (reference "R1B_N11L1") (unit 1)
         )
       )
     )
@@ -392,10 +392,10 @@
           (reference "C1_85B1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/d70369ca-178e-441f-8f5f-de4aab7868d5"
-          (reference "C16") (unit 1)
+          (reference "C1_N10L1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9727ef59-e241-4c54-bf6d-3746069e955b"
-          (reference "C14") (unit 1)
+          (reference "C1_N11L1") (unit 1)
         )
       )
     )
@@ -455,10 +455,10 @@
           (reference "C1_85B1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/d70369ca-178e-441f-8f5f-de4aab7868d5"
-          (reference "C17") (unit 1)
+          (reference "C2_N10L1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9727ef59-e241-4c54-bf6d-3746069e955b"
-          (reference "C15") (unit 1)
+          (reference "C2_N11L1") (unit 1)
         )
       )
     )
@@ -502,10 +502,10 @@
           (reference "R2_85B1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/d70369ca-178e-441f-8f5f-de4aab7868d5"
-          (reference "R15") (unit 1)
+          (reference "R1A_N10L1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9727ef59-e241-4c54-bf6d-3746069e955b"
-          (reference "R13") (unit 1)
+          (reference "R1A_N11L1") (unit 1)
         )
       )
     )
@@ -514,7 +514,7 @@
   (symbol (lib_id "Regulator_Linear:LM337L_SO8") (at 141.605 95.885 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4dd215e7-b54e-4710-aa9d-dd03045c8771)
-    (property "Reference" "U9" (at 141.605 100.33 0)
+    (property "Reference" "POW1_N10L1" (at 141.605 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM337L_SO8" (at 141.605 102.87 0)
@@ -537,10 +537,10 @@
     (instances
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/d70369ca-178e-441f-8f5f-de4aab7868d5"
-          (reference "U9") (unit 1)
+          (reference "POW1_N10L1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9727ef59-e241-4c54-bf6d-3746069e955b"
-          (reference "U8") (unit 1)
+          (reference "POW1_N11L1") (unit 1)
         )
       )
     )
@@ -584,10 +584,10 @@
           (reference "R2_85B1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/d70369ca-178e-441f-8f5f-de4aab7868d5"
-          (reference "R17") (unit 1)
+          (reference "R2_N10L1") (unit 1)
         )
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9727ef59-e241-4c54-bf6d-3746069e955b"
-          (reference "R12") (unit 1)
+          (reference "R2_N11L1") (unit 1)
         )
       )
     )

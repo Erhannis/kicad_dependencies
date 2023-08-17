@@ -108,7 +108,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Pin") (at 119.38 98.425 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c9c6b335-a230-4daf-8f25-f6155a12fdd5)
-    (property "Reference" "J1" (at 120.65 97.155 0)
+    (property "Reference" "J1_3S1" (at 120.65 97.155 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x03_Pin" (at 120.65 99.695 0)
@@ -138,7 +138,7 @@
     (instances
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/35239e06-84d0-40bd-9443-42ea2915452e"
-          (reference "J1") (unit 1)
+          (reference "J1_3S1") (unit 1)
         )
       )
     )
