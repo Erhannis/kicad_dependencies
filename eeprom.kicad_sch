@@ -417,7 +417,7 @@
   (symbol (lib_id "Memory_EEPROM:93LCxxBxxOT") (at 132.08 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4cca20e-5766-4009-b192-101cab523f4a)
-    (property "Reference" "MEM1_B1_EP1" (at 134.0359 80.645 0)
+    (property "Reference" "MEM1_EP1" (at 134.0359 80.645 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "93LCxxB" (at 134.0359 83.185 0)
