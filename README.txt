@@ -6,7 +6,7 @@ In KiCAD, copy the sheet block you want from this project into your project.
 In KiCAD, ensure your project has 4 layers (MAYBE you can get it to work otherwise) then copy the corresponding chunk of PCB you want.
 THEN "update pcb from schematic", to ensure everything synced up.
 
-IF YOU ADD A MODULE, or rename a reference, you may need to run the vscode js script (see the nur::script extension) to get the refs to copy right.
+IF YOU ADD A MODULE, or rename a reference, you may need to run the vscode js script (see the nur::script extension) to get the refs to copy right - it updates all the labels from the pcb. ...I think.  I forget, now.  Then it removes the "instances" blocks, which don't seem to be necessary and can apparently gunk up the refs??  Commit your files before running the script.
 
 So far these things are like, MIT or CERN OHL v2 P (even if I've had to find a second source for the same decisions in a few places).
 

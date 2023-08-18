@@ -1705,7 +1705,7 @@
     (property "ki_keywords" "300mA LDO Regulator Fixed Positive")
     (path "/af0b060a-7af2-4241-bf49-2c4bf5ba2f6b/8b5118b5-4df2-48a6-a574-de66bf2f2a0a")
     (attr smd)
-    (fp_text reference "U1" (at 0 -2.4 90) (layer "F.SilkS")
+    (fp_text reference "POW1_P1V8L1" (at 0 -2.4 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c456b490-a5cf-4144-a6a5-52e90150ff82)
     )

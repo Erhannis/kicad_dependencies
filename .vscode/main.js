@@ -10,9 +10,6 @@ async function activate(_context) {
 //    let disposable = vscode.commands.registerCommand('extension.findAndReplace', async () => {
         const pcbFiles = await vscode.workspace.findFiles('**/*.kicad_pcb');
 
-        // Create a WorkspaceEdit to hold all the edits
-        const workspaceEdit = new vscode.WorkspaceEdit();
-
         for (const file of pcbFiles) {
             const document1 = await vscode.workspace.openTextDocument(file);
 
@@ -66,7 +63,7 @@ async function activate(_context) {
 
 
                 // Create a WorkspaceEdit to hold all the edits
-                const workspaceEdit = new vscode.WorkspaceEdit();
+                const workspaceEdit3 = new vscode.WorkspaceEdit();
 
                 //DUMMY I don't think this accounts for the movements of text as changes are made?
                 let match3;
@@ -83,12 +80,46 @@ async function activate(_context) {
                     );
 
                     // Replace the second capture group with 'qux'
-                    workspaceEdit.replace(document3.uri, group2Range, componentRef);
+                    workspaceEdit3.replace(document3.uri, group2Range, componentRef);
                 }
 
                 // Apply the edits
-                await vscode.workspace.applyEdit(workspaceEdit);
+                await vscode.workspace.applyEdit(workspaceEdit3);
                 await document3.save();
+
+/*
+
+delete 'instances'
+^    \(instances(.*\n)*?    \)
+
+*/                
+                const pattern4 = /\n    \(instances(.*\n)*?    \)/g;
+                const content4 = document3.getText();
+
+                // Create a WorkspaceEdit to hold all the edits
+                const workspaceEdit4 = new vscode.WorkspaceEdit();
+
+                println("trying delete: "+filename3);
+
+                //DUMMY I don't think this accounts for the movements of text as changes are made?
+                let match4;
+                while ((match4 = pattern4.exec(content4)) !== null) {
+                    println("delete match");
+                    const fullMatchRange = new vscode.Range(
+                        document3.positionAt(match4.index),
+                        document3.positionAt(match4.index + match4[0].length)
+                    );
+
+                    // Replace the second capture group with 'qux'
+                    workspaceEdit4.delete(document3.uri, fullMatchRange);
+                    println("deleted: "+match4[0]);
+                }
+
+                // Apply the edits
+                await vscode.workspace.applyEdit(workspaceEdit4);
+                await document3.save();
+
+
 /*
 
 
@@ -144,12 +175,5 @@ kicad_deps.kicad_sch
 replace in foo.kicad_sch
     (uuid c1ac9470-8dbb-487e-8356-fa85d20c7ec9)
     (property "Reference" "POW1_VI1" (at 123.8759 60.96 0)
-
-*/
-
-/*
-
-delete 'instances'
-^    \(instances(.*\n)*?    \)
 
 */
