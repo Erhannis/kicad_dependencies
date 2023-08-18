@@ -124,13 +124,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c7e87194-db58-4c11-be27-4df902c72846))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
-          (reference "#PWR06") (unit 1)
-        )
-      )
-    )
+
   )
 
   (symbol (lib_id "power:GND") (at 75.565 78.74 90) (unit 1)
@@ -149,13 +143,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6bc274c7-a2e5-4dc9-8eec-2264f5731ad1))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-    )
+
   )
 
   (symbol (lib_id "power:GND") (at 191.77 85.09 270) (unit 1)
@@ -174,13 +162,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 14aa22ac-35bb-4cd5-aeef-69aa42a8b960))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
-          (reference "#PWR010") (unit 1)
-        )
-      )
-    )
+
   )
 
   (symbol (lib_id "power:GND") (at 106.68 59.69 90) (unit 1)
@@ -199,13 +181,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 629e956d-a2d3-4a8e-a6be-55e9e1f0a25b))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
-          (reference "#PWR02") (unit 1)
-        )
-      )
-    )
+
   )
 
   (symbol (lib_id "power:GND") (at 159.385 84.455 270) (unit 1)
@@ -224,13 +200,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8202c909-c1bb-4c80-aeb1-fd42de6030b1))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
-          (reference "#PWR07") (unit 1)
-        )
-      )
-    )
+
   )
 
   (symbol (lib_id "power:GND") (at 125.095 84.455 270) (unit 1)
@@ -249,13 +219,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6aa8466c-0302-4acc-8193-1d218ba48468))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
-          (reference "#PWR08") (unit 1)
-        )
-      )
-    )
+
   )
 
   (symbol (lib_id "power:+3V3") (at 75.565 64.135 270) (unit 1)
@@ -274,13 +238,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3100d321-3ceb-453a-9f97-bb44849bad61))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-    )
+
   )
 
   (symbol (lib_id "power:GND") (at 191.77 58.42 270) (unit 1)
@@ -299,13 +257,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 160238dc-0e5e-456f-9dca-272b47a74fc6))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
-          (reference "#PWR09") (unit 1)
-        )
-      )
-    )
+
   )
 
   (symbol (lib_id "power:+3V3") (at 106.68 52.705 270) (unit 1)
@@ -324,13 +276,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6e0eefb2-66ab-4934-a4c4-638bce431914))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
-          (reference "#PWR03") (unit 1)
-        )
-      )
-    )
+
   )
 
   (symbol (lib_id "power:GND") (at 125.095 58.42 270) (unit 1)
@@ -349,13 +295,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 391c2399-0e85-4919-b06f-1c632d2a98aa))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
-          (reference "#PWR05") (unit 1)
-        )
-      )
-    )
+
   )
 
   (sheet (at 59.055 49.53) (size 16.51 36.83) (fields_autoplaced)
@@ -388,14 +328,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid b75c2d06-b480-4980-bb78-4e6a53404e4e)
     )
-    (instances
-      (project "Pico_FT232H_pair"
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e" (page "2"))
-      )
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3" (page "2"))
-      )
-    )
+
   )
 
   (sheet (at 241.935 47.625) (size 12.7 7.62) (fields_autoplaced)
@@ -412,11 +345,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid ca7e66c2-f9fb-4dcc-93e4-3ad5a80784da)
     )
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3" (page "10"))
-      )
-    )
+
   )
 
   (sheet (at 93.98 49.53) (size 12.7 13.97) (fields_autoplaced)
@@ -449,14 +378,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 23f5d99f-ba85-4ab3-9792-46c42975a5b9)
     )
-    (instances
-      (project "Pico_FT232H_pair"
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e" (page "3"))
-      )
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3" (page "3"))
-      )
-    )
+
   )
 
   (sheet (at 125.095 74.93) (size 13.97 13.97) (fields_autoplaced)
@@ -481,11 +403,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 9a083702-df4a-4cf7-ba08-89f7409b637c)
     )
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3" (page "7"))
-      )
-    )
+
   )
 
   (sheet (at 191.77 48.26) (size 13.97 13.97) (fields_autoplaced)
@@ -510,11 +428,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 58a8c2ec-6a7e-49c0-bab1-67ba3764782c)
     )
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3" (page "8"))
-      )
-    )
+
   )
 
   (sheet (at 125.095 48.895) (size 13.97 13.97) (fields_autoplaced)
@@ -539,11 +453,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid e6fcea58-86ae-4978-a921-fcab7ca38409)
     )
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3" (page "4"))
-      )
-    )
+
   )
 
   (sheet (at 159.385 74.295) (size 18.415 15.24) (fields_autoplaced)
@@ -568,11 +478,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid f59190f6-efbd-4101-9ab2-6b306303bee5)
     )
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3" (page "6"))
-      )
-    )
+
   )
 
   (sheet (at 191.77 74.93) (size 13.97 13.97) (fields_autoplaced)
@@ -597,11 +503,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 905d7171-6e46-42db-bc6c-829f44ad03bd)
     )
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3" (page "9"))
-      )
-    )
+
   )
 
   (sheet (at 159.385 48.26) (size 18.415 15.24) (fields_autoplaced)
@@ -626,11 +528,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid a83a483d-3e41-455a-ae34-b79f5a9f2f56)
     )
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3" (page "5"))
-      )
-    )
+
   )
 
   (sheet_instances

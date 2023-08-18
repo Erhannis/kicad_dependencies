@@ -412,7 +412,7 @@
   (symbol (lib_id "Device:C") (at 127 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 13fb9140-de58-4802-a496-051ad5544dbf)
-    (property "Reference" "C1_UM1" (at 124.71 78.76 90)
+    (property "Reference" "C1_10B1" (at 124.71 78.76 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 129.3 78.76 90)
@@ -438,32 +438,7 @@
     )
     (pin "1" (uuid b1de55ac-ef24-4f52-bf75-10b103551b3a))
     (pin "2" (uuid d9a3cb65-1b97-4a5c-9642-d43cde1a2ce5))
-    (instances
-      (project "RP2040Breakout"
-        (path "/c784a5d7-6d3a-4c20-8207-f0b3ca3fe9b6"
-          (reference "C1_UM1") (unit 1)
-        )
-      )
-      (project "Pico_FT232H_pair"
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "C1_VI1") (unit 1)
-        )
-      )
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "C1_UM1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/ae208133-afa9-4b97-890f-a7922fc377b4"
-          (reference "C2_VI1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
-          (reference "C1_10B1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c75f3a8a-ae5a-4385-a905-86493e5c224f"
-          (reference "C1_85B1") (unit 1)
-        )
-      )
-    )
+
   )
 
   (symbol (lib_id "Regulator_Switching:LM27313XMF") (at 140.97 86.36 0) (unit 1)
@@ -495,16 +470,7 @@
     (pin "3" (uuid 3493f636-176f-4a8f-afb4-b316de2ec5d5))
     (pin "4" (uuid b9fc5342-6e7f-4ae3-adda-f8ab01681ed7))
     (pin "5" (uuid 84c5ee7b-91db-407a-b9c4-d100b9393b25))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
-          (reference "POW1_10B1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c75f3a8a-ae5a-4385-a905-86493e5c224f"
-          (reference "POW1_85B1") (unit 1)
-        )
-      )
-    )
+
   )
 
   (symbol (lib_id "Device:L") (at 140.97 73.025 90) (unit 1)
@@ -533,16 +499,7 @@
     )
     (pin "1" (uuid 1c64ef67-3d68-4737-9bd9-0f2d53134cdd))
     (pin "2" (uuid 01c9c68f-87c5-4bd8-98a8-bb4f4f8b665f))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
-          (reference "L1_10B1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c75f3a8a-ae5a-4385-a905-86493e5c224f"
-          (reference "L1_85B1") (unit 1)
-        )
-      )
-    )
+
   )
 
   (symbol (lib_id "Device:R") (at 160.655 90.17 0) (unit 1)
@@ -574,16 +531,7 @@
     )
     (pin "1" (uuid bef9f992-1955-4a3b-905a-5f6468caef25))
     (pin "2" (uuid d2fbad32-9cee-4bf1-ab16-d5e6b691a0e3))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
-          (reference "R1_10B1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c75f3a8a-ae5a-4385-a905-86493e5c224f"
-          (reference "R1_85B1") (unit 1)
-        )
-      )
-    )
+
   )
 
   (symbol (lib_id "Device:R") (at 160.655 102.87 0) (unit 1)
@@ -615,16 +563,7 @@
     )
     (pin "1" (uuid 3c54733d-73aa-4adc-b19f-51a991c7c1b1))
     (pin "2" (uuid af5080b3-c815-48fb-84be-dd4a1f855884))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
-          (reference "R2_10B1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c75f3a8a-ae5a-4385-a905-86493e5c224f"
-          (reference "R2_85B1") (unit 1)
-        )
-      )
-    )
+
   )
 
   (symbol (lib_id "Device:D_Schottky") (at 155.575 83.82 180) (unit 1)
@@ -656,22 +595,13 @@
     )
     (pin "1" (uuid 4f249b26-947a-4762-9fc9-b7a35e946725))
     (pin "2" (uuid 92d841f5-c939-4dcc-851b-27666811b6bc))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
-          (reference "D1_10B1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c75f3a8a-ae5a-4385-a905-86493e5c224f"
-          (reference "D1_85B1") (unit 1)
-        )
-      )
-    )
+
   )
 
   (symbol (lib_id "Device:C") (at 167.64 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f0432916-17b7-4d5c-bb7a-a747cfefb4bb)
-    (property "Reference" "C1_UM1" (at 165.35 78.76 90)
+    (property "Reference" "C2_10B1" (at 165.35 78.76 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 169.94 78.76 90)
@@ -697,31 +627,6 @@
     )
     (pin "1" (uuid 47924289-dbd5-4bfc-9734-5e5cea6f1384))
     (pin "2" (uuid a87ad506-0236-47be-9da4-b20aaebf90b5))
-    (instances
-      (project "RP2040Breakout"
-        (path "/c784a5d7-6d3a-4c20-8207-f0b3ca3fe9b6"
-          (reference "C1_UM1") (unit 1)
-        )
-      )
-      (project "Pico_FT232H_pair"
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "C1_VI1") (unit 1)
-        )
-      )
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "C1_UM1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/ae208133-afa9-4b97-890f-a7922fc377b4"
-          (reference "C2_VI1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
-          (reference "C2_10B1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c75f3a8a-ae5a-4385-a905-86493e5c224f"
-          (reference "C2_85B1") (unit 1)
-        )
-      )
-    )
+
   )
 )

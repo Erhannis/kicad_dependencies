@@ -294,7 +294,7 @@
   (symbol (lib_id "Device:R") (at 153.67 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 177939e8-4e40-4a7e-b3fa-4ccf6a5f4e5b)
-    (property "Reference" "R2_10B1" (at 155.575 76.2 0)
+    (property "Reference" "R1B_N10L1" (at 155.575 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R 75 1%" (at 155.575 78.74 0)
@@ -320,28 +320,13 @@
     )
     (pin "1" (uuid 6fd7e0aa-3f34-47ca-8d65-7201c3d011c2))
     (pin "2" (uuid 55a9e721-5b99-4614-b856-d68a565c9c2a))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
-          (reference "R2_10B1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c75f3a8a-ae5a-4385-a905-86493e5c224f"
-          (reference "R2_85B1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9727ef59-e241-4c54-bf6d-3746069e955b"
-          (reference "R1B_N11L1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/d70369ca-178e-441f-8f5f-de4aab7868d5"
-          (reference "R1B_N10L1") (unit 1)
-        )
-      )
-    )
+
   )
 
   (symbol (lib_id "Device:C") (at 131.445 88.265 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b9c3c97-b4e7-4740-8d56-08e7bbb5845e)
-    (property "Reference" "C1_UM1" (at 129.155 87.015 90)
+    (property "Reference" "C1_N10L1" (at 129.155 87.015 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 133.745 87.015 90)
@@ -367,44 +352,13 @@
     )
     (pin "1" (uuid 8bb7dfd0-257d-4df4-bf6d-46161da4aa26))
     (pin "2" (uuid 993a8fb9-f674-4188-ba43-5f132a23e97b))
-    (instances
-      (project "RP2040Breakout"
-        (path "/c784a5d7-6d3a-4c20-8207-f0b3ca3fe9b6"
-          (reference "C1_UM1") (unit 1)
-        )
-      )
-      (project "Pico_FT232H_pair"
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "C1_VI1") (unit 1)
-        )
-      )
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "C1_UM1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/ae208133-afa9-4b97-890f-a7922fc377b4"
-          (reference "C2_VI1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
-          (reference "C1_10B1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c75f3a8a-ae5a-4385-a905-86493e5c224f"
-          (reference "C1_85B1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9727ef59-e241-4c54-bf6d-3746069e955b"
-          (reference "C1_N11L1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/d70369ca-178e-441f-8f5f-de4aab7868d5"
-          (reference "C1_N10L1") (unit 1)
-        )
-      )
-    )
+
   )
 
   (symbol (lib_id "Device:C") (at 163.195 88.265 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 285548e2-2d25-40ca-8300-bef6d6cd3a78)
-    (property "Reference" "C1_UM1" (at 160.905 87.015 90)
+    (property "Reference" "C2_N10L1" (at 160.905 87.015 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 165.495 87.015 90)
@@ -430,44 +384,13 @@
     )
     (pin "1" (uuid 41162172-651e-49fa-a082-98f282e8fa6b))
     (pin "2" (uuid 6706a4e7-7721-416c-97e4-32eccd958333))
-    (instances
-      (project "RP2040Breakout"
-        (path "/c784a5d7-6d3a-4c20-8207-f0b3ca3fe9b6"
-          (reference "C1_UM1") (unit 1)
-        )
-      )
-      (project "Pico_FT232H_pair"
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "C1_VI1") (unit 1)
-        )
-      )
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "C1_UM1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/ae208133-afa9-4b97-890f-a7922fc377b4"
-          (reference "C2_VI1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
-          (reference "C1_10B1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c75f3a8a-ae5a-4385-a905-86493e5c224f"
-          (reference "C1_85B1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9727ef59-e241-4c54-bf6d-3746069e955b"
-          (reference "C2_N11L1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/d70369ca-178e-441f-8f5f-de4aab7868d5"
-          (reference "C2_N10L1") (unit 1)
-        )
-      )
-    )
+
   )
 
   (symbol (lib_id "Device:R") (at 153.67 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b6f993d-c1a9-402a-8c15-f858707b9119)
-    (property "Reference" "R2_10B1" (at 155.575 68.58 0)
+    (property "Reference" "R1A_N10L1" (at 155.575 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R 1.6k 1%" (at 155.575 71.12 0)
@@ -493,28 +416,13 @@
     )
     (pin "1" (uuid 6d19f2af-2a9a-4d14-845b-45895ba8f0bc))
     (pin "2" (uuid 78e6d364-6679-4e0a-903d-08f2062dda87))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
-          (reference "R2_10B1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c75f3a8a-ae5a-4385-a905-86493e5c224f"
-          (reference "R2_85B1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9727ef59-e241-4c54-bf6d-3746069e955b"
-          (reference "R1A_N11L1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/d70369ca-178e-441f-8f5f-de4aab7868d5"
-          (reference "R1A_N10L1") (unit 1)
-        )
-      )
-    )
+
   )
 
   (symbol (lib_id "Regulator_Linear:LM337L_SO8") (at 141.605 95.885 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4dd215e7-b54e-4710-aa9d-dd03045c8771)
-    (property "Reference" "POW1_N11L1" (at 141.605 100.33 0)
+    (property "Reference" "POW1_N10L1" (at 141.605 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM337L_SO8" (at 141.605 102.87 0)
@@ -534,22 +442,13 @@
     (pin "6" (uuid 49e6bf35-c77d-4f63-9b5a-2359574fee46))
     (pin "7" (uuid ca18cfac-9249-42a4-95e6-770e923361e8))
     (pin "8" (uuid a40f42e6-8e6f-4210-925e-38b86ad8ed97))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9727ef59-e241-4c54-bf6d-3746069e955b"
-          (reference "POW1_N11L1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/d70369ca-178e-441f-8f5f-de4aab7868d5"
-          (reference "POW1_N10L1") (unit 1)
-        )
-      )
-    )
+
   )
 
   (symbol (lib_id "Device:R") (at 153.67 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a25ac4a-75c3-4d93-87b4-fc6266873cb5)
-    (property "Reference" "R2_10B1" (at 155.575 88.9 0)
+    (property "Reference" "R2_N10L1" (at 155.575 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R 240 1%" (at 155.575 91.44 0)
@@ -575,21 +474,6 @@
     )
     (pin "1" (uuid 784c54e6-fa78-4c80-9064-dfe00c4910fb))
     (pin "2" (uuid 214c2202-6716-4fb9-a025-98f39b1a6e05))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
-          (reference "R2_10B1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c75f3a8a-ae5a-4385-a905-86493e5c224f"
-          (reference "R2_85B1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9727ef59-e241-4c54-bf6d-3746069e955b"
-          (reference "R2_N11L1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/d70369ca-178e-441f-8f5f-de4aab7868d5"
-          (reference "R2_N10L1") (unit 1)
-        )
-      )
-    )
+
   )
 )

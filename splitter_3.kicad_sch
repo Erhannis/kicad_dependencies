@@ -135,12 +135,6 @@
     (pin "1" (uuid 8406a8f3-58dd-4318-9a79-1f5c574f8c99))
     (pin "2" (uuid 52c792e0-0bab-45f1-a451-464cbda30a9e))
     (pin "3" (uuid 3ee0dfe9-9eb4-4891-84a4-88626b3a6965))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/35239e06-84d0-40bd-9443-42ea2915452e"
-          (reference "J1_3S1") (unit 1)
-        )
-      )
-    )
+
   )
 )
