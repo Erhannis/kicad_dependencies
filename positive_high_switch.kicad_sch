@@ -416,6 +416,13 @@
     (pin "3" (uuid c3ebfe60-b4df-4d99-aad4-144cc67c77b5))
     (pin "4" (uuid cc8d0f75-31cc-4825-b807-e8bf440329b4))
     (pin "5" (uuid 3bf3877f-beb9-4233-8fd4-242734af68ff))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/a5d26592-43c2-4cb6-a432-409beffc6dd1"
+          (reference "Q2_PHS1") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Transistor_FET:BSD235C") (at 116.205 78.105 0) (unit 2)
@@ -451,6 +458,13 @@
     (pin "3" (uuid 654d6a8f-71e1-4442-b4da-fdc1dfcbc2a8))
     (pin "4" (uuid 2743016b-d267-4151-9889-4c7b750ef0fd))
     (pin "5" (uuid 7cd8825f-c730-4e30-b848-65f07af1b295))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/a5d26592-43c2-4cb6-a432-409beffc6dd1"
+          (reference "Q1_PHS1") (unit 2)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Transistor_FET:BSD235C") (at 116.205 92.075 0) (unit 1)
@@ -486,6 +500,13 @@
     (pin "3" (uuid c3ebfe60-b4df-4d99-aad4-144cc67c77b6))
     (pin "4" (uuid cc8d0f75-31cc-4825-b807-e8bf440329b5))
     (pin "5" (uuid 3bf3877f-beb9-4233-8fd4-242734af6900))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/a5d26592-43c2-4cb6-a432-409beffc6dd1"
+          (reference "Q1_PHS1") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Transistor_FET:BSD235C") (at 131.445 78.105 0) (unit 2)
@@ -521,5 +542,12 @@
     (pin "3" (uuid ff87a75f-5724-4ce9-ae43-4e5dbd59276c))
     (pin "4" (uuid 6b5b4328-aa44-4c57-8a1c-d04f82d3c04e))
     (pin "5" (uuid b523f437-6ba0-4d3b-8a51-9fa67e4dfa94))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/a5d26592-43c2-4cb6-a432-409beffc6dd1"
+          (reference "Q2_PHS1") (unit 2)
+        )
+      )
+    )
   )
 )
