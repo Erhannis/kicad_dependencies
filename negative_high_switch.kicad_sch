@@ -498,29 +498,12 @@
     )
     (pin "1" (uuid b1350334-b297-4660-88da-bc5586ed283a))
     (pin "2" (uuid ed60f6eb-0d3c-497c-812c-aa3e0eaac89c))
-    (instances
-      (project "spice_test"
-        (path "/163c875b-7bd2-4dfe-9443-f7e4aa241e9e/0e1f3d2e-5e63-44a2-99a5-7b08f1b93c71"
-          (reference "R19") (unit 1)
-        )
-      )
-      (project "spice_test_2"
-        (path "/6c07eaba-9c3c-47b9-9de4-3d1ec51c8468"
-          (reference "R5") (unit 1)
-        )
-      )
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "R1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 162.56 112.395 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 267a12f2-2d4d-487b-ab5e-c32c58cc49ac)
-    (property "Reference" "R23" (at 162.56 106.68 90)
+    (property "Reference" "R3" (at 162.56 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "30k" (at 162.56 109.22 90)
@@ -546,29 +529,12 @@
     )
     (pin "1" (uuid 87ff7de3-242e-4cbe-a18c-dd633aea1178))
     (pin "2" (uuid 447f83cc-73ff-421f-beee-55ff8b5b04be))
-    (instances
-      (project "spice_test"
-        (path "/163c875b-7bd2-4dfe-9443-f7e4aa241e9e/0e1f3d2e-5e63-44a2-99a5-7b08f1b93c71"
-          (reference "R23") (unit 1)
-        )
-      )
-      (project "spice_test_2"
-        (path "/6c07eaba-9c3c-47b9-9de4-3d1ec51c8468"
-          (reference "R7") (unit 1)
-        )
-      )
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "R3") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 146.05 107.95 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ca6ce7f-f008-4a13-8a30-17815688eab7)
-    (property "Reference" "R22" (at 144.145 106.68 0)
+    (property "Reference" "R2" (at 144.145 106.68 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "50k" (at 144.145 109.22 0)
@@ -597,23 +563,6 @@
     )
     (pin "1" (uuid 0c4fb37a-a34a-45bc-9679-a9663457d8b1))
     (pin "2" (uuid 00ae6a74-52ba-481c-9e93-9bd6f0ca400d))
-    (instances
-      (project "spice_test"
-        (path "/163c875b-7bd2-4dfe-9443-f7e4aa241e9e/0e1f3d2e-5e63-44a2-99a5-7b08f1b93c71"
-          (reference "R22") (unit 1)
-        )
-      )
-      (project "spice_test_2"
-        (path "/6c07eaba-9c3c-47b9-9de4-3d1ec51c8468"
-          (reference "R3") (unit 1)
-        )
-      )
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "R2") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Transistor_FET:BSD235C") (at 111.125 71.755 0) (unit 2)
@@ -649,16 +598,6 @@
     (pin "3" (uuid 9df5a702-ea49-459c-9647-512cd3b83de3))
     (pin "4" (uuid d743269e-a7a6-4b45-9818-2942902b3b2f))
     (pin "5" (uuid 3043d3a2-0830-4cc4-9440-fae7adf93089))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/a5d26592-43c2-4cb6-a432-409beffc6dd1"
-          (reference "Q1_PHS") (unit 2)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "Q1_NHS1") (unit 2)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Transistor_FET:BSD235C") (at 137.16 93.98 0) (mirror x) (unit 1)
@@ -694,22 +633,12 @@
     (pin "3" (uuid c3ebfe60-b4df-4d99-aad4-144cc67c77b5))
     (pin "4" (uuid cc8d0f75-31cc-4825-b807-e8bf440329b4))
     (pin "5" (uuid 3bf3877f-beb9-4233-8fd4-242734af68ff))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/a5d26592-43c2-4cb6-a432-409beffc6dd1"
-          (reference "Q1_PHS") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "Q2_NHS1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Transistor_FET:BSD235C") (at 111.125 85.725 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ad19d7a-45fa-4c9a-90c3-5ed7d929a08c)
-    (property "Reference" "Q1_PHS" (at 117.475 84.455 0)
+    (property "Reference" "Q1_NHS1" (at 117.475 84.455 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BSD235C" (at 117.475 86.995 0)
@@ -739,16 +668,6 @@
     (pin "3" (uuid c3ebfe60-b4df-4d99-aad4-144cc67c77b5))
     (pin "4" (uuid cc8d0f75-31cc-4825-b807-e8bf440329b4))
     (pin "5" (uuid 3bf3877f-beb9-4233-8fd4-242734af68ff))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/a5d26592-43c2-4cb6-a432-409beffc6dd1"
-          (reference "Q1_PHS") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "Q1_NHS1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Transistor_FET:BSD235C") (at 156.21 104.14 0) (unit 2)
@@ -784,22 +703,12 @@
     (pin "3" (uuid f0bf048e-e384-4c26-a02b-c589d63465d2))
     (pin "4" (uuid 1d03ec28-255c-4670-ac59-bc24ff214d66))
     (pin "5" (uuid 75c2fb64-2649-4dd7-8171-a3cae8900411))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/a5d26592-43c2-4cb6-a432-409beffc6dd1"
-          (reference "Q1_PHS") (unit 2)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "Q3_NHS1") (unit 2)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Transistor_FET:BSD235C") (at 163.83 120.015 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f88f39b6-4932-419f-bbaf-d98149b4152a)
-    (property "Reference" "Q1_PHS" (at 170.18 121.285 0)
+    (property "Reference" "Q3_NHS1" (at 170.18 121.285 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BSD235C" (at 170.18 118.745 0)
@@ -829,16 +738,6 @@
     (pin "3" (uuid c3ebfe60-b4df-4d99-aad4-144cc67c77b5))
     (pin "4" (uuid cc8d0f75-31cc-4825-b807-e8bf440329b4))
     (pin "5" (uuid 3bf3877f-beb9-4233-8fd4-242734af68ff))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/a5d26592-43c2-4cb6-a432-409beffc6dd1"
-          (reference "Q1_PHS") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "Q3_NHS1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Transistor_FET:BSD235C") (at 129.54 78.105 0) (unit 2)
@@ -874,15 +773,5 @@
     (pin "3" (uuid 14c67af3-44b4-467d-89ae-f4bcdf0c3dd2))
     (pin "4" (uuid 61f99ea0-1691-48a3-a4bb-96d1db3e258b))
     (pin "5" (uuid 8f2b36ae-8253-4d1e-bf04-cbdad5bb997a))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/a5d26592-43c2-4cb6-a432-409beffc6dd1"
-          (reference "Q1_PHS") (unit 2)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "Q2_NHS1") (unit 2)
-        )
-      )
-    )
   )
 )

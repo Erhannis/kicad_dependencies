@@ -453,24 +453,6 @@
     )
     (pin "1" (uuid 822d6105-af0f-4c64-9367-5dda046b1c15))
     (pin "2" (uuid 43e62ce0-a977-41bb-ba81-92d9244b7cb9))
-    (instances
-      (project "spice_test"
-        (path "/163c875b-7bd2-4dfe-9443-f7e4aa241e9e"
-          (reference "R8") (unit 1)
-        )
-      )
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/943ecf24-2097-44fd-b36a-5073e05e8115"
-          (reference "R4_D100MS1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/350d13ec-a727-4e78-b90c-60d0a52ba7f0"
-          (reference "R4_D100MSP1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9b583c8f-6e3c-4999-9ba0-219add3388a7"
-          (reference "R4_D100MSP2") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 146.05 78.74 180) (unit 1)
@@ -502,30 +484,12 @@
     )
     (pin "1" (uuid b88c6bfb-9bb1-4a9b-a8f2-37d4e98f7911))
     (pin "2" (uuid 2206687e-b09c-4ef8-ae53-0dbd407efae9))
-    (instances
-      (project "spice_test"
-        (path "/163c875b-7bd2-4dfe-9443-f7e4aa241e9e"
-          (reference "R10") (unit 1)
-        )
-      )
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/943ecf24-2097-44fd-b36a-5073e05e8115"
-          (reference "R6_D100MS1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/350d13ec-a727-4e78-b90c-60d0a52ba7f0"
-          (reference "R6_D100MSP1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9b583c8f-6e3c-4999-9ba0-219add3388a7"
-          (reference "R6_D100MSP2") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 91.44 135.89 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2238694c-0ffd-4a5e-8c09-8e8aa60b46e7)
-    (property "Reference" "R12" (at 91.44 130.175 90)
+    (property "Reference" "R1_D100MSPB1" (at 91.44 130.175 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 91.44 132.715 90)
@@ -551,24 +515,6 @@
     )
     (pin "1" (uuid a778157b-af58-4cbd-b19d-200caf8ec77a))
     (pin "2" (uuid e1297180-f954-46c8-a226-30f1201d7c52))
-    (instances
-      (project "spice_test"
-        (path "/163c875b-7bd2-4dfe-9443-f7e4aa241e9e"
-          (reference "R12") (unit 1)
-        )
-      )
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/943ecf24-2097-44fd-b36a-5073e05e8115"
-          (reference "R1_D100MS1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/350d13ec-a727-4e78-b90c-60d0a52ba7f0"
-          (reference "R1_D100MSPB1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9b583c8f-6e3c-4999-9ba0-219add3388a7"
-          (reference "R1_D100MSPB2") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 146.05 146.685 180) (unit 1)
@@ -600,24 +546,6 @@
     )
     (pin "1" (uuid eb4e0b18-67db-4da5-84fb-99bbd7cedf5a))
     (pin "2" (uuid 9898059e-8f49-47ea-be5c-c57582524598))
-    (instances
-      (project "spice_test"
-        (path "/163c875b-7bd2-4dfe-9443-f7e4aa241e9e"
-          (reference "R10") (unit 1)
-        )
-      )
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/943ecf24-2097-44fd-b36a-5073e05e8115"
-          (reference "R6_D100MS1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/350d13ec-a727-4e78-b90c-60d0a52ba7f0"
-          (reference "R6_D100MSPB1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9b583c8f-6e3c-4999-9ba0-219add3388a7"
-          (reference "R6_D100MSPB2") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 122.555 123.825 90) (unit 1)
@@ -649,24 +577,6 @@
     )
     (pin "1" (uuid 615050a9-0c6e-4a94-9f42-5f359debbfc9))
     (pin "2" (uuid 2df5798e-37bc-462d-9405-934a56e0e237))
-    (instances
-      (project "spice_test"
-        (path "/163c875b-7bd2-4dfe-9443-f7e4aa241e9e"
-          (reference "R7") (unit 1)
-        )
-      )
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/943ecf24-2097-44fd-b36a-5073e05e8115"
-          (reference "R3_D100MS1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/350d13ec-a727-4e78-b90c-60d0a52ba7f0"
-          (reference "R3_D100MSPB1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9b583c8f-6e3c-4999-9ba0-219add3388a7"
-          (reference "R3_D100MSPB2") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 103.505 67.945 90) (unit 1)
@@ -698,24 +608,6 @@
     )
     (pin "1" (uuid 7a13d735-9bc6-4abe-942b-12fb05708ed4))
     (pin "2" (uuid 9b74ea8b-51cf-418c-a9aa-a3a1f762592d))
-    (instances
-      (project "spice_test"
-        (path "/163c875b-7bd2-4dfe-9443-f7e4aa241e9e"
-          (reference "R6") (unit 1)
-        )
-      )
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/943ecf24-2097-44fd-b36a-5073e05e8115"
-          (reference "R2_D100MS1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/350d13ec-a727-4e78-b90c-60d0a52ba7f0"
-          (reference "R2_D100MSP1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9b583c8f-6e3c-4999-9ba0-219add3388a7"
-          (reference "R2_D100MSP2") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:C") (at 96.52 64.135 0) (unit 1)
@@ -747,24 +639,6 @@
     )
     (pin "1" (uuid 9b8602ba-fa5e-4173-9ee5-1cf2bda09135))
     (pin "2" (uuid 2b83203e-b027-45c5-9d95-2ee43fd83665))
-    (instances
-      (project "spice_test"
-        (path "/163c875b-7bd2-4dfe-9443-f7e4aa241e9e"
-          (reference "C2") (unit 1)
-        )
-      )
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/943ecf24-2097-44fd-b36a-5073e05e8115"
-          (reference "C1_D100MS1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/350d13ec-a727-4e78-b90c-60d0a52ba7f0"
-          (reference "C1_D100MSP1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9b583c8f-6e3c-4999-9ba0-219add3388a7"
-          (reference "C1_D100MSP2") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Amplifier_Operational:LM358") (at 140.335 90.805 0) (unit 3)
@@ -802,24 +676,6 @@
     (pin "7" (uuid ae83034f-6760-40b1-9700-8f598259d19f))
     (pin "4" (uuid da4c427c-f6ff-4e45-b907-8859713ccb6f))
     (pin "8" (uuid 15050068-3211-4cda-beca-b180fc0b7c90))
-    (instances
-      (project "spice_test"
-        (path "/163c875b-7bd2-4dfe-9443-f7e4aa241e9e"
-          (reference "U2") (unit 3)
-        )
-      )
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/943ecf24-2097-44fd-b36a-5073e05e8115"
-          (reference "U1_D100MS1") (unit 3)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/350d13ec-a727-4e78-b90c-60d0a52ba7f0"
-          (reference "U1_D100MSP1") (unit 3)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9b583c8f-6e3c-4999-9ba0-219add3388a7"
-          (reference "U1_D100MSP2") (unit 3)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:C") (at 96.52 132.08 0) (unit 1)
@@ -851,30 +707,12 @@
     )
     (pin "1" (uuid ccce394b-8236-45fe-be6e-4ed3c21252f0))
     (pin "2" (uuid f94ae115-4756-4ce0-8646-29f56f61e759))
-    (instances
-      (project "spice_test"
-        (path "/163c875b-7bd2-4dfe-9443-f7e4aa241e9e"
-          (reference "C2") (unit 1)
-        )
-      )
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/943ecf24-2097-44fd-b36a-5073e05e8115"
-          (reference "C1_D100MS1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/350d13ec-a727-4e78-b90c-60d0a52ba7f0"
-          (reference "C1_D100MSPB1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9b583c8f-6e3c-4999-9ba0-219add3388a7"
-          (reference "C1_D100MSPB2") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Amplifier_Operational:LM358") (at 122.555 70.485 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 78215901-69fc-42b3-a3c2-e3aa43556b0a)
-    (property "Reference" "U2" (at 122.555 60.325 0)
+    (property "Reference" "U1_D100MSP1" (at 122.555 60.325 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM358" (at 122.555 62.865 0)
@@ -906,24 +744,6 @@
     (pin "7" (uuid 41c954f5-be91-4fbb-b6f9-885781909b5a))
     (pin "4" (uuid 2fdb9a93-6715-4c11-9526-f28bd104ae62))
     (pin "8" (uuid 880edc0b-0aea-413b-ab1f-8ead26851f69))
-    (instances
-      (project "spice_test"
-        (path "/163c875b-7bd2-4dfe-9443-f7e4aa241e9e"
-          (reference "U2") (unit 1)
-        )
-      )
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/943ecf24-2097-44fd-b36a-5073e05e8115"
-          (reference "U1_D100MS1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/350d13ec-a727-4e78-b90c-60d0a52ba7f0"
-          (reference "U1_D100MSP1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9b583c8f-6e3c-4999-9ba0-219add3388a7"
-          (reference "U1_D100MSP2") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Amplifier_Operational:LM358") (at 122.555 138.43 0) (unit 1)
@@ -961,30 +781,12 @@
     (pin "7" (uuid 7b112da0-4425-40c3-8d2c-bd0f21bc685f))
     (pin "4" (uuid b0dc826f-3f49-436e-890a-1f76d4de37d2))
     (pin "8" (uuid 6880ebf6-270f-4d4a-a601-95706a981605))
-    (instances
-      (project "spice_test"
-        (path "/163c875b-7bd2-4dfe-9443-f7e4aa241e9e"
-          (reference "U2") (unit 1)
-        )
-      )
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/943ecf24-2097-44fd-b36a-5073e05e8115"
-          (reference "U1_D100MS1") (unit 2)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/350d13ec-a727-4e78-b90c-60d0a52ba7f0"
-          (reference "U1_D100MSP1") (unit 2)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9b583c8f-6e3c-4999-9ba0-219add3388a7"
-          (reference "U1_D100MSP2") (unit 2)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 91.44 67.945 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc2b164e-4461-440a-b6fc-e0663d2acb44)
-    (property "Reference" "R12" (at 91.44 62.23 90)
+    (property "Reference" "R1_D100MSP1" (at 91.44 62.23 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 91.44 64.77 90)
@@ -1010,24 +812,6 @@
     )
     (pin "1" (uuid 1b668793-3bdd-4bf8-a331-e236b084c0ea))
     (pin "2" (uuid a60a400a-e742-4cb9-abf3-0ef87edaca6c))
-    (instances
-      (project "spice_test"
-        (path "/163c875b-7bd2-4dfe-9443-f7e4aa241e9e"
-          (reference "R12") (unit 1)
-        )
-      )
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/943ecf24-2097-44fd-b36a-5073e05e8115"
-          (reference "R1_D100MS1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/350d13ec-a727-4e78-b90c-60d0a52ba7f0"
-          (reference "R1_D100MSP1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9b583c8f-6e3c-4999-9ba0-219add3388a7"
-          (reference "R1_D100MSP2") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 103.505 135.89 90) (unit 1)
@@ -1059,24 +843,6 @@
     )
     (pin "1" (uuid 09c60a10-e7cc-42a5-8b76-5f4e7ffb2de1))
     (pin "2" (uuid c1f46207-3a1f-4543-a903-dcb5dd3ed76b))
-    (instances
-      (project "spice_test"
-        (path "/163c875b-7bd2-4dfe-9443-f7e4aa241e9e"
-          (reference "R6") (unit 1)
-        )
-      )
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/943ecf24-2097-44fd-b36a-5073e05e8115"
-          (reference "R2_D100MS1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/350d13ec-a727-4e78-b90c-60d0a52ba7f0"
-          (reference "R2_D100MSPB1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9b583c8f-6e3c-4999-9ba0-219add3388a7"
-          (reference "R2_D100MSPB2") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 127 94.615 0) (unit 1)
@@ -1108,30 +874,12 @@
     )
     (pin "1" (uuid 21cb85bb-1221-41da-b2cf-64a22127c6fe))
     (pin "2" (uuid f12c39ac-6bc1-46a6-a5d5-3f86d2803897))
-    (instances
-      (project "spice_test"
-        (path "/163c875b-7bd2-4dfe-9443-f7e4aa241e9e"
-          (reference "R9") (unit 1)
-        )
-      )
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/943ecf24-2097-44fd-b36a-5073e05e8115"
-          (reference "R5_D100MS1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/350d13ec-a727-4e78-b90c-60d0a52ba7f0"
-          (reference "R5_D100MSP1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9b583c8f-6e3c-4999-9ba0-219add3388a7"
-          (reference "R5_D100MSP2") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 122.555 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e968d777-dd4a-4a54-b7e7-d7e30d4b2296)
-    (property "Reference" "R7" (at 122.555 50.165 90)
+    (property "Reference" "R3_D100MSP1" (at 122.555 50.165 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10M" (at 122.555 52.705 90)
@@ -1157,23 +905,5 @@
     )
     (pin "1" (uuid 8f54950a-cabc-459a-b494-28439398efc7))
     (pin "2" (uuid 58ac6c8e-cedf-48c2-8aaa-2038ac02c754))
-    (instances
-      (project "spice_test"
-        (path "/163c875b-7bd2-4dfe-9443-f7e4aa241e9e"
-          (reference "R7") (unit 1)
-        )
-      )
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/943ecf24-2097-44fd-b36a-5073e05e8115"
-          (reference "R3_D100MS1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/350d13ec-a727-4e78-b90c-60d0a52ba7f0"
-          (reference "R3_D100MSP1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9b583c8f-6e3c-4999-9ba0-219add3388a7"
-          (reference "R3_D100MSP2") (unit 1)
-        )
-      )
-    )
   )
 )
