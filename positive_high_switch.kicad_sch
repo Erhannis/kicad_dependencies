@@ -416,6 +416,13 @@
     (pin "3" (uuid c3ebfe60-b4df-4d99-aad4-144cc67c77b5))
     (pin "4" (uuid cc8d0f75-31cc-4825-b807-e8bf440329b4))
     (pin "5" (uuid 3bf3877f-beb9-4233-8fd4-242734af68ff))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/a5d26592-43c2-4cb6-a432-409beffc6dd1"
+          (reference "Q2_PHS1") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Transistor_FET:BSD235C") (at 116.205 78.105 0) (unit 2)
@@ -451,6 +458,13 @@
     (pin "3" (uuid 654d6a8f-71e1-4442-b4da-fdc1dfcbc2a8))
     (pin "4" (uuid 2743016b-d267-4151-9889-4c7b750ef0fd))
     (pin "5" (uuid 7cd8825f-c730-4e30-b848-65f07af1b295))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/a5d26592-43c2-4cb6-a432-409beffc6dd1"
+          (reference "Q1_PHS1") (unit 2)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Transistor_FET:BSD235C") (at 116.205 92.075 0) (unit 1)
@@ -483,9 +497,16 @@
     (pin "1" (uuid 42614a11-3913-4bfa-9987-9395f35598e2))
     (pin "2" (uuid 5d8c66c4-4c8e-4fea-b152-fc1a8b66c85c))
     (pin "6" (uuid 4ee91c73-eabd-4ff3-b140-5dbf04f67d82))
-    (pin "3" (uuid c3ebfe60-b4df-4d99-aad4-144cc67c77b5))
-    (pin "4" (uuid cc8d0f75-31cc-4825-b807-e8bf440329b4))
-    (pin "5" (uuid 3bf3877f-beb9-4233-8fd4-242734af68ff))
+    (pin "3" (uuid c3ebfe60-b4df-4d99-aad4-144cc67c77b6))
+    (pin "4" (uuid cc8d0f75-31cc-4825-b807-e8bf440329b5))
+    (pin "5" (uuid 3bf3877f-beb9-4233-8fd4-242734af6900))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/a5d26592-43c2-4cb6-a432-409beffc6dd1"
+          (reference "Q1_PHS1") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Transistor_FET:BSD235C") (at 131.445 78.105 0) (unit 2)
@@ -515,11 +536,18 @@
     (property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824" (at 131.445 78.105 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ca5439be-f35b-42a1-865d-012b795435af))
-    (pin "2" (uuid 1904d0bb-2854-4eda-a2c1-9ea539b2004e))
-    (pin "6" (uuid 810ab22c-3b29-463f-b243-94d159080174))
+    (pin "1" (uuid ca5439be-f35b-42a1-865d-012b795435b0))
+    (pin "2" (uuid 1904d0bb-2854-4eda-a2c1-9ea539b2004f))
+    (pin "6" (uuid 810ab22c-3b29-463f-b243-94d159080175))
     (pin "3" (uuid ff87a75f-5724-4ce9-ae43-4e5dbd59276c))
     (pin "4" (uuid 6b5b4328-aa44-4c57-8a1c-d04f82d3c04e))
     (pin "5" (uuid b523f437-6ba0-4d3b-8a51-9fa67e4dfa94))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/a5d26592-43c2-4cb6-a432-409beffc6dd1"
+          (reference "Q2_PHS1") (unit 2)
+        )
+      )
+    )
   )
 )
