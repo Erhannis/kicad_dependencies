@@ -498,13 +498,6 @@
     )
     (pin "1" (uuid b1350334-b297-4660-88da-bc5586ed283a))
     (pin "2" (uuid ed60f6eb-0d3c-497c-812c-aa3e0eaac89c))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "R1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 162.56 112.395 90) (mirror x) (unit 1)
@@ -536,13 +529,6 @@
     )
     (pin "1" (uuid 87ff7de3-242e-4cbe-a18c-dd633aea1178))
     (pin "2" (uuid 447f83cc-73ff-421f-beee-55ff8b5b04be))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "R3") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 146.05 107.95 0) (mirror x) (unit 1)
@@ -577,13 +563,6 @@
     )
     (pin "1" (uuid 0c4fb37a-a34a-45bc-9679-a9663457d8b1))
     (pin "2" (uuid 00ae6a74-52ba-481c-9e93-9bd6f0ca400d))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "R2") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Transistor_FET:BSD235C") (at 111.125 71.755 0) (unit 2)
@@ -619,13 +598,6 @@
     (pin "3" (uuid 9df5a702-ea49-459c-9647-512cd3b83de3))
     (pin "4" (uuid d743269e-a7a6-4b45-9818-2942902b3b2f))
     (pin "5" (uuid 3043d3a2-0830-4cc4-9440-fae7adf93089))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "Q1_PHS") (unit 2)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Transistor_FET:BSD235C") (at 137.16 93.98 0) (mirror x) (unit 1)
@@ -661,13 +633,6 @@
     (pin "3" (uuid c3ebfe60-b4df-4d99-aad4-144cc67c77b5))
     (pin "4" (uuid cc8d0f75-31cc-4825-b807-e8bf440329b4))
     (pin "5" (uuid 3bf3877f-beb9-4233-8fd4-242734af68ff))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "Q1_PHS") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Transistor_FET:BSD235C") (at 111.125 85.725 0) (unit 1)
@@ -703,13 +668,6 @@
     (pin "3" (uuid c3ebfe60-b4df-4d99-aad4-144cc67c77b6))
     (pin "4" (uuid cc8d0f75-31cc-4825-b807-e8bf440329b5))
     (pin "5" (uuid 3bf3877f-beb9-4233-8fd4-242734af6900))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "Q1_NHS1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Transistor_FET:BSD235C") (at 156.21 104.14 0) (unit 2)
@@ -745,13 +703,6 @@
     (pin "3" (uuid f0bf048e-e384-4c26-a02b-c589d63465d2))
     (pin "4" (uuid 1d03ec28-255c-4670-ac59-bc24ff214d66))
     (pin "5" (uuid 75c2fb64-2649-4dd7-8171-a3cae8900411))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "Q1_PHS") (unit 2)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Transistor_FET:BSD235C") (at 163.83 120.015 0) (mirror x) (unit 1)
@@ -787,13 +738,6 @@
     (pin "3" (uuid c3ebfe60-b4df-4d99-aad4-144cc67c77b7))
     (pin "4" (uuid cc8d0f75-31cc-4825-b807-e8bf440329b6))
     (pin "5" (uuid 3bf3877f-beb9-4233-8fd4-242734af6901))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "Q3_NHS1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Transistor_FET:BSD235C") (at 129.54 78.105 0) (unit 2)
@@ -829,12 +773,5 @@
     (pin "3" (uuid 14c67af3-44b4-467d-89ae-f4bcdf0c3dd2))
     (pin "4" (uuid 61f99ea0-1691-48a3-a4bb-96d1db3e258b))
     (pin "5" (uuid 8f2b36ae-8253-4d1e-bf04-cbdad5bb997a))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "Q2_NHS1") (unit 2)
-        )
-      )
-    )
   )
 )
