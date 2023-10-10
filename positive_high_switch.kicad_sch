@@ -386,7 +386,7 @@
   (symbol (lib_id "Transistor_FET:BSD235C") (at 131.445 92.075 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 228dd9b3-d7d4-420c-bbe4-d3c91c316b41)
-    (property "Reference" "Q2_PHS" (at 137.795 90.805 0)
+    (property "Reference" "Q2_PHS1" (at 137.795 90.805 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BSD235C" (at 137.795 93.345 0)
@@ -419,7 +419,7 @@
     (instances
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/a5d26592-43c2-4cb6-a432-409beffc6dd1"
-          (reference "Q2_PHS") (unit 1)
+          (reference "Q2_PHS1") (unit 1)
         )
       )
     )
@@ -428,7 +428,7 @@
   (symbol (lib_id "Transistor_FET:BSD235C") (at 116.205 78.105 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 347a76a4-277b-4c55-b3c9-f5bc30e7f9cd)
-    (property "Reference" "Q1_PHS" (at 122.555 76.835 0)
+    (property "Reference" "Q1_PHS1" (at 122.555 76.835 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BSD235C" (at 122.555 79.375 0)
@@ -461,7 +461,7 @@
     (instances
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/a5d26592-43c2-4cb6-a432-409beffc6dd1"
-          (reference "Q1_PHS") (unit 2)
+          (reference "Q1_PHS1") (unit 2)
         )
       )
     )
@@ -470,7 +470,7 @@
   (symbol (lib_id "Transistor_FET:BSD235C") (at 116.205 92.075 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 40426160-9e79-4738-a264-40ed5aa85933)
-    (property "Reference" "Q1_PHS" (at 122.555 90.805 0)
+    (property "Reference" "Q1_PHS1" (at 122.555 90.805 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BSD235C" (at 122.555 93.345 0)
@@ -503,7 +503,7 @@
     (instances
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/a5d26592-43c2-4cb6-a432-409beffc6dd1"
-          (reference "Q1_PHS") (unit 1)
+          (reference "Q1_PHS1") (unit 1)
         )
       )
     )
@@ -512,7 +512,7 @@
   (symbol (lib_id "Transistor_FET:BSD235C") (at 131.445 78.105 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9aedb519-cfda-405d-b1ab-c95bf3bcc849)
-    (property "Reference" "Q2_PHS" (at 137.795 76.835 0)
+    (property "Reference" "Q2_PHS1" (at 137.795 76.835 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BSD235C" (at 137.795 79.375 0)
@@ -545,7 +545,7 @@
     (instances
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/a5d26592-43c2-4cb6-a432-409beffc6dd1"
-          (reference "Q2_PHS") (unit 2)
+          (reference "Q2_PHS1") (unit 2)
         )
       )
     )
