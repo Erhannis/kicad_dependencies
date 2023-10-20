@@ -164,6 +164,11 @@
   )
 
 
+  (wire (pts (xy 24.765 189.23) (xy 28.575 189.23))
+    (stroke (width 0) (type default))
+    (uuid c063b045-c15b-4d5c-bce7-c52d846a85e3)
+  )
+
   (text_box "Note: for many of these, I'd pick a symbol available by default, but a different pin-compatible component available on JLCPCB.  I'd expect the default symbol component to work, but I'm focusing on the real JLCPCB component.\nI tried to pick the most-available (highest stock) components with the required properties, occasionally picking a significantly cheaper option.\n\n\nRef: (COMPONENT)(#)_(SHEET)1\nNumbers in SHEET come at the beginning."
     (at 28.575 95.25 0) (size 93.345 41.91)
     (stroke (width 0) (type default))
@@ -267,6 +272,31 @@
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
           (reference "#PWR06") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 24.765 189.23 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 36e92932-573e-4049-8872-1e34070db4ea)
+    (property "Reference" "#PWR021" (at 18.415 189.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 20.955 189.23 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 24.765 189.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 24.765 189.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7d2cd2a9-5604-4b17-8ce1-0bfb41868edb))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -1051,6 +1081,39 @@
     (pin "-VOUT" output (at 205.74 54.61 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 58a8c2ec-6a7e-49c0-bab1-67ba3764782c)
+    )
+  )
+
+  (sheet (at 28.575 178.435) (size 20.32 13.335) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9aadd827-8b4d-4037-9bc0-1df35da629b7)
+    (property "Sheetname" "High Driver" (at 28.575 177.7234 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "high_driver.kicad_sch" (at 28.575 192.3546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "TRIG" input (at 28.575 185.42 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 6f3aea01-7120-4942-a7a5-b29257b1567b)
+    )
+    (pin "V_IN" input (at 44.45 178.435 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 135e9550-53b3-40fd-9c83-c4c3b24730db)
+    )
+    (pin "GND" input (at 28.575 189.23 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid ae1c31c6-b04b-46cb-8098-1d22567c9445)
+    )
+    (pin "V_OUT" output (at 48.895 186.055 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 5083cdbe-dc17-4777-9767-e74e8bea5f66)
+    )
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3" (page "17"))
+      )
     )
   )
 

@@ -426,6 +426,19 @@
     (uuid fe33c0d9-e3e6-4550-9462-22b16458fe6f)
   )
 
+  (text_box "Special properties:\nHigh (non-ground) side, provides -V and disconnected, I think.\nA little slow for computers.\nInsensate to different +V, I think, so long as TRIG and TREF match, and are somewhat above 0V."
+    (at 19.685 27.94 0) (size 69.215 100.33)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid d4b616b2-c0be-40d5-b072-8bb121bb0018)
+  )
+
+  (text "Wait...are the right two chips here even necessary??"
+    (at 154.305 140.335 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 3e3c47ff-ac96-4c78-96a9-0f9bda634537)
+  )
   (text "According to simulation\nThis thing uses like, 1mw\nAnd switches in about 1ms"
     (at 174.625 86.995 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
