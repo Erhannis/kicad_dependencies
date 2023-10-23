@@ -386,7 +386,7 @@
   (symbol (lib_id "Device:R") (at 98.425 55.88 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 19fe682b-68b8-4327-b9c3-7c9746d8a094)
-    (property "Reference" "R2_D100MS1" (at 100.33 54.61 0)
+    (property "Reference" "R1_HD1" (at 100.33 54.61 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 100.33 57.15 0)
@@ -412,16 +412,6 @@
     )
     (pin "1" (uuid fe4d68c9-e818-444c-942b-fcdb4d4c721e))
     (pin "2" (uuid 1588aaee-16c7-4cab-88cb-755263024117))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/943ecf24-2097-44fd-b36a-5073e05e8115"
-          (reference "R2_D100MS1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9aadd827-8b4d-4037-9bc0-1df35da629b7"
-          (reference "R1_HD1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Transistor_FET:BSD235C") (at 95.885 71.755 0) (unit 1)
@@ -457,22 +447,12 @@
     (pin "3" (uuid c3ebfe60-b4df-4d99-aad4-144cc67c77b6))
     (pin "4" (uuid cc8d0f75-31cc-4825-b807-e8bf440329b5))
     (pin "5" (uuid 3bf3877f-beb9-4233-8fd4-242734af6900))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/a5d26592-43c2-4cb6-a432-409beffc6dd1"
-          (reference "Q1_PHS1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9aadd827-8b4d-4037-9bc0-1df35da629b7"
-          (reference "Q1_HD1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Transistor_FET:BSD235C") (at 116.205 63.5 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b49943db-3d41-49ef-a2eb-525b62def73c)
-    (property "Reference" "Q1_PHS1" (at 122.555 62.23 0)
+    (property "Reference" "Q1_HD1" (at 122.555 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BSD235C" (at 122.555 64.77 0)
@@ -502,15 +482,5 @@
     (pin "3" (uuid ded9fb81-d715-4125-a5c7-db1ba74ffaa3))
     (pin "4" (uuid b4ba8aa0-1df4-4bac-981f-d215fbd18d9b))
     (pin "5" (uuid 9aaca340-58eb-42f1-9d97-a63aae359c02))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/a5d26592-43c2-4cb6-a432-409beffc6dd1"
-          (reference "Q1_PHS1") (unit 2)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9aadd827-8b4d-4037-9bc0-1df35da629b7"
-          (reference "Q1_HD1") (unit 2)
-        )
-      )
-    )
   )
 )

@@ -410,13 +410,6 @@
     )
     (pin "1" (uuid 0134ca0b-2354-4eec-a799-1daf1e81b56a))
     (pin "2" (uuid 3dcffe4c-bc6a-4e16-b50e-33131f9f30ce))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
-          (reference "C2_VIA1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:C") (at 118.11 59.69 90) (unit 1)
@@ -442,13 +435,6 @@
     )
     (pin "1" (uuid 47842542-1631-4080-847f-ee8333e7150f))
     (pin "2" (uuid f752d24c-77b3-405e-ad8b-49c84d5e29ba))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
-          (reference "C3_VIA1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:D_Schottky") (at 141.605 77.47 90) (unit 1)
@@ -480,13 +466,6 @@
     )
     (pin "1" (uuid b69c6bbb-9170-4b97-b2bf-ca1ae6e2a962))
     (pin "2" (uuid f84bea19-2eb8-49fb-a0a1-a770335636a6))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
-          (reference "D1_VIA1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:D") (at 135.255 88.265 0) (unit 1)
@@ -524,13 +503,6 @@
     )
     (pin "1" (uuid 3966a2f3-b68f-41be-aaaf-87f5a32b7b45))
     (pin "2" (uuid a990497d-b999-45ed-83ea-eabecf0e3a29))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
-          (reference "D2_VIA1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:C") (at 135.255 78.105 0) (unit 1)
@@ -556,13 +528,6 @@
     )
     (pin "1" (uuid 4f9c3492-276c-4b7d-bf2a-0b707dcdcb94))
     (pin "2" (uuid bc09cadf-407c-42fd-a72a-e0c255dd37ab))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
-          (reference "C1_VIA1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Converter_DCDC:TC7662Bx0A") (at 121.92 75.565 0) (unit 1)
@@ -600,12 +565,5 @@
     (pin "6" (uuid 2734c071-08cd-4400-ab7a-a4d47f243070))
     (pin "7" (uuid 9a49b48e-bffd-4076-a4de-be66e659942f))
     (pin "8" (uuid 58a1e047-8aae-46c6-ace4-41a6c318d02b))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
-          (reference "POW1_VIA1") (unit 1)
-        )
-      )
-    )
   )
 )
