@@ -482,7 +482,7 @@
   (symbol (lib_id "Regulator_Switching:LM27313XMF") (at 111.76 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d4d17f7-6dd8-4f1a-bae4-992fe05635eb)
-    (property "Reference" "POW1_10B1" (at 111.76 78.74 0)
+    (property "Reference" "POW1_VARB1" (at 111.76 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM27313XMF" (at 111.76 81.28 0)
@@ -508,22 +508,12 @@
     (pin "3" (uuid bfaef5ae-76dc-4bce-9434-53732da2bdd8))
     (pin "4" (uuid 263a51aa-4981-4785-9342-8dcb89b9e804))
     (pin "5" (uuid 5d38cf0d-c039-4623-9de5-a01fd88353f1))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
-          (reference "POW1_10B1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/5d506c73-fa1e-4322-8139-8f474f424f5d"
-          (reference "POW1_VARB1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 131.445 117.475 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34baf08d-2c33-406c-ae5e-5bca1e51f49f)
-    (property "Reference" "R2_10B1" (at 133.35 116.205 0)
+    (property "Reference" "R2_VARB1" (at 133.35 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R 4.53k 1%" (at 133.35 118.745 0)
@@ -549,16 +539,6 @@
     )
     (pin "1" (uuid 461f6b98-7f90-4198-868a-d175745b3d11))
     (pin "2" (uuid d0d222f8-ffa2-4bd6-ab43-a2dc6e2813f6))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
-          (reference "R2_10B1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/5d506c73-fa1e-4322-8139-8f474f424f5d"
-          (reference "R2_VARB1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R_Potentiometer") (at 137.16 106.045 0) (mirror y) (unit 1)
@@ -591,19 +571,12 @@
     (pin "1" (uuid 4c4c7bef-aeb1-408c-8b43-6ae767a33156))
     (pin "2" (uuid 3b2d209f-7a22-4ec4-a24b-9cdc9efdae81))
     (pin "3" (uuid e7d8da8a-3850-436b-a135-7139aa139925))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/5d506c73-fa1e-4322-8139-8f474f424f5d"
-          (reference "RV1_VARB1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:L") (at 111.76 75.565 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58326ed9-78d8-4ebf-b926-b07331b2d036)
-    (property "Reference" "L1_10B1" (at 111.76 69.85 90)
+    (property "Reference" "L1_VARB1" (at 111.76 69.85 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L 10uH" (at 111.76 72.39 90)
@@ -626,22 +599,12 @@
     )
     (pin "1" (uuid 5bfe2bbc-c196-4069-9f4b-e50d06811609))
     (pin "2" (uuid 00f7a564-7cd3-44f5-acd4-e27fcfda5b17))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
-          (reference "L1_10B1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/5d506c73-fa1e-4322-8139-8f474f424f5d"
-          (reference "L1_VARB1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 131.445 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79978edc-31bb-4d0a-8c57-594aa1a58718)
-    (property "Reference" "R1_10B1" (at 133.35 91.44 0)
+    (property "Reference" "R1_VARB1" (at 133.35 91.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R 100k 1%" (at 133.35 93.98 0)
@@ -667,22 +630,12 @@
     )
     (pin "1" (uuid 7acfeac6-3c25-4e05-8f0b-8db9f6ef2bfe))
     (pin "2" (uuid 257591e4-395a-495b-9101-9d26fedce67c))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
-          (reference "R1_10B1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/5d506c73-fa1e-4322-8139-8f474f424f5d"
-          (reference "R1_VARB1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:D_Schottky") (at 126.365 86.36 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d5760045-d663-4b36-8177-b79efc010767)
-    (property "Reference" "D1_10B1" (at 126.6825 80.01 0)
+    (property "Reference" "D1_VARB1" (at 126.6825 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Schottky" (at 126.6825 82.55 0)
@@ -708,22 +661,12 @@
     )
     (pin "1" (uuid 412e859c-435e-4ff5-b77a-2e573ddd48bd))
     (pin "2" (uuid c807c3a2-e24d-4e77-9590-4b948fa779ef))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
-          (reference "D1_10B1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/5d506c73-fa1e-4322-8139-8f474f424f5d"
-          (reference "D1_VARB1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:C") (at 138.43 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e56b0da2-2a13-4b5d-9ff9-d47e8aea210d)
-    (property "Reference" "C2_10B1" (at 136.14 81.3 90)
+    (property "Reference" "C2_VARB1" (at 136.14 81.3 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 140.73 81.3 90)
@@ -749,22 +692,12 @@
     )
     (pin "1" (uuid 30070b19-96f3-46dd-afc5-fadada0f8f0f))
     (pin "2" (uuid d10d02ff-7d4d-40b9-9985-01bf8ea15771))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
-          (reference "C2_10B1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/5d506c73-fa1e-4322-8139-8f474f424f5d"
-          (reference "C2_VARB1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:C") (at 97.79 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f33e9ff4-3984-44ed-85e6-ffcdff99b814)
-    (property "Reference" "C1_10B1" (at 95.5 81.3 90)
+    (property "Reference" "C1_VARB1" (at 95.5 81.3 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 100.09 81.3 90)
@@ -790,15 +723,5 @@
     )
     (pin "1" (uuid 4a22af27-7a61-46e5-b30a-caabbf546ecd))
     (pin "2" (uuid 05d1e73b-b671-4312-af96-6f45632c4117))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/eb026739-dd90-4a67-80eb-0b6b28837c6d"
-          (reference "C1_10B1") (unit 1)
-        )
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/5d506c73-fa1e-4322-8139-8f474f424f5d"
-          (reference "C1_VARB1") (unit 1)
-        )
-      )
-    )
   )
 )
