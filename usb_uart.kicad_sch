@@ -280,6 +280,13 @@
     )
     (pin "1" (uuid 25b40dce-b13c-411a-9120-2f9243e21a34))
     (pin "2" (uuid 5cf200d4-dda5-4cc7-9766-9f408e6547d2))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/be62ad68-af47-4728-8ff9-0f4ef0b3810b"
+          (reference "C3_UU1") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:C") (at 109.22 77.47 0) (unit 1)
@@ -311,6 +318,13 @@
     )
     (pin "1" (uuid ac1be471-5c56-47ff-b93a-bd8407c8c360))
     (pin "2" (uuid 9c6127f4-f4ec-4cad-9ec6-685de9483b26))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/be62ad68-af47-4728-8ff9-0f4ef0b3810b"
+          (reference "C2_UU1") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:C") (at 99.06 73.66 0) (unit 1)
@@ -342,6 +356,13 @@
     )
     (pin "1" (uuid cc1b8530-bba0-4f2b-8def-e6bbcc649b51))
     (pin "2" (uuid 15a1f12a-7065-4377-950b-ae23a2fe0c37))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/be62ad68-af47-4728-8ff9-0f4ef0b3810b"
+          (reference "C1_UU1") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Custom:HT42B534_8SOP") (at 123.825 64.77 180) (unit 1)
@@ -382,6 +403,13 @@
     (pin "6" (uuid 87f54bd1-73b9-481a-a7fa-2650337cf9df))
     (pin "7" (uuid 3d52fad1-cfd6-448b-bed5-c1aa1a1ee180))
     (pin "8" (uuid 50ee42d7-90a6-4dc0-beac-b5b6ecee6158))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/be62ad68-af47-4728-8ff9-0f4ef0b3810b"
+          (reference "U1_UU1") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 136.525 73.66 0) (unit 1)
@@ -400,5 +428,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8cb97292-bcb1-4a4f-a8ad-0f47e7a819bf))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/be62ad68-af47-4728-8ff9-0f4ef0b3810b"
+          (reference "#PWR025") (unit 1)
+        )
+      )
+    )
   )
 )

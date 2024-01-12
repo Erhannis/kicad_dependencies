@@ -1388,6 +1388,23 @@
     )
   )
 
+  (sheet (at 48.895 21.59) (size 27.94 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c560f153-df13-4a41-ac96-3340e314d5eb)
+    (property "Sheetname" "Mains to 5V" (at 48.895 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mains_to_5v.kicad_sch" (at 48.895 41.2246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3" (page "20"))
+      )
+    )
+  )
+
   (sheet (at 159.385 74.295) (size 18.415 15.24) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

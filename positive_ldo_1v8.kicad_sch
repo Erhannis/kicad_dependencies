@@ -176,6 +176,13 @@
     (pin "1" (uuid 368d40ab-8a7f-4198-8a9c-90cc1c139935))
     (pin "2" (uuid 706d8b7b-88ee-4c9c-ac18-5b2eee9c917f))
     (pin "3" (uuid 54796c15-cfb0-4ba3-9404-fdc8b40dc12e))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/af0b060a-7af2-4241-bf49-2c4bf5ba2f6b"
+          (reference "POW1_P1V8L1") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:C") (at 114.935 83.185 0) (unit 1)
@@ -207,6 +214,13 @@
     )
     (pin "1" (uuid 267f68c4-7357-4f0c-8463-d6dc607b6504))
     (pin "2" (uuid 6f855f39-6cc7-4180-9097-b17f1228846a))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/af0b060a-7af2-4241-bf49-2c4bf5ba2f6b"
+          (reference "C1_P1V8L1") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:C") (at 135.255 83.185 0) (unit 1)
@@ -238,5 +252,12 @@
     )
     (pin "1" (uuid 5186880d-6b2a-4aeb-aa62-5d7923fdf0e4))
     (pin "2" (uuid da514d9d-7b0d-4b7d-b45f-868977f47a08))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/af0b060a-7af2-4241-bf49-2c4bf5ba2f6b"
+          (reference "C2_P1V8L1") (unit 1)
+        )
+      )
+    )
   )
 )
