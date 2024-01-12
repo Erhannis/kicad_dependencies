@@ -672,6 +672,13 @@
     (pin "2" (uuid 46edfe22-ade8-46d4-b960-45cce8bf3968))
     (pin "3" (uuid 41b2d325-4300-40e5-adee-71f81b84bc0d))
     (pin "4" (uuid b32e09ad-df2f-47c8-b8f5-7be4b249cf9d))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
+          (reference "L1_M5V1") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "easyeda2kicad:Fusetransparentseat") (at 108.585 86.36 0) (unit 1)
@@ -703,6 +710,13 @@
     )
     (pin "1" (uuid 946be747-56a2-4cce-9e59-c19f86e32851))
     (pin "2" (uuid 86221a67-d4c7-4769-8709-edc1096c2fc4))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
+          (reference "F1_M5V1") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "easyeda2kicad:5D-9_C332361") (at 126.365 86.36 0) (unit 1)
@@ -734,6 +748,13 @@
     )
     (pin "1" (uuid 318e763b-8641-46bb-b520-27184c942719))
     (pin "2" (uuid e5c7db04-54da-453c-b115-c0adb8c40863))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
+          (reference "R1_M5V1") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "easyeda2kicad:471KD10") (at 131.445 92.71 270) (unit 1)
@@ -765,6 +786,13 @@
     )
     (pin "1" (uuid 5fa8bcb3-d2c2-4f20-9ff0-961acab9615e))
     (pin "2" (uuid 3d5a416e-4b66-4ef7-b275-b825f01df4dd))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
+          (reference "R2_M5V1") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:C") (at 144.145 92.71 0) (unit 1)
@@ -796,6 +824,13 @@
     )
     (pin "1" (uuid 2ca38b78-cfad-42eb-b93d-ee5a8ab225bf))
     (pin "2" (uuid 453e18ba-5b20-454b-b357-98fc8f4c91e9))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
+          (reference "C1_M5V1") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "easyeda2kicad:EC03-S05_C2840800") (at 175.26 92.71 0) (unit 1)
@@ -829,6 +864,13 @@
     (pin "2" (uuid 30e5ef4c-9656-4abc-b5a7-8385007e4a7c))
     (pin "3" (uuid b9324de4-a83e-462e-94b8-b0e82f4e1f7b))
     (pin "5" (uuid 134fc2a0-91a8-47e9-8057-5b56809813f2))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
+          (reference "U1_M5V1") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "easyeda2kicad:XY126V-5.0-2P") (at 90.17 92.71 180) (unit 1)
@@ -860,6 +902,13 @@
     )
     (pin "1" (uuid f93c864b-6d0b-4705-b1a3-1e5ce2f5a8a3))
     (pin "2" (uuid a7abd9eb-2baf-42c1-95b8-835847800286))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
+          (reference "J1_M5V1") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Diode:ESD9B5.0ST5G") (at 198.12 92.71 270) (unit 1)
@@ -891,6 +940,13 @@
     )
     (pin "1" (uuid 6cd85c08-afe9-4608-8dd8-a4a7eb81df0c))
     (pin "2" (uuid c586e678-8af6-4e7b-9e2b-cdd805a80d68))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
+          (reference "D1_M5V1") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:C") (at 192.405 92.71 180) (unit 1)
@@ -916,5 +972,12 @@
     )
     (pin "1" (uuid a143854c-cd1f-463b-a09f-ba17080c872e))
     (pin "2" (uuid 3fb099c1-6d73-46e4-94f9-7a466c295899))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
+          (reference "C2_M5V1") (unit 1)
+        )
+      )
+    )
   )
 )
