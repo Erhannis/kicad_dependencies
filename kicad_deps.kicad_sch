@@ -1398,6 +1398,14 @@
     (property "Sheetfile" "mains_to_5v.kicad_sch" (at 48.895 41.2246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
+    (pin "GND" output (at 76.835 34.29 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid b6dba474-d608-434a-a618-3ba0ab1a5451)
+    )
+    (pin "+5V" output (at 76.835 27.94 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid eecfc39e-90a6-4fbf-91b2-e0b45bf91e5e)
+    )
     (instances
       (project "kicad_deps"
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3" (page "20"))
