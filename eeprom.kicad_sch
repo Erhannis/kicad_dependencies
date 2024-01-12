@@ -333,13 +333,6 @@
     )
     (pin "1" (uuid c8b82739-7621-497d-9d52-0b7ae085d24e))
     (pin "2" (uuid 8b515f05-20d9-4c65-840d-2ffc6fc3d411))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/3a7bd670-a7f7-48d6-9018-c06d9d518e7f"
-          (reference "R3_EP1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 147.32 78.105 180) (unit 1)
@@ -365,13 +358,6 @@
     )
     (pin "1" (uuid 79a8e9a2-740f-46aa-ab7d-54645a3c9408))
     (pin "2" (uuid 6c4a2900-6de3-4733-9866-ce4f9805a01d))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/3a7bd670-a7f7-48d6-9018-c06d9d518e7f"
-          (reference "R2_EP1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 153.67 78.105 180) (unit 1)
@@ -397,13 +383,6 @@
     )
     (pin "1" (uuid c41b4fcb-edf9-441a-9579-947ed53b60b0))
     (pin "2" (uuid b4783889-882b-4cba-a4f1-95206dc5154f))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/3a7bd670-a7f7-48d6-9018-c06d9d518e7f"
-          (reference "R4_EP1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:C") (at 119.38 79.375 0) (unit 1)
@@ -429,13 +408,6 @@
     )
     (pin "1" (uuid 603040ef-ba8c-430a-956f-8408bbcd59d7))
     (pin "2" (uuid d10737d2-1b11-4efb-b666-e1bd81ed0960))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/3a7bd670-a7f7-48d6-9018-c06d9d518e7f"
-          (reference "C1_EP1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Memory_EEPROM:93LCxxBxxOT") (at 132.08 90.17 0) (unit 1)
@@ -471,13 +443,6 @@
     (pin "4" (uuid 69ab7dc3-34bf-45a2-8762-71d65e56e0db))
     (pin "5" (uuid 63ec09cb-b686-4147-b5ae-b218afa6ed20))
     (pin "6" (uuid d10d5429-fd08-4cc6-b483-b46c92f70ee3))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/3a7bd670-a7f7-48d6-9018-c06d9d518e7f"
-          (reference "MEM1_EP1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 111.76 78.105 180) (unit 1)
@@ -503,12 +468,5 @@
     )
     (pin "1" (uuid f6069af6-5a36-4968-b0ca-dd2af5fba507))
     (pin "2" (uuid 72f04565-822c-4272-b1ad-cfe343d2e995))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/3a7bd670-a7f7-48d6-9018-c06d9d518e7f"
-          (reference "R1_EP1") (unit 1)
-        )
-      )
-    )
   )
 )

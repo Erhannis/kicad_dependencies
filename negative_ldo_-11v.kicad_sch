@@ -320,13 +320,6 @@
     )
     (pin "1" (uuid 6fd7e0aa-3f34-47ca-8d65-7201c3d011c2))
     (pin "2" (uuid 55a9e721-5b99-4614-b856-d68a565c9c2a))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9727ef59-e241-4c54-bf6d-3746069e955b"
-          (reference "R1B_N11L1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Regulator_Linear:LM337L_SO8") (at 141.605 95.885 0) (unit 1)
@@ -364,13 +357,6 @@
     (pin "6" (uuid 49e6bf35-c77d-4f63-9b5a-2359574fee46))
     (pin "7" (uuid ca18cfac-9249-42a4-95e6-770e923361e8))
     (pin "8" (uuid a40f42e6-8e6f-4210-925e-38b86ad8ed97))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9727ef59-e241-4c54-bf6d-3746069e955b"
-          (reference "POW1_N11L1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:C") (at 163.195 88.265 0) (unit 1)
@@ -402,13 +388,6 @@
     )
     (pin "1" (uuid 41162172-651e-49fa-a082-98f282e8fa6b))
     (pin "2" (uuid 6706a4e7-7721-416c-97e4-32eccd958333))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9727ef59-e241-4c54-bf6d-3746069e955b"
-          (reference "C2_N11L1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 153.67 90.17 0) (unit 1)
@@ -440,13 +419,6 @@
     )
     (pin "1" (uuid 784c54e6-fa78-4c80-9064-dfe00c4910fb))
     (pin "2" (uuid 214c2202-6716-4fb9-a025-98f39b1a6e05))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9727ef59-e241-4c54-bf6d-3746069e955b"
-          (reference "R2_N11L1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:C") (at 131.445 88.265 0) (unit 1)
@@ -478,13 +450,6 @@
     )
     (pin "1" (uuid 8bb7dfd0-257d-4df4-bf6d-46161da4aa26))
     (pin "2" (uuid 993a8fb9-f674-4188-ba43-5f132a23e97b))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9727ef59-e241-4c54-bf6d-3746069e955b"
-          (reference "C1_N11L1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 153.67 69.85 0) (unit 1)
@@ -516,12 +481,5 @@
     )
     (pin "1" (uuid 6d19f2af-2a9a-4d14-845b-45895ba8f0bc))
     (pin "2" (uuid 78e6d364-6679-4e0a-903d-08f2062dda87))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9727ef59-e241-4c54-bf6d-3746069e955b"
-          (reference "R1A_N11L1") (unit 1)
-        )
-      )
-    )
   )
 )

@@ -971,13 +971,6 @@
     (pin "4" (uuid a1243bf7-bbe0-4c91-9c00-aca9b1e1b278))
     (pin "5" (uuid c3862b63-123e-4320-8d7d-3d87dc8ae486))
     (pin "6" (uuid e2c6499d-6661-4830-b614-a98dee51e583))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "USB1_UM1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 107.95 114.3 270) (unit 1)
@@ -1009,13 +1002,6 @@
     )
     (pin "1" (uuid 81664af9-462f-46a5-802f-00f8517a88e8))
     (pin "2" (uuid bec9c6f2-85d8-4d83-a9fe-446da16b44f9))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "R1_UM1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 151.765 93.345 270) (unit 1)
@@ -1041,13 +1027,6 @@
     )
     (pin "1" (uuid 8b765251-8fff-4f7e-bf5f-a5b39e52dd97))
     (pin "2" (uuid 4fe5fee1-7524-46ef-8d0b-42e311e0417a))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "R2_UM1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:C") (at 138.43 72.39 0) (unit 1)
@@ -1073,13 +1052,6 @@
     )
     (pin "1" (uuid ec44398e-9d04-4dc3-b604-a8879240c0f3))
     (pin "2" (uuid 861910d4-e774-45be-900e-f7f9978bce2a))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "C1_UM1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Power_Protection:USBLC6-2P6") (at 131.445 114.935 0) (unit 1)
@@ -1109,13 +1081,6 @@
     (pin "4" (uuid 02909cfa-7b6b-45a6-8215-e18ed46d0a86))
     (pin "5" (uuid 0d8db922-16c2-4b90-86e0-fefdb176a735))
     (pin "6" (uuid 0829bc1a-77a1-4ae7-943e-c5caba893a94))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "ESD1_UM1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:LED") (at 189.23 74.93 90) (unit 1)
@@ -1147,13 +1112,6 @@
     )
     (pin "1" (uuid 0a8a0543-fe79-4a22-affd-431e9269c67f))
     (pin "2" (uuid e7f4c862-b667-4469-9ef9-d4106581ef83))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "D1_UM1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 151.765 100.965 270) (unit 1)
@@ -1179,13 +1137,6 @@
     )
     (pin "1" (uuid 63a044aa-0e75-4904-8ab0-31bc1bde0551))
     (pin "2" (uuid d9f88bc5-b1b0-440f-9c4f-d6cb8a6aad8a))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "R3_UM1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:LED") (at 197.485 74.93 90) (unit 1)
@@ -1217,13 +1168,6 @@
     )
     (pin "1" (uuid bdf345ec-d45a-482d-a2d5-75218e2fe58b))
     (pin "2" (uuid e2fd7b92-9571-4642-bc33-70b688ab9aba))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "D2_UM1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:C") (at 171.45 72.39 0) (unit 1)
@@ -1249,13 +1193,6 @@
     )
     (pin "1" (uuid b98eca1f-2a90-4071-8c41-61df949c0651))
     (pin "2" (uuid ebde7ff5-25c1-40a0-afb1-17c47f447fcc))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "C2_UM1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 189.23 67.31 0) (unit 1)
@@ -1287,13 +1224,6 @@
     )
     (pin "1" (uuid e21c73a9-775a-46d6-8357-2f397d68e9d9))
     (pin "2" (uuid 06d2faf6-1898-4b09-a544-d1d2fd5a6ef5))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "R4_UM1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:R") (at 197.485 67.31 0) (unit 1)
@@ -1325,13 +1255,6 @@
     )
     (pin "1" (uuid 51c1510b-02ad-4262-97f2-686ce08db736))
     (pin "2" (uuid a4b609eb-0340-4c55-9c25-f50b76a6d9f9))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "R5_UM1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Regulator_Linear:AP2112K-3.3") (at 156.21 66.04 0) (unit 1)
@@ -1360,12 +1283,5 @@
     (pin "3" (uuid 5a4097fb-385a-4e27-b572-983ff4019de5))
     (pin "4" (uuid 0f9e91f2-ad52-4103-8ad1-2599a6616d57))
     (pin "5" (uuid 414b6d01-49d4-41a7-81d1-6400759bfd0c))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
-          (reference "REG1_UM1") (unit 1)
-        )
-      )
-    )
   )
 )
