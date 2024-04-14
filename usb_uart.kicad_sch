@@ -428,5 +428,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8cb97292-bcb1-4a4f-a8ad-0f47e7a819bf))
+    (instances
+      (project "kicad_deps"
+        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/be62ad68-af47-4728-8ff9-0f4ef0b3810b"
+          (reference "#PWR025") (unit 1)
+        )
+      )
+    )
   )
 )
