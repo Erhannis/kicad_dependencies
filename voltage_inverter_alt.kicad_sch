@@ -1,611 +1,1579 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 04d59fc6-6528-45cf-a163-824e466bf155)
-
-  (paper "A4")
-
-  (title_block
-    (title "Voltage Inverter 3.5v-12v")
-    (comment 1 "A little wider range than the other")
-    (comment 2 "Also a little more complicated")
-  )
-
-  (lib_symbols
-    (symbol "Converter_DCDC:TC7662Bx0A" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at -6.35 11.43 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "TC7662Bx0A" (at 7.62 11.43 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 2.54 -2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21469a.pdf" (at 2.54 -2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "charge pump DC-to-DC converter" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Charge Pump DC-to-DC Converter, 1.5 - 15V, 100mA, SOIC-8" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "TC7662Bx0A_0_1"
-        (rectangle (start -7.62 10.16) (end 7.62 -10.16)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "TC7662Bx0A_1_1"
-        (pin input line (at -10.16 7.62 0) (length 2.54)
-          (name "BOOST" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 10.16 2.54 180) (length 2.54)
-          (name "CAP+" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 -12.7 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 10.16 -7.62 180) (length 2.54)
-          (name "CAP-" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at 10.16 7.62 180) (length 2.54)
-          (name "VOUT" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -10.16 -5.08 0) (length 2.54)
-          (name "LV" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -10.16 0 0) (length 2.54)
-          (name "OSC" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 12.7 270) (length 2.54)
-          (name "V+" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C" (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_0_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:D" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "D" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Sim.Device" "D" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Sim.Pins" "1=K 2=A" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "diode" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Diode" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "D_0_1"
-        (polyline
-          (pts
-            (xy -1.27 1.27)
-            (xy -1.27 -1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy -1.27 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 1.27)
-            (xy 1.27 -1.27)
-            (xy -1.27 0)
-            (xy 1.27 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "D_1_1"
-        (pin passive line (at -3.81 0 0) (length 2.54)
-          (name "K" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 0 180) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:D_Schottky" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "D_Schottky" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "diode Schottky" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Schottky diode" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "D_Schottky_0_1"
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy -1.27 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 1.27)
-            (xy 1.27 -1.27)
-            (xy -1.27 0)
-            (xy 1.27 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.905 0.635)
-            (xy -1.905 1.27)
-            (xy -1.27 1.27)
-            (xy -1.27 -1.27)
-            (xy -0.635 -1.27)
-            (xy -0.635 -0.635)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "D_Schottky_1_1"
-        (pin passive line (at -3.81 0 0) (length 2.54)
-          (name "K" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 0 180) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 121.92 88.265) (diameter 0) (color 0 0 0 0)
-    (uuid 05837a08-92ac-44b5-b1e0-add45a212bff)
-  )
-  (junction (at 154.305 67.945) (diameter 0) (color 0 0 0 0)
-    (uuid 20aac837-9de1-4cea-803d-6b9bfa0af1ee)
-  )
-  (junction (at 149.225 67.945) (diameter 0) (color 0 0 0 0)
-    (uuid 92ded16c-ef0b-4b67-bdb8-bc734fff47df)
-  )
-  (junction (at 135.255 83.185) (diameter 0) (color 0 0 0 0)
-    (uuid a04e28b4-6063-4c26-ad3f-0ac8486c267d)
-  )
-  (junction (at 121.92 59.69) (diameter 0) (color 0 0 0 0)
-    (uuid c86877d0-fd1b-4996-a469-e1c4fc74e7b2)
-  )
-  (junction (at 141.605 67.945) (diameter 0) (color 0 0 0 0)
-    (uuid fbf50f05-150f-48f5-9bab-61abe8c0c14f)
-  )
-
-  (no_connect (at 111.76 67.945) (uuid 9c112a60-a3c7-4f07-9ee1-83f02162fef4))
-  (no_connect (at 111.76 80.645) (uuid bc9ca4a7-6510-4012-9c0f-65009a1eaf65))
-  (no_connect (at 111.76 75.565) (uuid da518dea-1148-46cd-943a-02b07dedf398))
-
-  (wire (pts (xy 135.255 73.025) (xy 135.255 74.295))
-    (stroke (width 0) (type default))
-    (uuid 21d0f835-9995-4ebb-b45f-bc98320a40f9)
-  )
-  (wire (pts (xy 121.92 59.69) (xy 121.92 62.865))
-    (stroke (width 0) (type default))
-    (uuid 32beb17b-899a-489c-a965-3b2b9d0542f6)
-  )
-  (wire (pts (xy 121.92 90.805) (xy 121.92 88.265))
-    (stroke (width 0) (type default))
-    (uuid 343ee3a7-82d6-40b8-b958-3f83d023c808)
-  )
-  (wire (pts (xy 141.605 67.945) (xy 141.605 73.66))
-    (stroke (width 0) (type default))
-    (uuid 36dc6e35-00ea-41dc-9a1a-70ee5a8438c1)
-  )
-  (wire (pts (xy 149.225 67.945) (xy 154.305 67.945))
-    (stroke (width 0) (type default))
-    (uuid 3786c835-5f84-4b12-88a7-5381ccf921bf)
-  )
-  (wire (pts (xy 149.225 67.945) (xy 149.225 88.265))
-    (stroke (width 0) (type default))
-    (uuid 5392f17b-5c61-494a-9399-f7992d2916a7)
-  )
-  (wire (pts (xy 121.92 54.61) (xy 121.92 59.69))
-    (stroke (width 0) (type default))
-    (uuid 6ed2f12b-980d-4701-8fc0-0a475c53e8e4)
-  )
-  (wire (pts (xy 132.08 67.945) (xy 141.605 67.945))
-    (stroke (width 0) (type default))
-    (uuid 7feffbe1-ad28-443e-8c7b-7102e55d63c4)
-  )
-  (wire (pts (xy 139.065 88.265) (xy 149.225 88.265))
-    (stroke (width 0) (type default))
-    (uuid 88d43037-d118-433e-8a4d-0d25494b9f12)
-  )
-  (wire (pts (xy 141.605 67.945) (xy 149.225 67.945))
-    (stroke (width 0) (type default))
-    (uuid 8e146aae-7640-416b-a386-bc72736ab98f)
-  )
-  (wire (pts (xy 132.08 83.185) (xy 135.255 83.185))
-    (stroke (width 0) (type default))
-    (uuid a3b64869-0c95-4c92-a50a-58f1e3bacb15)
-  )
-  (wire (pts (xy 154.305 67.945) (xy 156.845 67.945))
-    (stroke (width 0) (type default))
-    (uuid be0036e1-691c-4e59-9943-a607ce76f558)
-  )
-  (wire (pts (xy 141.605 81.28) (xy 141.605 83.185))
-    (stroke (width 0) (type default))
-    (uuid cc51f931-3997-494d-abe4-8a3e3c23bfc5)
-  )
-  (wire (pts (xy 135.255 83.185) (xy 135.255 81.915))
-    (stroke (width 0) (type default))
-    (uuid e2773ed3-6e07-4863-9a54-a8d3f718bcaf)
-  )
-  (wire (pts (xy 141.605 83.185) (xy 135.255 83.185))
-    (stroke (width 0) (type default))
-    (uuid e9aa6588-65d3-4c80-a61d-38b163a89167)
-  )
-  (wire (pts (xy 121.92 88.265) (xy 131.445 88.265))
-    (stroke (width 0) (type default))
-    (uuid f605e713-0a90-4fbc-baf4-bff98ca8c985)
-  )
-  (wire (pts (xy 132.08 73.025) (xy 135.255 73.025))
-    (stroke (width 0) (type default))
-    (uuid fcf41e34-8726-4167-98c8-9970964f18d3)
-  )
-
-  (text_box "Configured for 3.5v-12v; see datasheet otherwise\n\nNote https://jlcpcb.com/partdetail/AnalogDevices-LTC3260EMSEPBF/C107823 can do 32v, but costs $6"
-    (at 73.025 97.79 0) (size 77.47 15.24)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (effects (font (size 1.27 1.27)) (justify left top))
-    (uuid 767f2c79-b087-4679-8a4c-6053036f81db)
-  )
-  (text_box "Datasheet doesn't mention this cap, but eh"
-    (at 96.52 47.625 0) (size 20.32 7.62)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (effects (font (size 1.27 1.27)) (justify left top))
-    (uuid b284abff-5cdd-4309-8fa7-408e5757e096)
-  )
-
-  (hierarchical_label "GND" (shape input) (at 154.305 60.325 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 52234fbd-6253-43c1-acd4-688eab87969f)
-  )
-  (hierarchical_label "GND" (shape input) (at 121.92 90.805 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 6aebed45-2e71-494f-8a8c-7ffc657326a5)
-  )
-  (hierarchical_label "GND" (shape input) (at 114.3 59.69 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 70cd153e-31bb-4a5d-bb6f-12178293aa54)
-  )
-  (hierarchical_label "V-" (shape output) (at 156.845 67.945 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 96cf71ec-2ec5-4d3a-b6f2-ffd428f48f9f)
-  )
-  (hierarchical_label "V+" (shape input) (at 121.92 54.61 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid a02b9c42-9d33-4b12-a4cc-ab6ed487be40)
-  )
-
-  (symbol (lib_id "Device:C") (at 154.305 64.135 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 688cf0f8-cf63-4136-82cc-6774318dac49)
-    (property "Reference" "C2_VIA1" (at 152.015 62.885 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10uF" (at 156.605 62.885 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 155.2702 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 154.305 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "CL21A106KOQNNNE" (at 154.305 64.135 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C1713" (at 154.305 64.135 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0134ca0b-2354-4eec-a799-1daf1e81b56a))
-    (pin "2" (uuid 3dcffe4c-bc6a-4e16-b50e-33131f9f30ce))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
-          (reference "C2_VIA1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 118.11 59.69 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c33da1fc-64ea-4d4c-8df4-bbbf8c274e92)
-    (property "Reference" "C3_VIA1" (at 116.86 61.98 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10uF" (at 116.86 57.39 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 121.92 58.7248 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 118.11 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "CL21A106KOQNNNE" (at 118.11 59.69 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C1713" (at 118.11 59.69 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 47842542-1631-4080-847f-ee8333e7150f))
-    (pin "2" (uuid f752d24c-77b3-405e-ad8b-49c84d5e29ba))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
-          (reference "C3_VIA1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:D_Schottky") (at 141.605 77.47 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d0b73c3d-9766-480e-979f-c72c6f0b6a78)
-    (property "Reference" "D1_VIA1" (at 144.78 76.5175 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "D_Schottky" (at 144.78 79.0575 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Diode_SMD:D_0402_1005Metric" (at 141.605 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 141.605 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "RB161QS-40T18R" (at 141.605 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C2837790" (at 141.605 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "40V Single 600mV@1A 1A 0402  Schottky Barrier Diodes (SBD) ROHS" (at 141.605 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "URL" "https://jlcpcb.com/partdetail/ROHMSemicon-RB161QS40T18R/C2837790" (at 141.605 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b69c6bbb-9170-4b97-b2bf-ca1ae6e2a962))
-    (pin "2" (uuid f84bea19-2eb8-49fb-a0a1-a770335636a6))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
-          (reference "D1_VIA1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:D") (at 135.255 88.265 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d8edda96-3959-4d50-8b15-ef9aad97cda2)
-    (property "Reference" "D2_VIA1" (at 135.255 82.55 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "D" (at 135.255 85.09 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_0805_2012Metric" (at 135.255 88.265 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 135.255 88.265 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 135.255 88.265 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 135.255 88.265 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "CD4148WSP" (at 135.255 88.265 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C109001" (at 135.255 88.265 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "75V 400mW 1.25V@100mA 4ns 150mA 0805  Switching Diode ROHS" (at 135.255 88.265 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "URL" "https://www.lcsc.com/product-detail/Switching-Diode_LIZ-Elec-LIZ-Elec-CD4148WSP_C109001.html" (at 135.255 88.265 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3966a2f3-b68f-41be-aaaf-87f5a32b7b45))
-    (pin "2" (uuid a990497d-b999-45ed-83ea-eabecf0e3a29))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
-          (reference "D2_VIA1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 135.255 78.105 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e17134dd-1cc3-4d8d-8ea5-8f0a56934c90)
-    (property "Reference" "C1_VIA1" (at 132.965 76.855 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10uF" (at 137.555 76.855 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 136.2202 81.915 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 135.255 78.105 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "CL21A106KOQNNNE" (at 135.255 78.105 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C1713" (at 135.255 78.105 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4f9c3492-276c-4b7d-bf2a-0b707dcdcb94))
-    (pin "2" (uuid bc09cadf-407c-42fd-a72a-e0c255dd37ab))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
-          (reference "C1_VIA1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Converter_DCDC:TC7662Bx0A") (at 121.92 75.565 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid fa472410-036d-4991-8920-22d363a8fd77)
-    (property "Reference" "POW1_VIA1" (at 123.8759 60.96 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TC7662Bx0A" (at 123.8759 63.5 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 124.46 78.105 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21469a.pdf" (at 124.46 78.105 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "ICL7660SCBAZ-T" (at 121.92 75.565 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C357815" (at 121.92 75.565 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Charge pump Fixed -12V~-1.5V 45mA 1.5V~12V SOP-8  DC-DC Converters ROHS" (at 121.92 75.565 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "URL" "https://jlcpcb.com/partdetail/RENESAS-ICL7660SCBAZT/C357815" (at 121.92 75.565 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 66638222-fd0a-4390-9faa-719792e6dab7))
-    (pin "2" (uuid ff88bc2f-fd9e-49c9-b172-8c359b74c601))
-    (pin "3" (uuid 3c798e33-0b82-490d-8c82-215c61587ade))
-    (pin "4" (uuid 6798acb8-a34a-4533-85da-a220a420a32d))
-    (pin "5" (uuid 019e3aab-4b92-4038-b52a-0b17713c7aa9))
-    (pin "6" (uuid 2734c071-08cd-4400-ab7a-a4d47f243070))
-    (pin "7" (uuid 9a49b48e-bffd-4076-a4de-be66e659942f))
-    (pin "8" (uuid 58a1e047-8aae-46c6-ace4-41a6c318d02b))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
-          (reference "POW1_VIA1") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "04d59fc6-6528-45cf-a163-824e466bf155")
+	(paper "A4")
+	(title_block
+		(title "Voltage Inverter 3.5v-12v")
+		(comment 1 "A little wider range than the other")
+		(comment 2 "Also a little more complicated")
+	)
+	(lib_symbols
+		(symbol "Converter_DCDC:TC7662Bx0A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TC7662Bx0A"
+				(at 7.62 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21469a.pdf"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Charge Pump DC-to-DC Converter, 1.5 - 15V, 100mA, SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "charge pump DC-to-DC converter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TC7662Bx0A_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TC7662Bx0A_1_1"
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "BOOST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "CAP+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "CAP-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "LV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "OSC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 121.92 88.265)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05837a08-92ac-44b5-b1e0-add45a212bff")
+	)
+	(junction
+		(at 154.305 67.945)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20aac837-9de1-4cea-803d-6b9bfa0af1ee")
+	)
+	(junction
+		(at 149.225 67.945)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92ded16c-ef0b-4b67-bdb8-bc734fff47df")
+	)
+	(junction
+		(at 135.255 83.185)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a04e28b4-6063-4c26-ad3f-0ac8486c267d")
+	)
+	(junction
+		(at 121.92 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c86877d0-fd1b-4996-a469-e1c4fc74e7b2")
+	)
+	(junction
+		(at 141.605 67.945)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbf50f05-150f-48f5-9bab-61abe8c0c14f")
+	)
+	(no_connect
+		(at 111.76 67.945)
+		(uuid "9c112a60-a3c7-4f07-9ee1-83f02162fef4")
+	)
+	(no_connect
+		(at 111.76 80.645)
+		(uuid "bc9ca4a7-6510-4012-9c0f-65009a1eaf65")
+	)
+	(no_connect
+		(at 111.76 75.565)
+		(uuid "da518dea-1148-46cd-943a-02b07dedf398")
+	)
+	(wire
+		(pts
+			(xy 135.255 73.025) (xy 135.255 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d0f835-9995-4ebb-b45f-bc98320a40f9")
+	)
+	(wire
+		(pts
+			(xy 121.92 59.69) (xy 121.92 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32beb17b-899a-489c-a965-3b2b9d0542f6")
+	)
+	(wire
+		(pts
+			(xy 121.92 90.805) (xy 121.92 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "343ee3a7-82d6-40b8-b958-3f83d023c808")
+	)
+	(wire
+		(pts
+			(xy 141.605 67.945) (xy 141.605 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36dc6e35-00ea-41dc-9a1a-70ee5a8438c1")
+	)
+	(wire
+		(pts
+			(xy 149.225 67.945) (xy 154.305 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3786c835-5f84-4b12-88a7-5381ccf921bf")
+	)
+	(wire
+		(pts
+			(xy 149.225 67.945) (xy 149.225 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5392f17b-5c61-494a-9399-f7992d2916a7")
+	)
+	(wire
+		(pts
+			(xy 121.92 54.61) (xy 121.92 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed2f12b-980d-4701-8fc0-0a475c53e8e4")
+	)
+	(wire
+		(pts
+			(xy 132.08 67.945) (xy 141.605 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7feffbe1-ad28-443e-8c7b-7102e55d63c4")
+	)
+	(wire
+		(pts
+			(xy 139.065 88.265) (xy 149.225 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88d43037-d118-433e-8a4d-0d25494b9f12")
+	)
+	(wire
+		(pts
+			(xy 141.605 67.945) (xy 149.225 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e146aae-7640-416b-a386-bc72736ab98f")
+	)
+	(wire
+		(pts
+			(xy 132.08 83.185) (xy 135.255 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b64869-0c95-4c92-a50a-58f1e3bacb15")
+	)
+	(wire
+		(pts
+			(xy 154.305 67.945) (xy 156.845 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be0036e1-691c-4e59-9943-a607ce76f558")
+	)
+	(wire
+		(pts
+			(xy 141.605 81.28) (xy 141.605 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc51f931-3997-494d-abe4-8a3e3c23bfc5")
+	)
+	(wire
+		(pts
+			(xy 135.255 83.185) (xy 135.255 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2773ed3-6e07-4863-9a54-a8d3f718bcaf")
+	)
+	(wire
+		(pts
+			(xy 141.605 83.185) (xy 135.255 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9aa6588-65d3-4c80-a61d-38b163a89167")
+	)
+	(wire
+		(pts
+			(xy 121.92 88.265) (xy 131.445 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f605e713-0a90-4fbc-baf4-bff98ca8c985")
+	)
+	(wire
+		(pts
+			(xy 132.08 73.025) (xy 135.255 73.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcf41e34-8726-4167-98c8-9970964f18d3")
+	)
+	(text_box "Configured for 3.5v-12v; see datasheet otherwise\n\nNote https://jlcpcb.com/partdetail/AnalogDevices-LTC3260EMSEPBF/C107823 can do 32v, but costs $6"
+		(exclude_from_sim no)
+		(at 73.025 97.79 0)
+		(size 77.47 15.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "767f2c79-b087-4679-8a4c-6053036f81db")
+	)
+	(text_box "Datasheet doesn't mention this cap, but eh"
+		(exclude_from_sim no)
+		(at 96.52 47.625 0)
+		(size 20.32 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b284abff-5cdd-4309-8fa7-408e5757e096")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 154.305 60.325 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52234fbd-6253-43c1-acd4-688eab87969f")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 121.92 90.805 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6aebed45-2e71-494f-8a8c-7ffc657326a5")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 114.3 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70cd153e-31bb-4a5d-bb6f-12178293aa54")
+	)
+	(hierarchical_label "V-"
+		(shape output)
+		(at 156.845 67.945 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96cf71ec-2ec5-4d3a-b6f2-ffd428f48f9f")
+	)
+	(hierarchical_label "V+"
+		(shape input)
+		(at 121.92 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a02b9c42-9d33-4b12-a4cc-ab6ed487be40")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 154.305 64.135 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "688cf0f8-cf63-4136-82cc-6774318dac49")
+		(property "Reference" "C2_VIA1"
+			(at 152.015 62.885 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 156.605 62.885 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 155.2702 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.305 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.305 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "CL21A106KOQNNNE"
+			(at 154.305 64.135 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1713"
+			(at 154.305 64.135 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0134ca0b-2354-4eec-a799-1daf1e81b56a")
+		)
+		(pin "2"
+			(uuid "3dcffe4c-bc6a-4e16-b50e-33131f9f30ce")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
+					(reference "C2_VIA1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 118.11 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c33da1fc-64ea-4d4c-8df4-bbbf8c274e92")
+		(property "Reference" "C3_VIA1"
+			(at 116.86 61.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 116.86 57.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 121.92 58.7248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "CL21A106KOQNNNE"
+			(at 118.11 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1713"
+			(at 118.11 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47842542-1631-4080-847f-ee8333e7150f")
+		)
+		(pin "2"
+			(uuid "f752d24c-77b3-405e-ad8b-49c84d5e29ba")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
+					(reference "C3_VIA1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 141.605 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0b73c3d-9766-480e-979f-c72c6f0b6a78")
+		(property "Reference" "D1_VIA1"
+			(at 144.78 76.5175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 144.78 79.0575 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+			(at 141.605 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 141.605 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V Single 600mV@1A 1A 0402  Schottky Barrier Diodes (SBD) ROHS"
+			(at 141.605 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "RB161QS-40T18R"
+			(at 141.605 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2837790"
+			(at 141.605 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/ROHMSemicon-RB161QS40T18R/C2837790"
+			(at 141.605 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b69c6bbb-9170-4b97-b2bf-ca1ae6e2a962")
+		)
+		(pin "2"
+			(uuid "f84bea19-2eb8-49fb-a0a1-a770335636a6")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
+					(reference "D1_VIA1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 135.255 88.265 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8edda96-3959-4d50-8b15-ef9aad97cda2")
+		(property "Reference" "D2_VIA1"
+			(at 135.255 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 135.255 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 135.255 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.255 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 400mW 1.25V@100mA 4ns 150mA 0805  Switching Diode ROHS"
+			(at 135.255 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 135.255 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 135.255 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "CD4148WSP"
+			(at 135.255 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C109001"
+			(at 135.255 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Switching-Diode_LIZ-Elec-LIZ-Elec-CD4148WSP_C109001.html"
+			(at 135.255 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3966a2f3-b68f-41be-aaaf-87f5a32b7b45")
+		)
+		(pin "2"
+			(uuid "a990497d-b999-45ed-83ea-eabecf0e3a29")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
+					(reference "D2_VIA1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.255 78.105 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e17134dd-1cc3-4d8d-8ea5-8f0a56934c90")
+		(property "Reference" "C1_VIA1"
+			(at 132.965 76.855 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 137.555 76.855 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 136.2202 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.255 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.255 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "CL21A106KOQNNNE"
+			(at 135.255 78.105 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1713"
+			(at 135.255 78.105 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f9c3492-276c-4b7d-bf2a-0b707dcdcb94")
+		)
+		(pin "2"
+			(uuid "bc09cadf-407c-42fd-a72a-e0c255dd37ab")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
+					(reference "C1_VIA1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Converter_DCDC:TC7662Bx0A")
+		(at 121.92 75.565 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa472410-036d-4991-8920-22d363a8fd77")
+		(property "Reference" "POW1_VIA1"
+			(at 123.8759 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TC7662Bx0A"
+			(at 123.8759 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 124.46 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21469a.pdf"
+			(at 124.46 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Charge pump Fixed -12V~-1.5V 45mA 1.5V~12V SOP-8  DC-DC Converters ROHS"
+			(at 121.92 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "ICL7660SCBAZ-T"
+			(at 121.92 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C357815"
+			(at 121.92 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/RENESAS-ICL7660SCBAZT/C357815"
+			(at 121.92 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66638222-fd0a-4390-9faa-719792e6dab7")
+		)
+		(pin "2"
+			(uuid "ff88bc2f-fd9e-49c9-b172-8c359b74c601")
+		)
+		(pin "3"
+			(uuid "3c798e33-0b82-490d-8c82-215c61587ade")
+		)
+		(pin "4"
+			(uuid "6798acb8-a34a-4533-85da-a220a420a32d")
+		)
+		(pin "5"
+			(uuid "019e3aab-4b92-4038-b52a-0b17713c7aa9")
+		)
+		(pin "6"
+			(uuid "2734c071-08cd-4400-ab7a-a4d47f243070")
+		)
+		(pin "7"
+			(uuid "9a49b48e-bffd-4076-a4de-be66e659942f")
+		)
+		(pin "8"
+			(uuid "58a1e047-8aae-46c6-ace4-41a6c318d02b")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/74d68ab0-d50a-4b8f-b812-a4c54dddafa8"
+					(reference "POW1_VIA1")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

@@ -1,853 +1,2012 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 06024836-3a68-494a-b3cf-63d4adf19f3c)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 2.032 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "R" (at 0 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at -1.778 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R res resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Transistor_FET:BSD235C" (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "Q" (at 5.08 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "BSD235C" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6" (at 2.54 0 0)
-        (effects (font (size 1.27 1.27) italic) hide)
-      )
-      (property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSD235C-DS-v02_04-EN.pdf?fileId=db3a30433580b371013585a2d0d53326" (at 5.08 2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "OptiMOS MOSFET complementary nmos pmos enhanced avalanche AEC Q101 super logic infineon" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "-0.53/+0.95A Id, -20/+20V Vds, P/N-Channel MOSFET, SOT-363, Infineon" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SOT?363*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "BSD235C_1_1"
-        (polyline
-          (pts
-            (xy 0.254 -1.905)
-            (xy 0.254 1.905)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.254 0)
-            (xy -2.54 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 -2.286)
-            (xy 0.762 -1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 -0.508)
-            (xy 0.762 0.508)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 1.27)
-            (xy 0.762 2.286)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 1.905)
-            (xy 2.54 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -2.54)
-            (xy 2.54 0)
-            (xy 0.762 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 1.778)
-            (xy 3.302 1.778)
-            (xy 3.302 -1.778)
-            (xy 0.762 -1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.016 0)
-            (xy 2.032 -0.381)
-            (xy 2.032 0.381)
-            (xy 1.016 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.794 0.508)
-            (xy 2.921 0.381)
-            (xy 3.683 0.381)
-            (xy 3.81 0.254)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.302 0.381)
-            (xy 2.921 -0.254)
-            (xy 3.683 -0.254)
-            (xy 3.302 0.381)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 1.651 0) (radius 2.794)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (circle (center 2.54 -1.778) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 2.54 1.778) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "SN" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 0 0) (length 2.54)
-          (name "GN" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 5.08 270) (length 2.54)
-          (name "DN" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "BSD235C_2_1"
-        (polyline
-          (pts
-            (xy 0.254 0)
-            (xy -2.54 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.254 1.905)
-            (xy 0.254 -1.905)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 -1.27)
-            (xy 0.762 -2.286)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 0.508)
-            (xy 0.762 -0.508)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 2.286)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.905)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 2.54)
-            (xy 2.54 0)
-            (xy 0.762 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 -1.778)
-            (xy 3.302 -1.778)
-            (xy 3.302 1.778)
-            (xy 0.762 1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.286 0)
-            (xy 1.27 -0.381)
-            (xy 1.27 0.381)
-            (xy 2.286 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.794 0.508)
-            (xy 2.921 0.381)
-            (xy 3.683 0.381)
-            (xy 3.81 0.254)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.302 0.381)
-            (xy 2.921 -0.254)
-            (xy 3.683 -0.254)
-            (xy 3.302 0.381)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 1.651 0) (radius 2.794)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (circle (center 2.54 -1.778) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 2.54 1.778) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "DP" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 5.08 270) (length 2.54)
-          (name "SP" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 0 0) (length 2.54)
-          (name "GP" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 106.045 78.105) (diameter 0) (color 0 0 0 0)
-    (uuid 6bebb95a-d483-4d8e-9e98-fe7e32a56bc4)
-  )
-  (junction (at 132.08 86.36) (diameter 0) (color 0 0 0 0)
-    (uuid 6cc0cf5b-7fe6-4bbd-af08-3615e09794d6)
-  )
-  (junction (at 146.05 104.14) (diameter 0) (color 0 0 0 0)
-    (uuid 98a3cad4-0ee7-417a-94d2-5c31e3b2f948)
-  )
-  (junction (at 113.665 78.105) (diameter 0) (color 0 0 0 0)
-    (uuid b183276d-6eae-45d5-b034-47ebd8db23b1)
-  )
-  (junction (at 166.37 112.395) (diameter 0) (color 0 0 0 0)
-    (uuid d3920582-dfbe-408e-9d70-f13e0666ab3c)
-  )
-  (junction (at 139.7 86.36) (diameter 0) (color 0 0 0 0)
-    (uuid f588be77-f3e5-43ac-937f-e01015eed7a9)
-  )
-  (junction (at 158.75 112.395) (diameter 0) (color 0 0 0 0)
-    (uuid ffb14f7f-dd31-44f9-8752-95f202a713fb)
-  )
-
-  (wire (pts (xy 139.7 86.36) (xy 139.7 88.9))
-    (stroke (width 0) (type default))
-    (uuid 0cf36dfd-3d1e-4860-a5dd-5dcb76c125f9)
-  )
-  (wire (pts (xy 139.7 104.14) (xy 139.7 99.06))
-    (stroke (width 0) (type default))
-    (uuid 174806a5-b10a-443f-b80c-a0495474f674)
-  )
-  (wire (pts (xy 139.7 104.14) (xy 146.05 104.14))
-    (stroke (width 0) (type default))
-    (uuid 1a940071-b8f0-4c19-b800-5469da3373c5)
-  )
-  (wire (pts (xy 98.425 78.105) (xy 106.045 78.105))
-    (stroke (width 0) (type default))
-    (uuid 1bda3c2f-6b0f-4e4a-8297-76fca55feed3)
-  )
-  (wire (pts (xy 106.045 71.755) (xy 106.045 78.105))
-    (stroke (width 0) (type default))
-    (uuid 1ec4802c-8e47-4735-ad09-c349d0975318)
-  )
-  (wire (pts (xy 113.665 78.105) (xy 113.665 80.645))
-    (stroke (width 0) (type default))
-    (uuid 385c7587-22af-445d-bfa8-13c6b5edc042)
-  )
-  (wire (pts (xy 113.665 64.77) (xy 113.665 66.675))
-    (stroke (width 0) (type default))
-    (uuid 4f52d20c-66e4-46fe-abc8-3a63cdfddbf9)
-  )
-  (wire (pts (xy 113.665 92.71) (xy 113.665 90.805))
-    (stroke (width 0) (type default))
-    (uuid 73cbea0e-58d7-47b3-b0ac-33d29a2ea657)
-  )
-  (wire (pts (xy 113.665 78.105) (xy 124.46 78.105))
-    (stroke (width 0) (type default))
-    (uuid 76c24ab1-8c8c-4aa5-8d4b-a76c1b90e60e)
-  )
-  (wire (pts (xy 166.37 125.095) (xy 166.37 130.175))
-    (stroke (width 0) (type default))
-    (uuid 8dc795d3-cde4-4c3b-ab99-c54e6952ad4e)
-  )
-  (wire (pts (xy 132.08 86.36) (xy 132.08 93.98))
-    (stroke (width 0) (type default))
-    (uuid 8fde5af2-6643-4f5c-8933-df395682be04)
-  )
-  (wire (pts (xy 146.05 104.14) (xy 151.13 104.14))
-    (stroke (width 0) (type default))
-    (uuid 907ed7c4-1d4d-421a-b46e-6ef9735888b5)
-  )
-  (wire (pts (xy 166.37 74.295) (xy 166.37 112.395))
-    (stroke (width 0) (type default))
-    (uuid 9fd95958-4eb5-4daa-ba5b-cde987127a97)
-  )
-  (wire (pts (xy 132.08 83.185) (xy 132.08 86.36))
-    (stroke (width 0) (type default))
-    (uuid a1d2232f-a91d-4a2b-ba01-9c059a4a4994)
-  )
-  (wire (pts (xy 158.75 109.22) (xy 158.75 112.395))
-    (stroke (width 0) (type default))
-    (uuid a40de7f6-56c5-4322-90c6-cb1d30ea4e19)
-  )
-  (wire (pts (xy 132.08 67.31) (xy 132.08 73.025))
-    (stroke (width 0) (type default))
-    (uuid bb65b353-4801-4884-b830-aa54c58ff722)
-  )
-  (wire (pts (xy 106.045 78.105) (xy 106.045 85.725))
-    (stroke (width 0) (type default))
-    (uuid bca6c67d-d275-4427-b21a-df7ef6737064)
-  )
-  (wire (pts (xy 158.75 112.395) (xy 158.75 120.015))
-    (stroke (width 0) (type default))
-    (uuid c62adc47-d794-4b98-a48e-907bde2da1db)
-  )
-  (wire (pts (xy 166.37 112.395) (xy 166.37 114.935))
-    (stroke (width 0) (type default))
-    (uuid d63666a2-0d5b-4fa7-b3f6-628f551d3fe1)
-  )
-  (wire (pts (xy 158.75 74.295) (xy 158.75 99.06))
-    (stroke (width 0) (type default))
-    (uuid d721ffae-7468-4fef-9727-71436eb36ea0)
-  )
-  (wire (pts (xy 139.7 67.31) (xy 139.7 86.36))
-    (stroke (width 0) (type default))
-    (uuid d895d2fe-1b91-4cb3-97ff-d2c00b179001)
-  )
-  (wire (pts (xy 113.665 76.835) (xy 113.665 78.105))
-    (stroke (width 0) (type default))
-    (uuid fe33c0d9-e3e6-4550-9462-22b16458fe6f)
-  )
-
-  (text_box "Special properties:\nHigh (non-ground) side, provides -V and disconnected, I think.\nA little slow for computers.\nInsensate to different +V, I think, so long as TRIG and TREF match, and are somewhat above 0V."
-    (at 19.685 27.94 0) (size 69.215 100.33)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (effects (font (size 1.27 1.27)) (justify left top))
-    (uuid d4b616b2-c0be-40d5-b072-8bb121bb0018)
-  )
-
-  (text "Wait...are the right two chips here even necessary??"
-    (at 154.305 140.335 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 3e3c47ff-ac96-4c78-96a9-0f9bda634537)
-  )
-  (text "According to simulation\nThis thing uses like, 1mw\nAnd switches in about 1ms"
-    (at 174.625 86.995 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid f5ad4e23-d543-43cf-a854-ab9ad37417f0)
-  )
-
-  (hierarchical_label "V_IN" (shape input) (at 166.37 74.295 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 4515d9b1-1d23-4639-b9c7-c2410f2f7d26)
-  )
-  (hierarchical_label "TRIG" (shape input) (at 98.425 78.105 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 797d97ce-8ea8-46bd-8d81-e9f30430f524)
-  )
-  (hierarchical_label "TREF" (shape input) (at 132.08 67.31 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 9c9404bb-0952-4b5f-8290-c584ed93844c)
-  )
-  (hierarchical_label "TREF" (shape input) (at 113.665 64.77 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid b2648383-8126-4e8a-9602-15f360973cc1)
-  )
-  (hierarchical_label "V_IN" (shape input) (at 139.7 67.31 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid c3394050-55d4-465f-b77d-0c1209998867)
-  )
-  (hierarchical_label "GND" (shape input) (at 146.05 111.76 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid ce998078-3e31-49f2-bc8b-d4db44dbfdfc)
-  )
-  (hierarchical_label "V_OUT" (shape output) (at 166.37 130.175 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid cfd16a56-6712-45e4-b14f-e8b497043a65)
-  )
-  (hierarchical_label "GND" (shape input) (at 158.75 74.295 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid ed52c0d1-781b-4410-aa9f-32393e2a082d)
-  )
-  (hierarchical_label "GND" (shape input) (at 113.665 92.71 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid f680c4e3-5628-451a-823c-3165b5d4640d)
-  )
-
-  (symbol (lib_id "Device:R") (at 135.89 86.36 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0b5aae10-ef54-481b-921f-5c439c1dd2cf)
-    (property "Reference" "R1_NHS1" (at 135.89 80.645 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "30k" (at 135.89 83.185 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 135.89 84.582 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 135.89 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "AECR0402F30K0K9" (at 135.89 86.36 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C352437" (at 135.89 86.36 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "63mW Thick Film Resistors ±100ppm/℃ ±1% 30kΩ 0402  Chip Resistor - Surface Mount ROHS" (at 135.89 86.36 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "URL" "https://jlcpcb.com/partdetail/Resi-AECR0402F30K0K9/C352437" (at 135.89 86.36 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b1350334-b297-4660-88da-bc5586ed283a))
-    (pin "2" (uuid ed60f6eb-0d3c-497c-812c-aa3e0eaac89c))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "R1_NHS1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 162.56 112.395 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 267a12f2-2d4d-487b-ab5e-c32c58cc49ac)
-    (property "Reference" "R3_NHS1" (at 162.56 106.68 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "30k" (at 162.56 109.22 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 162.56 110.617 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 162.56 112.395 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "AECR0402F30K0K9" (at 162.56 112.395 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C352437" (at 162.56 112.395 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "63mW Thick Film Resistors ±100ppm/℃ ±1% 30kΩ 0402  Chip Resistor - Surface Mount ROHS" (at 162.56 112.395 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "URL" "https://jlcpcb.com/partdetail/Resi-AECR0402F30K0K9/C352437" (at 162.56 112.395 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 87ff7de3-242e-4cbe-a18c-dd633aea1178))
-    (pin "2" (uuid 447f83cc-73ff-421f-beee-55ff8b5b04be))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "R3_NHS1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 146.05 107.95 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4ca6ce7f-f008-4a13-8a30-17815688eab7)
-    (property "Reference" "R2_NHS1" (at 144.145 106.68 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "50k" (at 144.145 109.22 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 144.272 107.95 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 146.05 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "RC0402FR-0749K9L" (at 146.05 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C137969" (at 146.05 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 49.9kΩ 0402  Chip Resistor - Surface Mount ROHS" (at 146.05 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "URL" "https://jlcpcb.com/partdetail/Yageo-RC0402FR0749K9L/C137969" (at 146.05 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Note" "Dunno why there's basically no 50k resistors??  But the exact value doesn't matter" (at 146.05 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0c4fb37a-a34a-45bc-9679-a9663457d8b1))
-    (pin "2" (uuid 00ae6a74-52ba-481c-9e93-9bd6f0ca400d))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "R2_NHS1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Transistor_FET:BSD235C") (at 111.125 71.755 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 60491e25-238d-44d4-94ea-2ba1196d587a)
-    (property "Reference" "Q1_NHS1" (at 117.475 70.485 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "BSD235C" (at 117.475 73.025 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6" (at 113.665 71.755 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSD235C-DS-v02_04-EN.pdf?fileId=db3a30433580b371013585a2d0d53326" (at 116.205 69.215 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "CJ3439KDW" (at 111.125 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C99824" (at 111.125 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "1PCSN-Channel&1PCSP-Channel SOT-323-6  MOSFETs ROHS" (at 111.125 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824" (at 111.125 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ca5439be-f35b-42a1-865d-012b795435af))
-    (pin "2" (uuid 1904d0bb-2854-4eda-a2c1-9ea539b2004e))
-    (pin "6" (uuid 810ab22c-3b29-463f-b243-94d159080174))
-    (pin "3" (uuid 9df5a702-ea49-459c-9647-512cd3b83de3))
-    (pin "4" (uuid d743269e-a7a6-4b45-9818-2942902b3b2f))
-    (pin "5" (uuid 3043d3a2-0830-4cc4-9440-fae7adf93089))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "Q1_NHS1") (unit 2)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Transistor_FET:BSD235C") (at 137.16 93.98 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6066f031-e1b5-4632-8726-b76f8ac81266)
-    (property "Reference" "Q2_NHS1" (at 143.51 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "BSD235C" (at 143.51 92.71 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6" (at 139.7 93.98 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSD235C-DS-v02_04-EN.pdf?fileId=db3a30433580b371013585a2d0d53326" (at 142.24 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "CJ3439KDW" (at 137.16 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C99824" (at 137.16 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "1PCSN-Channel&1PCSP-Channel SOT-323-6  MOSFETs ROHS" (at 137.16 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824" (at 137.16 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 804ab0e9-aedf-4bdb-954c-1d7e7700c39e))
-    (pin "2" (uuid 04ea20db-f8e8-4501-a2f1-d207c786544e))
-    (pin "6" (uuid 5094e2f5-9711-45a1-b2d8-e63b4a9d3dd0))
-    (pin "3" (uuid c3ebfe60-b4df-4d99-aad4-144cc67c77b5))
-    (pin "4" (uuid cc8d0f75-31cc-4825-b807-e8bf440329b4))
-    (pin "5" (uuid 3bf3877f-beb9-4233-8fd4-242734af68ff))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "Q2_NHS1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Transistor_FET:BSD235C") (at 111.125 85.725 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9ad19d7a-45fa-4c9a-90c3-5ed7d929a08c)
-    (property "Reference" "Q1_NHS1" (at 117.475 84.455 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "BSD235C" (at 117.475 86.995 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6" (at 113.665 85.725 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSD235C-DS-v02_04-EN.pdf?fileId=db3a30433580b371013585a2d0d53326" (at 116.205 83.185 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "CJ3439KDW" (at 111.125 85.725 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C99824" (at 111.125 85.725 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "1PCSN-Channel&1PCSP-Channel SOT-323-6  MOSFETs ROHS" (at 111.125 85.725 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824" (at 111.125 85.725 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b51134b2-b9cd-4514-a17f-e2f1279019ee))
-    (pin "2" (uuid 4dcc6e7e-3ee6-4e4d-accf-7edf57c419b4))
-    (pin "6" (uuid ff0c31bd-211c-4805-9820-ad6f7a601cf6))
-    (pin "3" (uuid c3ebfe60-b4df-4d99-aad4-144cc67c77b6))
-    (pin "4" (uuid cc8d0f75-31cc-4825-b807-e8bf440329b5))
-    (pin "5" (uuid 3bf3877f-beb9-4233-8fd4-242734af6900))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "Q1_NHS1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Transistor_FET:BSD235C") (at 156.21 104.14 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d4311e34-1928-4ee4-9a13-a039b7f4b29f)
-    (property "Reference" "Q3_NHS1" (at 162.56 102.87 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "BSD235C" (at 162.56 105.41 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6" (at 158.75 104.14 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSD235C-DS-v02_04-EN.pdf?fileId=db3a30433580b371013585a2d0d53326" (at 161.29 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "CJ3439KDW" (at 156.21 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C99824" (at 156.21 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "1PCSN-Channel&1PCSP-Channel SOT-323-6  MOSFETs ROHS" (at 156.21 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824" (at 156.21 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ca5439be-f35b-42a1-865d-012b795435b0))
-    (pin "2" (uuid 1904d0bb-2854-4eda-a2c1-9ea539b2004f))
-    (pin "6" (uuid 810ab22c-3b29-463f-b243-94d159080175))
-    (pin "3" (uuid f0bf048e-e384-4c26-a02b-c589d63465d2))
-    (pin "4" (uuid 1d03ec28-255c-4670-ac59-bc24ff214d66))
-    (pin "5" (uuid 75c2fb64-2649-4dd7-8171-a3cae8900411))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "Q3_NHS1") (unit 2)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Transistor_FET:BSD235C") (at 163.83 120.015 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f88f39b6-4932-419f-bbaf-d98149b4152a)
-    (property "Reference" "Q3_NHS1" (at 170.18 121.285 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "BSD235C" (at 170.18 118.745 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6" (at 166.37 120.015 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSD235C-DS-v02_04-EN.pdf?fileId=db3a30433580b371013585a2d0d53326" (at 168.91 122.555 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "CJ3439KDW" (at 163.83 120.015 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C99824" (at 163.83 120.015 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "1PCSN-Channel&1PCSP-Channel SOT-323-6  MOSFETs ROHS" (at 163.83 120.015 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824" (at 163.83 120.015 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f355aa6d-3f41-4a72-bd8f-73e05bdf702c))
-    (pin "2" (uuid 7368ea6e-025a-401c-9a1f-e3d82158b29d))
-    (pin "6" (uuid 7b8f050e-6087-4b83-9856-4f4d8d34ba3d))
-    (pin "3" (uuid c3ebfe60-b4df-4d99-aad4-144cc67c77b7))
-    (pin "4" (uuid cc8d0f75-31cc-4825-b807-e8bf440329b6))
-    (pin "5" (uuid 3bf3877f-beb9-4233-8fd4-242734af6901))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "Q3_NHS1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Transistor_FET:BSD235C") (at 129.54 78.105 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid fbb1793f-4a56-4af3-8ab2-d774d9d91c0c)
-    (property "Reference" "Q2_NHS1" (at 135.89 76.835 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "BSD235C" (at 135.89 79.375 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6" (at 132.08 78.105 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSD235C-DS-v02_04-EN.pdf?fileId=db3a30433580b371013585a2d0d53326" (at 134.62 75.565 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "CJ3439KDW" (at 129.54 78.105 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C99824" (at 129.54 78.105 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "1PCSN-Channel&1PCSP-Channel SOT-323-6  MOSFETs ROHS" (at 129.54 78.105 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824" (at 129.54 78.105 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ca5439be-f35b-42a1-865d-012b795435b1))
-    (pin "2" (uuid 1904d0bb-2854-4eda-a2c1-9ea539b20050))
-    (pin "6" (uuid 810ab22c-3b29-463f-b243-94d159080176))
-    (pin "3" (uuid 14c67af3-44b4-467d-89ae-f4bcdf0c3dd2))
-    (pin "4" (uuid 61f99ea0-1691-48a3-a4bb-96d1db3e258b))
-    (pin "5" (uuid 8f2b36ae-8253-4d1e-bf04-cbdad5bb997a))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
-          (reference "Q2_NHS1") (unit 2)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "06024836-3a68-494a-b3cf-63d4adf19f3c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_FET:BSD235C"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BSD235C"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSD235C-DS-v02_04-EN.pdf?fileId=db3a30433580b371013585a2d0d53326"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "-0.53/+0.95A Id, -20/+20V Vds, P/N-Channel MOSFET, SOT-363, Infineon"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "OptiMOS MOSFET complementary nmos pmos enhanced avalanche AEC Q101 super logic infineon"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?363*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BSD235C_1_1"
+				(polyline
+					(pts
+						(xy 0.254 -1.905) (xy 0.254 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.286) (xy 0.762 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -0.508) (xy 0.762 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy 0.762 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.905) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 -0.381) (xy 2.032 0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "SN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "GN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "DN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BSD235C_2_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.905) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 -0.381) (xy 1.27 0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "DP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "SP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "GP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 106.045 78.105)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bebb95a-d483-4d8e-9e98-fe7e32a56bc4")
+	)
+	(junction
+		(at 132.08 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cc0cf5b-7fe6-4bbd-af08-3615e09794d6")
+	)
+	(junction
+		(at 146.05 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98a3cad4-0ee7-417a-94d2-5c31e3b2f948")
+	)
+	(junction
+		(at 113.665 78.105)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b183276d-6eae-45d5-b034-47ebd8db23b1")
+	)
+	(junction
+		(at 166.37 112.395)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3920582-dfbe-408e-9d70-f13e0666ab3c")
+	)
+	(junction
+		(at 139.7 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f588be77-f3e5-43ac-937f-e01015eed7a9")
+	)
+	(junction
+		(at 158.75 112.395)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffb14f7f-dd31-44f9-8752-95f202a713fb")
+	)
+	(wire
+		(pts
+			(xy 139.7 86.36) (xy 139.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf36dfd-3d1e-4860-a5dd-5dcb76c125f9")
+	)
+	(wire
+		(pts
+			(xy 139.7 104.14) (xy 139.7 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "174806a5-b10a-443f-b80c-a0495474f674")
+	)
+	(wire
+		(pts
+			(xy 139.7 104.14) (xy 146.05 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a940071-b8f0-4c19-b800-5469da3373c5")
+	)
+	(wire
+		(pts
+			(xy 98.425 78.105) (xy 106.045 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bda3c2f-6b0f-4e4a-8297-76fca55feed3")
+	)
+	(wire
+		(pts
+			(xy 106.045 71.755) (xy 106.045 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ec4802c-8e47-4735-ad09-c349d0975318")
+	)
+	(wire
+		(pts
+			(xy 113.665 78.105) (xy 113.665 80.645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "385c7587-22af-445d-bfa8-13c6b5edc042")
+	)
+	(wire
+		(pts
+			(xy 113.665 64.77) (xy 113.665 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f52d20c-66e4-46fe-abc8-3a63cdfddbf9")
+	)
+	(wire
+		(pts
+			(xy 113.665 92.71) (xy 113.665 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73cbea0e-58d7-47b3-b0ac-33d29a2ea657")
+	)
+	(wire
+		(pts
+			(xy 113.665 78.105) (xy 124.46 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c24ab1-8c8c-4aa5-8d4b-a76c1b90e60e")
+	)
+	(wire
+		(pts
+			(xy 166.37 125.095) (xy 166.37 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc795d3-cde4-4c3b-ab99-c54e6952ad4e")
+	)
+	(wire
+		(pts
+			(xy 132.08 86.36) (xy 132.08 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fde5af2-6643-4f5c-8933-df395682be04")
+	)
+	(wire
+		(pts
+			(xy 146.05 104.14) (xy 151.13 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907ed7c4-1d4d-421a-b46e-6ef9735888b5")
+	)
+	(wire
+		(pts
+			(xy 166.37 74.295) (xy 166.37 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fd95958-4eb5-4daa-ba5b-cde987127a97")
+	)
+	(wire
+		(pts
+			(xy 132.08 83.185) (xy 132.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d2232f-a91d-4a2b-ba01-9c059a4a4994")
+	)
+	(wire
+		(pts
+			(xy 158.75 109.22) (xy 158.75 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a40de7f6-56c5-4322-90c6-cb1d30ea4e19")
+	)
+	(wire
+		(pts
+			(xy 132.08 67.31) (xy 132.08 73.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb65b353-4801-4884-b830-aa54c58ff722")
+	)
+	(wire
+		(pts
+			(xy 106.045 78.105) (xy 106.045 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bca6c67d-d275-4427-b21a-df7ef6737064")
+	)
+	(wire
+		(pts
+			(xy 158.75 112.395) (xy 158.75 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62adc47-d794-4b98-a48e-907bde2da1db")
+	)
+	(wire
+		(pts
+			(xy 166.37 112.395) (xy 166.37 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63666a2-0d5b-4fa7-b3f6-628f551d3fe1")
+	)
+	(wire
+		(pts
+			(xy 158.75 74.295) (xy 158.75 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d721ffae-7468-4fef-9727-71436eb36ea0")
+	)
+	(wire
+		(pts
+			(xy 139.7 67.31) (xy 139.7 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d895d2fe-1b91-4cb3-97ff-d2c00b179001")
+	)
+	(wire
+		(pts
+			(xy 113.665 76.835) (xy 113.665 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe33c0d9-e3e6-4550-9462-22b16458fe6f")
+	)
+	(text_box "Special properties:\nHigh (non-ground) side, provides -V and disconnected, I think.\nA little slow for computers.\nInsensate to different +V, I think, so long as TRIG and TREF match, and are somewhat above 0V."
+		(exclude_from_sim no)
+		(at 19.685 27.94 0)
+		(size 69.215 100.33)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d4b616b2-c0be-40d5-b072-8bb121bb0018")
+	)
+	(text "Wait...are the right two chips here even necessary??"
+		(exclude_from_sim no)
+		(at 154.305 140.335 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e3c47ff-ac96-4c78-96a9-0f9bda634537")
+	)
+	(text "According to simulation\nThis thing uses like, 1mw\nAnd switches in about 1ms"
+		(exclude_from_sim no)
+		(at 174.625 86.995 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5ad4e23-d543-43cf-a854-ab9ad37417f0")
+	)
+	(hierarchical_label "V_IN"
+		(shape input)
+		(at 166.37 74.295 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4515d9b1-1d23-4639-b9c7-c2410f2f7d26")
+	)
+	(hierarchical_label "TRIG"
+		(shape input)
+		(at 98.425 78.105 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "797d97ce-8ea8-46bd-8d81-e9f30430f524")
+	)
+	(hierarchical_label "TREF"
+		(shape input)
+		(at 132.08 67.31 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c9404bb-0952-4b5f-8290-c584ed93844c")
+	)
+	(hierarchical_label "TREF"
+		(shape input)
+		(at 113.665 64.77 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2648383-8126-4e8a-9602-15f360973cc1")
+	)
+	(hierarchical_label "V_IN"
+		(shape input)
+		(at 139.7 67.31 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3394050-55d4-465f-b77d-0c1209998867")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 146.05 111.76 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce998078-3e31-49f2-bc8b-d4db44dbfdfc")
+	)
+	(hierarchical_label "V_OUT"
+		(shape output)
+		(at 166.37 130.175 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cfd16a56-6712-45e4-b14f-e8b497043a65")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 158.75 74.295 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed52c0d1-781b-4410-aa9f-32393e2a082d")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 113.665 92.71 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f680c4e3-5628-451a-823c-3165b5d4640d")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 86.36 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b5aae10-ef54-481b-921f-5c439c1dd2cf")
+		(property "Reference" "R1_NHS1"
+			(at 135.89 80.645 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "30k"
+			(at 135.89 83.185 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 135.89 84.582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "63mW Thick Film Resistors ±100ppm/℃ ±1% 30kΩ 0402  Chip Resistor - Surface Mount ROHS"
+			(at 135.89 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "AECR0402F30K0K9"
+			(at 135.89 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C352437"
+			(at 135.89 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Resi-AECR0402F30K0K9/C352437"
+			(at 135.89 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1350334-b297-4660-88da-bc5586ed283a")
+		)
+		(pin "2"
+			(uuid "ed60f6eb-0d3c-497c-812c-aa3e0eaac89c")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
+					(reference "R1_NHS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 162.56 112.395 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "267a12f2-2d4d-487b-ab5e-c32c58cc49ac")
+		(property "Reference" "R3_NHS1"
+			(at 162.56 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "30k"
+			(at 162.56 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 162.56 110.617 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "63mW Thick Film Resistors ±100ppm/℃ ±1% 30kΩ 0402  Chip Resistor - Surface Mount ROHS"
+			(at 162.56 112.395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "AECR0402F30K0K9"
+			(at 162.56 112.395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C352437"
+			(at 162.56 112.395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Resi-AECR0402F30K0K9/C352437"
+			(at 162.56 112.395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87ff7de3-242e-4cbe-a18c-dd633aea1178")
+		)
+		(pin "2"
+			(uuid "447f83cc-73ff-421f-beee-55ff8b5b04be")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
+					(reference "R3_NHS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.05 107.95 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ca6ce7f-f008-4a13-8a30-17815688eab7")
+		(property "Reference" "R2_NHS1"
+			(at 144.145 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "50k"
+			(at 144.145 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 144.272 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 49.9kΩ 0402  Chip Resistor - Surface Mount ROHS"
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "RC0402FR-0749K9L"
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C137969"
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Yageo-RC0402FR0749K9L/C137969"
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "Dunno why there's basically no 50k resistors??  But the exact value doesn't matter"
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c4fb37a-a34a-45bc-9679-a9663457d8b1")
+		)
+		(pin "2"
+			(uuid "00ae6a74-52ba-481c-9e93-9bd6f0ca400d")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
+					(reference "R2_NHS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSD235C")
+		(at 111.125 71.755 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60491e25-238d-44d4-94ea-2ba1196d587a")
+		(property "Reference" "Q1_NHS1"
+			(at 117.475 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSD235C"
+			(at 117.475 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 113.665 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSD235C-DS-v02_04-EN.pdf?fileId=db3a30433580b371013585a2d0d53326"
+			(at 116.205 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1PCSN-Channel&1PCSP-Channel SOT-323-6  MOSFETs ROHS"
+			(at 111.125 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "CJ3439KDW"
+			(at 111.125 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C99824"
+			(at 111.125 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
+			(at 111.125 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca5439be-f35b-42a1-865d-012b795435af")
+		)
+		(pin "2"
+			(uuid "1904d0bb-2854-4eda-a2c1-9ea539b2004e")
+		)
+		(pin "6"
+			(uuid "810ab22c-3b29-463f-b243-94d159080174")
+		)
+		(pin "3"
+			(uuid "9df5a702-ea49-459c-9647-512cd3b83de3")
+		)
+		(pin "4"
+			(uuid "d743269e-a7a6-4b45-9818-2942902b3b2f")
+		)
+		(pin "5"
+			(uuid "3043d3a2-0830-4cc4-9440-fae7adf93089")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
+					(reference "Q1_NHS1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSD235C")
+		(at 137.16 93.98 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6066f031-e1b5-4632-8726-b76f8ac81266")
+		(property "Reference" "Q2_NHS1"
+			(at 143.51 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSD235C"
+			(at 143.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSD235C-DS-v02_04-EN.pdf?fileId=db3a30433580b371013585a2d0d53326"
+			(at 142.24 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1PCSN-Channel&1PCSP-Channel SOT-323-6  MOSFETs ROHS"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "CJ3439KDW"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C99824"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "804ab0e9-aedf-4bdb-954c-1d7e7700c39e")
+		)
+		(pin "2"
+			(uuid "04ea20db-f8e8-4501-a2f1-d207c786544e")
+		)
+		(pin "6"
+			(uuid "5094e2f5-9711-45a1-b2d8-e63b4a9d3dd0")
+		)
+		(pin "3"
+			(uuid "c3ebfe60-b4df-4d99-aad4-144cc67c77b5")
+		)
+		(pin "4"
+			(uuid "cc8d0f75-31cc-4825-b807-e8bf440329b4")
+		)
+		(pin "5"
+			(uuid "3bf3877f-beb9-4233-8fd4-242734af68ff")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
+					(reference "Q2_NHS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSD235C")
+		(at 111.125 85.725 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ad19d7a-45fa-4c9a-90c3-5ed7d929a08c")
+		(property "Reference" "Q1_NHS1"
+			(at 117.475 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSD235C"
+			(at 117.475 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 113.665 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSD235C-DS-v02_04-EN.pdf?fileId=db3a30433580b371013585a2d0d53326"
+			(at 116.205 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1PCSN-Channel&1PCSP-Channel SOT-323-6  MOSFETs ROHS"
+			(at 111.125 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "CJ3439KDW"
+			(at 111.125 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C99824"
+			(at 111.125 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
+			(at 111.125 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b51134b2-b9cd-4514-a17f-e2f1279019ee")
+		)
+		(pin "2"
+			(uuid "4dcc6e7e-3ee6-4e4d-accf-7edf57c419b4")
+		)
+		(pin "6"
+			(uuid "ff0c31bd-211c-4805-9820-ad6f7a601cf6")
+		)
+		(pin "3"
+			(uuid "c3ebfe60-b4df-4d99-aad4-144cc67c77b6")
+		)
+		(pin "4"
+			(uuid "cc8d0f75-31cc-4825-b807-e8bf440329b5")
+		)
+		(pin "5"
+			(uuid "3bf3877f-beb9-4233-8fd4-242734af6900")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
+					(reference "Q1_NHS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSD235C")
+		(at 156.21 104.14 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4311e34-1928-4ee4-9a13-a039b7f4b29f")
+		(property "Reference" "Q3_NHS1"
+			(at 162.56 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSD235C"
+			(at 162.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 158.75 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSD235C-DS-v02_04-EN.pdf?fileId=db3a30433580b371013585a2d0d53326"
+			(at 161.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1PCSN-Channel&1PCSP-Channel SOT-323-6  MOSFETs ROHS"
+			(at 156.21 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "CJ3439KDW"
+			(at 156.21 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C99824"
+			(at 156.21 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
+			(at 156.21 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca5439be-f35b-42a1-865d-012b795435b0")
+		)
+		(pin "2"
+			(uuid "1904d0bb-2854-4eda-a2c1-9ea539b2004f")
+		)
+		(pin "6"
+			(uuid "810ab22c-3b29-463f-b243-94d159080175")
+		)
+		(pin "3"
+			(uuid "f0bf048e-e384-4c26-a02b-c589d63465d2")
+		)
+		(pin "4"
+			(uuid "1d03ec28-255c-4670-ac59-bc24ff214d66")
+		)
+		(pin "5"
+			(uuid "75c2fb64-2649-4dd7-8171-a3cae8900411")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
+					(reference "Q3_NHS1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSD235C")
+		(at 163.83 120.015 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f88f39b6-4932-419f-bbaf-d98149b4152a")
+		(property "Reference" "Q3_NHS1"
+			(at 170.18 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSD235C"
+			(at 170.18 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 166.37 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSD235C-DS-v02_04-EN.pdf?fileId=db3a30433580b371013585a2d0d53326"
+			(at 168.91 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1PCSN-Channel&1PCSP-Channel SOT-323-6  MOSFETs ROHS"
+			(at 163.83 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "CJ3439KDW"
+			(at 163.83 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C99824"
+			(at 163.83 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
+			(at 163.83 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f355aa6d-3f41-4a72-bd8f-73e05bdf702c")
+		)
+		(pin "2"
+			(uuid "7368ea6e-025a-401c-9a1f-e3d82158b29d")
+		)
+		(pin "6"
+			(uuid "7b8f050e-6087-4b83-9856-4f4d8d34ba3d")
+		)
+		(pin "3"
+			(uuid "c3ebfe60-b4df-4d99-aad4-144cc67c77b7")
+		)
+		(pin "4"
+			(uuid "cc8d0f75-31cc-4825-b807-e8bf440329b6")
+		)
+		(pin "5"
+			(uuid "3bf3877f-beb9-4233-8fd4-242734af6901")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
+					(reference "Q3_NHS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSD235C")
+		(at 129.54 78.105 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbb1793f-4a56-4af3-8ab2-d774d9d91c0c")
+		(property "Reference" "Q2_NHS1"
+			(at 135.89 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSD235C"
+			(at 135.89 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 132.08 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSD235C-DS-v02_04-EN.pdf?fileId=db3a30433580b371013585a2d0d53326"
+			(at 134.62 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1PCSN-Channel&1PCSP-Channel SOT-323-6  MOSFETs ROHS"
+			(at 129.54 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "CJ3439KDW"
+			(at 129.54 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C99824"
+			(at 129.54 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
+			(at 129.54 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca5439be-f35b-42a1-865d-012b795435b1")
+		)
+		(pin "2"
+			(uuid "1904d0bb-2854-4eda-a2c1-9ea539b20050")
+		)
+		(pin "6"
+			(uuid "810ab22c-3b29-463f-b243-94d159080176")
+		)
+		(pin "3"
+			(uuid "14c67af3-44b4-467d-89ae-f4bcdf0c3dd2")
+		)
+		(pin "4"
+			(uuid "61f99ea0-1691-48a3-a4bb-96d1db3e258b")
+		)
+		(pin "5"
+			(uuid "8f2b36ae-8253-4d1e-bf04-cbdad5bb997a")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/1d127d81-a3fb-40c2-952d-eec070380527"
+					(reference "Q2_NHS1")
+					(unit 2)
+				)
+			)
+		)
+	)
 )

@@ -2,5 +2,6 @@
 *-backups/
 *~
 *-bak
+*.lck
 production/
 target/

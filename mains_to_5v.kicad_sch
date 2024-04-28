@@ -1,983 +1,2546 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid d6a4d981-f113-46ae-af85-493a100b4ff3)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C" (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_0_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Diode:ESD9B5.0ST5G" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "ESD9B5.0ST5G" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "Diode_SMD:D_SOD-923" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "diode TVS ESD" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "ESD protection diode, 5.0Vrwm, SOD-923" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "D*SOD?923*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "ESD9B5.0ST5G_0_1"
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy -1.27 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -1.27)
-            (xy 0 0)
-            (xy -2.54 1.27)
-            (xy -2.54 -1.27)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.508 1.27)
-            (xy 0 1.27)
-            (xy 0 -1.27)
-            (xy -0.508 -1.27)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 1.27)
-            (xy 2.54 -1.27)
-            (xy 0 0)
-            (xy 2.54 1.27)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "ESD9B5.0ST5G_1_1"
-        (pin passive line (at -3.81 0 0) (length 2.54)
-          (name "A1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 0 180) (length 2.54)
-          (name "A2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "easyeda2kicad:471KD10" (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "471KD10" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "easyeda2kicad:RES-TH_L12.5-W4.8-P7.50-D1.2-S3.40" (at 0 -7.62 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://lcsc.com/product-detail/Varistors_471KD10_C78346.html" (at 0 -10.16 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "LCSC Part" "C78346" (at 0 -12.7 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "471KD10_0_1"
-        (rectangle (start -2.54 1.02) (end 2.54 -1.02)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (polyline
-          (pts
-            (xy 1.52 2.03)
-            (xy -2.03 -1.78)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.02 2.03)
-            (xy 2.03 2.54)
-            (xy 1.52 1.52)
-            (xy 1.02 2.03)
-          )
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (pin unspecified line (at -5.08 0 0) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin unspecified line (at 5.08 0 180) (length 2.54)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "easyeda2kicad:5D-9_C332361" (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "5D-9_C332361" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "easyeda2kicad:RES-TH_L11.0-W5.5-P7.50-D0.8-S5.50" (at 0 -7.62 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://lcsc.com/product-detail/Others_Hongzhi-Elec-5D-9_C332361.html" (at 0 -10.16 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "LCSC Part" "C332361" (at 0 -12.7 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "5D-9_C332361_0_1"
-        (rectangle (start -2.54 1.02) (end 2.54 -1.02)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -1.52)
-            (xy -1.27 -1.52)
-            (xy 2.29 2.03)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (pin input line (at -5.08 0 0) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 5.08 0 180) (length 2.54)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "easyeda2kicad:EC03-S05_C2840800" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 0 7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "EC03-S05_C2840800" (at 0 -7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "easyeda2kicad:PWRM-TH_EC03-S05" (at 0 -10.16 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "LCSC Part" "C2840800" (at 0 -12.7 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "EC03-S05_C2840800_0_1"
-        (rectangle (start -10.16 5.08) (end 10.16 -5.08)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (circle (center -8.89 3.81) (radius 0.38)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (pin unspecified line (at -12.7 2.54 0) (length 2.54)
-          (name "AC(L)" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin unspecified line (at -12.7 -2.54 0) (length 2.54)
-          (name "AC(N)" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin unspecified line (at 12.7 -2.54 180) (length 2.54)
-          (name "-Vo" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin unspecified line (at 12.7 2.54 180) (length 2.54)
-          (name "+Vo" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "easyeda2kicad:Fusetransparentseat" (in_bom yes) (on_board yes)
-      (property "Reference" "F" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Fuse transparent seat" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "easyeda2kicad:FUSE-TH_L24.5-W9.8-P22.5" (at 0 -7.62 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://lcsc.com/product-detail/Fuseholders_Fuse-transparent-seat_C58066.html" (at 0 -10.16 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "LCSC Part" "C58066" (at 0 -12.7 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Fusetransparentseat_0_1"
-        (rectangle (start -8.89 2.54) (end 8.89 -2.54)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (rectangle (start -7.62 1.27) (end 7.62 -1.27)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (circle (center -6.35 0) (radius 0.64)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.81 1.27)
-            (xy -3.81 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.81 1.27)
-            (xy -3.81 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.81 1.27)
-            (xy 3.81 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 6.35 0) (radius 0.64)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (pin unspecified line (at -11.43 0 0) (length 5.08)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin unspecified line (at 11.43 0 180) (length 5.08)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "easyeda2kicad:UU9.8-20MH" (in_bom yes) (on_board yes)
-      (property "Reference" "L" (at 0 10.16 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "UU9.8-20MH" (at 0 -12.7 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "easyeda2kicad:FILTER-TH_4P-L17.0-W12.0-P7.00-D0.6-S8.00" (at 0 -15.24 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://lcsc.com/product-detail/Common-Mode-Chokes-Filters_Guangdong-Fenghua-Advanced-Tech-UU9-8-20mH_C164623.html" (at 0 -17.78 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "LCSC Part" "C164623" (at 0 -20.32 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "UU9.8-20MH_0_1"
-        (arc (start -5.08 2.539) (mid -3.81 1.27) (end -2.54 2.539)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center -3.81 -5.84) (radius 0.25)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center -3.81 3.81) (radius 0.25)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start -2.54 -5.079) (mid -3.81 -3.81) (end -5.08 -5.079)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start -2.54 2.539) (mid -1.27 1.27) (end 0 2.539)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 -5.079) (mid -1.27 -3.81) (end -2.54 -5.079)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 -7.62)
-            (xy -5.08 -5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 -2.54)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 0)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy -5.08 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -7.62)
-            (xy 2.54 -5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 5.08)
-            (xy 2.54 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 2.539) (mid 1.27 1.27) (end 2.54 2.539)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 2.54 -5.079) (mid 1.27 -3.81) (end 0 -5.079)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (pin unspecified line (at -10.16 5.08 0) (length 5.08)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin unspecified line (at 7.62 5.08 180) (length 5.08)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin unspecified line (at 7.62 -7.62 180) (length 5.08)
-          (name "3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin unspecified line (at -10.16 -7.62 0) (length 5.08)
-          (name "4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "easyeda2kicad:XY126V-5.0-2P" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 0 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "XY126V-5.0-2P" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "easyeda2kicad:CONN-TH_XY126V-5.0-2P" (at 0 -8.89 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://lcsc.com/product-detail/Screw-terminal_XY126V-5-0-2P_C557646.html" (at 0 -11.43 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "LCSC Part" "C557646" (at 0 -13.97 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "XY126V-5.0-2P_0_1"
-        (rectangle (start -2.54 3.81) (end 2.54 -3.81)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (circle (center -1.27 2.54) (radius 0.38)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (pin unspecified line (at -5.08 1.27 0) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin unspecified line (at -5.08 -1.27 0) (length 2.54)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 144.145 86.36) (diameter 0) (color 0 0 0 0)
-    (uuid 13426f0f-5224-4a9b-9fe8-30f55550bacc)
-  )
-  (junction (at 192.405 88.9) (diameter 0) (color 0 0 0 0)
-    (uuid 175ebac3-2cef-422d-bbed-9c707c2a2994)
-  )
-  (junction (at 198.12 88.9) (diameter 0) (color 0 0 0 0)
-    (uuid 268a2143-2b8d-483b-9010-a449e3f3fb68)
-  )
-  (junction (at 144.145 99.06) (diameter 0) (color 0 0 0 0)
-    (uuid 6a1dba83-be7e-462b-9638-38234fc92aca)
-  )
-  (junction (at 198.12 96.52) (diameter 0) (color 0 0 0 0)
-    (uuid 6b908794-b599-487d-9bd4-b911cc686e41)
-  )
-  (junction (at 131.445 86.36) (diameter 0) (color 0 0 0 0)
-    (uuid a43e4212-1ff5-4976-82d5-e0448865a295)
-  )
-  (junction (at 131.445 99.06) (diameter 0) (color 0 0 0 0)
-    (uuid e64402a4-02c8-470c-81f3-1c7efa34e169)
-  )
-  (junction (at 192.405 96.52) (diameter 0) (color 0 0 0 0)
-    (uuid ffa75392-a47b-434b-a605-95d23dc1d5fc)
-  )
-
-  (wire (pts (xy 162.56 95.25) (xy 162.56 99.06))
-    (stroke (width 0) (type default))
-    (uuid 05b75317-1530-42c3-872e-4c7d6ed5599b)
-  )
-  (wire (pts (xy 95.25 93.98) (xy 95.25 99.06))
-    (stroke (width 0) (type default))
-    (uuid 077c94ec-a383-4e2a-a4e1-bdd22be64b3c)
-  )
-  (wire (pts (xy 198.12 88.9) (xy 202.565 88.9))
-    (stroke (width 0) (type default))
-    (uuid 14a02d35-3f3b-4072-9174-c56ccf0cd2e3)
-  )
-  (wire (pts (xy 162.56 86.36) (xy 162.56 90.17))
-    (stroke (width 0) (type default))
-    (uuid 21accdd6-bf59-4dfb-9fbe-05071b896231)
-  )
-  (wire (pts (xy 131.445 86.36) (xy 131.445 87.63))
-    (stroke (width 0) (type default))
-    (uuid 3023aae3-a10f-47e9-be27-7dae38bc973f)
-  )
-  (wire (pts (xy 187.96 95.25) (xy 187.96 96.52))
-    (stroke (width 0) (type default))
-    (uuid 30a520ab-a26c-4bee-9434-ab4ac2600320)
-  )
-  (wire (pts (xy 95.25 99.06) (xy 131.445 99.06))
-    (stroke (width 0) (type default))
-    (uuid 4441d5b3-e2de-4bc5-935a-326fc992b7da)
-  )
-  (wire (pts (xy 198.12 96.52) (xy 202.565 96.52))
-    (stroke (width 0) (type default))
-    (uuid 472e03b8-b78b-4136-8801-2cdaf29d49c8)
-  )
-  (wire (pts (xy 187.96 88.9) (xy 192.405 88.9))
-    (stroke (width 0) (type default))
-    (uuid 5303e796-ffaa-4c47-a7b9-56887b735f08)
-  )
-  (wire (pts (xy 144.78 86.36) (xy 144.145 86.36))
-    (stroke (width 0) (type default))
-    (uuid 5a07ac82-9cf6-44a5-a3c9-5142a791e60b)
-  )
-  (wire (pts (xy 187.96 90.17) (xy 187.96 88.9))
-    (stroke (width 0) (type default))
-    (uuid 61fb8ee4-071c-4d42-affa-63ad3361ff62)
-  )
-  (wire (pts (xy 144.78 99.06) (xy 144.145 99.06))
-    (stroke (width 0) (type default))
-    (uuid 691e8a63-1915-4699-affd-0a78eaf61802)
-  )
-  (wire (pts (xy 121.285 86.36) (xy 120.015 86.36))
-    (stroke (width 0) (type default))
-    (uuid 7f18274e-ef16-4c54-8da4-ce7f651281c2)
-  )
-  (wire (pts (xy 192.405 88.9) (xy 198.12 88.9))
-    (stroke (width 0) (type default))
-    (uuid 822234bc-c5e0-4b62-85ad-9683fdba5e01)
-  )
-  (wire (pts (xy 144.145 96.52) (xy 144.145 99.06))
-    (stroke (width 0) (type default))
-    (uuid 824f34c1-0d01-43af-b8d2-db7707dd60c7)
-  )
-  (wire (pts (xy 144.145 86.36) (xy 131.445 86.36))
-    (stroke (width 0) (type default))
-    (uuid aa4e9f59-0fb5-4a12-8c49-05401eaa2b85)
-  )
-  (wire (pts (xy 192.405 96.52) (xy 198.12 96.52))
-    (stroke (width 0) (type default))
-    (uuid aa96c119-faa7-49f4-907b-06cd35e60163)
-  )
-  (wire (pts (xy 187.96 96.52) (xy 192.405 96.52))
-    (stroke (width 0) (type default))
-    (uuid ab3e9a0e-e94d-41a0-b5b9-7c269e52df26)
-  )
-  (wire (pts (xy 95.25 86.36) (xy 97.155 86.36))
-    (stroke (width 0) (type default))
-    (uuid d21d4f7e-6555-4878-8a3a-20ba5c18df23)
-  )
-  (wire (pts (xy 131.445 99.06) (xy 131.445 97.79))
-    (stroke (width 0) (type default))
-    (uuid d735e4ea-6e3c-4efe-a7ac-1cad5e929c22)
-  )
-  (wire (pts (xy 144.145 99.06) (xy 131.445 99.06))
-    (stroke (width 0) (type default))
-    (uuid de388399-270f-4157-88de-ee3d6ee9167c)
-  )
-  (wire (pts (xy 95.25 86.36) (xy 95.25 91.44))
-    (stroke (width 0) (type default))
-    (uuid ec53d3aa-c1ee-4da2-a954-3704e0049f32)
-  )
-  (wire (pts (xy 144.145 86.36) (xy 144.145 88.9))
-    (stroke (width 0) (type default))
-    (uuid fb8d6b6a-e4ef-4c2f-b1bf-9d54eeca037f)
-  )
-
-  (text_box "WARNING: While I have scrupulously taken this design from the datasheet for the power module ( https://jlcpcb.com/partdetail/Endrive-EC03S05/C2840800 ), I have not yet even tested it, and have no formal electronics training.  A bad mains-voltage circuit could kill you or burn down your house.  Please do not die, please do not kill anybody else, please do not burn down a house, and please don't blame me if any of those things happen.  Test the circuit yourself and rely on your own evaluation of it, not mine."
-    (at 89.535 115.57 0) (size 118.745 42.545)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (effects (font (size 2.5 2.5)) (justify left top))
-    (uuid 5ee04abd-d793-4cba-83ca-032fef58bada)
-  )
-
-  (text "AC in" (at 86.995 86.36 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 37b09893-7d95-4d8a-b472-457727b852a3)
-  )
-  (text "//THINK Should I expose HOT/NEUTRAL as sheet inputs, and have the socket separate?"
-    (at 59.055 103.505 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 704b3fab-5729-4664-9404-58536416757a)
-  )
-  (text "AC/DC module" (at 169.545 82.55 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 753ad778-5761-4194-af5d-f56013493b5b)
-  )
-  (text "More circuit protection" (at 189.865 83.185 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 90c9b3ee-08a6-4021-9c6f-4609151b06b6)
-  )
-  (text "Circuit protection" (at 114.3 75.565 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e1929c8c-accb-45be-bfa1-89d306646834)
-  )
-  (text "Noise reduction" (at 144.78 80.01 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid fb719c08-fefb-4e54-93a1-722e1918f9b5)
-  )
-
-  (label "HOT" (at 95.25 91.44 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 0bfd46dc-65c7-4344-83b0-be713ea29ec3)
-  )
-  (label "NEUTRAL" (at 95.25 93.98 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 3217e874-859b-4698-8a54-8b860bbaeb34)
-  )
-
-  (hierarchical_label "+5V" (shape output) (at 202.565 88.9 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 3e12df28-f750-447e-b686-6dfa3ce45734)
-  )
-  (hierarchical_label "GND" (shape output) (at 202.565 96.52 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 78dc6049-df06-4fbc-aa3d-54f991ff43f9)
-  )
-
-  (symbol (lib_id "easyeda2kicad:UU9.8-20MH") (at 154.94 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 10192923-03cc-4926-acd8-97f10ecdd80b)
-    (property "Reference" "L1_M5V1" (at 153.67 81.915 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "UU9.8-20MH" (at 153.67 84.455 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "easyeda2kicad:FILTER-TH_4P-L17.0-W12.0-P7.00-D0.6-S8.00" (at 154.94 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://lcsc.com/product-detail/Common-Mode-Chokes-Filters_Guangdong-Fenghua-Advanced-Tech-UU9-8-20mH_C164623.html" (at 154.94 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part" "C164623" (at 154.94 111.76 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8c5599dc-751c-42d9-9532-20668576a97a))
-    (pin "2" (uuid 46edfe22-ade8-46d4-b960-45cce8bf3968))
-    (pin "3" (uuid 41b2d325-4300-40e5-adee-71f81b84bc0d))
-    (pin "4" (uuid b32e09ad-df2f-47c8-b8f5-7be4b249cf9d))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
-          (reference "L1_M5V1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "easyeda2kicad:Fusetransparentseat") (at 108.585 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 14d10df9-fdc5-4984-9dc3-3230046e8d13)
-    (property "Reference" "F1_M5V1" (at 108.585 78.74 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Fuse transparent seat" (at 108.585 81.28 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "easyeda2kicad:FUSE-TH_L24.5-W9.8-P22.5" (at 108.585 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://lcsc.com/product-detail/Fuseholders_Fuse-transparent-seat_C58066.html" (at 108.585 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "C58066" (at 108.585 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C58066" (at 108.585 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "-  Fuse Holders ROHS" (at 108.585 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "URL" "https://jlcpcb.com/partdetail/XuchengElec-C58066/C58066" (at 108.585 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 946be747-56a2-4cce-9e59-c19f86e32851))
-    (pin "2" (uuid 86221a67-d4c7-4769-8709-edc1096c2fc4))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
-          (reference "F1_M5V1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "easyeda2kicad:5D-9_C332361") (at 126.365 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1af673ab-0591-49b8-93d2-559687f3adfd)
-    (property "Reference" "R1_M5V1" (at 126.365 79.375 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "5D-9_C332361" (at 126.365 81.915 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "easyeda2kicad:RES-TH_L11.0-W5.5-P7.50-D0.8-S5.50" (at 126.365 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://lcsc.com/product-detail/Others_Hongzhi-Elec-5D-9_C332361.html" (at 126.365 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "5D-9" (at 126.365 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C332361" (at 126.365 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "5Ω 3A 2700K Plugin,P=7.5mm  NTC Thermistors ROHS" (at 126.365 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "URL" "https://jlcpcb.com/partdetail/HongzhiElec-5D9/C332361" (at 126.365 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 318e763b-8641-46bb-b520-27184c942719))
-    (pin "2" (uuid e5c7db04-54da-453c-b115-c0adb8c40863))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
-          (reference "R1_M5V1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "easyeda2kicad:471KD10") (at 131.445 92.71 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 24b830f8-8003-43ba-a823-5b5b8936e928)
-    (property "Reference" "R2_M5V1" (at 134.62 91.44 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "471KD10" (at 134.62 93.98 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "easyeda2kicad:RES-TH_L12.5-W4.8-P7.50-D1.2-S3.40" (at 123.825 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://lcsc.com/product-detail/Varistors_471KD10_C78346.html" (at 121.285 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "471KD10" (at 118.745 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C78346" (at 131.445 92.71 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "775V 385V 300V 470V Plugin  Varistors ROHS" (at 131.445 92.71 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "URL" "https://jlcpcb.com/partdetail/Brightking-471KD10/C78346" (at 131.445 92.71 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5fa8bcb3-d2c2-4f20-9ff0-961acab9615e))
-    (pin "2" (uuid 3d5a416e-4b66-4ef7-b275-b825f01df4dd))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
-          (reference "R2_M5V1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 144.145 92.71 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2d72aacc-52c7-454a-881d-b4be76a884c0)
-    (property "Reference" "C1_M5V1" (at 147.32 91.44 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100nF/275V" (at 147.32 93.98 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_THT:C_Rect_L13.0mm_W6.0mm_P10.00mm_FKS3_FKP3_MKS4" (at 145.1102 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 144.145 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "MPX104K31C3KN15600" (at 144.145 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C489079" (at 144.145 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "100nF ±10% X2 Plugin,P=10mm  Suppression Capacitors ROHS" (at 144.145 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "URL" "https://jlcpcb.com/partdetail/Knscha-MPX104K31C3KN15600/C489079" (at 144.145 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2ca38b78-cfad-42eb-b93d-ee5a8ab225bf))
-    (pin "2" (uuid 453e18ba-5b20-454b-b357-98fc8f4c91e9))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
-          (reference "C1_M5V1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "easyeda2kicad:EC03-S05_C2840800") (at 175.26 92.71 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7a530e73-c6d3-43e3-be08-25e2e1822884)
-    (property "Reference" "U1_M5V1" (at 175.26 102.87 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "EC03-S05_C2840800" (at 175.26 100.33 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "easyeda2kicad:PWRM-TH_EC03-S05" (at 175.26 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 175.26 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "EC03-S05" (at 175.26 105.41 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C2840800" (at 175.26 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "5V 85VAC~264VAC 600mA 120V~370V 3W AC-DC 75% Plugin  Power Modules ROHS" (at 175.26 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "URL" "https://jlcpcb.com/partdetail/Endrive-EC03S05/C2840800" (at 175.26 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bad1091d-1f40-4917-8517-cda6727c03e0))
-    (pin "2" (uuid 30e5ef4c-9656-4abc-b5a7-8385007e4a7c))
-    (pin "3" (uuid b9324de4-a83e-462e-94b8-b0e82f4e1f7b))
-    (pin "5" (uuid 134fc2a0-91a8-47e9-8057-5b56809813f2))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
-          (reference "U1_M5V1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "easyeda2kicad:XY126V-5.0-2P") (at 90.17 92.71 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a66209c2-4514-4824-ac3b-396b6269d6c4)
-    (property "Reference" "J1_M5V1" (at 86.36 93.98 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "XY126V-5.0-2P" (at 86.36 91.44 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "easyeda2kicad:CONN-TH_XY126V-5.0-2P" (at 90.17 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://lcsc.com/product-detail/Screw-terminal_XY126V-5-0-2P_C557646.html" (at 90.17 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "XY126V-5.0-2P" (at 90.17 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C557646" (at 90.17 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "1x2P 10A 300V Green 14~26 Straight 5mm 2.5 1 2 Plugin,P=5mm  Screw terminal ROHS" (at 90.17 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "URL" "https://jlcpcb.com/partdetail/Ningbo_Xinlaiya_elec-XY126V_5_02P/C557646" (at 90.17 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f93c864b-6d0b-4705-b1a3-1e5ce2f5a8a3))
-    (pin "2" (uuid a7abd9eb-2baf-42c1-95b8-835847800286))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
-          (reference "J1_M5V1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:ESD9B5.0ST5G") (at 198.12 92.71 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a8012a90-e51e-415b-bfb9-ac4e0d4e910c)
-    (property "Reference" "D1_M5V1" (at 200.66 91.44 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "ESD9B5.0ST5G" (at 200.66 93.98 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_SOD-923" (at 198.12 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF" (at 198.12 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "ESD9B5.0ST5G" (at 198.12 92.71 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C3021104" (at 198.12 92.71 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "SOD-923  ESD Protection Devices ROHS" (at 198.12 92.71 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "URL" "https://jlcpcb.com/partdetail/TechPublic-ESD9B50ST5G/C3021104" (at 198.12 92.71 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6cd85c08-afe9-4608-8dd8-a4a7eb81df0c))
-    (pin "2" (uuid c586e678-8af6-4e7b-9e2b-cdd805a80d68))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
-          (reference "D1_M5V1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 192.405 92.71 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid aff0c84d-4a7f-467b-81b8-0f3470851b78)
-    (property "Reference" "C2_M5V1" (at 194.695 93.96 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10uF" (at 190.105 93.96 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 191.4398 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 192.405 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "CL21A106KOQNNNE" (at 192.405 92.71 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C1713" (at 192.405 92.71 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a143854c-cd1f-463b-a09f-ba17080c872e))
-    (pin "2" (uuid 3fb099c1-6d73-46e4-94f9-7a466c295899))
-    (instances
-      (project "kicad_deps"
-        (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
-          (reference "C2_M5V1") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d6a4d981-f113-46ae-af85-493a100b4ff3")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:ESD9B5.0ST5G"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESD9B5.0ST5G"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-923"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS ESD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?923*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESD9B5.0ST5G_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESD9B5.0ST5G_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:471KD10"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "471KD10"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:RES-TH_L12.5-W4.8-P7.50-D1.2-S3.40"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Varistors_471KD10_C78346.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C78346"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "471KD10_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.52 2.03) (xy -2.03 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.02 2.03) (xy 2.03 2.54) (xy 1.52 1.52) (xy 1.02 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:5D-9_C332361"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "5D-9_C332361"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:RES-TH_L11.0-W5.5-P7.50-D0.8-S5.50"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_Hongzhi-Elec-5D-9_C332361.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C332361"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5D-9_C332361_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.52) (xy -1.27 -1.52) (xy 2.29 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:EC03-S05_C2840800"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "EC03-S05_C2840800"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:PWRM-TH_EC03-S05"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2840800"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "EC03-S05_C2840800_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -8.89 3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "AC(L)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "AC(N)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "-Vo"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "+Vo"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:Fusetransparentseat"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse transparent seat"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:FUSE-TH_L24.5-W9.8-P22.5"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Fuseholders_Fuse-transparent-seat_C58066.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C58066"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fusetransparentseat_0_1"
+				(rectangle
+					(start -8.89 2.54)
+					(end 8.89 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -7.62 1.27)
+					(end 7.62 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -6.35 0)
+					(radius 0.64)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 0)
+					(radius 0.64)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:UU9.8-20MH"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "UU9.8-20MH"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:FILTER-TH_4P-L17.0-W12.0-P7.00-D0.6-S8.00"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Common-Mode-Chokes-Filters_Guangdong-Fenghua-Advanced-Tech-UU9-8-20mH_C164623.html"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C164623"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "UU9.8-20MH_0_1"
+				(arc
+					(start -5.08 2.539)
+					(mid -3.81 1.27)
+					(end -2.54 2.539)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 -5.84)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 3.81)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -5.079)
+					(mid -3.81 -3.81)
+					(end -5.08 -5.079)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.539)
+					(mid -1.27 1.27)
+					(end 0 2.539)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.079)
+					(mid -1.27 -3.81)
+					(end -2.54 -5.079)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -7.62) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.539)
+					(mid 1.27 1.27)
+					(end 2.54 2.539)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -5.079)
+					(mid 1.27 -3.81)
+					(end 0 -5.079)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 5.08 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -7.62 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:XY126V-5.0-2P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XY126V-5.0-2P"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:CONN-TH_XY126V-5.0-2P"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Screw-terminal_XY126V-5-0-2P_C557646.html"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C557646"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XY126V-5.0-2P_0_1"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 144.145 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13426f0f-5224-4a9b-9fe8-30f55550bacc")
+	)
+	(junction
+		(at 192.405 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "175ebac3-2cef-422d-bbed-9c707c2a2994")
+	)
+	(junction
+		(at 198.12 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "268a2143-2b8d-483b-9010-a449e3f3fb68")
+	)
+	(junction
+		(at 144.145 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a1dba83-be7e-462b-9638-38234fc92aca")
+	)
+	(junction
+		(at 198.12 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b908794-b599-487d-9bd4-b911cc686e41")
+	)
+	(junction
+		(at 131.445 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a43e4212-1ff5-4976-82d5-e0448865a295")
+	)
+	(junction
+		(at 131.445 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e64402a4-02c8-470c-81f3-1c7efa34e169")
+	)
+	(junction
+		(at 192.405 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffa75392-a47b-434b-a605-95d23dc1d5fc")
+	)
+	(wire
+		(pts
+			(xy 162.56 95.25) (xy 162.56 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05b75317-1530-42c3-872e-4c7d6ed5599b")
+	)
+	(wire
+		(pts
+			(xy 95.25 93.98) (xy 95.25 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "077c94ec-a383-4e2a-a4e1-bdd22be64b3c")
+	)
+	(wire
+		(pts
+			(xy 198.12 88.9) (xy 202.565 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14a02d35-3f3b-4072-9174-c56ccf0cd2e3")
+	)
+	(wire
+		(pts
+			(xy 162.56 86.36) (xy 162.56 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21accdd6-bf59-4dfb-9fbe-05071b896231")
+	)
+	(wire
+		(pts
+			(xy 131.445 86.36) (xy 131.445 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3023aae3-a10f-47e9-be27-7dae38bc973f")
+	)
+	(wire
+		(pts
+			(xy 187.96 95.25) (xy 187.96 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a520ab-a26c-4bee-9434-ab4ac2600320")
+	)
+	(wire
+		(pts
+			(xy 95.25 99.06) (xy 131.445 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4441d5b3-e2de-4bc5-935a-326fc992b7da")
+	)
+	(wire
+		(pts
+			(xy 198.12 96.52) (xy 202.565 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "472e03b8-b78b-4136-8801-2cdaf29d49c8")
+	)
+	(wire
+		(pts
+			(xy 187.96 88.9) (xy 192.405 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5303e796-ffaa-4c47-a7b9-56887b735f08")
+	)
+	(wire
+		(pts
+			(xy 144.78 86.36) (xy 144.145 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a07ac82-9cf6-44a5-a3c9-5142a791e60b")
+	)
+	(wire
+		(pts
+			(xy 187.96 90.17) (xy 187.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61fb8ee4-071c-4d42-affa-63ad3361ff62")
+	)
+	(wire
+		(pts
+			(xy 144.78 99.06) (xy 144.145 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "691e8a63-1915-4699-affd-0a78eaf61802")
+	)
+	(wire
+		(pts
+			(xy 121.285 86.36) (xy 120.015 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f18274e-ef16-4c54-8da4-ce7f651281c2")
+	)
+	(wire
+		(pts
+			(xy 192.405 88.9) (xy 198.12 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "822234bc-c5e0-4b62-85ad-9683fdba5e01")
+	)
+	(wire
+		(pts
+			(xy 144.145 96.52) (xy 144.145 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "824f34c1-0d01-43af-b8d2-db7707dd60c7")
+	)
+	(wire
+		(pts
+			(xy 144.145 86.36) (xy 131.445 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa4e9f59-0fb5-4a12-8c49-05401eaa2b85")
+	)
+	(wire
+		(pts
+			(xy 192.405 96.52) (xy 198.12 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa96c119-faa7-49f4-907b-06cd35e60163")
+	)
+	(wire
+		(pts
+			(xy 187.96 96.52) (xy 192.405 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab3e9a0e-e94d-41a0-b5b9-7c269e52df26")
+	)
+	(wire
+		(pts
+			(xy 95.25 86.36) (xy 97.155 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d21d4f7e-6555-4878-8a3a-20ba5c18df23")
+	)
+	(wire
+		(pts
+			(xy 131.445 99.06) (xy 131.445 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d735e4ea-6e3c-4efe-a7ac-1cad5e929c22")
+	)
+	(wire
+		(pts
+			(xy 144.145 99.06) (xy 131.445 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de388399-270f-4157-88de-ee3d6ee9167c")
+	)
+	(wire
+		(pts
+			(xy 95.25 86.36) (xy 95.25 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec53d3aa-c1ee-4da2-a954-3704e0049f32")
+	)
+	(wire
+		(pts
+			(xy 144.145 86.36) (xy 144.145 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8d6b6a-e4ef-4c2f-b1bf-9d54eeca037f")
+	)
+	(text_box "WARNING: While I have scrupulously taken this design from the datasheet for the power module ( https://jlcpcb.com/partdetail/Endrive-EC03S05/C2840800 ), I have not yet even tested it, and have no formal electronics training.  A bad mains-voltage circuit could kill you or burn down your house.  Please do not die, please do not kill anybody else, please do not burn down a house, and please don't blame me if any of those things happen.  Test the circuit yourself and rely on your own evaluation of it, not mine."
+		(exclude_from_sim no)
+		(at 89.535 115.57 0)
+		(size 118.745 42.545)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left top)
+		)
+		(uuid "5ee04abd-d793-4cba-83ca-032fef58bada")
+	)
+	(text "AC in"
+		(exclude_from_sim no)
+		(at 86.995 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37b09893-7d95-4d8a-b472-457727b852a3")
+	)
+	(text "//THINK Should I expose HOT/NEUTRAL as sheet inputs, and have the socket separate?"
+		(exclude_from_sim no)
+		(at 59.055 103.505 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "704b3fab-5729-4664-9404-58536416757a")
+	)
+	(text "AC/DC module"
+		(exclude_from_sim no)
+		(at 169.545 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "753ad778-5761-4194-af5d-f56013493b5b")
+	)
+	(text "More circuit protection"
+		(exclude_from_sim no)
+		(at 189.865 83.185 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90c9b3ee-08a6-4021-9c6f-4609151b06b6")
+	)
+	(text "Circuit protection"
+		(exclude_from_sim no)
+		(at 114.3 75.565 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1929c8c-accb-45be-bfa1-89d306646834")
+	)
+	(text "Noise reduction"
+		(exclude_from_sim no)
+		(at 144.78 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb719c08-fefb-4e54-93a1-722e1918f9b5")
+	)
+	(label "HOT"
+		(at 95.25 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0bfd46dc-65c7-4344-83b0-be713ea29ec3")
+	)
+	(label "NEUTRAL"
+		(at 95.25 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3217e874-859b-4698-8a54-8b860bbaeb34")
+	)
+	(hierarchical_label "+5V"
+		(shape output)
+		(at 202.565 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e12df28-f750-447e-b686-6dfa3ce45734")
+	)
+	(hierarchical_label "GND"
+		(shape output)
+		(at 202.565 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78dc6049-df06-4fbc-aa3d-54f991ff43f9")
+	)
+	(symbol
+		(lib_id "easyeda2kicad:UU9.8-20MH")
+		(at 154.94 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10192923-03cc-4926-acd8-97f10ecdd80b")
+		(property "Reference" "L1_M5V1"
+			(at 153.67 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UU9.8-20MH"
+			(at 153.67 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:FILTER-TH_4P-L17.0-W12.0-P7.00-D0.6-S8.00"
+			(at 154.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Common-Mode-Chokes-Filters_Guangdong-Fenghua-Advanced-Tech-UU9-8-20mH_C164623.html"
+			(at 154.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C164623"
+			(at 154.94 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c5599dc-751c-42d9-9532-20668576a97a")
+		)
+		(pin "2"
+			(uuid "46edfe22-ade8-46d4-b960-45cce8bf3968")
+		)
+		(pin "3"
+			(uuid "41b2d325-4300-40e5-adee-71f81b84bc0d")
+		)
+		(pin "4"
+			(uuid "b32e09ad-df2f-47c8-b8f5-7be4b249cf9d")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
+					(reference "L1_M5V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:Fusetransparentseat")
+		(at 108.585 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14d10df9-fdc5-4984-9dc3-3230046e8d13")
+		(property "Reference" "F1_M5V1"
+			(at 108.585 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse transparent seat"
+			(at 108.585 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:FUSE-TH_L24.5-W9.8-P22.5"
+			(at 108.585 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Fuseholders_Fuse-transparent-seat_C58066.html"
+			(at 108.585 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-  Fuse Holders ROHS"
+			(at 108.585 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "C58066"
+			(at 108.585 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C58066"
+			(at 108.585 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/XuchengElec-C58066/C58066"
+			(at 108.585 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "946be747-56a2-4cce-9e59-c19f86e32851")
+		)
+		(pin "2"
+			(uuid "86221a67-d4c7-4769-8709-edc1096c2fc4")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
+					(reference "F1_M5V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:5D-9_C332361")
+		(at 126.365 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1af673ab-0591-49b8-93d2-559687f3adfd")
+		(property "Reference" "R1_M5V1"
+			(at 126.365 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5D-9_C332361"
+			(at 126.365 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:RES-TH_L11.0-W5.5-P7.50-D0.8-S5.50"
+			(at 126.365 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Hongzhi-Elec-5D-9_C332361.html"
+			(at 126.365 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5Ω 3A 2700K Plugin,P=7.5mm  NTC Thermistors ROHS"
+			(at 126.365 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "5D-9"
+			(at 126.365 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C332361"
+			(at 126.365 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/HongzhiElec-5D9/C332361"
+			(at 126.365 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "318e763b-8641-46bb-b520-27184c942719")
+		)
+		(pin "2"
+			(uuid "e5c7db04-54da-453c-b115-c0adb8c40863")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
+					(reference "R1_M5V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:471KD10")
+		(at 131.445 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24b830f8-8003-43ba-a823-5b5b8936e928")
+		(property "Reference" "R2_M5V1"
+			(at 134.62 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "471KD10"
+			(at 134.62 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:RES-TH_L12.5-W4.8-P7.50-D1.2-S3.40"
+			(at 123.825 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Varistors_471KD10_C78346.html"
+			(at 121.285 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "775V 385V 300V 470V Plugin  Varistors ROHS"
+			(at 131.445 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "471KD10"
+			(at 118.745 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C78346"
+			(at 131.445 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Brightking-471KD10/C78346"
+			(at 131.445 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fa8bcb3-d2c2-4f20-9ff0-961acab9615e")
+		)
+		(pin "2"
+			(uuid "3d5a416e-4b66-4ef7-b275-b825f01df4dd")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
+					(reference "R2_M5V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 144.145 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d72aacc-52c7-454a-881d-b4be76a884c0")
+		(property "Reference" "C1_M5V1"
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF/275V"
+			(at 147.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L13.0mm_W6.0mm_P10.00mm_FKS3_FKP3_MKS4"
+			(at 145.1102 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.145 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF ±10% X2 Plugin,P=10mm  Suppression Capacitors ROHS"
+			(at 144.145 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "MPX104K31C3KN15600"
+			(at 144.145 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C489079"
+			(at 144.145 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Knscha-MPX104K31C3KN15600/C489079"
+			(at 144.145 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ca38b78-cfad-42eb-b93d-ee5a8ab225bf")
+		)
+		(pin "2"
+			(uuid "453e18ba-5b20-454b-b357-98fc8f4c91e9")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
+					(reference "C1_M5V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:EC03-S05_C2840800")
+		(at 175.26 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a530e73-c6d3-43e3-be08-25e2e1822884")
+		(property "Reference" "U1_M5V1"
+			(at 175.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC03-S05_C2840800"
+			(at 175.26 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:PWRM-TH_EC03-S05"
+			(at 175.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5V 85VAC~264VAC 600mA 120V~370V 3W AC-DC 75% Plugin  Power Modules ROHS"
+			(at 175.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "EC03-S05"
+			(at 175.26 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2840800"
+			(at 175.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Endrive-EC03S05/C2840800"
+			(at 175.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bad1091d-1f40-4917-8517-cda6727c03e0")
+		)
+		(pin "2"
+			(uuid "30e5ef4c-9656-4abc-b5a7-8385007e4a7c")
+		)
+		(pin "3"
+			(uuid "b9324de4-a83e-462e-94b8-b0e82f4e1f7b")
+		)
+		(pin "5"
+			(uuid "134fc2a0-91a8-47e9-8057-5b56809813f2")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
+					(reference "U1_M5V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:XY126V-5.0-2P")
+		(at 90.17 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a66209c2-4514-4824-ac3b-396b6269d6c4")
+		(property "Reference" "J1_M5V1"
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XY126V-5.0-2P"
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CONN-TH_XY126V-5.0-2P"
+			(at 90.17 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Screw-terminal_XY126V-5-0-2P_C557646.html"
+			(at 90.17 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x2P 10A 300V Green 14~26 Straight 5mm 2.5 1 2 Plugin,P=5mm  Screw terminal ROHS"
+			(at 90.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "XY126V-5.0-2P"
+			(at 90.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C557646"
+			(at 90.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Ningbo_Xinlaiya_elec-XY126V_5_02P/C557646"
+			(at 90.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f93c864b-6d0b-4705-b1a3-1e5ce2f5a8a3")
+		)
+		(pin "2"
+			(uuid "a7abd9eb-2baf-42c1-95b8-835847800286")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
+					(reference "J1_M5V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ESD9B5.0ST5G")
+		(at 198.12 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8012a90-e51e-415b-bfb9-ac4e0d4e910c")
+		(property "Reference" "D1_M5V1"
+			(at 200.66 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD9B5.0ST5G"
+			(at 200.66 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 198.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 198.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOD-923  ESD Protection Devices ROHS"
+			(at 198.12 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "ESD9B5.0ST5G"
+			(at 198.12 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3021104"
+			(at 198.12 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/TechPublic-ESD9B50ST5G/C3021104"
+			(at 198.12 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cd85c08-afe9-4608-8dd8-a4a7eb81df0c")
+		)
+		(pin "2"
+			(uuid "c586e678-8af6-4e7b-9e2b-cdd805a80d68")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
+					(reference "D1_M5V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 192.405 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aff0c84d-4a7f-467b-81b8-0f3470851b78")
+		(property "Reference" "C2_M5V1"
+			(at 194.695 93.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 190.105 93.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 191.4398 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 192.405 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 192.405 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "CL21A106KOQNNNE"
+			(at 192.405 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1713"
+			(at 192.405 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a143854c-cd1f-463b-a09f-ba17080c872e")
+		)
+		(pin "2"
+			(uuid "3fb099c1-6d73-46e4-94f9-7a466c295899")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/c560f153-df13-4a41-ac96-3340e314d5eb"
+					(reference "C2_M5V1")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
