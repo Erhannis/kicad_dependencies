@@ -2522,6 +2522,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 190.5 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9572481d-eb1f-420a-b9ab-f4a7f0783403")
+		(property "Reference" "#PWR028"
+			(at 184.15 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44d819f6-cf57-4a36-acc7-9e8b7e034b03")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 247.015 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3949,6 +4016,84 @@
 				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
 					(reference "#PWR013")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 26.67)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "136f107a-538d-4d94-8efd-afa00594ab71")
+		(property "Sheetname" "const_current_var1"
+			(at 190.5 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "const_current_var.kicad_sch"
+			(at 190.5 34.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VIN" input
+			(at 190.5 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fa01491e-4255-4692-adff-11fbb07fa272")
+		)
+		(pin "VO-" output
+			(at 203.2 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2e636882-0091-4382-bf7d-176203ec5b89")
+		)
+		(pin "VO+" output
+			(at 203.2 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a64a940a-329d-44a3-817c-dce2f3e89331")
+		)
+		(pin "GND" input
+			(at 190.5 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e2a746d1-f038-4db1-b65c-82f2667584e0")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
+					(page "22")
 				)
 			)
 		)

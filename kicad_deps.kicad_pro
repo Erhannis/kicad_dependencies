@@ -643,6 +643,10 @@
       "ESP32"
     ],
     [
+      "136f107a-538d-4d94-8efd-afa00594ab71",
+      "const_current_var1"
+    ],
+    [
       "17f01e2b-8d25-4e80-be06-e920edd93dac",
       "USB Micro B"
     ],
