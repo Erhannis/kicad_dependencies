@@ -1016,13 +1016,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TRANS NPN 25V 1.5A SOT23"
-			(at 96.52 80.01 0)
+		(property "Description" "25V 300mW 200@100mA,1V 1.5A NPN SOT-23  Bipolar Transistors - BJT ROHS"
+			(at 101.6 90.17 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -1037,15 +1036,6 @@
 			)
 		)
 		(property "LCSC" "C2150"
-			(at 101.6 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "25V 300mW 200@100mA,1V 1.5A NPN SOT-23  Bipolar Transistors - BJT ROHS"
 			(at 101.6 90.17 0)
 			(effects
 				(font
@@ -1127,7 +1117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "500mW Thick Film Resistors ±100ppm/℃ ±1% 3.3kΩ 0805  Chip Resistor - Surface Mount ROHS"
 			(at 99.06 71.12 0)
 			(effects
 				(font
@@ -1146,15 +1136,6 @@
 			)
 		)
 		(property "LCSC" "C441983"
-			(at 99.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "500mW Thick Film Resistors ±100ppm/℃ ±1% 3.3kΩ 0805  Chip Resistor - Surface Mount ROHS"
 			(at 99.06 71.12 0)
 			(effects
 				(font
@@ -1233,7 +1214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "400V 25W 32@400mA,5V 1.5A NPN TO-252  Bipolar Transistors - BJT ROHS"
 			(at 123.19 83.82 0)
 			(effects
 				(font
@@ -1252,15 +1233,6 @@
 			)
 		)
 		(property "LCSC" "C5143121"
-			(at 123.19 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400V 25W 32@400mA,5V 1.5A NPN TO-252  Bipolar Transistors - BJT ROHS"
 			(at 123.19 83.82 0)
 			(effects
 				(font
@@ -1340,8 +1312,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 123.19 97.79 0)
+		(property "Description" "±10% ±100ppm/℃ 500mW 100Ω Plugin  Variable Resistors/Potentiometers ROHS"
+			(at 123.19 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1359,15 +1331,6 @@
 			)
 		)
 		(property "LCSC" "C81265"
-			(at 123.19 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "±10% ±100ppm/℃ 500mW 100Ω Plugin  Variable Resistors/Potentiometers ROHS"
 			(at 123.19 97.79 90)
 			(effects
 				(font

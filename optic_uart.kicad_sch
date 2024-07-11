@@ -1,0 +1,1272 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b7d4f9fe-b4e6-44c0-841b-b6801d0e5ec3")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:L"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 -2.54)
+					(mid 0.6323 -1.905)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 0.635)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 1.905)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:ZGY133_T9(PLT)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ZGY133/T9(PLT)"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:OPTO-TH_ZGY135-T9-PLR"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/_Chau-Light-ZGY133-T9-PLT_C277781.html"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C277781"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ZGY133_T9(PLT)_0_1"
+				(rectangle
+					(start -3.81 5.08)
+					(end 3.81 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.54 3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:ZGY135_T9(PLR)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ZGY135/T9(PLR)"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:OPTO-TH_ZGY135-T9-PLR"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/_Chau-Light-ZGY135-T9-PLR_C277779.html"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C277779"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ZGY135_T9(PLR)_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 105.41 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f698689-905b-400b-9976-0dfd3f67831c")
+	)
+	(junction
+		(at 105.41 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2277a1e2-fc8f-448d-b08f-1312961c601b")
+	)
+	(junction
+		(at 105.41 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c11d2ce6-3b81-4071-8495-86d36a0abc87")
+	)
+	(junction
+		(at 105.41 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd94093e-b1c8-4676-b460-a6110aa76bdc")
+	)
+	(wire
+		(pts
+			(xy 92.71 115.57) (xy 118.11 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061a736d-8866-4e3c-a608-c318bb85f34c")
+	)
+	(wire
+		(pts
+			(xy 92.71 76.2) (xy 118.11 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd4c575-74dc-4497-8db2-f4d5c4b742cf")
+	)
+	(wire
+		(pts
+			(xy 105.41 113.03) (xy 118.11 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d3b9c4b-b5f1-4c0c-8d35-4aa1b5390c6b")
+	)
+	(wire
+		(pts
+			(xy 92.71 86.36) (xy 93.98 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23ba0474-0c3b-4de6-8130-2ec6f297d25a")
+	)
+	(wire
+		(pts
+			(xy 92.71 113.03) (xy 105.41 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23cdd2b4-5f3f-4e6e-ac7c-a5d591087313")
+	)
+	(wire
+		(pts
+			(xy 105.41 86.36) (xy 118.11 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "297600df-c0fd-441a-a144-5a16d8ac3b7f")
+	)
+	(wire
+		(pts
+			(xy 92.71 78.74) (xy 105.41 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39dc198a-9c22-4c3a-8c73-daf9af477c2a")
+	)
+	(wire
+		(pts
+			(xy 105.41 105.41) (xy 118.11 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e33e397-e110-45e3-bd3d-b67900dbf576")
+	)
+	(wire
+		(pts
+			(xy 118.11 86.36) (xy 118.11 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96c5ad0e-bfcb-460d-b045-ffc44c43808b")
+	)
+	(wire
+		(pts
+			(xy 118.11 105.41) (xy 118.11 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dfb4c0b-6455-49b9-83af-c7701fffea7b")
+	)
+	(wire
+		(pts
+			(xy 92.71 105.41) (xy 105.41 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af08eb38-f245-4f17-b483-63ac4fa07f61")
+	)
+	(wire
+		(pts
+			(xy 101.6 86.36) (xy 105.41 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0a400eb-3247-496c-8c83-36347e12026f")
+	)
+	(wire
+		(pts
+			(xy 105.41 78.74) (xy 118.11 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e62a7a5c-4941-4135-958a-a227a3892a17")
+	)
+	(text_box "Note: technically, VCC can be up to 5V.  However, note that I suspect that the I/O voltage is then 5V, too.\nNote: In testing, this rx inverts the signal at high light intensities?!?  Specifically, at the intensities the tx sends."
+		(exclude_from_sim no)
+		(at 83.82 60.325 0)
+		(size 67.31 10.795)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "84c8538e-faa5-4866-91f7-331076b7608d")
+	)
+	(hierarchical_label "RX"
+		(shape output)
+		(at 92.71 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "110eb191-1d30-4125-902b-667d650780ec")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 92.71 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4defef67-e356-4780-8211-167a9e8b94f5")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 92.71 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6bf5d41f-4d04-4a4f-a1c9-68fffd9cb1d8")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 92.71 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7443e340-86c2-4ea4-9346-ed9346152303")
+	)
+	(hierarchical_label "TX"
+		(shape input)
+		(at 92.71 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8dccbfe3-5ff0-4d78-8b00-4e924d9848c6")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 92.71 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b41bf08-cc98-48d9-a345-9150070d00c4")
+	)
+	(symbol
+		(lib_id "easyeda2kicad:ZGY135_T9(PLR)")
+		(at 125.73 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "562009f3-6dc8-442f-a391-c18af0c61766")
+		(property "Reference" "JR1_OU1"
+			(at 132.08 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ZGY135/T9(PLR)"
+			(at 132.08 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:OPTO-TH_ZGY135-T9-PLR"
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/_Chau-Light-ZGY135-T9-PLR_C277779.html"
+			(at 125.73 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C277779"
+			(at 125.73 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "acd5b72b-e7a5-4be4-a9d3-35047b3c46d0")
+		)
+		(pin "3"
+			(uuid "0c8dd7f3-f105-4547-93a6-c949ef3c5566")
+		)
+		(pin "1"
+			(uuid "0aa15d39-ca5d-4957-a909-b8fd04dae23f")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/3d03d7ec-bb6f-414a-826d-6a6b8a1a8a15"
+					(reference "JR1_OU1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:ZGY133_T9(PLT)")
+		(at 124.46 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7265d999-9bb2-4242-b119-1b05f3c055d9")
+		(property "Reference" "JT1_OU1"
+			(at 129.54 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ZGY133/T9(PLT)"
+			(at 129.54 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:OPTO-TH_ZGY135-T9-PLR"
+			(at 124.46 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/_Chau-Light-ZGY133-T9-PLT_C277781.html"
+			(at 124.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C277781"
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6414b915-f716-4bdf-b4d2-3f5174eac62c")
+		)
+		(pin "3"
+			(uuid "645ead94-251e-469a-b9cf-8ac3184dac84")
+		)
+		(pin "1"
+			(uuid "04d4f5be-b243-4275-b1d1-0b3e50e5898f")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/3d03d7ec-bb6f-414a-826d-6a6b8a1a8a15"
+					(reference "JT1_OU1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 105.41 82.55 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e40d55e-695d-4b0e-9d0d-4141be704c66")
+		(property "Reference" "C1_OU1"
+			(at 109.22 83.8201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 109.22 81.2801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 106.3752 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16V 100nF X7R ±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 105.41 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "CL05B104KO5NNNC"
+			(at 105.41 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 105.41 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
+			(at 105.41 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5fa9904-eba2-4f8e-9109-461c0405453f")
+		)
+		(pin "2"
+			(uuid "4e9be5b8-7417-4c63-94bd-54c09b665164")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/3d03d7ec-bb6f-414a-826d-6a6b8a1a8a15"
+					(reference "C1_OU1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 105.41 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a81c74cd-c538-43d1-a15f-ff5180e2ff9a")
+		(property "Reference" "C2_OU1"
+			(at 109.22 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 109.22 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 106.3752 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16V 100nF X7R ±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "CL05B104KO5NNNC"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "457ca897-970e-4333-b3aa-6e72ed69ec2a")
+		)
+		(pin "2"
+			(uuid "f99c2c71-85ad-4df1-a1a6-e8e7f55df29c")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/3d03d7ec-bb6f-414a-826d-6a6b8a1a8a15"
+					(reference "C2_OU1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 97.79 86.36 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb9e9ae3-bfd4-4c6a-806a-8517087e781a")
+		(property "Reference" "L1_OU1"
+			(at 97.79 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47uH"
+			(at 97.79 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 97.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "35mA 47uH ±20% 2.5Ω 0603  Inductors (SMD) ROHS"
+			(at 97.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "LBMF1608T470M"
+			(at 97.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C223244"
+			(at 97.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/TaiyoYuden-LBMF1608T470M/C223244"
+			(at 97.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76cab98a-5a41-4da5-8ee6-61bd5fae3aba")
+		)
+		(pin "1"
+			(uuid "d1426497-b523-451a-af47-518cc20e1d94")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/3d03d7ec-bb6f-414a-826d-6a6b8a1a8a15"
+					(reference "L1_OU1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
