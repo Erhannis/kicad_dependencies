@@ -1408,6 +1408,307 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:MSS3-Q-T_R"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MSS3-Q-T/R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SW-SMD_MSS3-Q-T-R"
+				(at 0 -2.54 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_Diptronics-MSS3-Q-T-R_C240299.html"
+				(at 0 -5.08 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C240299"
+				(at 0 -7.62 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MSS3-Q-T_R_0_1"
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -0.25) (xy -5.33 0.25)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -0.25) (xy -4.83 0.25)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 0 1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.25) (xy -2.79 0.25)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.25) (xy -2.29 0.25)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.25) (xy -0.25 0.25)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.25) (xy 0.25 0.25)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.76 -0.51) (xy 0.76 -2.03) (xy -5.84 -2.03) (xy -5.84 -0.51) (xy -4.32 -0.51) (xy -4.32 -1.27)
+						(xy -0.76 -1.27) (xy -0.76 -0.51) (xy 0.76 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.25) (xy 2.29 0.25)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.25) (xy 2.79 0.25)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 3.81 -2.79) (xy -6.35 -2.79) (xy -3.81 -2.79)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 5.08 270)
+					(length 2.54)
+					(name "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Add by hand after manufacture"
 		(exclude_from_sim no)
@@ -1544,16 +1845,22 @@
 		(uuid "a7992877-ac31-4da7-a66a-8b86bdb5f241")
 	)
 	(junction
+		(at 130.175 112.395)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9596f02-a0e5-4650-9ae5-86d90994739e")
+	)
+	(junction
 		(at 113.665 74.295)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1b04440-ca88-490d-b903-aef7c0610d77")
 	)
 	(junction
-		(at 130.175 100.965)
+		(at 132.08 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d2e4e02b-22d1-48d9-88b2-5d6f08f28545")
+		(uuid "d7479e24-25ca-443c-a42e-94d1c3dae366")
 	)
 	(junction
 		(at 127 142.24)
@@ -1649,6 +1956,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.205 100.33) (xy 116.205 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e936611-51c8-42cd-b270-198aed69d9a7")
+	)
+	(wire
+		(pts
 			(xy 124.46 142.24) (xy 122.555 142.24)
 		)
 		(stroke
@@ -1679,7 +1996,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 108.585) (xy 127 142.24)
+			(xy 127 121.285) (xy 127 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1766,6 +2083,16 @@
 			(type default)
 		)
 		(uuid "369efe5e-7d72-4443-aad2-13b4fd7a40ec")
+	)
+	(wire
+		(pts
+			(xy 130.175 113.665) (xy 130.175 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "379e85aa-e21a-45ff-8823-93dac53e8166")
 	)
 	(wire
 		(pts
@@ -1859,7 +2186,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.175 100.965) (xy 135.89 100.965)
+			(xy 130.175 112.395) (xy 135.89 112.395)
 		)
 		(stroke
 			(width 0)
@@ -1959,7 +2286,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 100.965) (xy 135.89 114.3)
+			(xy 135.89 112.395) (xy 135.89 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2079,6 +2406,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.175 112.395) (xy 130.175 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "763d136e-cc1c-423d-b6e8-59c905e33a66")
+	)
+	(wire
+		(pts
 			(xy 104.14 76.835) (xy 104.14 72.39)
 		)
 		(stroke
@@ -2169,7 +2506,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 100.965) (xy 130.175 100.965)
+			(xy 127 113.665) (xy 130.175 113.665)
 		)
 		(stroke
 			(width 0)
@@ -2189,6 +2526,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.175 105.41) (xy 132.08 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e164ac0-e0fd-406a-8a2c-8af52835992a")
+	)
+	(wire
+		(pts
 			(xy 154.305 92.71) (xy 139.065 92.71)
 		)
 		(stroke
@@ -2199,7 +2546,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.205 99.695) (xy 130.175 99.695)
+			(xy 116.205 100.33) (xy 132.08 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2226,6 +2573,26 @@
 			(type default)
 		)
 		(uuid "96d1b5d4-4f9e-4f3e-b6ff-a2464417d068")
+	)
+	(wire
+		(pts
+			(xy 132.08 107.95) (xy 132.08 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "988dfb9b-0960-4cb1-ab35-a9f6e442dcdb")
+	)
+	(wire
+		(pts
+			(xy 132.08 142.24) (xy 135.89 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af1ac58-3418-49ec-a26b-c3777c97b3eb")
 	)
 	(wire
 		(pts
@@ -2259,7 +2626,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 142.24) (xy 135.89 142.24)
+			(xy 127 142.24) (xy 132.08 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2276,16 +2643,6 @@
 			(type default)
 		)
 		(uuid "a22a31a2-7d46-4afc-9662-1a4270772818")
-	)
-	(wire
-		(pts
-			(xy 130.175 99.695) (xy 130.175 100.965)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2bc4cc7-935d-420e-a4e2-94663a70ba19")
 	)
 	(wire
 		(pts
@@ -2716,6 +3073,16 @@
 			(justify right bottom)
 		)
 		(uuid "3fe7079f-677d-4334-8157-eaa10eac4bb0")
+	)
+	(label "local_gnd"
+		(at 132.08 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "601dd80e-eb14-4af3-b9db-894769e54161")
 	)
 	(label "local_gnd"
 		(at 150.495 74.295 180)
@@ -3587,6 +3954,91 @@
 			(project "kicad_deps"
 				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/a7d05eb5-0ef2-41c5-9429-4bee6d02c859"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:MSS3-Q-T_R")
+		(at 137.16 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62dae630-1597-41b1-b905-8a1bfa902629")
+		(property "LCSC Part" "C240299"
+			(at 144.78 102.87 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reference" "SW1"
+			(at 140.97 102.2349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MSS3-Q-T/R"
+			(at 140.97 104.7749 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_MSS3-Q-T-R"
+			(at 139.7 102.87 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Diptronics-MSS3-Q-T-R_C240299.html"
+			(at 142.24 102.87 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 102.87 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a178d602-a723-4526-b968-eab4e39e3919")
+		)
+		(pin "2"
+			(uuid "a1521017-05e7-49ed-8211-c1c6cae40e80")
+		)
+		(pin "0"
+			(uuid "a7dd761a-add8-4896-932f-ff0dd04a25a4")
+		)
+		(pin "3"
+			(uuid "af8f414b-aa1a-4782-8832-60817f059fa6")
+		)
+		(instances
+			(project ""
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/a7d05eb5-0ef2-41c5-9429-4bee6d02c859"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -5001,7 +5453,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 127 104.775 0)
+		(at 127 117.475 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5010,7 +5462,7 @@
 		(fields_autoplaced yes)
 		(uuid "e103aa0a-5cf5-423f-9e09-ac1180e14ed9")
 		(property "MFR" "0603WAF1004T5E"
-			(at 127 104.775 0)
+			(at 127 117.475 0)
 			(hide yes)
 			(effects
 				(font
@@ -5019,7 +5471,7 @@
 			)
 		)
 		(property "LCSC" "C22935"
-			(at 127 104.775 0)
+			(at 127 117.475 0)
 			(hide yes)
 			(effects
 				(font
@@ -5028,7 +5480,7 @@
 			)
 		)
 		(property "URL" "https://jlcpcb.com/partdetail/23662-0603WAF1004T5E/C22935"
-			(at 127 104.775 0)
+			(at 127 117.475 0)
 			(hide yes)
 			(effects
 				(font
@@ -5037,7 +5489,7 @@
 			)
 		)
 		(property "Reference" "R9"
-			(at 129.54 103.5049 0)
+			(at 129.54 116.2049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5046,7 +5498,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 129.54 106.0449 0)
+			(at 129.54 118.7449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5055,7 +5507,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 125.222 104.775 90)
+			(at 125.222 117.475 90)
 			(hide yes)
 			(effects
 				(font
@@ -5064,7 +5516,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 104.775 0)
+			(at 127 117.475 0)
 			(hide yes)
 			(effects
 				(font
@@ -5073,7 +5525,7 @@
 			)
 		)
 		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 1MΩ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 127 104.775 0)
+			(at 127 117.475 0)
 			(hide yes)
 			(effects
 				(font
