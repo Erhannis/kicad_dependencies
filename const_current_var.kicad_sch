@@ -1,12 +1,14 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250227)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.99")
 	(uuid "26aaa8eb-ec59-41f4-ae02-e950485bac55")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -31,47 +33,47 @@
 			)
 			(property "Footprint" ""
 				(at -1.778 0 90)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "~"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Resistor"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "R_0_1"
@@ -125,6 +127,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "dk_Transistors-Bipolar-BJT-Single:MMSS8050-H-TP"
 			(pin_names
@@ -152,121 +155,121 @@
 			)
 			(property "Footprint" "digikey-footprints:SOT-23-3"
 				(at 5.08 5.08 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf"
 				(at 5.08 7.62 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Description" "TRANS NPN 25V 1.5A SOT23"
 				(at 5.08 10.16 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "MPN" "MMSS8050-H-TP"
 				(at 5.08 12.7 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Category" "Discrete Semiconductor Products"
 				(at 5.08 15.24 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Family" "Transistors - Bipolar (BJT) - Single"
 				(at 5.08 17.78 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "DK_Datasheet_Link" "https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf"
 				(at 5.08 20.32 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "DK_Detail_Page" "/product-detail/en/micro-commercial-co/MMSS8050-H-TP/MMSS8050-H-TPMSCT-ND/2825945"
 				(at 5.08 22.86 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Description_1" "TRANS NPN 25V 1.5A SOT23"
 				(at 5.08 25.4 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Micro Commercial Co"
 				(at 5.08 27.94 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Status" "Active"
 				(at 5.08 30.48 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "MMSS8050-H-TPMSCT-ND"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "MMSS8050-H-TP_0_1"
@@ -296,7 +299,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 2.54 -2.54)
+						(xy 0 2.54) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -318,9 +321,20 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 0)
+					(radius 3.2512)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 -2.54)
+						(xy 0 -1.27) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -342,17 +356,6 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 3.2512)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
 			)
 			(symbol "MMSS8050-H-TP_1_1"
 				(pin input line
@@ -366,24 +369,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -409,7 +394,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "easyeda2kicad:3362P-1-101LF"
 			(exclude_from_sim no)
@@ -433,38 +437,38 @@
 			)
 			(property "Footprint" "easyeda2kicad:RES-ADJ-TH_3362P-1-104LF"
 				(at 0 -12.7 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://lcsc.com/product-detail/Precision-Potentiometer_BOURNS_3362P-1-101LF_100R_C81265.html"
 				(at 0 -15.24 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "LCSC Part" "C81265"
 				(at 0 -17.78 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "3362P-1-101LF_0_1"
@@ -505,24 +509,6 @@
 					)
 				)
 				(pin input line
-					(at 1.27 5.08 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -2.54 0 0)
 					(length 2.54)
 					(name "2"
@@ -533,6 +519,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -559,6 +563,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "easyeda2kicad:MOT13003D"
 			(exclude_from_sim no)
@@ -582,44 +587,44 @@
 			)
 			(property "Footprint" "easyeda2kicad:TO-252-3_L6.5-W5.9-P4.60-LS10.0-BL"
 				(at 0 -12.7 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "LCSC Part" "C5143121"
 				(at 0 -15.24 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "MOT13003D_0_1"
 				(polyline
 					(pts
-						(xy -2.54 -0.76) (xy 0 -2.54)
+						(xy -2.54 2.29) (xy -2.54 -2.29)
 					)
 					(stroke
 						(width 0)
@@ -631,7 +636,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 2.29) (xy -2.54 -2.29)
+						(xy -2.54 -0.76) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -684,24 +689,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at 0 5.08 270)
 					(length 2.54)
 					(name "C"
@@ -719,8 +706,47 @@
 						)
 					)
 				)
+				(pin unspecified line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text_box "According to simulation....\nDepending on the voltage and the setting of the pot, different things can burn out.\nI think with a 500mw 100ohm pot, and 25W U1, it should be ok for any load at up to 28V.\nHigher voltages risk burning out the pot near its highest settings and shortish load.\nNote that at 28V, R1 dissipates a pretty constant 200mW.\n\n8mA-400mA\n<=28V"
+		(exclude_from_sim no)
+		(at 60.96 120.015 0)
+		(size 102.235 25.4)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a7db6896-4332-496a-aff4-969bd964e207")
 	)
 	(junction
 		(at 123.19 90.17)
@@ -900,29 +926,9 @@
 		)
 		(uuid "f82758e5-df68-444b-ba4c-c34c5a101390")
 	)
-	(text_box "According to simulation....\nDepending on the voltage and the setting of the pot, different things can burn out.\nI think with a 500mw 100ohm pot, and 25W U1, it should be ok for any load at up to 28V.\nHigher voltages risk burning out the pot near its highest settings and shortish load.\nNote that at 28V, R1 dissipates a pretty constant 200mW.\n\n8mA-400mA\n<=28V"
-		(exclude_from_sim no)
-		(at 60.96 120.015 0)
-		(size 102.235 25.4)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "a7db6896-4332-496a-aff4-969bd964e207")
-	)
 	(hierarchical_label "VO+"
 		(shape output)
 		(at 123.19 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -934,7 +940,6 @@
 	(hierarchical_label "VO-"
 		(shape output)
 		(at 123.19 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -946,7 +951,6 @@
 	(hierarchical_label "VIN"
 		(shape input)
 		(at 123.19 52.07 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -958,7 +962,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 99.06 110.49 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -978,6 +981,34 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1756a67a-ccbe-47b7-9cc8-0a963a249ea9")
+		(property "MFR" "SS8050(RANGE:200-350)"
+			(at 96.52 74.93 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C2150"
+			(at 101.6 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/2507-SS8050_RANGE_200_350/C2150"
+			(at 101.6 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "Q2_CCV1"
 			(at 96.52 88.8999 0)
 			(effects
@@ -998,59 +1029,31 @@
 		)
 		(property "Footprint" "digikey-footprints:SOT-23-3"
 			(at 96.52 85.09 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf"
 			(at 96.52 82.55 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Description" "25V 300mW 200@100mA,1V 1.5A NPN SOT-23  Bipolar Transistors - BJT ROHS"
 			(at 101.6 90.17 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "SS8050(RANGE:200-350)"
-			(at 96.52 74.93 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2150"
-			(at 101.6 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/2507-SS8050_RANGE_200_350/C2150"
-			(at 101.6 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -1081,6 +1084,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aab6a004-2278-48a9-8d42-afb9aa2f81ff")
+		(property "MFR" "ERJP06F3301V"
+			(at 99.06 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C441983"
+			(at 99.06 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Panasonic-ERJP06F3301V/C441983"
+			(at 99.06 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "R1_CCV1"
 			(at 101.6 69.8499 0)
 			(effects
@@ -1101,56 +1131,29 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 97.282 71.12 90)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
 			(at 99.06 71.12 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "500mW Thick Film Resistors ±100ppm/℃ ±1% 3.3kΩ 0805  Chip Resistor - Surface Mount ROHS"
 			(at 99.06 71.12 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "ERJP06F3301V"
-			(at 99.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C441983"
-			(at 99.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Panasonic-ERJP06F3301V/C441983"
-			(at 99.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1178,6 +1181,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf840124-73f3-4792-b575-25899c491cf0")
+		(property "MFR" "MOT13003D"
+			(at 123.19 99.06 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5143121"
+			(at 123.19 83.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Mot-MOT13003D/C5143121"
+			(at 123.19 83.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "Q1_CCV1"
 			(at 124.46 82.5499 0)
 			(effects
@@ -1198,56 +1228,29 @@
 		)
 		(property "Footprint" "easyeda2kicad:TO-252-3_L6.5-W5.9-P4.60-LS10.0-BL"
 			(at 123.19 96.52 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 123.19 83.82 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "400V 25W 32@400mA,5V 1.5A NPN TO-252  Bipolar Transistors - BJT ROHS"
 			(at 123.19 83.82 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "MOT13003D"
-			(at 123.19 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5143121"
-			(at 123.19 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Mot-MOT13003D/C5143121"
-			(at 123.19 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1278,6 +1281,33 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee336ed4-f787-429c-bd28-b95d6b7d2c84")
+		(property "MFR" "3362P-1-101LF"
+			(at 140.97 97.79 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C81265"
+			(at 123.19 97.79 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Bourns-3362P_1101LF/C81265"
+			(at 123.19 97.79 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "VR1_CCV1"
 			(at 123.19 102.87 90)
 			(effects
@@ -1296,56 +1326,29 @@
 		)
 		(property "Footprint" "easyeda2kicad:RES-ADJ-TH_3362P-1-104LF"
 			(at 135.89 97.79 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Precision-Potentiometer_BOURNS_3362P-1-101LF_100R_C81265.html"
 			(at 138.43 97.79 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "±10% ±100ppm/℃ 500mW 100Ω Plugin  Variable Resistors/Potentiometers ROHS"
 			(at 123.19 97.79 90)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "3362P-1-101LF"
-			(at 140.97 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C81265"
-			(at 123.19 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Bourns-3362P_1101LF/C81265"
-			(at 123.19 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
