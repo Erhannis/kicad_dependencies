@@ -1894,6 +1894,10 @@
 		(at 139.065 71.755)
 		(uuid "801ef777-b066-4683-830b-656b8c86c6ef")
 	)
+	(no_connect
+		(at 132.08 97.79)
+		(uuid "ece0760d-eb97-41b2-befe-851b82aae3e0")
+	)
 	(wire
 		(pts
 			(xy 139.065 66.675) (xy 150.495 66.675)
@@ -3073,16 +3077,6 @@
 			(justify right bottom)
 		)
 		(uuid "3fe7079f-677d-4334-8157-eaa10eac4bb0")
-	)
-	(label "local_gnd"
-		(at 132.08 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "601dd80e-eb14-4af3-b9db-894769e54161")
 	)
 	(label "local_gnd"
 		(at 150.495 74.295 180)
