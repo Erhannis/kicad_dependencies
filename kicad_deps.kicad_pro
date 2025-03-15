@@ -860,6 +860,10 @@
       "inverted_regulator_12v"
     ],
     [
+      "92995d4c-c32c-4b18-a861-06a61dce9f41",
+      "buck_5v"
+    ],
+    [
       "17f01e2b-8d25-4e80-be06-e920edd93dac",
       "USB Micro B"
     ],

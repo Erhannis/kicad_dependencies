@@ -1645,18 +1645,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "7dd9c453-55d7-4438-9bdb-23d6a9ef0d73")
+			(uuid "307e7a32-5679-4a42-83b4-1394d1e450d1")
 		)
 		(pin "1"
-			(uuid "d06fc63c-81fe-4268-89af-47abadaa04ad")
-		)
-		(instances
-			(project ""
-				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9a2989f7-0634-4013-94ae-90d0c9c30139"
-					(reference "C7")
-					(unit 1)
-				)
-			)
+			(uuid "1ca07bfe-6dc9-4368-aa34-68bc7533e439")
 		)
 	)
 	(symbol
@@ -1733,10 +1725,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c9cc1aff-23e1-4216-81b1-818ae674bb1e")
+			(uuid "ccb6e62f-fc76-4d9f-8a96-dbec2e49f57b")
 		)
 		(pin "2"
-			(uuid "05673a27-ca12-4c69-97f4-f2cb894c1345")
+			(uuid "70c9f152-42fb-4044-8120-2d75a667aad7")
 		)
 		(instances
 			(project "kicad_deps"
@@ -1819,18 +1811,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "aaf24d59-f2e8-41ca-b457-77e8cc014670")
+			(uuid "c3624677-fb1e-45a9-8f2a-456fec3833e1")
 		)
 		(pin "2"
-			(uuid "50a22b77-5cb9-4b4a-b5ac-2e8563df28fd")
-		)
-		(instances
-			(project ""
-				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9a2989f7-0634-4013-94ae-90d0c9c30139"
-					(reference "D1")
-					(unit 1)
-				)
-			)
+			(uuid "55e59ead-30a8-4f4f-b945-bbfaacffeec8")
 		)
 	)
 	(symbol
@@ -1898,18 +1882,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "2475a9e5-7b7d-43d3-acc1-9546ca0050f6")
+			(uuid "da9ef0b3-e164-4988-84c9-911d0182a1a5")
 		)
 		(pin "1"
-			(uuid "878f27d0-b8ab-4619-b383-c3f5e1c7ff45")
-		)
-		(instances
-			(project ""
-				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9a2989f7-0634-4013-94ae-90d0c9c30139"
-					(reference "C9")
-					(unit 1)
-				)
-			)
+			(uuid "7d8827da-5882-4582-b274-474a6b5fc148")
 		)
 	)
 	(symbol
@@ -1975,22 +1951,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "e3c5ebfd-4246-4b8f-82ab-18c03daff009")
+			(uuid "9ef4c796-b000-4a17-aa4a-b9340ff76c69")
 		)
 		(pin "3"
-			(uuid "cc07ade1-26a9-4f84-92dc-dae398bf6e1e")
+			(uuid "1cd36ae2-4683-4299-a463-4b771549c259")
 		)
 		(pin "6"
-			(uuid "4e492b16-73e3-483c-a055-afac7fcc2593")
+			(uuid "ce4b478b-13fd-40cd-85c1-e36d41d9f706")
 		)
 		(pin "5"
-			(uuid "228d685e-d83a-487b-a75a-3870fe6c8ce8")
+			(uuid "bdfa8e03-646a-4431-a20f-87871ed213aa")
 		)
 		(pin "4"
-			(uuid "cacbe76f-8cae-4fc6-bdca-b0e616ed0975")
+			(uuid "5a1ca3a1-2a3c-4a5d-907b-9ea00bdacba8")
 		)
 		(pin "1"
-			(uuid "54280ac0-44bb-4ed5-8433-7766beb6aced")
+			(uuid "458e9746-ac47-4f50-8594-a46ea1541792")
 		)
 		(instances
 			(project "kicad_deps"
@@ -2066,18 +2042,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "846985fa-f1c5-4d6d-b7d1-debe0b01668e")
+			(uuid "9d68d8d9-cbeb-461f-81f9-8677075769ee")
 		)
 		(pin "2"
-			(uuid "f7d79fda-10c9-4be3-94e8-e8dd134cc2df")
-		)
-		(instances
-			(project ""
-				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9a2989f7-0634-4013-94ae-90d0c9c30139"
-					(reference "C8")
-					(unit 1)
-				)
-			)
+			(uuid "ee38543a-4a0b-4843-8319-6243f3644e85")
 		)
 	)
 	(symbol
@@ -2161,18 +2129,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a6f18b9f-23f2-4aa4-9f23-77f3952e42a4")
+			(uuid "bc169af1-5681-4e68-bf6f-4e2ef3e6f125")
 		)
 		(pin "2"
-			(uuid "3c77b954-8b31-4c81-b58d-5341d38d6a9a")
-		)
-		(instances
-			(project ""
-				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9a2989f7-0634-4013-94ae-90d0c9c30139"
-					(reference "R16")
-					(unit 1)
-				)
-			)
+			(uuid "8abbcf3d-d394-40ee-8a3b-5f97a11788be")
 		)
 	)
 	(symbol
@@ -2258,10 +2218,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6f1933ad-8f41-4e95-b1f9-e62bf59985d0")
+			(uuid "90cde2d3-717c-4d3b-9d1a-f9d0620c86ff")
 		)
 		(pin "2"
-			(uuid "79ff0a5b-da8f-46df-936b-4da076b5a625")
+			(uuid "db0ced6a-49dd-4d53-823c-8d4a363fc85f")
 		)
 		(instances
 			(project "kicad_deps"
@@ -2346,10 +2306,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "338310f4-5f5e-4c63-be16-49a88839821c")
+			(uuid "0ee2322a-1081-42d6-bb33-aa231b15718d")
 		)
 		(pin "2"
-			(uuid "0a9e2b49-4d8d-49d3-a823-c2d32d3b7226")
+			(uuid "c180f067-d612-46bd-ba4f-18844ebc5a84")
 		)
 		(instances
 			(project "kicad_deps"
@@ -2441,18 +2401,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "760825e2-cef0-448f-a7c3-bcb470b54f74")
+			(uuid "d99184b4-d5e3-4ce1-afc3-5f2be69e0576")
 		)
 		(pin "1"
-			(uuid "7138d37d-8508-4445-b1c3-3470f9d03472")
-		)
-		(instances
-			(project ""
-				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9a2989f7-0634-4013-94ae-90d0c9c30139"
-					(reference "L1")
-					(unit 1)
-				)
-			)
+			(uuid "ffe5896a-416c-45f6-a766-923b5ea31e2d")
 		)
 	)
 )
