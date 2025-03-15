@@ -1,4 +1,4 @@
-24804262598497426
+24819941072040761
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99302,6 +99302,34 @@ BUZ-SMD_4P-L13.0-W13.0-P11.4-BL
 4
 4
 easyeda2kicad
+CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-RD
+
+
+0
+2
+2
+easyeda2kicad
+CAP-SMD_L7.3-W4.3-FD
+
+
+0
+2
+2
+easyeda2kicad
+CAP-SMD_L7.3-W4.3-R-RD
+
+
+0
+2
+2
+easyeda2kicad
+CASE-D_7343
+
+
+0
+2
+2
+easyeda2kicad
 CONN-TH_DB125-3.81-4P
 
 
@@ -99373,6 +99401,20 @@ FPC-SMD_20P-P0.50_XUNPU_FPC-05F-20PH20
 22
 easyeda2kicad
 FUSE-TH_L24.5-W9.8-P22.5
+
+
+0
+2
+2
+easyeda2kicad
+IND-SMD_L6.0-W6.0_FNR60XXS
+
+
+0
+2
+2
+easyeda2kicad
+IND-SMD_L11.5-W10.0_FXL1040
 
 
 0
@@ -99484,6 +99526,13 @@ RES-TH_L12.5-W4.8-P7.50-D1.2-S3.40
 2
 2
 easyeda2kicad
+SMA_L4.4-W2.8-LS5.4-R-RD
+
+
+0
+2
+2
+easyeda2kicad
 SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR
 
 
@@ -99532,6 +99581,20 @@ TO-252-3_L6.5-W5.9-P4.60-LS10.0-BL
 0
 3
 3
+easyeda2kicad
+TO-263-5_L10.2-W9.2-P1.70-BR
+
+
+0
+6
+6
+easyeda2kicad
+TO-263-5_L10.6-W9.6-P1.70-LS15.9-BR
+
+
+0
+6
+6
 easyeda2kicad
 TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL
 
