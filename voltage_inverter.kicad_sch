@@ -644,10 +644,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "47842542-1631-4080-847f-ee8333e7150f")
+			(uuid "b33d8e97-8a6c-4959-b9ad-f39409874161")
 		)
 		(pin "2"
-			(uuid "f752d24c-77b3-405e-ad8b-49c84d5e29ba")
+			(uuid "9a8aafa1-4d09-4298-a9aa-0b1e34032f47")
 		)
 		(instances
 			(project "kicad_deps"
@@ -729,10 +729,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0134ca0b-2354-4eec-a799-1daf1e81b56a")
+			(uuid "9a485c98-7b10-46eb-8c33-2552478f6c23")
 		)
 		(pin "2"
-			(uuid "3dcffe4c-bc6a-4e16-b50e-33131f9f30ce")
+			(uuid "e72c40cd-a627-4c78-9a75-7d701737d3b6")
 		)
 		(instances
 			(project "kicad_deps"
@@ -814,10 +814,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4f9c3492-276c-4b7d-bf2a-0b707dcdcb94")
+			(uuid "50849c00-26e7-4005-a7d7-109a451fff50")
 		)
 		(pin "2"
-			(uuid "bc09cadf-407c-42fd-a72a-e0c255dd37ab")
+			(uuid "729dd36d-76c5-46b1-8596-2f54d0df2f28")
 		)
 		(instances
 			(project "kicad_deps"
@@ -911,28 +911,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "66638222-fd0a-4390-9faa-719792e6dab7")
+			(uuid "ba66bfd0-21a8-4d31-aedd-f45aa2bb3944")
 		)
 		(pin "2"
-			(uuid "ff88bc2f-fd9e-49c9-b172-8c359b74c601")
+			(uuid "959ba560-5de0-40fc-8802-64060ef7b90b")
 		)
 		(pin "3"
-			(uuid "3c798e33-0b82-490d-8c82-215c61587ade")
+			(uuid "c3e90f22-3536-4fb4-afe9-5237e57ad1d5")
 		)
 		(pin "4"
-			(uuid "6798acb8-a34a-4533-85da-a220a420a32d")
+			(uuid "dc6b48f6-64b6-47ad-8e65-83a6926dce1e")
 		)
 		(pin "5"
-			(uuid "019e3aab-4b92-4038-b52a-0b17713c7aa9")
+			(uuid "c8519bd3-3e4d-47e1-82af-a40b3e68c1bd")
 		)
 		(pin "6"
-			(uuid "2734c071-08cd-4400-ab7a-a4d47f243070")
+			(uuid "f7be7068-8382-45ff-84f0-fc8c7cfa7a95")
 		)
 		(pin "7"
-			(uuid "9a49b48e-bffd-4076-a4de-be66e659942f")
+			(uuid "3532d878-e5f8-4d8d-bcf4-5b365b3aad76")
 		)
 		(pin "8"
-			(uuid "58a1e047-8aae-46c6-ace4-41a6c318d02b")
+			(uuid "145dec87-4034-4e26-ab8d-3439691d753f")
 		)
 		(instances
 			(project "kicad_deps"

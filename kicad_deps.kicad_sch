@@ -4374,6 +4374,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 93.98 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d55938a-7bab-4172-8e61-7b6d15df4e8b")
+		(property "Reference" "#PWR032"
+			(at 87.63 82.55 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 82.55 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 82.55 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 82.55 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56425f97-9d5c-4e11-a141-932c3e844234")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 125.095 84.455 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6987,6 +7054,78 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 70.485)
+		(size 15.24 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9a2989f7-0634-4013-94ae-90d0c9c30139")
+		(property "Sheetname" "inverted_regulator_12v"
+			(at 93.98 69.7734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "inverted_regulator_12v.kicad_sch"
+			(at 93.98 87.5796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 93.98 82.55 180)
+			(uuid "8e719ebd-4205-4323-a5da-6a1a216fca9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" output
+			(at 109.22 78.74 0)
+			(uuid "5050e002-be9e-4030-9271-4ad9533d93cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vin" input
+			(at 93.98 78.74 180)
+			(uuid "b12a0d99-ce5f-4704-807f-9de47ee60c1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
+					(page "25")
+				)
 			)
 		)
 	)
