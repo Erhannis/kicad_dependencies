@@ -1122,16 +1122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02f58804-c7e8-4d4d-8d46-345f409011f1")
-		(property "LCSC Part" "C316680"
-			(at 125.095 81.915 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reference" "U3"
+		(property "Reference" "U1_B5V1"
 			(at 133.35 56.5149 0)
 			(effects
 				(font
@@ -1176,6 +1167,15 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C316680"
+			(at 125.095 81.915 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "e17b8b1d-f969-4016-8d60-91a0e582a733")
 		)
@@ -1197,7 +1197,7 @@
 		(instances
 			(project ""
 				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/92995d4c-c32c-4b18-a861-06a61dce9f41"
-					(reference "U3")
+					(reference "U1_B5V1")
 					(unit 1)
 				)
 			)
@@ -1213,34 +1213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0efe956a-20a4-4c63-86f6-25135a795a7c")
-		(property "MFR" "FNR6045S331MT"
-			(at 166.37 96.52 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C168099"
-			(at 166.37 83.82 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Power-Inductors_cjiang-Changjiang-Microelectronics-Tech-FNR6045S331MT_C168099.html?s_z=n_330uH"
-			(at 166.37 83.82 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reference" "L2"
+		(property "Reference" "L1_B5V1"
 			(at 166.37 78.74 0)
 			(effects
 				(font
@@ -1283,6 +1256,33 @@
 				)
 			)
 		)
+		(property "MFR" "FNR6045S331MT"
+			(at 166.37 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C168099"
+			(at 166.37 83.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Power-Inductors_cjiang-Changjiang-Microelectronics-Tech-FNR6045S331MT_C168099.html?s_z=n_330uH"
+			(at 166.37 83.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6cdd7606-30e5-4a0a-b9c8-c8390d669e8a")
 		)
@@ -1292,7 +1292,7 @@
 		(instances
 			(project ""
 				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/92995d4c-c32c-4b18-a861-06a61dce9f41"
-					(reference "L2")
+					(reference "L1_B5V1")
 					(unit 1)
 				)
 			)
@@ -1308,34 +1308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4242d0df-0ddc-406c-a450-977a4e7a5f6d")
-		(property "MFR" "RVT1C471M0607"
-			(at 161.925 88.9 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2977552"
-			(at 172.085 88.9 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_ROQANG-RVT1C471M0607_C2977552.html?s_z=n_470uF"
-			(at 172.085 88.9 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reference" "C11"
+		(property "Reference" "C2_B5V1"
 			(at 176.53 89.1123 90)
 			(effects
 				(font
@@ -1380,6 +1353,33 @@
 				)
 			)
 		)
+		(property "MFR" "RVT1C471M0607"
+			(at 161.925 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2977552"
+			(at 172.085 88.9 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_ROQANG-RVT1C471M0607_C2977552.html?s_z=n_470uF"
+			(at 172.085 88.9 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "40138014-828b-44a9-bf82-d7b24a091415")
 		)
@@ -1389,7 +1389,7 @@
 		(instances
 			(project ""
 				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/92995d4c-c32c-4b18-a861-06a61dce9f41"
-					(reference "C11")
+					(reference "C2_B5V1")
 					(unit 1)
 				)
 			)
@@ -1405,25 +1405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3945fbb-66cc-49f7-ab83-6366514a1f88")
-		(property "LCSC" "C22452"
-			(at 147.32 88.9 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Schottky-Diodes_MDD-Microdiode-Semiconductor-SS54_C22452.html?s_z=n_Schottky%2520Diode"
-			(at 160.02 88.9 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reference" "D5"
+		(property "Reference" "D1_B5V1"
 			(at 163.195 87.2499 90)
 			(effects
 				(font
@@ -1468,6 +1450,24 @@
 				)
 			)
 		)
+		(property "LCSC" "C22452"
+			(at 147.32 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Schottky-Diodes_MDD-Microdiode-Semiconductor-SS54_C22452.html?s_z=n_Schottky%2520Diode"
+			(at 160.02 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "55e0071f-0d9d-4a61-85ca-010e1e88a8c6")
 		)
@@ -1477,7 +1477,7 @@
 		(instances
 			(project "kicad_deps"
 				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/92995d4c-c32c-4b18-a861-06a61dce9f41"
-					(reference "D5")
+					(reference "D1_B5V1")
 					(unit 1)
 				)
 			)
@@ -1493,25 +1493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3a08c82-b67d-43de-bb14-3b1b4d785a91")
-		(property "LCSC" "C139578"
-			(at 113.03 87.63 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Tantalum-Capacitors_PANASONIC_20TQC100MYF_100uF-107-20-20V_C139578.html"
-			(at 100.33 87.63 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reference" "C10"
+		(property "Reference" "C1_B5V1"
 			(at 104.14 85.7249 90)
 			(effects
 				(font
@@ -1556,6 +1538,24 @@
 				)
 			)
 		)
+		(property "LCSC" "C139578"
+			(at 113.03 87.63 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Tantalum-Capacitors_PANASONIC_20TQC100MYF_100uF-107-20-20V_C139578.html"
+			(at 100.33 87.63 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4ed6ff68-35dd-47b1-a8e2-e0d942e3bea0")
 		)
@@ -1565,7 +1565,7 @@
 		(instances
 			(project ""
 				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/92995d4c-c32c-4b18-a861-06a61dce9f41"
-					(reference "C10")
+					(reference "C1_B5V1")
 					(unit 1)
 				)
 			)
