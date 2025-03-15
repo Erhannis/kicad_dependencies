@@ -1572,34 +1572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0048a13b-444c-4fc4-b115-89342d526e26")
-		(property "MFR" "CGA0603X7R104K500JT"
-			(at 107.315 85.09 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C6119867"
-			(at 107.315 85.09 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_HRE-CGA0603X7R104K500JT_C6119867.html?s_z=n_0.1uf"
-			(at 107.315 85.09 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reference" "C7"
+		(property "Reference" "C2_IR12V1"
 			(at 110.49 83.8199 0)
 			(effects
 				(font
@@ -1644,11 +1617,46 @@
 				)
 			)
 		)
+		(property "MFR" "CGA0603X7R104K500JT"
+			(at 107.315 85.09 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6119867"
+			(at 107.315 85.09 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_HRE-CGA0603X7R104K500JT_C6119867.html?s_z=n_0.1uf"
+			(at 107.315 85.09 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "307e7a32-5679-4a42-83b4-1394d1e450d1")
 		)
 		(pin "1"
 			(uuid "1ca07bfe-6dc9-4368-aa34-68bc7533e439")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9a2989f7-0634-4013-94ae-90d0c9c30139"
+					(reference "C2_IR12V1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1661,25 +1669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d236880-c641-45b2-bbfe-24148d0ab4be")
-		(property "LCSC" "C22452"
-			(at 141.605 86.36 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Schottky-Diodes_MDD-Microdiode-Semiconductor-SS54_C22452.html?s_z=n_Schottky%2520Diode"
-			(at 154.305 86.36 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reference" "D2"
+		(property "Reference" "D2_IR12V1"
 			(at 157.48 84.7099 90)
 			(effects
 				(font
@@ -1724,6 +1714,24 @@
 				)
 			)
 		)
+		(property "LCSC" "C22452"
+			(at 141.605 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Schottky-Diodes_MDD-Microdiode-Semiconductor-SS54_C22452.html?s_z=n_Schottky%2520Diode"
+			(at 154.305 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ccb6e62f-fc76-4d9f-8a96-dbec2e49f57b")
 		)
@@ -1733,7 +1741,7 @@
 		(instances
 			(project "kicad_deps"
 				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9a2989f7-0634-4013-94ae-90d0c9c30139"
-					(reference "D2")
+					(reference "D2_IR12V1")
 					(unit 1)
 				)
 			)
@@ -1749,25 +1757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31ef2a0a-fe4c-4c97-892d-1446dc96b8f4")
-		(property "LCSC" "C22452"
-			(at 86.995 68.58 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Schottky-Diodes_MDD-Microdiode-Semiconductor-SS54_C22452.html?s_z=n_Schottky%2520Diode"
-			(at 86.995 81.28 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reference" "D1"
+		(property "Reference" "D1_IR12V1"
 			(at 87.375 74.93 0)
 			(effects
 				(font
@@ -1810,11 +1800,37 @@
 				)
 			)
 		)
+		(property "LCSC" "C22452"
+			(at 86.995 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Schottky-Diodes_MDD-Microdiode-Semiconductor-SS54_C22452.html?s_z=n_Schottky%2520Diode"
+			(at 86.995 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c3624677-fb1e-45a9-8f2a-456fec3833e1")
 		)
 		(pin "2"
 			(uuid "55e59ead-30a8-4f4f-b945-bbfaacffeec8")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9a2989f7-0634-4013-94ae-90d0c9c30139"
+					(reference "D1_IR12V1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1827,16 +1843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4050738a-ff52-445a-8a73-6c4116d5b953")
-		(property "LCSC Part" "C87110"
-			(at 153.67 85.09 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reference" "C9"
+		(property "Reference" "C3_IR12V1"
 			(at 169.545 83.1849 90)
 			(effects
 				(font
@@ -1881,11 +1888,28 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C87110"
+			(at 153.67 85.09 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "da9ef0b3-e164-4988-84c9-911d0182a1a5")
 		)
 		(pin "1"
 			(uuid "7d8827da-5882-4582-b274-474a6b5fc148")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9a2989f7-0634-4013-94ae-90d0c9c30139"
+					(reference "C3_IR12V1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1898,16 +1922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4249640e-8533-42df-9dbe-f4ae3fcf8cf8")
-		(property "LCSC Part" "C347430"
-			(at 114.935 82.55 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reference" "U2"
+		(property "Reference" "U1_IR12V1"
 			(at 114.935 54.61 0)
 			(effects
 				(font
@@ -1950,6 +1965,15 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C347430"
+			(at 114.935 82.55 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9ef4c796-b000-4a17-aa4a-b9340ff76c69")
 		)
@@ -1971,7 +1995,7 @@
 		(instances
 			(project "kicad_deps"
 				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9a2989f7-0634-4013-94ae-90d0c9c30139"
-					(reference "U2")
+					(reference "U1_IR12V1")
 					(unit 1)
 				)
 			)
@@ -1987,16 +2011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49bac2ba-4eab-41e6-a6d4-b7699da5f69f")
-		(property "LCSC Part" "C147772"
-			(at 107.315 85.09 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reference" "C8"
+		(property "Reference" "C1_IR12V1"
 			(at 97.79 85.2338 90)
 			(effects
 				(font
@@ -2041,11 +2056,28 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C147772"
+			(at 107.315 85.09 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9d68d8d9-cbeb-461f-81f9-8677075769ee")
 		)
 		(pin "2"
 			(uuid "ee38543a-4a0b-4843-8319-6243f3644e85")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9a2989f7-0634-4013-94ae-90d0c9c30139"
+					(reference "C1_IR12V1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2058,34 +2090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cac3a89c-9c54-475e-8ebf-71ac44dee193")
-		(property "MFR" "0603WAF4702T5E"
-			(at 111.125 88.9 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25819"
-			(at 111.125 88.9 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/26562-0603WAF4702T5E/C25819"
-			(at 111.125 88.9 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reference" "R16"
+		(property "Reference" "R1_IR12V1"
 			(at 111.125 82.55 90)
 			(effects
 				(font
@@ -2128,11 +2133,46 @@
 				)
 			)
 		)
+		(property "MFR" "0603WAF4702T5E"
+			(at 111.125 88.9 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25819"
+			(at 111.125 88.9 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26562-0603WAF4702T5E/C25819"
+			(at 111.125 88.9 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bc169af1-5681-4e68-bf6f-4e2ef3e6f125")
 		)
 		(pin "2"
 			(uuid "8abbcf3d-d394-40ee-8a3b-5f97a11788be")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9a2989f7-0634-4013-94ae-90d0c9c30139"
+					(reference "R1_IR12V1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2145,34 +2185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3d51e33-f2ed-4d2c-9b5b-1a08c5b8f45f")
-		(property "MFR" "0603WAF4702T5E"
-			(at 114.935 92.71 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25819"
-			(at 114.935 92.71 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/26562-0603WAF4702T5E/C25819"
-			(at 114.935 92.71 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reference" "R17"
+		(property "Reference" "R2_IR12V1"
 			(at 117.475 91.4399 0)
 			(effects
 				(font
@@ -2217,6 +2230,33 @@
 				)
 			)
 		)
+		(property "MFR" "0603WAF4702T5E"
+			(at 114.935 92.71 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25819"
+			(at 114.935 92.71 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26562-0603WAF4702T5E/C25819"
+			(at 114.935 92.71 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "90cde2d3-717c-4d3b-9d1a-f9d0620c86ff")
 		)
@@ -2226,7 +2266,7 @@
 		(instances
 			(project "kicad_deps"
 				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9a2989f7-0634-4013-94ae-90d0c9c30139"
-					(reference "R17")
+					(reference "R2_IR12V1")
 					(unit 1)
 				)
 			)
@@ -2242,25 +2282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e896be65-c721-4d03-a0b3-4576bcca25c9")
-		(property "LCSC" "C22452"
-			(at 161.925 86.36 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Schottky-Diodes_MDD-Microdiode-Semiconductor-SS54_C22452.html?s_z=n_Schottky%2520Diode"
-			(at 174.625 86.36 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reference" "D3"
+		(property "Reference" "D3_IR12V1"
 			(at 177.8 84.7099 90)
 			(effects
 				(font
@@ -2305,6 +2327,24 @@
 				)
 			)
 		)
+		(property "LCSC" "C22452"
+			(at 161.925 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Schottky-Diodes_MDD-Microdiode-Semiconductor-SS54_C22452.html?s_z=n_Schottky%2520Diode"
+			(at 174.625 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0ee2322a-1081-42d6-bb33-aa231b15718d")
 		)
@@ -2314,7 +2354,7 @@
 		(instances
 			(project "kicad_deps"
 				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9a2989f7-0634-4013-94ae-90d0c9c30139"
-					(reference "D3")
+					(reference "D3_IR12V1")
 					(unit 1)
 				)
 			)
@@ -2330,34 +2370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3a5ec1b-ede3-47b9-b433-1430302114b6")
-		(property "MFR" "FXL1040-330-M"
-			(at 160.655 91.44 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C475918"
-			(at 160.655 81.28 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Power-Inductors_cjiang-Changjiang-Microelectronics-Tech-FXL1040-330-M_C475918.html?s_z=n_33uH"
-			(at 160.655 81.28 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reference" "L1"
+		(property "Reference" "L1_IR12V1"
 			(at 160.655 74.93 0)
 			(effects
 				(font
@@ -2400,11 +2413,46 @@
 				)
 			)
 		)
+		(property "MFR" "FXL1040-330-M"
+			(at 160.655 91.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C475918"
+			(at 160.655 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Power-Inductors_cjiang-Changjiang-Microelectronics-Tech-FXL1040-330-M_C475918.html?s_z=n_33uH"
+			(at 160.655 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d99184b4-d5e3-4ce1-afc3-5f2be69e0576")
 		)
 		(pin "1"
 			(uuid "ffe5896a-416c-45f6-a766-923b5ea31e2d")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/9a2989f7-0634-4013-94ae-90d0c9c30139"
+					(reference "L1_IR12V1")
+					(unit 1)
+				)
+			)
 		)
 	)
 )

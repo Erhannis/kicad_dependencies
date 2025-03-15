@@ -1213,6 +1213,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0efe956a-20a4-4c63-86f6-25135a795a7c")
+		(property "MFR" "FNR6045S331MT"
+			(at 166.37 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C168099"
+			(at 166.37 83.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Power-Inductors_cjiang-Changjiang-Microelectronics-Tech-FNR6045S331MT_C168099.html?s_z=n_330uH"
+			(at 166.37 83.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "L2"
 			(at 166.37 78.74 0)
 			(effects
@@ -1256,33 +1283,6 @@
 				)
 			)
 		)
-		(property "MFR" "FNR6045S331MT"
-			(at 166.37 96.52 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C168099"
-			(at 166.37 83.82 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Power-Inductors_cjiang-Changjiang-Microelectronics-Tech-FNR6045S331MT_C168099.html?s_z=n_330uH"
-			(at 166.37 83.82 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "6cdd7606-30e5-4a0a-b9c8-c8390d669e8a")
 		)
@@ -1308,6 +1308,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4242d0df-0ddc-406c-a450-977a4e7a5f6d")
+		(property "MFR" "RVT1C471M0607"
+			(at 161.925 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2977552"
+			(at 172.085 88.9 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_ROQANG-RVT1C471M0607_C2977552.html?s_z=n_470uF"
+			(at 172.085 88.9 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "C11"
 			(at 176.53 89.1123 90)
 			(effects
@@ -1346,33 +1373,6 @@
 		)
 		(property "Description" "470uF 16V 185mA@120Hz ±20% SMD,D6.3xL7.7mm Aluminum Electrolytic Capacitors - SMD ROHS"
 			(at 172.085 88.9 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" "RVT1C471M0607"
-			(at 161.925 88.9 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2977552"
-			(at 172.085 88.9 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_ROQANG-RVT1C471M0607_C2977552.html?s_z=n_470uF"
-			(at 172.085 88.9 90)
 			(hide yes)
 			(effects
 				(font
@@ -1493,6 +1493,24 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3a08c82-b67d-43de-bb14-3b1b4d785a91")
+		(property "LCSC" "C139578"
+			(at 113.03 87.63 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Tantalum-Capacitors_PANASONIC_20TQC100MYF_100uF-107-20-20V_C139578.html"
+			(at 100.33 87.63 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "C10"
 			(at 104.14 85.7249 90)
 			(effects
@@ -1531,24 +1549,6 @@
 		)
 		(property "Description" "20TQC100MYF"
 			(at 100.33 87.63 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C139578"
-			(at 113.03 87.63 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Tantalum-Capacitors_PANASONIC_20TQC100MYF_100uF-107-20-20V_C139578.html"
-			(at 100.33 87.63 90)
 			(hide yes)
 			(effects
 				(font
