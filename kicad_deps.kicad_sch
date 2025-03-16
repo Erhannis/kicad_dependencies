@@ -8315,7 +8315,7 @@
 	)
 	(sheet
 		(at 262.89 20.32)
-		(size 15.24 14.605)
+		(size 15.24 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8339,7 +8339,7 @@
 			)
 		)
 		(property "Sheetfile" "dac8c.kicad_sch"
-			(at 262.89 35.5096 0)
+			(at 262.89 37.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8395,6 +8395,86 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "Va" output
+			(at 278.13 21.59 0)
+			(uuid "3c79483a-4758-4e3e-b4fc-afa5df02ed4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vb" output
+			(at 278.13 23.495 0)
+			(uuid "673b7129-1a0a-442d-bfd7-4afe3c818871")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vc" output
+			(at 278.13 25.4 0)
+			(uuid "12757d71-36c0-4b18-97df-c679b3cfe2a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vd" output
+			(at 278.13 27.305 0)
+			(uuid "e1cb06b2-3b4e-41cb-b4ce-69981a91a02f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Ve" output
+			(at 278.13 29.21 0)
+			(uuid "9f30c724-96ed-4ac1-98b8-02ff9494f1aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vf" output
+			(at 278.13 31.115 0)
+			(uuid "55362ed2-6a4a-449a-84b2-8e173d5a7005")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vg" output
+			(at 278.13 33.02 0)
+			(uuid "1e173f83-b5ad-4f5f-ac11-5c97f4fad415")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vh" output
+			(at 278.13 34.925 0)
+			(uuid "87ca4596-3655-412b-b1d5-e7f3cb45d8d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

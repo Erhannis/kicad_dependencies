@@ -781,7 +781,7 @@
 		(at 347.472 96.52)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R7"
+		(property "Reference" "R7_PC18650X3S1_PC18650X3S1"
 			(at 0 -1.684 0)
 			(layer "F.SilkS")
 			(uuid "9e0b1827-6c4c-4e58-9c30-ed983f252e75")
@@ -6923,7 +6923,7 @@
 		(at 336.042 106.68 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R9"
+		(property "Reference" "R9_PC18650X3S1_PC18650X3S1"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -10819,7 +10819,7 @@
 		(at 331.153 94.997999)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R2"
+		(property "Reference" "R2_PC18650X3S1_PC18650X3S1"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "530ed161-bbe9-466c-a1cc-51fdebb23695")
@@ -15538,7 +15538,7 @@
 		(layer "F.Cu")
 		(uuid "3d410c59-fe44-4fcd-a8c0-5aea35406ca6")
 		(at 345.119999 123.573999 -90)
-		(property "Reference" "DC1"
+		(property "Reference" "DC1_PC18650X3S1_PC18650X3S1"
 			(at 0 -9.4 90)
 			(layer "F.SilkS")
 			(uuid "9aa33859-b96f-4533-8767-31ca9b59db63")
@@ -16098,7 +16098,7 @@
 		(at 334.277 99.569999 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C4"
+		(property "Reference" "C4_PC18650X3S1_PC18650X3S1"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "18c6d8dc-46a3-486a-a97c-6e19938d19ec")
@@ -16579,7 +16579,7 @@
 		(at 331.153 93.473999)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R1"
+		(property "Reference" "R1_PC18650X3S1_PC18650X3S1"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "b2c111c8-0cf0-47f0-8fb6-27573b933d4e")
@@ -18635,7 +18635,7 @@
 		(at 331.153 99.569999)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R4"
+		(property "Reference" "R4_PC18650X3S1_PC18650X3S1"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "b21b5132-54ef-46de-b3c1-a17707e131dc")
@@ -19395,7 +19395,7 @@
 		(at 346.964 103.378 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R11"
+		(property "Reference" "R11_PC18650X3S1_PC18650X3S1"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "1bd08239-ea40-4e7b-bbd7-888b046e4b5c")
@@ -19931,7 +19931,7 @@
 		(layer "F.Cu")
 		(uuid "504c172f-96cd-4162-a192-dee76cc5a424")
 		(at 341.376 97.283999 -90)
-		(property "Reference" "U1"
+		(property "Reference" "U1_PC18650X3S1_PC18650X3S1"
 			(at 0.254 -6.78 90)
 			(layer "F.SilkS")
 			(uuid "a1256aad-4a6f-44f5-a771-c7ffafc79191")
@@ -20420,7 +20420,7 @@
 		(at 342.646 107.696)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R10"
+		(property "Reference" "R10_PC18650X3S1_PC18650X3S1"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -20669,7 +20669,7 @@
 		(at 336.55 103.632 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R12"
+		(property "Reference" "R12_PC18650X3S1_PC18650X3S1"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "0bdba98e-799e-4843-a657-d2af788a7d5d")
@@ -24445,7 +24445,7 @@
 		(at 347.472 94.743999)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R6"
+		(property "Reference" "R6_PC18650X3S1_PC18650X3S1"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "e35858de-2874-4246-a6d5-17ab361de306")
@@ -26859,7 +26859,7 @@
 		(layer "F.Cu")
 		(uuid "6b3e0eed-6226-4a57-8220-5a4bf9efb759")
 		(at 341.63 103.632)
-		(property "Reference" "SW1"
+		(property "Reference" "SW1_PC18650X3S1_PC18650X3S1"
 			(at 0 -5.4 0)
 			(layer "F.SilkS")
 			(uuid "f3e95191-b7a4-4000-9456-23ccbeb8718f")
@@ -28992,7 +28992,7 @@
 		(at 334.01 110.237999)
 		(descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R8"
+		(property "Reference" "R8_PC18650X3S1_PC18650X3S1"
 			(at 0 -2.62 0)
 			(layer "F.SilkS")
 			(uuid "5963cfb0-2768-4ab4-8db4-07841bb8ff91")
@@ -31976,7 +31976,7 @@
 		(layer "F.Cu")
 		(uuid "81ff170b-7428-4356-990e-f4178c815a5a")
 		(at 339.664 108.887999 -90)
-		(property "Reference" "Q1"
+		(property "Reference" "Q1_PC18650X3S1_PC18650X3S1"
 			(at 0 -4.950001 90)
 			(layer "F.SilkS")
 			(uuid "35b8d8f5-1adc-44b3-9299-3d4ae6383a3a")
@@ -32966,7 +32966,7 @@
 		(at 334.277 96.521999 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C2"
+		(property "Reference" "C2_PC18650X3S1_PC18650X3S1"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "1663ad86-89ca-45aa-b14c-99388b7b30b5")
@@ -33214,7 +33214,7 @@
 		(at 334.277 94.997999 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C1"
+		(property "Reference" "C1_PC18650X3S1_PC18650X3S1"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "448576a4-a0fb-49d9-b89e-c6fb9fb58d05")
@@ -34922,7 +34922,7 @@
 		(at 347.472 98.299999)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R14"
+		(property "Reference" "R14_PC18650X3S1_PC18650X3S1"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "b8381b86-a9e0-4a92-bed6-a560012245f7")
@@ -35907,7 +35907,7 @@
 		(at 347.472 101.092 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R13"
+		(property "Reference" "R13_PC18650X3S1_PC18650X3S1"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(uuid "58ffd959-ff38-4204-ab9f-824d5214d906")
@@ -37171,7 +37171,7 @@
 		(at 334.277 91.949999)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C6"
+		(property "Reference" "C6_PC18650X3S1_PC18650X3S1"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "afdb2724-4b3b-4081-8962-08ef394ce0fe")
@@ -38249,7 +38249,7 @@
 		(at 331.153 96.521999)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R3"
+		(property "Reference" "R3_PC18650X3S1_PC18650X3S1"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "d0b97aa9-6a1a-4999-849a-8277b2c493ff")
@@ -38989,7 +38989,7 @@
 		(at 347.472 99.823999)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R15"
+		(property "Reference" "R15_PC18650X3S1_PC18650X3S1"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "4af93bd4-331d-4070-b8a3-5cd17ec44ad6")
@@ -45536,7 +45536,7 @@
 		(at 331.216 90.425999)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R5"
+		(property "Reference" "R5_PC18650X3S1_PC18650X3S1"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "333663ae-6677-4c59-be74-05272b7355f8")
@@ -47964,7 +47964,7 @@
 		(at 334.277 98.045999 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C3"
+		(property "Reference" "C3_PC18650X3S1_PC18650X3S1"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "34fbcf10-2ed5-4e69-b2da-49b7a2ec61bc")
@@ -50644,7 +50644,7 @@
 		(at 334.264 90.425999 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C5"
+		(property "Reference" "C5_PC18650X3S1_PC18650X3S1"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "77178cfc-6c8e-49c1-87d8-b0675bbf442d")
@@ -53208,7 +53208,7 @@
 		(layer "B.Cu")
 		(uuid "0d54c1c6-e7c6-479c-8273-45fdc3e0db80")
 		(at 356.72121 85.957211 -90)
-		(property "Reference" "BAT1"
+		(property "Reference" "BAT1_PC18650X3S1_PC18650X3S1"
 			(at 0 0 90)
 			(layer "B.SilkS")
 			(uuid "21af5a47-0b73-4f5d-b497-c638a264faaa")
@@ -54143,7 +54143,7 @@
 		(at 359.664 97.028)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Vertical, pin pitch=1.9mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Vertical pin pitch 1.9mm 0.167W length 3.6mm diameter 1.6mm")
-		(property "Reference" "TH1"
+		(property "Reference" "TH1_PC18650X3S1_PC18650X3S1"
 			(at 0.949999 1.92 0)
 			(layer "B.SilkS")
 			(uuid "31499fd3-0b1d-48bc-b885-f5276dd25062")
