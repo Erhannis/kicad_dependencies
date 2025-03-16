@@ -1185,6 +1185,26 @@
 		)
 		(uuid "83fcacdf-e651-4b2f-b63c-9bf7d08d40d8")
 	)
+	(text_box "Derived from Adafruit's DAC7578 breakout; thanks, Adafruit.\nhttps://github.com/adafruit/Adafruit_DACX578"
+		(exclude_from_sim no)
+		(at 60.325 40.005 0)
+		(size 68.58 18.415)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "1b5185a7-93db-4e11-af7b-4b4ebe8e0028")
+	)
 	(junction
 		(at 112.395 72.39)
 		(diameter 0)
@@ -2218,6 +2238,33 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "476bfafa-4015-4916-b386-d9705fad8acd")
+		(property "MFR" "DAC7578SPWR"
+			(at 131.445 106.045 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1520855"
+			(at 131.445 106.045 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Digital-to-Analog-Converters-DAC_Texas-Instruments-DAC7578SPWR_C1520855.html?s_z=n_C1520855"
+			(at 131.445 106.045 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "X1_D8C1"
 			(at 118.745 118.745 0)
 			(effects
@@ -2254,7 +2301,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.7V~5.5V TSSOP-16 Digital to Analog Converters (DAC) ROHS"
 			(at 131.445 106.045 0)
 			(hide yes)
 			(effects

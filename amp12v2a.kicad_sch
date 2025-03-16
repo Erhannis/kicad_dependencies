@@ -1,0 +1,1316 @@
+(kicad_sch
+	(version 20250227)
+	(generator "eeschema")
+	(generator_version "9.99")
+	(uuid "a379d2fa-0576-47cf-adfb-d2c6677761a4")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:LT1210IR#PBF"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LT1210IR#PBF"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:DDPAK-7_L10.2-W8.9-P1.27-LS14.0-BR"
+				(at 0 -15.24 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C1349277"
+				(at 0 -17.78 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LT1210IR#PBF_0_1"
+				(rectangle
+					(start -8.89 10.16)
+					(end 8.89 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -7.62 8.89)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 7.62 0)
+					(length 2.54)
+					(name "–IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 5.08 0)
+					(length 2.54)
+					(name "+IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 2.54 0)
+					(length 2.54)
+					(name "SHUTDOWN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 0 0)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -2.54 0)
+					(length 2.54)
+					(name "COMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -5.08 0)
+					(length 2.54)
+					(name "V–"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -7.62 0)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text_box "LT1210 +-3.75V->15V 2A\n\nSupports +-15V out.  I misnamed the sheet, then doubled down.\nBy my calculations, I think +-3.75V should yield that output.\n\n1.1A before voltage sag\n900V/us slew rate; 35MHz bandwidth\n//WARNING This is a CFA, not a VFA, and I don't know how that'll affect things.\nMay have trouble with capacitative loads; apparently wants a cap on COMP for that.\n//WARNING May waste more power than needed, like a watt or two, specifically in the fb resistors.  Not sure.  Maybe could be optimized if I understood more about this op amp.\n\nAbt 6dB gain?"
+		(exclude_from_sim no)
+		(at 116.205 18.415 0)
+		(size 71.755 33.655)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6c90e634-b92d-4369-9a8d-a75ad3d7f9c3")
+	)
+	(text_box "I'm being cautious with these resistors; the datasheet's a little weird.  I THINK this should give around 6dB gain."
+		(exclude_from_sim no)
+		(at 141.605 102.235 0)
+		(size 25.4 13.335)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ecc437f9-220b-4e32-a550-96a597615f36")
+	)
+	(junction
+		(at 131.445 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6525922e-ff28-4742-8800-873dd176f1ae")
+	)
+	(junction
+		(at 137.16 88.265)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66103a2c-934f-49d1-8183-7c4c9c2b4821")
+	)
+	(junction
+		(at 139.7 80.645)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90969f9f-1b36-4012-bb3d-93642926ff37")
+	)
+	(junction
+		(at 132.08 88.265)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2319b6f-ac99-42bc-a85a-3219977557a4")
+	)
+	(no_connect
+		(at 134.62 77.47)
+		(uuid "fc70670d-3a64-4b12-8a65-ea956fac1cb5")
+	)
+	(wire
+		(pts
+			(xy 127 80.645) (xy 127 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5a4880-7187-4683-b7d6-cda984caa8b4")
+	)
+	(wire
+		(pts
+			(xy 110.49 80.645) (xy 127 80.645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "194e1fbc-0c39-4edf-b572-9300bf1653c3")
+	)
+	(wire
+		(pts
+			(xy 139.7 77.47) (xy 139.7 80.645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bf39aeb-11e1-4df0-a7aa-7dff4b2cfe82")
+	)
+	(wire
+		(pts
+			(xy 132.08 104.14) (xy 131.445 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8bdfe5-1f28-4582-ad54-42fb4a1ed237")
+	)
+	(wire
+		(pts
+			(xy 111.76 88.265) (xy 120.65 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bce175e-f00a-4613-98bb-75689a6660a5")
+	)
+	(wire
+		(pts
+			(xy 139.7 80.645) (xy 139.7 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4429098e-9fb6-4e5c-ad64-438806972056")
+	)
+	(wire
+		(pts
+			(xy 131.445 100.33) (xy 131.445 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a0d72ce-1eea-4f9d-8a46-ea852613770d")
+	)
+	(wire
+		(pts
+			(xy 132.08 88.265) (xy 132.08 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60aca50b-544e-4e37-aa66-88d6a208cddf")
+	)
+	(wire
+		(pts
+			(xy 139.7 80.645) (xy 156.845 80.645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ce143b0-da1c-4333-8d95-e974d391c7be")
+	)
+	(wire
+		(pts
+			(xy 137.16 93.98) (xy 137.16 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa0a4ca-01d0-4f7f-a5bf-b9872ff8162a")
+	)
+	(wire
+		(pts
+			(xy 128.27 88.265) (xy 132.08 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f08c48-d051-4308-85a3-6acf95cfa285")
+	)
+	(wire
+		(pts
+			(xy 118.11 104.14) (xy 123.19 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c5bebc9-88ed-4205-a730-d6a87fc0a382")
+	)
+	(wire
+		(pts
+			(xy 124.46 77.47) (xy 124.46 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7ac72f-e26d-4e0f-bbe5-76ce35397048")
+	)
+	(wire
+		(pts
+			(xy 132.08 77.47) (xy 132.08 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2718392-4193-4dd7-be6f-aa6278d5c6c0")
+	)
+	(wire
+		(pts
+			(xy 137.16 88.265) (xy 137.16 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd6d77c8-ffd9-4921-a263-62a984af3e9e")
+	)
+	(wire
+		(pts
+			(xy 131.445 104.14) (xy 130.81 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa1b741-c5d3-4f15-b0c6-28f2167dde61")
+	)
+	(wire
+		(pts
+			(xy 124.46 100.33) (xy 131.445 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f51d45d7-cfa6-4c52-a553-9512d19cb573")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 132.08 54.61 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "050627cb-4f8a-4aee-b3a7-b2e7c0d6b50f")
+	)
+	(hierarchical_label "V-"
+		(shape input)
+		(at 137.16 93.98 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b5b195b-7013-42b7-b4aa-ba46c44813d7")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 144.78 88.265 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f734b97-a5c6-408b-bf6a-0999f8face86")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 118.11 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1200eb8c-785e-480e-8a3d-cb9c44c68fde")
+	)
+	(hierarchical_label "V+"
+		(shape input)
+		(at 132.08 93.98 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1cbb9076-f043-45dd-9cbf-613dc4ac0e7c")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 111.76 88.265 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f407f5c-5618-4dae-8c9b-9b4cf3dcad1f")
+	)
+	(hierarchical_label "Vin"
+		(shape input)
+		(at 110.49 80.645 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "536d0452-36c7-4404-9992-8a97af864e31")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 129.54 77.47 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65b0499e-bfd2-49a4-8f99-88e5af3dafa6")
+	)
+	(hierarchical_label "Vout"
+		(shape output)
+		(at 156.845 80.645 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b939e11e-cf5e-4887-8891-c6ad6382a7d7")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 124.46 88.265 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03caf07e-9efe-490e-8266-fddfe325f889")
+		(property "MFR" "CL21A106KAYNNNE"
+			(at 124.46 88.265 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 124.46 88.265 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.html?s_z=n_10uF"
+			(at 124.46 88.265 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reference" "C1_A12V2A1"
+			(at 124.46 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 124.46 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 128.27 87.2998 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 88.265 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "25V 10uF X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 124.46 88.265 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e23e93ab-1a44-49e3-a122-8c1879691f5f")
+		)
+		(pin "1"
+			(uuid "819cca72-a8fc-4ba7-80a1-cf6818a71953")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/df25ff21-444d-4db5-907c-1d5de67a83e1"
+					(reference "C1_A12V2A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d4c3a50-e18b-46c8-9090-d09126a1c992")
+		(property "MFR" "FRP1206F30R0TS"
+			(at 127 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5713419"
+			(at 127 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRP1206F30R0TS_C5713419.html?s_z=n_30%25CE%25A9"
+			(at 127 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reference" "R2_A12V2A1"
+			(at 128.2701 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30ohm 0.5W"
+			(at 125.7301 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 127 102.362 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.5W Thick Film Resistors 200V ±1% ±200ppm/℃ 30Ω 1206 Chip Resistor - Surface Mount ROHS"
+			(at 127 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1c6f9440-f033-4a12-b596-bf84fa57d016")
+		)
+		(pin "1"
+			(uuid "c576d0c1-ef0f-4636-9dfb-0ba6b14fa22e")
+		)
+		(instances
+			(project ""
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/df25ff21-444d-4db5-907c-1d5de67a83e1"
+					(reference "R2_A12V2A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 140.97 88.265 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91ad7f3c-daf2-43b4-9be2-1f2890cfc914")
+		(property "MFR" "CL21A106KAYNNNE"
+			(at 140.97 88.265 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 140.97 88.265 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.html?s_z=n_10uF"
+			(at 140.97 88.265 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reference" "C2_A12V2A1"
+			(at 140.97 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 140.97 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 144.78 87.2998 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 88.265 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "25V 10uF X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 140.97 88.265 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e3e4153f-0764-4aa1-8b5b-9a4f97736042")
+		)
+		(pin "1"
+			(uuid "772c4636-f17f-43c0-96bf-be67ad9c5b8e")
+		)
+		(instances
+			(project ""
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/df25ff21-444d-4db5-907c-1d5de67a83e1"
+					(reference "C2_A12V2A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:LT1210IR#PBF")
+		(at 132.08 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd5293df-60e4-44de-b4c1-aba5df781c5a")
+		(property "LCSC Part" "C1349277"
+			(at 149.86 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reference" "U1_A12V2A1"
+			(at 143.51 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LT1210IR#PBF"
+			(at 143.51 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:DDPAK-7_L10.2-W8.9-P1.27-LS14.0-BR"
+			(at 147.32 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "bf93a23d-222f-4d50-9fb2-5ff0fe394617")
+		)
+		(pin "3"
+			(uuid "b7ed9780-9ecd-49ef-bc13-7f825e0b0c95")
+		)
+		(pin "2"
+			(uuid "7f1709e9-7fcc-4c88-a4f6-80a32ef86d2a")
+		)
+		(pin "1"
+			(uuid "8ffa9df3-24b4-4046-904b-463b54a45bac")
+		)
+		(pin "4"
+			(uuid "8dacc58c-6ecc-4a34-a8fe-cf0f8b7ca0f3")
+		)
+		(pin "7"
+			(uuid "90df4119-4598-48a3-96b0-6b511ac60df9")
+		)
+		(pin "6"
+			(uuid "9d05f53b-f2b8-4b24-8db2-af2fb3fde126")
+		)
+		(pin "5"
+			(uuid "8e4b58d0-8367-413e-907f-a76b735e423b")
+		)
+		(instances
+			(project ""
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/df25ff21-444d-4db5-907c-1d5de67a83e1"
+					(reference "U1_A12V2A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce5036b1-a556-4503-b5ef-797f3c72ec83")
+		(property "MFR" "FRC2512F2000TS"
+			(at 135.89 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2934056"
+			(at 135.89 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRC2512F2000TS_C2934056.html?s_z=n_200%25CE%25A9"
+			(at 135.89 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reference" "R1_A12V2A1"
+			(at 137.1601 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "200ohm 1W"
+			(at 134.6201 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 135.89 102.362 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1W Thick Film Resistors 200V ±100ppm/℃ ±1% 200Ω 2512 Chip Resistor - Surface Mount ROHS"
+			(at 135.89 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9a99d791-eab4-4556-943c-cfde61e87f20")
+		)
+		(pin "1"
+			(uuid "50556c8f-a186-4c5d-bf1e-8144b670d53b")
+		)
+		(instances
+			(project ""
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/df25ff21-444d-4db5-907c-1d5de67a83e1"
+					(reference "R1_A12V2A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
