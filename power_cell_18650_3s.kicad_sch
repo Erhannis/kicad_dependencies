@@ -3250,6 +3250,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05699cce-98e5-405e-ab2e-73f8fc84e06f")
+		(property "MFR" "CC0603KRX7R9BB104"
+			(at 93.345 88.265 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 93.345 88.265 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Yageo-CC0603KRX7R9BB104/C14663"
+			(at 93.345 88.265 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "C3_PC18650X3S1"
 			(at 97.155 86.9949 0)
 			(effects
@@ -3295,33 +3322,6 @@
 				)
 			)
 		)
-		(property "MFR" "CC0603KRX7R9BB104"
-			(at 93.345 88.265 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 93.345 88.265 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Yageo-CC0603KRX7R9BB104/C14663"
-			(at 93.345 88.265 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "2923ad21-a993-43f1-ac13-54a95fad153f")
 		)
@@ -3347,6 +3347,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23c0dbfc-10c4-4779-9fda-05bc73773e3d")
+		(property "MFR" "0603WAF1002T5E"
+			(at 146.05 76.835 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 146.05 76.835 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
+			(at 146.05 76.835 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "R7_PC18650X3S1"
 			(at 146.05 70.485 90)
 			(effects
@@ -3390,33 +3417,6 @@
 				)
 			)
 		)
-		(property "MFR" "0603WAF1002T5E"
-			(at 146.05 76.835 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 146.05 76.835 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
-			(at 146.05 76.835 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "9bef2322-414d-4b94-bae6-df169f5a7d65")
 		)
@@ -3442,6 +3442,15 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2f2de31b-3a7e-4f0b-bfaa-6e2cb0c4fa24")
+		(property "LCSC Part" "C19184086"
+			(at 48.26 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "BAT1_PC18650X3S1"
 			(at 41.91 74.9299 90)
 			(effects
@@ -3487,15 +3496,6 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C19184086"
-			(at 48.26 76.2 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "6"
 			(uuid "195ed110-b657-4cb8-904d-848273569796")
 		)
@@ -3533,6 +3533,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3122594a-caad-423b-8177-b9876cc2bc41")
+		(property "MFR" "0603WAF1001T5E"
+			(at 86.995 46.355 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 86.995 46.355 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/21904-0603WAF1001T5E/C21190"
+			(at 86.995 46.355 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "R5_PC18650X3S1"
 			(at 86.995 40.005 90)
 			(effects
@@ -3576,33 +3603,6 @@
 				)
 			)
 		)
-		(property "MFR" "0603WAF1001T5E"
-			(at 86.995 46.355 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C21190"
-			(at 86.995 46.355 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/21904-0603WAF1001T5E/C21190"
-			(at 86.995 46.355 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "7c5bb6f9-7800-4291-a3ff-716b24248d44")
 		)
@@ -3628,6 +3628,15 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "316d862d-16a3-4436-9845-3b80795666af")
+		(property "LCSC Part" "C2865574"
+			(at 127.635 102.235 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "U1_PC18650X3S1"
 			(at 127.635 57.15 0)
 			(effects
@@ -3664,15 +3673,6 @@
 		)
 		(property "Description" ""
 			(at 127.635 78.105 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2865574"
-			(at 127.635 102.235 0)
 			(hide yes)
 			(effects
 				(font
@@ -3771,6 +3771,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d1a124f-843f-4b64-a464-a1dc9d1a3c5f")
+		(property "MFR" "CC0603KRX7R9BB104"
+			(at 93.345 95.885 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 93.345 95.885 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Yageo-CC0603KRX7R9BB104/C14663"
+			(at 93.345 95.885 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "C4_PC18650X3S1"
 			(at 97.155 94.6149 0)
 			(effects
@@ -3816,33 +3843,6 @@
 				)
 			)
 		)
-		(property "MFR" "CC0603KRX7R9BB104"
-			(at 93.345 95.885 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 93.345 95.885 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Yageo-CC0603KRX7R9BB104/C14663"
-			(at 93.345 95.885 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "fc5d9fcb-c3d2-4c61-b130-2a45c3f7ed38")
 		)
@@ -3868,6 +3868,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59a91a7f-c295-4bb0-a214-c1d3b60c093f")
+		(property "MFR" "0603WAF750JT5E"
+			(at 83.185 100.33 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4275"
+			(at 83.185 100.33 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/4682-0603WAF750JT5E/C4275"
+			(at 83.185 100.33 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "R4_PC18650X3S1"
 			(at 83.185 93.98 90)
 			(effects
@@ -3911,33 +3938,6 @@
 				)
 			)
 		)
-		(property "MFR" "0603WAF750JT5E"
-			(at 83.185 100.33 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C4275"
-			(at 83.185 100.33 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/4682-0603WAF750JT5E/C4275"
-			(at 83.185 100.33 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "b1a42b3d-5db1-457f-9554-608185b2ace6")
 		)
@@ -3963,6 +3963,15 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62dae630-1597-41b1-b905-8a1bfa902629")
+		(property "LCSC Part" "C240299"
+			(at 144.78 102.87 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "SW1_PC18650X3S1"
 			(at 140.97 102.2349 90)
 			(effects
@@ -4008,15 +4017,6 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C240299"
-			(at 144.78 102.87 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "a178d602-a723-4526-b968-eab4e39e3919")
 		)
@@ -4048,6 +4048,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64cdf4ae-9766-459e-b9cf-24f824f2788e")
+		(property "MFR" "FRC0603F2943TS"
+			(at 142.875 81.915 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2999562"
+			(at 142.875 81.915 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Fojan-FRC0603F2943TS/C2999562"
+			(at 142.875 81.915 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "R14_PC18650X3S1"
 			(at 142.875 76.2 90)
 			(effects
@@ -4091,33 +4118,6 @@
 				)
 			)
 		)
-		(property "MFR" "FRC0603F2943TS"
-			(at 142.875 81.915 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2999562"
-			(at 142.875 81.915 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Fojan-FRC0603F2943TS/C2999562"
-			(at 142.875 81.915 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "c9c3535a-be2e-4a02-86b3-507eb4b0bace")
 		)
@@ -4143,6 +4143,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6519119b-b653-4cea-870d-ed237bf7774d")
+		(property "MFR" "0603WAF750JT5E"
+			(at 83.82 60.325 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4275"
+			(at 83.82 60.325 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/4682-0603WAF750JT5E/C4275"
+			(at 83.82 60.325 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "R1_PC18650X3S1"
 			(at 83.82 53.975 90)
 			(effects
@@ -4186,33 +4213,6 @@
 				)
 			)
 		)
-		(property "MFR" "0603WAF750JT5E"
-			(at 83.82 60.325 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C4275"
-			(at 83.82 60.325 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/4682-0603WAF750JT5E/C4275"
-			(at 83.82 60.325 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "11b55e89-3a15-4da9-bd86-d1d158772ae9")
 		)
@@ -4238,6 +4238,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8432767c-d9ae-4e32-801c-57c2856262fd")
+		(property "MFR" "0603WAF1002T5E"
+			(at 142.875 84.455 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 142.875 84.455 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
+			(at 142.875 84.455 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "R15_PC18650X3S1"
 			(at 142.875 78.105 90)
 			(effects
@@ -4281,33 +4308,6 @@
 				)
 			)
 		)
-		(property "MFR" "0603WAF1002T5E"
-			(at 142.875 84.455 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 142.875 84.455 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
-			(at 142.875 84.455 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "202d21e5-a115-4cc9-91f2-23b7345b0fc9")
 		)
@@ -4333,6 +4333,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8655cbd4-c53a-4ad0-9fb0-03312af1adec")
+		(property "MFR" "CC0603KRX7R9BB104"
+			(at 93.345 77.47 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 93.345 77.47 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Yageo-CC0603KRX7R9BB104/C14663"
+			(at 93.345 77.47 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "C2_PC18650X3S1"
 			(at 97.155 76.1999 0)
 			(effects
@@ -4378,33 +4405,6 @@
 				)
 			)
 		)
-		(property "MFR" "CC0603KRX7R9BB104"
-			(at 93.345 77.47 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 93.345 77.47 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Yageo-CC0603KRX7R9BB104/C14663"
-			(at 93.345 77.47 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "b743c671-9aab-49fd-adaa-b991697650cf")
 		)
@@ -4429,6 +4429,15 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8879b3a6-79c8-412b-adee-540703dc78b0")
+		(property "LCSC Part" "C908265"
+			(at 153.67 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "Q1_PC18650X3S1"
 			(at 132.715 128.2701 90)
 			(effects
@@ -4467,15 +4476,6 @@
 		)
 		(property "Description" ""
 			(at 138.43 127 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C908265"
-			(at 153.67 127 0)
 			(hide yes)
 			(effects
 				(font
@@ -4588,6 +4588,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90401245-1839-4621-986d-8e274ca18402")
+		(property "MFR" "0603WAF750JT5E"
+			(at 83.82 82.55 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4275"
+			(at 83.82 82.55 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/4682-0603WAF750JT5E/C4275"
+			(at 83.82 82.55 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "R3_PC18650X3S1"
 			(at 83.82 76.2 90)
 			(effects
@@ -4631,33 +4658,6 @@
 				)
 			)
 		)
-		(property "MFR" "0603WAF750JT5E"
-			(at 83.82 82.55 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C4275"
-			(at 83.82 82.55 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/4682-0603WAF750JT5E/C4275"
-			(at 83.82 82.55 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "6e14d4d4-2866-481d-a3af-97ba2027e193")
 		)
@@ -4683,6 +4683,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99c05f81-478c-48d9-81ee-4e4421652703")
+		(property "MFR" "0603WAF1001T5E"
+			(at 154.305 96.52 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 154.305 96.52 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/21904-0603WAF1001T5E/C21190"
+			(at 154.305 96.52 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "R11_PC18650X3S1"
 			(at 156.845 95.2499 0)
 			(effects
@@ -4728,33 +4755,6 @@
 				)
 			)
 		)
-		(property "MFR" "0603WAF1001T5E"
-			(at 154.305 96.52 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C21190"
-			(at 154.305 96.52 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/21904-0603WAF1001T5E/C21190"
-			(at 154.305 96.52 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "348c2194-c749-4b3f-a804-a71427db15d5")
 		)
@@ -4780,6 +4780,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a09c6bd7-0f37-4b29-844c-0e86e070b55e")
+		(property "MFR" "PA2512FKE7W0R01E"
+			(at 118.745 142.24 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C375688"
+			(at 118.745 142.24 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Yageo-PA2512FKE7W0R01E/C375688"
+			(at 118.745 142.24 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "R8_PC18650X3S1"
 			(at 118.745 136.525 90)
 			(effects
@@ -4823,33 +4850,6 @@
 				)
 			)
 		)
-		(property "MFR" "PA2512FKE7W0R01E"
-			(at 118.745 142.24 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C375688"
-			(at 118.745 142.24 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Yageo-PA2512FKE7W0R01E/C375688"
-			(at 118.745 142.24 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "61b4e7cf-0dc4-4475-a998-9730caeed461")
 		)
@@ -4875,6 +4875,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "add5d039-2150-4e33-8716-3d80b0cb2725")
+		(property "MFR" "0603WAF1004T5E"
+			(at 146.685 104.775 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22935"
+			(at 146.685 104.775 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/23662-0603WAF1004T5E/C22935"
+			(at 146.685 104.775 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "R10_PC18650X3S1"
 			(at 149.225 103.5049 0)
 			(effects
@@ -4920,33 +4947,6 @@
 				)
 			)
 		)
-		(property "MFR" "0603WAF1004T5E"
-			(at 146.685 104.775 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22935"
-			(at 146.685 104.775 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/23662-0603WAF1004T5E/C22935"
-			(at 146.685 104.775 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "29734798-0413-443a-9fde-b75622370876")
 		)
@@ -4972,6 +4972,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be90d5cd-199c-4d2f-ac13-6c1b19c2be5e")
+		(property "MFR" "CC0603KRX7R9BB104"
+			(at 93.345 65.405 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 93.345 65.405 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Yageo-CC0603KRX7R9BB104/C14663"
+			(at 93.345 65.405 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "C1_PC18650X3S1"
 			(at 97.155 64.1349 0)
 			(effects
@@ -5017,33 +5044,6 @@
 				)
 			)
 		)
-		(property "MFR" "CC0603KRX7R9BB104"
-			(at 93.345 65.405 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 93.345 65.405 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Yageo-CC0603KRX7R9BB104/C14663"
-			(at 93.345 65.405 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "0e411e64-3200-4ce9-ab71-da38d6adecd6")
 		)
@@ -5069,6 +5069,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c418615e-864c-480c-bf8c-4f95c6a0eeae")
+		(property "MFR" "CL10A105KB8NNNC"
+			(at 96.52 50.165 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 96.52 50.165 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849"
+			(at 96.52 50.165 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "C5_PC18650X3S1"
 			(at 100.33 48.8949 0)
 			(effects
@@ -5114,33 +5141,6 @@
 				)
 			)
 		)
-		(property "MFR" "CL10A105KB8NNNC"
-			(at 96.52 50.165 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C15849"
-			(at 96.52 50.165 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849"
-			(at 96.52 50.165 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "10ee9775-69f1-4114-a774-c94394aa80cd")
 		)
@@ -5166,6 +5166,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d236bd3c-ba9c-4ab8-9a1e-1fdf95596941")
+		(property "MFR" "0603WAF1002T5E"
+			(at 153.035 69.215 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 153.035 69.215 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
+			(at 153.035 69.215 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "R6_PC18650X3S1"
 			(at 153.035 62.865 90)
 			(effects
@@ -5209,33 +5236,6 @@
 				)
 			)
 		)
-		(property "MFR" "0603WAF1002T5E"
-			(at 153.035 69.215 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 153.035 69.215 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
-			(at 153.035 69.215 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "46acdc50-a897-4474-b58c-2c48006438a5")
 		)
@@ -5261,6 +5261,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d757d0c1-4219-4c64-9ea4-601079eccec0")
+		(property "MFR" "FRC0402F4503TS"
+			(at 163.195 96.52 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5159688"
+			(at 163.195 96.52 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Fojan-FRC0402F4503TS/C5159688"
+			(at 163.195 96.52 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "R13_PC18650X3S1"
 			(at 165.735 95.2499 0)
 			(effects
@@ -5306,33 +5333,6 @@
 				)
 			)
 		)
-		(property "MFR" "FRC0402F4503TS"
-			(at 163.195 96.52 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5159688"
-			(at 163.195 96.52 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Fojan-FRC0402F4503TS/C5159688"
-			(at 163.195 96.52 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "ef38a35f-f857-4163-b2b9-dcf9cf8ca1da")
 		)
@@ -5358,6 +5358,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7b15088-f2d0-449e-a78b-460d97b0735e")
+		(property "MFR" "ARG03FTC4421"
+			(at 116.205 95.885 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C218055"
+			(at 116.205 95.885 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/VikingTech-ARG03FTC4421/C218055"
+			(at 116.205 95.885 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "R12_PC18650X3S1"
 			(at 118.745 94.6149 0)
 			(effects
@@ -5403,33 +5430,6 @@
 				)
 			)
 		)
-		(property "MFR" "ARG03FTC4421"
-			(at 116.205 95.885 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C218055"
-			(at 116.205 95.885 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/VikingTech-ARG03FTC4421/C218055"
-			(at 116.205 95.885 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "3e417097-5517-47db-be29-c49c5447813a")
 		)
@@ -5455,6 +5455,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e103aa0a-5cf5-423f-9e09-ac1180e14ed9")
+		(property "MFR" "0603WAF1004T5E"
+			(at 127 117.475 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22935"
+			(at 127 117.475 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/23662-0603WAF1004T5E/C22935"
+			(at 127 117.475 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "R9_PC18650X3S1"
 			(at 129.54 116.2049 0)
 			(effects
@@ -5500,33 +5527,6 @@
 				)
 			)
 		)
-		(property "MFR" "0603WAF1004T5E"
-			(at 127 117.475 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22935"
-			(at 127 117.475 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/23662-0603WAF1004T5E/C22935"
-			(at 127 117.475 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "96c7ceb6-8ab4-4162-bb1a-5c9bf858d5c3")
 		)
@@ -5552,6 +5552,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea2be758-a4c6-4df4-9c0d-1994337c0185")
+		(property "MFR" "0603WAF750JT5E"
+			(at 83.82 72.39 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4275"
+			(at 83.82 72.39 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/4682-0603WAF750JT5E/C4275"
+			(at 83.82 72.39 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "R2_PC18650X3S1"
 			(at 83.82 66.04 90)
 			(effects
@@ -5595,33 +5622,6 @@
 				)
 			)
 		)
-		(property "MFR" "0603WAF750JT5E"
-			(at 83.82 72.39 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C4275"
-			(at 83.82 72.39 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/4682-0603WAF750JT5E/C4275"
-			(at 83.82 72.39 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "c388fc3f-327a-471e-be7c-08fd56dddcb3")
 		)
@@ -5647,6 +5647,33 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9ca0fb7-a706-43f4-8f75-ab75df66c21a")
+		(property "MFR" "CL10A105KB8NNNC"
+			(at 107.95 53.975 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 107.95 53.975 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849"
+			(at 107.95 53.975 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "C6_PC18650X3S1"
 			(at 107.95 46.355 90)
 			(effects
@@ -5682,33 +5709,6 @@
 			)
 		)
 		(property "Description" "50V 1uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 107.95 53.975 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" "CL10A105KB8NNNC"
-			(at 107.95 53.975 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C15849"
-			(at 107.95 53.975 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849"
 			(at 107.95 53.975 0)
 			(hide yes)
 			(effects

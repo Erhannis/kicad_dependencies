@@ -4848,34 +4848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae2ba35b-3bd2-4f05-bd7a-18b78b5d3874")
-		(property "MFR" "DC-050-T25"
-			(at 125.095 34.29 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C113716"
-			(at 125.095 21.59 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Sofng-DC_050T25/C113716"
-			(at 125.095 21.59 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reference" "DC1"
+		(property "Reference" "DC1_PC18650X3S1"
 			(at 123.2953 12.7 0)
 			(effects
 				(font
@@ -4918,6 +4891,33 @@
 				)
 			)
 		)
+		(property "MFR" "DC-050-T25"
+			(at 125.095 34.29 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C113716"
+			(at 125.095 21.59 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Sofng-DC_050T25/C113716"
+			(at 125.095 21.59 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "681a2462-ebe6-44bf-8200-193737d720e4")
 		)
@@ -4930,7 +4930,7 @@
 		(instances
 			(project ""
 				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
-					(reference "DC1")
+					(reference "DC1_PC18650X3S1")
 					(unit 1)
 				)
 			)
