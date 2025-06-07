@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20250227)
+	(version 20250513)
 	(generator "eeschema")
 	(generator_version "9.99")
 	(uuid "96755a84-99fc-4e96-8944-a70af4834c6a")
@@ -15,6 +15,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
 				(effects
@@ -42,7 +43,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -108,7 +109,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -126,7 +127,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -151,6 +152,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -3.81 3.175 0)
 				(effects
@@ -403,33 +405,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b5118b5-4df2-48a6-a574-de66bf2f2a0a")
-		(property "MFR" "XC6206P182MR"
-			(at 125.095 79.375 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C347373"
-			(at 125.095 79.375 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/324033-XC6206P182MR/C347373"
-			(at 125.095 79.375 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "POW1_P1V8L1"
 			(at 125.095 72.39 0)
 			(effects
@@ -474,6 +449,33 @@
 				)
 			)
 		)
+		(property "MFR" "XC6206P182MR"
+			(at 125.095 79.375 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C347373"
+			(at 125.095 79.375 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/324033-XC6206P182MR/C347373"
+			(at 125.095 79.375 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "368d40ab-8a7f-4198-8a9c-90cc1c139935")
 		)
@@ -501,33 +503,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6686aa2-a9d9-4b7f-a456-149ec0c5fe7b")
-		(property "MFR" "GRM188R6YA106MA73D"
-			(at 114.935 83.185 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C194427"
-			(at 114.935 83.185 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/235742-GRM188R6YA106MA73D/C194427"
-			(at 114.935 83.185 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C1_P1V8L1"
 			(at 112.645 81.935 90)
 			(effects
@@ -553,7 +528,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 114.935 83.185 0)
 			(hide yes)
 			(effects
@@ -563,6 +538,33 @@
 			)
 		)
 		(property "Description" "35V 10uF X5R ±20% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 114.935 83.185 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "GRM188R6YA106MA73D"
+			(at 114.935 83.185 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C194427"
+			(at 114.935 83.185 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/235742-GRM188R6YA106MA73D/C194427"
 			(at 114.935 83.185 90)
 			(hide yes)
 			(effects
@@ -595,33 +597,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f97c412d-6686-44de-b497-6ab48fdbf005")
-		(property "MFR" "GRM188R6YA106MA73D"
-			(at 135.255 83.185 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C194427"
-			(at 135.255 83.185 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/235742-GRM188R6YA106MA73D/C194427"
-			(at 135.255 83.185 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C2_P1V8L1"
 			(at 132.965 81.935 90)
 			(effects
@@ -647,7 +622,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 135.255 83.185 0)
 			(hide yes)
 			(effects
@@ -657,6 +632,33 @@
 			)
 		)
 		(property "Description" "35V 10uF X5R ±20% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 135.255 83.185 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "GRM188R6YA106MA73D"
+			(at 135.255 83.185 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C194427"
+			(at 135.255 83.185 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/235742-GRM188R6YA106MA73D/C194427"
 			(at 135.255 83.185 90)
 			(hide yes)
 			(effects

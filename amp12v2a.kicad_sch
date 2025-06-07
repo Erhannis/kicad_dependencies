@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20250227)
+	(version 20250513)
 	(generator "eeschema")
 	(generator_version "9.99")
 	(uuid "a379d2fa-0576-47cf-adfb-d2c6677761a4")
@@ -15,6 +15,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
 				(effects
@@ -42,7 +43,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -108,7 +109,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -126,7 +127,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -154,6 +155,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 0 90)
 				(effects
@@ -179,7 +181,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -232,7 +234,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -250,7 +252,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -272,6 +274,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 12.7 0)
 				(effects
@@ -733,17 +736,6 @@
 		)
 		(uuid "f51d45d7-cfa6-4c52-a553-9512d19cb573")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 132.08 54.61 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "050627cb-4f8a-4aee-b3a7-b2e7c0d6b50f")
-	)
 	(hierarchical_label "V-"
 		(shape input)
 		(at 137.16 93.98 270)
@@ -842,33 +834,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03caf07e-9efe-490e-8266-fddfe325f889")
-		(property "MFR" "CL21A106KAYNNNE"
-			(at 124.46 88.265 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C15850"
-			(at 124.46 88.265 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.html?s_z=n_10uF"
-			(at 124.46 88.265 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C1_A12V2A1"
 			(at 124.46 81.28 90)
 			(effects
@@ -894,7 +859,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 124.46 88.265 0)
 			(hide yes)
 			(effects
@@ -905,6 +870,33 @@
 		)
 		(property "Description" "25V 10uF X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 124.46 88.265 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "CL21A106KAYNNNE"
+			(at 124.46 88.265 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 124.46 88.265 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.html?s_z=n_10uF"
+			(at 124.46 88.265 90)
 			(hide yes)
 			(effects
 				(font
@@ -937,33 +929,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d4c3a50-e18b-46c8-9090-d09126a1c992")
-		(property "MFR" "FRP1206F30R0TS"
-			(at 127 104.14 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5713419"
-			(at 127 104.14 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRP1206F30R0TS_C5713419.html?s_z=n_30%25CE%25A9"
-			(at 127 104.14 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R2_A12V2A1"
 			(at 128.2701 106.045 0)
 			(effects
@@ -991,7 +956,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 127 104.14 0)
 			(hide yes)
 			(effects
@@ -1001,6 +966,33 @@
 			)
 		)
 		(property "Description" "0.5W Thick Film Resistors 200V ±1% ±200ppm/℃ 30Ω 1206 Chip Resistor - Surface Mount ROHS"
+			(at 127 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "FRP1206F30R0TS"
+			(at 127 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5713419"
+			(at 127 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRP1206F30R0TS_C5713419.html?s_z=n_30%25CE%25A9"
 			(at 127 104.14 0)
 			(hide yes)
 			(effects
@@ -1034,33 +1026,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91ad7f3c-daf2-43b4-9be2-1f2890cfc914")
-		(property "MFR" "CL21A106KAYNNNE"
-			(at 140.97 88.265 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C15850"
-			(at 140.97 88.265 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.html?s_z=n_10uF"
-			(at 140.97 88.265 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C2_A12V2A1"
 			(at 140.97 81.28 90)
 			(effects
@@ -1086,7 +1051,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 140.97 88.265 0)
 			(hide yes)
 			(effects
@@ -1097,6 +1062,33 @@
 		)
 		(property "Description" "25V 10uF X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 140.97 88.265 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "CL21A106KAYNNNE"
+			(at 140.97 88.265 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 140.97 88.265 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.html?s_z=n_10uF"
+			(at 140.97 88.265 90)
 			(hide yes)
 			(effects
 				(font
@@ -1129,15 +1121,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd5293df-60e4-44de-b4c1-aba5df781c5a")
-		(property "LCSC Part" "C1349277"
-			(at 149.86 66.04 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "U1_A12V2A1"
 			(at 143.51 64.7699 90)
 			(effects
@@ -1176,6 +1159,15 @@
 		)
 		(property "Description" ""
 			(at 132.08 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1349277"
+			(at 149.86 66.04 0)
 			(hide yes)
 			(effects
 				(font
@@ -1226,33 +1218,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce5036b1-a556-4503-b5ef-797f3c72ec83")
-		(property "MFR" "FRC2512F2000TS"
-			(at 135.89 104.14 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2934056"
-			(at 135.89 104.14 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRC2512F2000TS_C2934056.html?s_z=n_200%25CE%25A9"
-			(at 135.89 104.14 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R1_A12V2A1"
 			(at 137.1601 106.045 0)
 			(effects
@@ -1280,7 +1245,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 135.89 104.14 0)
 			(hide yes)
 			(effects
@@ -1290,6 +1255,33 @@
 			)
 		)
 		(property "Description" "1W Thick Film Resistors 200V ±100ppm/℃ ±1% 200Ω 2512 Chip Resistor - Surface Mount ROHS"
+			(at 135.89 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "FRC2512F2000TS"
+			(at 135.89 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2934056"
+			(at 135.89 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRC2512F2000TS_C2934056.html?s_z=n_200%25CE%25A9"
 			(at 135.89 104.14 0)
 			(hide yes)
 			(effects

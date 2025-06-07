@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20250227)
+	(version 20250513)
 	(generator "eeschema")
 	(generator_version "9.99")
 	(uuid "c3854bda-24f0-4b5a-bc62-f7e59019471c")
@@ -15,6 +15,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
 				(effects
@@ -42,7 +43,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -108,7 +109,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -126,7 +127,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -154,6 +155,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 0 90)
 				(effects
@@ -179,7 +181,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -232,7 +234,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -250,7 +252,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -272,6 +274,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -12.7 34.29 0)
 				(effects
@@ -1459,33 +1462,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03f56348-56ee-4784-a82d-7bb6d9bc8305")
-		(property "MFR" "0603WAF1002T5E"
-			(at 92.71 73.025 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 92.71 73.025 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
-			(at 92.71 73.025 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R1_E1"
 			(at 94.615 71.755 0)
 			(effects
@@ -1513,7 +1489,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 92.71 73.025 0)
 			(hide yes)
 			(effects
@@ -1523,6 +1499,33 @@
 			)
 		)
 		(property "Description" "100mW Thick Film Resistors ±100ppm/℃ ±1% 10kΩ 0603  Chip Resistor - Surface Mount ROHS"
+			(at 92.71 73.025 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "0603WAF1002T5E"
+			(at 92.71 73.025 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 92.71 73.025 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
 			(at 92.71 73.025 90)
 			(hide yes)
 			(effects
@@ -1562,33 +1565,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44bd7d35-0e57-4f3e-8eb8-db132d5423b6")
-		(property "MFR" "CL10A226MP8NUNE"
-			(at 106.045 68.58 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C86295"
-			(at 106.045 68.58 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/87471-CL10A226MP8NUNE/C86295"
-			(at 106.045 68.58 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C2_E1"
 			(at 106.045 60.96 90)
 			(effects
@@ -1614,7 +1590,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 106.045 68.58 0)
 			(hide yes)
 			(effects
@@ -1624,6 +1600,33 @@
 			)
 		)
 		(property "Description" "10V 22uF X5R ±20% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 106.045 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "CL10A226MP8NUNE"
+			(at 106.045 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C86295"
+			(at 106.045 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/87471-CL10A226MP8NUNE/C86295"
 			(at 106.045 68.58 0)
 			(hide yes)
 			(effects
@@ -1663,33 +1666,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80208c72-7a9a-4541-be12-0526f0081b1e")
-		(property "MFR" "CL10A105KO8NNNC"
-			(at 88.9 76.835 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1592"
-			(at 88.9 76.835 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/1944-CL10A105KO8NNNC/C1592"
-			(at 88.9 76.835 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C1_E1"
 			(at 88.9 69.215 90)
 			(effects
@@ -1715,7 +1691,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 88.9 76.835 0)
 			(hide yes)
 			(effects
@@ -1725,6 +1701,33 @@
 			)
 		)
 		(property "Description" "16V 1uF X5R ±10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 88.9 76.835 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "CL10A105KO8NNNC"
+			(at 88.9 76.835 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1592"
+			(at 88.9 76.835 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/1944-CL10A105KO8NNNC/C1592"
 			(at 88.9 76.835 0)
 			(hide yes)
 			(effects
@@ -1764,33 +1767,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f4b9955-0f28-44b8-87b9-d61414829c22")
-		(property "MFR" "ESP32-WROOM-32E-N4"
-			(at 109.855 107.315 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C701341"
-			(at 109.855 107.315 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/EspressifSystems-ESP32_WROOM_32EN4/C701341"
-			(at 109.855 107.315 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "ESP1"
 			(at 111.8109 69.215 0)
 			(effects
@@ -1828,6 +1804,33 @@
 			)
 		)
 		(property "Description" "SMD,18x25.5mm  WiFi Modules ROHS"
+			(at 109.855 107.315 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "ESP32-WROOM-32E-N4"
+			(at 109.855 107.315 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C701341"
+			(at 109.855 107.315 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/EspressifSystems-ESP32_WROOM_32EN4/C701341"
 			(at 109.855 107.315 0)
 			(hide yes)
 			(effects

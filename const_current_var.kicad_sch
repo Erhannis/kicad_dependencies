@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20250227)
+	(version 20250513)
 	(generator "eeschema")
 	(generator_version "9.99")
 	(uuid "26aaa8eb-ec59-41f4-ae02-e950485bac55")
@@ -15,6 +15,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 0 90)
 				(effects
@@ -40,7 +41,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -93,7 +94,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -111,7 +112,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -136,6 +137,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
 				(at -3.2004 4.2164 0)
 				(effects
@@ -419,6 +421,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 0 10.16 0)
 				(effects
@@ -569,6 +572,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 10.16 0)
 				(effects
@@ -981,34 +985,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1756a67a-ccbe-47b7-9cc8-0a963a249ea9")
-		(property "MFR" "SS8050(RANGE:200-350)"
-			(at 96.52 74.93 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "LCSC" "C2150"
-			(at 101.6 90.17 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/2507-SS8050_RANGE_200_350/C2150"
-			(at 101.6 90.17 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "Q2_CCV1"
 			(at 96.52 88.8999 0)
 			(effects
@@ -1056,6 +1032,34 @@
 				)
 			)
 		)
+		(property "MFR" "SS8050(RANGE:200-350)"
+			(at 96.52 74.93 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C2150"
+			(at 101.6 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/2507-SS8050_RANGE_200_350/C2150"
+			(at 101.6 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "a94bcd25-a63f-46a6-9781-341df074bac5")
 		)
@@ -1084,33 +1088,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aab6a004-2278-48a9-8d42-afb9aa2f81ff")
-		(property "MFR" "ERJP06F3301V"
-			(at 99.06 71.12 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C441983"
-			(at 99.06 71.12 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Panasonic-ERJP06F3301V/C441983"
-			(at 99.06 71.12 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R1_CCV1"
 			(at 101.6 69.8499 0)
 			(effects
@@ -1138,7 +1115,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 99.06 71.12 0)
 			(hide yes)
 			(effects
@@ -1148,6 +1125,33 @@
 			)
 		)
 		(property "Description" "500mW Thick Film Resistors ±100ppm/℃ ±1% 3.3kΩ 0805  Chip Resistor - Surface Mount ROHS"
+			(at 99.06 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "ERJP06F3301V"
+			(at 99.06 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C441983"
+			(at 99.06 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Panasonic-ERJP06F3301V/C441983"
 			(at 99.06 71.12 0)
 			(hide yes)
 			(effects
@@ -1181,33 +1185,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf840124-73f3-4792-b575-25899c491cf0")
-		(property "MFR" "MOT13003D"
-			(at 123.19 99.06 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5143121"
-			(at 123.19 83.82 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Mot-MOT13003D/C5143121"
-			(at 123.19 83.82 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "Q1_CCV1"
 			(at 124.46 82.5499 0)
 			(effects
@@ -1253,6 +1230,33 @@
 				)
 			)
 		)
+		(property "MFR" "MOT13003D"
+			(at 123.19 99.06 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5143121"
+			(at 123.19 83.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Mot-MOT13003D/C5143121"
+			(at 123.19 83.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "179e427e-27c2-499b-bc2e-0e3645018447")
 		)
@@ -1281,33 +1285,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee336ed4-f787-429c-bd28-b95d6b7d2c84")
-		(property "MFR" "3362P-1-101LF"
-			(at 140.97 97.79 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C81265"
-			(at 123.19 97.79 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Bourns-3362P_1101LF/C81265"
-			(at 123.19 97.79 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "VR1_CCV1"
 			(at 123.19 102.87 90)
 			(effects
@@ -1343,6 +1320,33 @@
 			)
 		)
 		(property "Description" "±10% ±100ppm/℃ 500mW 100Ω Plugin  Variable Resistors/Potentiometers ROHS"
+			(at 123.19 97.79 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "3362P-1-101LF"
+			(at 140.97 97.79 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C81265"
+			(at 123.19 97.79 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Bourns-3362P_1101LF/C81265"
 			(at 123.19 97.79 90)
 			(hide yes)
 			(effects

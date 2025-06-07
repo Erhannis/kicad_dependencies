@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20250227)
+	(version 20250513)
 	(generator "eeschema")
 	(generator_version "9.99")
 	(uuid "f6adddd6-36dd-4ce0-a1da-d7b5f2ed2fb9")
@@ -15,6 +15,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
 				(effects
@@ -42,7 +43,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -108,7 +109,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -126,7 +127,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -154,6 +155,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 0 90)
 				(effects
@@ -179,7 +181,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -232,7 +234,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -250,7 +252,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -272,6 +274,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0 5.08 0)
 				(effects
@@ -440,6 +443,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "L"
 				(at 0 5.08 0)
 				(effects
@@ -584,6 +588,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 10.16 0)
 				(effects
@@ -774,6 +779,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
 				(at 0 5.08 0)
 				(effects
@@ -894,6 +900,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0 5.08 0)
 				(effects
@@ -1572,33 +1579,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0048a13b-444c-4fc4-b115-89342d526e26")
-		(property "MFR" "CGA0603X7R104K500JT"
-			(at 107.315 85.09 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C6119867"
-			(at 107.315 85.09 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_HRE-CGA0603X7R104K500JT_C6119867.html?s_z=n_0.1uf"
-			(at 107.315 85.09 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C2_IR12V1"
 			(at 110.49 83.8199 0)
 			(effects
@@ -1626,7 +1606,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 107.315 85.09 0)
 			(hide yes)
 			(effects
@@ -1636,6 +1616,33 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 107.315 85.09 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "CGA0603X7R104K500JT"
+			(at 107.315 85.09 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6119867"
+			(at 107.315 85.09 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_HRE-CGA0603X7R104K500JT_C6119867.html?s_z=n_0.1uf"
 			(at 107.315 85.09 0)
 			(hide yes)
 			(effects
@@ -1669,24 +1676,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d236880-c641-45b2-bbfe-24148d0ab4be")
-		(property "LCSC" "C22452"
-			(at 141.605 86.36 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Schottky-Diodes_MDD-Microdiode-Semiconductor-SS54_C22452.html?s_z=n_Schottky%2520Diode"
-			(at 154.305 86.36 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "D2_IR12V1"
 			(at 157.48 84.7099 90)
 			(effects
@@ -1732,6 +1721,24 @@
 				)
 			)
 		)
+		(property "LCSC" "C22452"
+			(at 141.605 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Schottky-Diodes_MDD-Microdiode-Semiconductor-SS54_C22452.html?s_z=n_Schottky%2520Diode"
+			(at 154.305 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ccb6e62f-fc76-4d9f-8a96-dbec2e49f57b")
 		)
@@ -1757,24 +1764,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31ef2a0a-fe4c-4c97-892d-1446dc96b8f4")
-		(property "LCSC" "C22452"
-			(at 86.995 68.58 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Schottky-Diodes_MDD-Microdiode-Semiconductor-SS54_C22452.html?s_z=n_Schottky%2520Diode"
-			(at 86.995 81.28 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "D1_IR12V1"
 			(at 87.375 74.93 0)
 			(effects
@@ -1818,6 +1807,24 @@
 				)
 			)
 		)
+		(property "LCSC" "C22452"
+			(at 86.995 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Schottky-Diodes_MDD-Microdiode-Semiconductor-SS54_C22452.html?s_z=n_Schottky%2520Diode"
+			(at 86.995 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c3624677-fb1e-45a9-8f2a-456fec3833e1")
 		)
@@ -1843,15 +1850,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4050738a-ff52-445a-8a73-6c4116d5b953")
-		(property "LCSC Part" "C87110"
-			(at 153.67 85.09 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C3_IR12V1"
 			(at 169.545 83.1849 90)
 			(effects
@@ -1897,6 +1895,15 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C87110"
+			(at 153.67 85.09 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "da9ef0b3-e164-4988-84c9-911d0182a1a5")
 		)
@@ -1922,15 +1929,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4249640e-8533-42df-9dbe-f4ae3fcf8cf8")
-		(property "LCSC Part" "C347430"
-			(at 114.935 82.55 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "U1_IR12V1"
 			(at 114.935 54.61 0)
 			(effects
@@ -1967,6 +1965,15 @@
 		)
 		(property "Description" ""
 			(at 114.935 67.31 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C347430"
+			(at 114.935 82.55 0)
 			(hide yes)
 			(effects
 				(font
@@ -2011,15 +2018,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49bac2ba-4eab-41e6-a6d4-b7699da5f69f")
-		(property "LCSC Part" "C147772"
-			(at 107.315 85.09 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C1_IR12V1"
 			(at 97.79 85.2338 90)
 			(effects
@@ -2065,6 +2063,15 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C147772"
+			(at 107.315 85.09 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9d68d8d9-cbeb-461f-81f9-8677075769ee")
 		)
@@ -2090,33 +2097,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cac3a89c-9c54-475e-8ebf-71ac44dee193")
-		(property "MFR" "0603WAF4702T5E"
-			(at 111.125 88.9 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25819"
-			(at 111.125 88.9 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/26562-0603WAF4702T5E/C25819"
-			(at 111.125 88.9 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R1_IR12V1"
 			(at 111.125 82.55 90)
 			(effects
@@ -2142,7 +2122,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 111.125 88.9 0)
 			(hide yes)
 			(effects
@@ -2153,6 +2133,33 @@
 		)
 		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 47kΩ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 111.125 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "0603WAF4702T5E"
+			(at 111.125 88.9 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25819"
+			(at 111.125 88.9 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26562-0603WAF4702T5E/C25819"
+			(at 111.125 88.9 90)
 			(hide yes)
 			(effects
 				(font
@@ -2185,33 +2192,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3d51e33-f2ed-4d2c-9b5b-1a08c5b8f45f")
-		(property "MFR" "0603WAF4702T5E"
-			(at 114.935 92.71 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25819"
-			(at 114.935 92.71 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/26562-0603WAF4702T5E/C25819"
-			(at 114.935 92.71 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R2_IR12V1"
 			(at 117.475 91.4399 0)
 			(effects
@@ -2239,7 +2219,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 114.935 92.71 0)
 			(hide yes)
 			(effects
@@ -2250,6 +2230,33 @@
 		)
 		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 47kΩ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 114.935 92.71 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "0603WAF4702T5E"
+			(at 114.935 92.71 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25819"
+			(at 114.935 92.71 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26562-0603WAF4702T5E/C25819"
+			(at 114.935 92.71 90)
 			(hide yes)
 			(effects
 				(font
@@ -2282,24 +2289,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e896be65-c721-4d03-a0b3-4576bcca25c9")
-		(property "LCSC" "C22452"
-			(at 161.925 86.36 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Schottky-Diodes_MDD-Microdiode-Semiconductor-SS54_C22452.html?s_z=n_Schottky%2520Diode"
-			(at 174.625 86.36 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "D3_IR12V1"
 			(at 177.8 84.7099 90)
 			(effects
@@ -2345,6 +2334,24 @@
 				)
 			)
 		)
+		(property "LCSC" "C22452"
+			(at 161.925 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Schottky-Diodes_MDD-Microdiode-Semiconductor-SS54_C22452.html?s_z=n_Schottky%2520Diode"
+			(at 174.625 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0ee2322a-1081-42d6-bb33-aa231b15718d")
 		)
@@ -2370,33 +2377,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3a5ec1b-ede3-47b9-b433-1430302114b6")
-		(property "MFR" "FXL1040-330-M"
-			(at 160.655 91.44 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C475918"
-			(at 160.655 81.28 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Power-Inductors_cjiang-Changjiang-Microelectronics-Tech-FXL1040-330-M_C475918.html?s_z=n_33uH"
-			(at 160.655 81.28 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "L1_IR12V1"
 			(at 160.655 74.93 0)
 			(effects
@@ -2432,6 +2412,33 @@
 			)
 		)
 		(property "Description" "4.4A 33uH Winding Inductor ±20% 5A SMD,11.5x10mm Power Inductors ROHS"
+			(at 160.655 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "FXL1040-330-M"
+			(at 160.655 91.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C475918"
+			(at 160.655 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Power-Inductors_cjiang-Changjiang-Microelectronics-Tech-FXL1040-330-M_C475918.html?s_z=n_33uH"
 			(at 160.655 81.28 0)
 			(hide yes)
 			(effects

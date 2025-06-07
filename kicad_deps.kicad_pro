@@ -463,6 +463,15 @@
     "viewports": []
   },
   "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
   "cvpcb": {
     "equivalence_files": []
   },
@@ -711,13 +720,14 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
+        "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -952,5 +962,11 @@
       "Splitter(3)"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {},
+  "time_domain_parameters": {
+    "delay_profiles_user_defined": [],
+    "meta": {
+      "version": 0
+    }
+  }
 }

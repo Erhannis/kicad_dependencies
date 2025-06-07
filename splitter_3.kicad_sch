@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20250227)
+	(version 20250513)
 	(generator "eeschema")
 	(generator_version "9.99")
 	(uuid "2dc09c72-d87d-48af-b976-d36734dec60f")
@@ -13,6 +13,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 5.08 0)
 				(effects
@@ -38,7 +39,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -267,33 +268,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9c6b335-a230-4daf-8f25-f6155a12fdd5")
-		(property "MFR" "PZ254V-11-03P"
-			(at 119.38 98.425 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2937625"
-			(at 119.38 98.425 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Xfcn-PZ254V_1103P/C2937625"
-			(at 119.38 98.425 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "J1_3S1"
 			(at 120.65 97.155 0)
 			(effects
@@ -321,7 +295,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 119.38 98.425 0)
 			(hide yes)
 			(effects
@@ -331,6 +305,33 @@
 			)
 		)
 		(property "Description" "250V 3A Straight Square Pins 2.5mm 3P 6mm -40℃~+105℃ 3mm 2.54mm Plugin Black 1x3P Plugin,P=2.54mm  Pin Headers ROHS"
+			(at 119.38 98.425 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "PZ254V-11-03P"
+			(at 119.38 98.425 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2937625"
+			(at 119.38 98.425 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Xfcn-PZ254V_1103P/C2937625"
 			(at 119.38 98.425 0)
 			(hide yes)
 			(effects

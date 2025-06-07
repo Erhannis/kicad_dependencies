@@ -12,6 +12,15 @@ If a part won't load for you, try `pip install easyeda2kicad` and `easyeda2kicad
 
 So far these things are like, MIT or CERN OHL v2 P (even if I've had to find a second source for the same decisions in a few places).
 
-Note that I haven't yet physically tested these, personally; as of Aug 12 some boards are being manufactured and shipped to me.  Fingers crossed.
+Notes:
+(There may be bugs not listed here.)
+inverted_regulator_12v doesn't quite manage an amp; it thermal cycles at 0.85A.  0.8A seemed to work, though you might do 0.7A to be safe.  If you added a proper heat sink it might manage MORE than 1A, haha.  Maybe you could add vias to a plane; depends on if the back is grounded; gnd is connected to -12V after all.
+power_cell_18650_3s
+  successfully provides several amps at ~12V
+  successfully shuts down when batteries dip below 2.7V*3
+  successfully switch on/off
+  BUG: DO NOT short the output.  It kills the on/off transistor which shorts mostly closed, preventing the controller from turning off the circuit.  Further shorts can cause the on/off transistor to catch fire.
+  BUG: it prevents overcurrent when charging (only lightly tested), but does not actually regulate the charging current!  Which means it can't charge the battery without external current control.  Sigh.
+amp12v2a does not work.  Huge noise on the output.  I don't know why, I've been trying to get similar circuits to work for weeks.
 
 -Erhannis

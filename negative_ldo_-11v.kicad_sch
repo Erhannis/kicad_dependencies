@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20250227)
+	(version 20250513)
 	(generator "eeschema")
 	(generator_version "9.99")
 	(uuid "61c465c1-3b11-4923-a072-afea287c6a71")
@@ -18,6 +18,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
 				(effects
@@ -45,7 +46,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -111,7 +112,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -129,7 +130,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -157,6 +158,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 0 90)
 				(effects
@@ -182,7 +184,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -235,7 +237,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -253,7 +255,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -278,6 +280,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -3.81 -3.175 0)
 				(effects
@@ -827,33 +830,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1981dad5-f120-45fa-978b-f35453229e15")
-		(property "MFR" "0402WGF750JTCE"
-			(at 153.67 77.47 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25133"
-			(at 153.67 77.47 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/25876-0402WGF750JTCE/C25133"
-			(at 153.67 77.47 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R1B_N11L1"
 			(at 155.575 76.2 0)
 			(effects
@@ -881,7 +857,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 153.67 77.47 0)
 			(hide yes)
 			(effects
@@ -891,6 +867,33 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 75Ω 0402  Chip Resistor - Surface Mount ROHS"
+			(at 153.67 77.47 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "0402WGF750JTCE"
+			(at 153.67 77.47 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25133"
+			(at 153.67 77.47 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/25876-0402WGF750JTCE/C25133"
 			(at 153.67 77.47 0)
 			(hide yes)
 			(effects
@@ -924,33 +927,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6450ee24-eae3-465c-9813-e7059dcef06a")
-		(property "MFR" "LM337LMX/NOPB"
-			(at 141.605 95.885 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C544819"
-			(at 141.605 95.885 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/TexasInstruments-LM337LMXNOPB/C544819"
-			(at 141.605 95.885 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "POW1_N11L1"
 			(at 141.605 100.33 0)
 			(effects
@@ -987,6 +963,33 @@
 			)
 		)
 		(property "Description" "100mA 60dB@(120Hz) Adjustable 1.2V~37V Negative 40V SOIC-8  Linear Voltage Regulators (LDO) ROHS"
+			(at 141.605 95.885 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "LM337LMX/NOPB"
+			(at 141.605 95.885 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C544819"
+			(at 141.605 95.885 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/TexasInstruments-LM337LMXNOPB/C544819"
 			(at 141.605 95.885 0)
 			(hide yes)
 			(effects
@@ -1037,33 +1040,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b6f6942-964b-409e-9969-f436efeb5863")
-		(property "MFR" "GRM188R6YA106MA73D"
-			(at 163.195 88.265 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C194427"
-			(at 163.195 88.265 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/235742-GRM188R6YA106MA73D/C194427"
-			(at 163.195 88.265 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C2_N11L1"
 			(at 160.905 87.015 90)
 			(effects
@@ -1089,7 +1065,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 163.195 88.265 0)
 			(hide yes)
 			(effects
@@ -1099,6 +1075,33 @@
 			)
 		)
 		(property "Description" "35V 10uF X5R ±20% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 163.195 88.265 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "GRM188R6YA106MA73D"
+			(at 163.195 88.265 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C194427"
+			(at 163.195 88.265 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/235742-GRM188R6YA106MA73D/C194427"
 			(at 163.195 88.265 90)
 			(hide yes)
 			(effects
@@ -1132,33 +1135,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93efab1b-59c9-4bbf-b544-c1a10a314452")
-		(property "MFR" "0402WGF2400TCE"
-			(at 153.67 90.17 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25094"
-			(at 153.67 90.17 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/25837-0402WGF2400TCE/C25094"
-			(at 153.67 90.17 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R2_N11L1"
 			(at 155.575 88.9 0)
 			(effects
@@ -1186,7 +1162,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 153.67 90.17 0)
 			(hide yes)
 			(effects
@@ -1196,6 +1172,33 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 240Ω 0402  Chip Resistor - Surface Mount ROHS"
+			(at 153.67 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "0402WGF2400TCE"
+			(at 153.67 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25094"
+			(at 153.67 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/25837-0402WGF2400TCE/C25094"
 			(at 153.67 90.17 0)
 			(hide yes)
 			(effects
@@ -1228,33 +1231,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfaf4f42-676f-4ace-9835-973c0b896b2d")
-		(property "MFR" "GRM188R6YA106MA73D"
-			(at 131.445 88.265 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C194427"
-			(at 131.445 88.265 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/235742-GRM188R6YA106MA73D/C194427"
-			(at 131.445 88.265 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C1_N11L1"
 			(at 129.155 87.015 90)
 			(effects
@@ -1280,7 +1256,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 131.445 88.265 0)
 			(hide yes)
 			(effects
@@ -1290,6 +1266,33 @@
 			)
 		)
 		(property "Description" "35V 10uF X5R ±20% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 131.445 88.265 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "GRM188R6YA106MA73D"
+			(at 131.445 88.265 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C194427"
+			(at 131.445 88.265 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/235742-GRM188R6YA106MA73D/C194427"
 			(at 131.445 88.265 90)
 			(hide yes)
 			(effects
@@ -1323,33 +1326,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f34bfc9a-a854-4b9f-9766-05198066e3f6")
-		(property "MFR" "FRC0402F1801TS"
-			(at 153.67 69.85 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2909310"
-			(at 153.67 69.85 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Fojan-FRC0402F1801TS/C2909310"
-			(at 153.67 69.85 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R1A_N11L1"
 			(at 155.575 68.58 0)
 			(effects
@@ -1377,7 +1353,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 153.67 69.85 0)
 			(hide yes)
 			(effects
@@ -1387,6 +1363,33 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 1.8kΩ 0402  Chip Resistor - Surface Mount ROHS"
+			(at 153.67 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "FRC0402F1801TS"
+			(at 153.67 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2909310"
+			(at 153.67 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Fojan-FRC0402F1801TS/C2909310"
 			(at 153.67 69.85 0)
 			(hide yes)
 			(effects

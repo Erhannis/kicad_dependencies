@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20250227)
+	(version 20250513)
 	(generator "eeschema")
 	(generator_version "9.99")
 	(uuid "06024836-3a68-494a-b3cf-63d4adf19f3c")
@@ -15,6 +15,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 0 90)
 				(effects
@@ -40,7 +41,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -93,7 +94,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -111,7 +112,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -136,6 +137,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
 				(at 5.08 2.54 0)
 				(effects
@@ -1059,33 +1061,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b5aae10-ef54-481b-921f-5c439c1dd2cf")
-		(property "MFR" "AECR0402F30K0K9"
-			(at 135.89 86.36 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C352437"
-			(at 135.89 86.36 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Resi-AECR0402F30K0K9/C352437"
-			(at 135.89 86.36 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R1_NHS1"
 			(at 135.89 80.645 90)
 			(effects
@@ -1111,7 +1086,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 135.89 86.36 0)
 			(hide yes)
 			(effects
@@ -1121,6 +1096,33 @@
 			)
 		)
 		(property "Description" "63mW Thick Film Resistors ±100ppm/℃ ±1% 30kΩ 0402  Chip Resistor - Surface Mount ROHS"
+			(at 135.89 86.36 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "AECR0402F30K0K9"
+			(at 135.89 86.36 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C352437"
+			(at 135.89 86.36 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Resi-AECR0402F30K0K9/C352437"
 			(at 135.89 86.36 90)
 			(hide yes)
 			(effects
@@ -1155,33 +1157,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "267a12f2-2d4d-487b-ab5e-c32c58cc49ac")
-		(property "MFR" "AECR0402F30K0K9"
-			(at 162.56 112.395 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C352437"
-			(at 162.56 112.395 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Resi-AECR0402F30K0K9/C352437"
-			(at 162.56 112.395 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R3_NHS1"
 			(at 162.56 106.68 90)
 			(effects
@@ -1207,7 +1182,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 162.56 112.395 0)
 			(hide yes)
 			(effects
@@ -1217,6 +1192,33 @@
 			)
 		)
 		(property "Description" "63mW Thick Film Resistors ±100ppm/℃ ±1% 30kΩ 0402  Chip Resistor - Surface Mount ROHS"
+			(at 162.56 112.395 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "AECR0402F30K0K9"
+			(at 162.56 112.395 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C352437"
+			(at 162.56 112.395 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Resi-AECR0402F30K0K9/C352437"
 			(at 162.56 112.395 90)
 			(hide yes)
 			(effects
@@ -1251,6 +1253,51 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ca6ce7f-f008-4a13-8a30-17815688eab7")
+		(property "Reference" "R2_NHS1"
+			(at 144.145 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "50k"
+			(at 144.145 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 144.272 107.95 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 107.95 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 49.9kΩ 0402  Chip Resistor - Surface Mount ROHS"
+			(at 146.05 107.95 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "MFR" "RC0402FR-0749K9L"
 			(at 146.05 107.95 0)
 			(hide yes)
@@ -1287,51 +1334,6 @@
 				)
 			)
 		)
-		(property "Reference" "R2_NHS1"
-			(at 144.145 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "50k"
-			(at 144.145 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 144.272 107.95 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 107.95 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 49.9kΩ 0402  Chip Resistor - Surface Mount ROHS"
-			(at 146.05 107.95 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "0c4fb37a-a34a-45bc-9679-a9663457d8b1")
 		)
@@ -1357,33 +1359,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60491e25-238d-44d4-94ea-2ba1196d587a")
-		(property "MFR" "CJ3439KDW"
-			(at 111.125 71.755 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C99824"
-			(at 111.125 71.755 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
-			(at 111.125 71.755 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "Q1_NHS1"
 			(at 117.475 70.485 0)
 			(effects
@@ -1430,6 +1405,33 @@
 				)
 			)
 		)
+		(property "MFR" "CJ3439KDW"
+			(at 111.125 71.755 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C99824"
+			(at 111.125 71.755 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
+			(at 111.125 71.755 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ca5439be-f35b-42a1-865d-012b795435af")
 		)
@@ -1467,33 +1469,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6066f031-e1b5-4632-8726-b76f8ac81266")
-		(property "MFR" "CJ3439KDW"
-			(at 137.16 93.98 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C99824"
-			(at 137.16 93.98 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
-			(at 137.16 93.98 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "Q2_NHS1"
 			(at 143.51 95.25 0)
 			(effects
@@ -1540,6 +1515,33 @@
 				)
 			)
 		)
+		(property "MFR" "CJ3439KDW"
+			(at 137.16 93.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C99824"
+			(at 137.16 93.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
+			(at 137.16 93.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "804ab0e9-aedf-4bdb-954c-1d7e7700c39e")
 		)
@@ -1577,33 +1579,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ad19d7a-45fa-4c9a-90c3-5ed7d929a08c")
-		(property "MFR" "CJ3439KDW"
-			(at 111.125 85.725 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C99824"
-			(at 111.125 85.725 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
-			(at 111.125 85.725 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "Q1_NHS1"
 			(at 117.475 84.455 0)
 			(effects
@@ -1650,6 +1625,33 @@
 				)
 			)
 		)
+		(property "MFR" "CJ3439KDW"
+			(at 111.125 85.725 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C99824"
+			(at 111.125 85.725 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
+			(at 111.125 85.725 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b51134b2-b9cd-4514-a17f-e2f1279019ee")
 		)
@@ -1687,33 +1689,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4311e34-1928-4ee4-9a13-a039b7f4b29f")
-		(property "MFR" "CJ3439KDW"
-			(at 156.21 104.14 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C99824"
-			(at 156.21 104.14 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
-			(at 156.21 104.14 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "Q3_NHS1"
 			(at 162.56 102.87 0)
 			(effects
@@ -1760,6 +1735,33 @@
 				)
 			)
 		)
+		(property "MFR" "CJ3439KDW"
+			(at 156.21 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C99824"
+			(at 156.21 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
+			(at 156.21 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ca5439be-f35b-42a1-865d-012b795435b0")
 		)
@@ -1797,33 +1799,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f88f39b6-4932-419f-bbaf-d98149b4152a")
-		(property "MFR" "CJ3439KDW"
-			(at 163.83 120.015 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C99824"
-			(at 163.83 120.015 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
-			(at 163.83 120.015 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "Q3_NHS1"
 			(at 170.18 121.285 0)
 			(effects
@@ -1870,6 +1845,33 @@
 				)
 			)
 		)
+		(property "MFR" "CJ3439KDW"
+			(at 163.83 120.015 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C99824"
+			(at 163.83 120.015 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
+			(at 163.83 120.015 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f355aa6d-3f41-4a72-bd8f-73e05bdf702c")
 		)
@@ -1907,33 +1909,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbb1793f-4a56-4af3-8ab2-d774d9d91c0c")
-		(property "MFR" "CJ3439KDW"
-			(at 129.54 78.105 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C99824"
-			(at 129.54 78.105 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
-			(at 129.54 78.105 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "Q2_NHS1"
 			(at 135.89 76.835 0)
 			(effects
@@ -1972,6 +1947,33 @@
 			)
 		)
 		(property "Description" "1PCSN-Channel&1PCSP-Channel SOT-323-6  MOSFETs ROHS"
+			(at 129.54 78.105 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "CJ3439KDW"
+			(at 129.54 78.105 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C99824"
+			(at 129.54 78.105 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
 			(at 129.54 78.105 0)
 			(hide yes)
 			(effects

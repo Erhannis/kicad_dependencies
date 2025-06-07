@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20250227)
+	(version 20250513)
 	(generator "eeschema")
 	(generator_version "9.99")
 	(uuid "04d59fc6-6528-45cf-a163-824e466bf155")
@@ -12,6 +12,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -6.35 11.43 0)
 				(effects
@@ -244,6 +245,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
 				(effects
@@ -271,7 +273,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -337,7 +339,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -355,7 +357,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -582,24 +584,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1cf22646-3c2c-4149-9abd-cfe2396931d5")
-		(property "MFR" "CL21A106KOQNNNE"
-			(at 118.11 59.69 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1713"
-			(at 118.11 59.69 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C3_VI1"
 			(at 116.86 61.98 90)
 			(effects
@@ -625,7 +609,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 118.11 59.69 0)
 			(hide yes)
 			(effects
@@ -636,6 +620,24 @@
 		)
 		(property "Description" ""
 			(at 118.11 59.69 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "CL21A106KOQNNNE"
+			(at 118.11 59.69 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1713"
+			(at 118.11 59.69 90)
 			(hide yes)
 			(effects
 				(font
@@ -667,24 +669,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5eb754b0-1d9c-4f06-9e56-de15b599e5ac")
-		(property "MFR" "CL21A106KOQNNNE"
-			(at 139.065 64.135 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1713"
-			(at 139.065 64.135 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C2_VI1"
 			(at 136.775 62.885 90)
 			(effects
@@ -710,7 +694,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 139.065 64.135 0)
 			(hide yes)
 			(effects
@@ -721,6 +705,24 @@
 		)
 		(property "Description" ""
 			(at 139.065 64.135 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "CL21A106KOQNNNE"
+			(at 139.065 64.135 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1713"
+			(at 139.065 64.135 90)
 			(hide yes)
 			(effects
 				(font
@@ -752,24 +754,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b433f2d5-0153-4ece-a1bc-ea267abfda1a")
-		(property "MFR" "CL21A106KOQNNNE"
-			(at 135.255 78.105 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1713"
-			(at 135.255 78.105 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C1_VI1"
 			(at 132.965 76.855 90)
 			(effects
@@ -795,7 +779,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 135.255 78.105 0)
 			(hide yes)
 			(effects
@@ -806,6 +790,24 @@
 		)
 		(property "Description" ""
 			(at 135.255 78.105 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "CL21A106KOQNNNE"
+			(at 135.255 78.105 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1713"
+			(at 135.255 78.105 90)
 			(hide yes)
 			(effects
 				(font
@@ -838,33 +840,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1ac9470-8dbb-487e-8356-fa85d20c7ec9")
-		(property "MFR" "ME7660CS1G"
-			(at 121.92 75.565 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C88402"
-			(at 121.92 75.565 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/89581-ME7660CS1G/C88402"
-			(at 121.92 75.565 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "POW1_VI1"
 			(at 123.8759 60.96 0)
 			(effects
@@ -902,6 +877,33 @@
 			)
 		)
 		(property "Description" "Charge pump -10V~-2.5V 2.5V~10V SOP-8  DC-DC Converters ROHS"
+			(at 121.92 75.565 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "ME7660CS1G"
+			(at 121.92 75.565 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C88402"
+			(at 121.92 75.565 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/89581-ME7660CS1G/C88402"
 			(at 121.92 75.565 0)
 			(hide yes)
 			(effects

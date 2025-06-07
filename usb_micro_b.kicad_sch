@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20250227)
+	(version 20250513)
 	(generator "eeschema")
 	(generator_version "9.99")
 	(uuid "03d06908-5c1a-491d-9741-f5e6135ec385")
@@ -17,6 +17,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at -5.08 11.43 0)
 				(effects
@@ -44,7 +45,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 3.81 -1.27 0)
 				(hide yes)
 				(effects
@@ -376,6 +377,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
 				(effects
@@ -403,7 +405,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -469,7 +471,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -487,7 +489,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -516,6 +518,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
 				(at 0 2.54 0)
 				(effects
@@ -541,7 +544,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -689,6 +692,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 0 90)
 				(effects
@@ -714,7 +718,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -767,7 +771,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -785,7 +789,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -810,6 +814,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 2.54 8.89 0)
 				(effects
@@ -1346,6 +1351,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -5.08 5.715 0)
 				(effects
@@ -2209,33 +2215,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "061b3666-ac2b-47b9-93e1-411c05209549")
-		(property "MFR" "U254-051T-4BH83-S1S"
-			(at 109.22 98.425 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C319160"
-			(at 109.22 98.425 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Note" "Minor swap, should have the same footprint"
-			(at 109.22 98.425 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "USB1_UM1"
 			(at 109.22 85.725 0)
 			(effects
@@ -2261,7 +2240,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 113.03 99.695 0)
 			(hide yes)
 			(effects
@@ -2271,6 +2250,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 109.22 98.425 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "U254-051T-4BH83-S1S"
+			(at 109.22 98.425 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C319160"
+			(at 109.22 98.425 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "Minor swap, should have the same footprint"
 			(at 109.22 98.425 0)
 			(hide yes)
 			(effects
@@ -2315,6 +2321,49 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23c9c7e8-8f53-424e-87b2-17573df00096")
+		(property "Reference" "R1_UM1"
+			(at 107.95 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 107.95 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 107.95 112.522 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Source" "ANY"
 			(at 107.95 114.3 0)
 			(hide yes)
@@ -2351,49 +2400,6 @@
 				)
 			)
 		)
-		(property "Reference" "R1_UM1"
-			(at 107.95 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1M"
-			(at 107.95 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 107.95 112.522 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 114.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 107.95 114.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "81664af9-462f-46a5-802f-00f8517a88e8")
 		)
@@ -2418,24 +2424,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "354c4a75-479e-472e-a737-bc397196d2ee")
-		(property "MFR" "0402WGF270JTCE"
-			(at 151.765 93.345 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25100"
-			(at 151.765 93.345 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R2_UM1"
 			(at 153.2636 89.535 0)
 			(effects
@@ -2464,7 +2452,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 151.765 93.345 0)
 			(hide yes)
 			(effects
@@ -2474,6 +2462,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 151.765 93.345 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "0402WGF270JTCE"
+			(at 151.765 93.345 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25100"
 			(at 151.765 93.345 0)
 			(hide yes)
 			(effects
@@ -2506,24 +2512,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ff5a45b-5251-445a-8880-98dd4a9a2b6e")
-		(property "MFR" "CL21A106KOQNNNE"
-			(at 138.43 72.39 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1713"
-			(at 138.43 72.39 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C1_UM1"
 			(at 136.14 71.14 90)
 			(effects
@@ -2549,7 +2537,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 138.43 72.39 0)
 			(hide yes)
 			(effects
@@ -2560,6 +2548,24 @@
 		)
 		(property "Description" ""
 			(at 138.43 72.39 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "CL21A106KOQNNNE"
+			(at 138.43 72.39 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1713"
+			(at 138.43 72.39 90)
 			(hide yes)
 			(effects
 				(font
@@ -2591,24 +2597,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60e575f0-da4f-4d63-913f-a34db1524cae")
-		(property "MFR" "USBLC6-2P6"
-			(at 131.445 114.935 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2827693"
-			(at 131.445 114.935 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "ESD1_UM1"
 			(at 125.095 106.045 0)
 			(effects
@@ -2644,6 +2632,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 131.445 114.935 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "USBLC6-2P6"
+			(at 131.445 114.935 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2827693"
 			(at 131.445 114.935 0)
 			(hide yes)
 			(effects
@@ -2689,33 +2695,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63f2be8f-43f3-4416-97e6-982f7ef4afb2")
-		(property "MFR" "KT-0603R"
-			(at 189.23 74.93 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2286"
-			(at 189.23 74.93 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286"
-			(at 189.23 74.93 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "D1_UM1"
 			(at 193.04 75.2475 90)
 			(effects
@@ -2743,7 +2722,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 189.23 74.93 0)
 			(hide yes)
 			(effects
@@ -2753,6 +2732,33 @@
 			)
 		)
 		(property "Description" "-40℃~+85℃ Red 0603  Light Emitting Diodes (LED) ROHS"
+			(at 189.23 74.93 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "KT-0603R"
+			(at 189.23 74.93 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 189.23 74.93 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286"
 			(at 189.23 74.93 90)
 			(hide yes)
 			(effects
@@ -2785,24 +2791,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69cb18ae-3528-4ef5-a1de-f1d63b443da6")
-		(property "MFR" "0402WGF270JTCE"
-			(at 151.765 100.965 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25100"
-			(at 151.765 100.965 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R3_UM1"
 			(at 153.2636 97.155 0)
 			(effects
@@ -2831,7 +2819,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 151.765 100.965 0)
 			(hide yes)
 			(effects
@@ -2841,6 +2829,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 151.765 100.965 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "0402WGF270JTCE"
+			(at 151.765 100.965 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25100"
 			(at 151.765 100.965 0)
 			(hide yes)
 			(effects
@@ -2874,33 +2880,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c5f8b88-4f06-4f97-9ad6-6c00267cceaa")
-		(property "MFR" "XL-1608UGC-04"
-			(at 197.485 74.93 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C965804"
-			(at 197.485 74.93 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Xinglight-XL_1608UGC04/C965804"
-			(at 197.485 74.93 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "D2_UM1"
 			(at 201.295 75.2475 90)
 			(effects
@@ -2928,7 +2907,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 197.485 74.93 0)
 			(hide yes)
 			(effects
@@ -2938,6 +2917,33 @@
 			)
 		)
 		(property "Description" "25mA 无色透明透镜 独立二极管 516nm~525nm -30℃~+85℃ Positive post Emerald 120° 80mW 0603  Light Emitting Diodes (LED) ROHS"
+			(at 197.485 74.93 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "XL-1608UGC-04"
+			(at 197.485 74.93 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C965804"
+			(at 197.485 74.93 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Xinglight-XL_1608UGC04/C965804"
 			(at 197.485 74.93 90)
 			(hide yes)
 			(effects
@@ -2970,24 +2976,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88bd8c7c-25fc-42b3-a748-26ad20f74262")
-		(property "MFR" "CL21A106KOQNNNE"
-			(at 171.45 72.39 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1713"
-			(at 171.45 72.39 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C2_UM1"
 			(at 169.16 71.14 90)
 			(effects
@@ -3013,7 +3001,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 171.45 72.39 0)
 			(hide yes)
 			(effects
@@ -3024,6 +3012,24 @@
 		)
 		(property "Description" ""
 			(at 171.45 72.39 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "CL21A106KOQNNNE"
+			(at 171.45 72.39 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1713"
+			(at 171.45 72.39 90)
 			(hide yes)
 			(effects
 				(font
@@ -3055,33 +3061,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb224b72-7f86-4c32-979f-2f24dd955076")
-		(property "MFR" "0402WGF3300TCE"
-			(at 189.23 67.31 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25104"
-			(at 189.23 67.31 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/25847-0402WGF3300TCE/C25104"
-			(at 189.23 67.31 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R4_UM1"
 			(at 185.42 65.8114 0)
 			(effects
@@ -3110,7 +3089,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 189.23 67.31 0)
 			(hide yes)
 			(effects
@@ -3120,6 +3099,33 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 330Ω 0402  Chip Resistor - Surface Mount ROHS"
+			(at 189.23 67.31 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "0402WGF3300TCE"
+			(at 189.23 67.31 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25104"
+			(at 189.23 67.31 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/25847-0402WGF3300TCE/C25104"
 			(at 189.23 67.31 0)
 			(hide yes)
 			(effects
@@ -3152,33 +3158,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d8d046b3-0de9-4cd4-9778-aff3c70a3b7b")
-		(property "MFR" "0402WGF3300TCE"
-			(at 197.485 67.31 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25104"
-			(at 197.485 67.31 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/25847-0402WGF3300TCE/C25104"
-			(at 197.485 67.31 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R5_UM1"
 			(at 193.675 65.8114 0)
 			(effects
@@ -3207,7 +3186,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 197.485 67.31 0)
 			(hide yes)
 			(effects
@@ -3217,6 +3196,33 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 330Ω 0402  Chip Resistor - Surface Mount ROHS"
+			(at 197.485 67.31 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "0402WGF3300TCE"
+			(at 197.485 67.31 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25104"
+			(at 197.485 67.31 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/25847-0402WGF3300TCE/C25104"
 			(at 197.485 67.31 0)
 			(hide yes)
 			(effects
@@ -3249,24 +3255,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dcca89da-1cf5-44b4-82f4-a875a19e7a84")
-		(property "MFR" "AP2112K-3.3TRG1"
-			(at 156.21 66.04 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C51118"
-			(at 156.21 66.04 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "REG1_UM1"
 			(at 148.59 59.944 0)
 			(effects
@@ -3304,6 +3292,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 156.21 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "AP2112K-3.3TRG1"
+			(at 156.21 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C51118"
 			(at 156.21 66.04 0)
 			(hide yes)
 			(effects

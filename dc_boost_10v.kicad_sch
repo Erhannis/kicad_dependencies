@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20250227)
+	(version 20250513)
 	(generator "eeschema")
 	(generator_version "9.99")
 	(uuid "112500a5-3711-4d66-a1c8-2e87f55d3f32")
@@ -19,6 +19,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
 				(effects
@@ -46,7 +47,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -112,7 +113,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -130,7 +131,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -159,6 +160,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
 				(at 0 2.54 0)
 				(effects
@@ -184,7 +186,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -309,6 +311,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "L"
 				(at -1.27 0 90)
 				(effects
@@ -334,7 +337,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -470,6 +473,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 0 90)
 				(effects
@@ -495,7 +499,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -548,7 +552,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -566,7 +570,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -591,6 +595,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -5.08 6.35 0)
 				(effects
@@ -1111,33 +1116,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13fb9140-de58-4802-a496-051ad5544dbf")
-		(property "MFR" "GRM188R6YA106MA73D"
-			(at 127 80.01 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C194427"
-			(at 127 80.01 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/235742-GRM188R6YA106MA73D/C194427"
-			(at 127 80.01 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C1_10B1"
 			(at 124.71 78.76 90)
 			(effects
@@ -1163,7 +1141,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 127 80.01 0)
 			(hide yes)
 			(effects
@@ -1173,6 +1151,33 @@
 			)
 		)
 		(property "Description" "35V 10uF X5R ±20% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 127 80.01 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "GRM188R6YA106MA73D"
+			(at 127 80.01 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C194427"
+			(at 127 80.01 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/235742-GRM188R6YA106MA73D/C194427"
 			(at 127 80.01 90)
 			(hide yes)
 			(effects
@@ -1206,24 +1211,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61db2753-e195-4eac-8735-63bf11abcd76")
-		(property "MFR" "MT3540"
-			(at 140.97 86.36 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C181744"
-			(at 140.97 86.36 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "POW1_10B1"
 			(at 140.97 76.2 0)
 			(effects
@@ -1269,6 +1256,24 @@
 				)
 			)
 		)
+		(property "MFR" "MT3540"
+			(at 140.97 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C181744"
+			(at 140.97 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ab4d6d25-b2ec-437e-8d87-a2c9f39d214c")
 		)
@@ -1303,24 +1308,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d293da5-3956-4364-914b-91e5e1318ff4")
-		(property "MFR" "CPY201212T-100M-NP"
-			(at 140.97 73.025 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C285963"
-			(at 140.97 73.025 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "L1_10B1"
 			(at 140.97 67.31 90)
 			(effects
@@ -1346,7 +1333,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 140.97 73.025 0)
 			(hide yes)
 			(effects
@@ -1356,6 +1343,24 @@
 			)
 		)
 		(property "Description" "400mA 10uH ±20% 0805  Inductors (SMD) ROHS"
+			(at 140.97 73.025 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "CPY201212T-100M-NP"
+			(at 140.97 73.025 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C285963"
 			(at 140.97 73.025 90)
 			(hide yes)
 			(effects
@@ -1389,33 +1394,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "802033d7-249d-4783-bc64-f4b77c1a6943")
-		(property "MFR" "RC0402FR-07100KL"
-			(at 160.655 90.17 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C60491"
-			(at 160.655 90.17 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR07100KL/C60491"
-			(at 160.655 90.17 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R1_10B1"
 			(at 162.56 88.9 0)
 			(effects
@@ -1443,7 +1421,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 160.655 90.17 0)
 			(hide yes)
 			(effects
@@ -1453,6 +1431,33 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 100kΩ 0402  Chip Resistor - Surface Mount ROHS"
+			(at 160.655 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "RC0402FR-07100KL"
+			(at 160.655 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C60491"
+			(at 160.655 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR07100KL/C60491"
 			(at 160.655 90.17 0)
 			(hide yes)
 			(effects
@@ -1486,33 +1491,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94b256b8-d12e-4327-a07f-d0bb217e329a")
-		(property "MFR" "SCR0402F14K"
-			(at 160.655 102.87 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C3015834"
-			(at 160.655 102.87 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/VO-SCR0402F14K/C3015834"
-			(at 160.655 102.87 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R2_10B1"
 			(at 162.56 101.6 0)
 			(effects
@@ -1540,7 +1518,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 160.655 102.87 0)
 			(hide yes)
 			(effects
@@ -1550,6 +1528,33 @@
 			)
 		)
 		(property "Description" "±1% 14kΩ 0402  Chip Resistor - Surface Mount ROHS"
+			(at 160.655 102.87 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "SCR0402F14K"
+			(at 160.655 102.87 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3015834"
+			(at 160.655 102.87 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/VO-SCR0402F14K/C3015834"
 			(at 160.655 102.87 0)
 			(hide yes)
 			(effects
@@ -1583,33 +1588,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0f0f147-3b20-4fd6-874d-cec4600b5aef")
-		(property "MFR" "RB161QS-40T18R"
-			(at 155.575 83.82 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2837790"
-			(at 155.575 83.82 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/ROHMSemicon-RB161QS40T18R/C2837790"
-			(at 155.575 83.82 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "D1_10B1"
 			(at 155.8925 77.47 0)
 			(effects
@@ -1635,7 +1613,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 155.575 83.82 0)
 			(hide yes)
 			(effects
@@ -1645,6 +1623,33 @@
 			)
 		)
 		(property "Description" "40V Single 600mV@1A 1A 0402  Schottky Barrier Diodes (SBD) ROHS"
+			(at 155.575 83.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "RB161QS-40T18R"
+			(at 155.575 83.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2837790"
+			(at 155.575 83.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/ROHMSemicon-RB161QS40T18R/C2837790"
 			(at 155.575 83.82 0)
 			(hide yes)
 			(effects
@@ -1677,33 +1682,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0432916-17b7-4d5c-bb7a-a747cfefb4bb")
-		(property "MFR" "GRM188R6YA106MA73D"
-			(at 167.64 80.01 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C194427"
-			(at 167.64 80.01 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/235742-GRM188R6YA106MA73D/C194427"
-			(at 167.64 80.01 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C2_10B1"
 			(at 165.35 78.76 90)
 			(effects
@@ -1729,7 +1707,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 167.64 80.01 0)
 			(hide yes)
 			(effects
@@ -1739,6 +1717,33 @@
 			)
 		)
 		(property "Description" "35V 10uF X5R ±20% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 167.64 80.01 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "GRM188R6YA106MA73D"
+			(at 167.64 80.01 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C194427"
+			(at 167.64 80.01 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/235742-GRM188R6YA106MA73D/C194427"
 			(at 167.64 80.01 90)
 			(hide yes)
 			(effects

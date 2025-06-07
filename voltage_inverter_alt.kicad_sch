@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20250227)
+	(version 20250513)
 	(generator "eeschema")
 	(generator_version "9.99")
 	(uuid "04d59fc6-6528-45cf-a163-824e466bf155")
@@ -14,6 +14,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -6.35 11.43 0)
 				(effects
@@ -246,6 +247,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
 				(effects
@@ -273,7 +275,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -339,7 +341,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -357,7 +359,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -386,6 +388,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
 				(at 0 2.54 0)
 				(effects
@@ -411,7 +414,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -554,6 +557,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
 				(at 0 2.54 0)
 				(effects
@@ -579,7 +583,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -1016,24 +1020,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "688cf0f8-cf63-4136-82cc-6774318dac49")
-		(property "MFR" "CL21A106KOQNNNE"
-			(at 154.305 64.135 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1713"
-			(at 154.305 64.135 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C2_VIA1"
 			(at 152.015 62.885 90)
 			(effects
@@ -1059,7 +1045,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 154.305 64.135 0)
 			(hide yes)
 			(effects
@@ -1070,6 +1056,24 @@
 		)
 		(property "Description" ""
 			(at 154.305 64.135 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "CL21A106KOQNNNE"
+			(at 154.305 64.135 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1713"
+			(at 154.305 64.135 90)
 			(hide yes)
 			(effects
 				(font
@@ -1101,24 +1105,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c33da1fc-64ea-4d4c-8df4-bbbf8c274e92")
-		(property "MFR" "CL21A106KOQNNNE"
-			(at 118.11 59.69 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1713"
-			(at 118.11 59.69 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C3_VIA1"
 			(at 116.86 61.98 90)
 			(effects
@@ -1144,7 +1130,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 118.11 59.69 0)
 			(hide yes)
 			(effects
@@ -1155,6 +1141,24 @@
 		)
 		(property "Description" ""
 			(at 118.11 59.69 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "CL21A106KOQNNNE"
+			(at 118.11 59.69 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1713"
+			(at 118.11 59.69 90)
 			(hide yes)
 			(effects
 				(font
@@ -1187,33 +1191,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0b73c3d-9766-480e-979f-c72c6f0b6a78")
-		(property "MFR" "RB161QS-40T18R"
-			(at 141.605 77.47 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2837790"
-			(at 141.605 77.47 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/ROHMSemicon-RB161QS40T18R/C2837790"
-			(at 141.605 77.47 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "D1_VIA1"
 			(at 144.78 76.5175 90)
 			(effects
@@ -1241,7 +1218,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 141.605 77.47 0)
 			(hide yes)
 			(effects
@@ -1251,6 +1228,33 @@
 			)
 		)
 		(property "Description" "40V Single 600mV@1A 1A 0402  Schottky Barrier Diodes (SBD) ROHS"
+			(at 141.605 77.47 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "RB161QS-40T18R"
+			(at 141.605 77.47 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2837790"
+			(at 141.605 77.47 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/ROHMSemicon-RB161QS40T18R/C2837790"
 			(at 141.605 77.47 0)
 			(hide yes)
 			(effects
@@ -1284,6 +1288,49 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8edda96-3959-4d50-8b15-ef9aad97cda2")
+		(property "Reference" "D2_VIA1"
+			(at 135.255 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 135.255 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 135.255 88.265 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.255 88.265 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 400mW 1.25V@100mA 4ns 150mA 0805  Switching Diode ROHS"
+			(at 135.255 88.265 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 135.255 88.265 0)
 			(hide yes)
@@ -1329,49 +1376,6 @@
 				)
 			)
 		)
-		(property "Reference" "D2_VIA1"
-			(at 135.255 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 135.255 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
-			(at 135.255 88.265 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.255 88.265 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "75V 400mW 1.25V@100mA 4ns 150mA 0805  Switching Diode ROHS"
-			(at 135.255 88.265 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "3966a2f3-b68f-41be-aaaf-87f5a32b7b45")
 		)
@@ -1396,24 +1400,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e17134dd-1cc3-4d8d-8ea5-8f0a56934c90")
-		(property "MFR" "CL21A106KOQNNNE"
-			(at 135.255 78.105 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1713"
-			(at 135.255 78.105 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C1_VIA1"
 			(at 132.965 76.855 90)
 			(effects
@@ -1439,7 +1425,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 135.255 78.105 0)
 			(hide yes)
 			(effects
@@ -1450,6 +1436,24 @@
 		)
 		(property "Description" ""
 			(at 135.255 78.105 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "CL21A106KOQNNNE"
+			(at 135.255 78.105 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1713"
+			(at 135.255 78.105 90)
 			(hide yes)
 			(effects
 				(font
@@ -1482,33 +1486,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa472410-036d-4991-8920-22d363a8fd77")
-		(property "MFR" "ICL7660SCBAZ-T"
-			(at 121.92 75.565 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C357815"
-			(at 121.92 75.565 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/RENESAS-ICL7660SCBAZT/C357815"
-			(at 121.92 75.565 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "POW1_VIA1"
 			(at 123.8759 60.96 0)
 			(effects
@@ -1546,6 +1523,33 @@
 			)
 		)
 		(property "Description" "Charge pump Fixed -12V~-1.5V 45mA 1.5V~12V SOP-8  DC-DC Converters ROHS"
+			(at 121.92 75.565 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "ICL7660SCBAZ-T"
+			(at 121.92 75.565 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C357815"
+			(at 121.92 75.565 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/RENESAS-ICL7660SCBAZT/C357815"
 			(at 121.92 75.565 0)
 			(hide yes)
 			(effects

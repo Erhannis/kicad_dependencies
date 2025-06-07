@@ -1,10 +1,133 @@
 (kicad_sch
-	(version 20250227)
+	(version 20250513)
 	(generator "eeschema")
 	(generator_version "9.99")
 	(uuid "f57075f4-e997-49a7-b8a3-5e864ac859f3")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -13,6 +136,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 2.54 0)
 				(effects
@@ -38,7 +162,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -176,6 +300,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 5.08 0)
 				(effects
@@ -201,7 +326,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -380,6 +505,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 5.08 0)
 				(effects
@@ -405,7 +531,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -625,6 +751,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 7.62 0)
 				(effects
@@ -650,7 +777,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -911,6 +1038,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 1.27 7.62 0)
 				(effects
@@ -936,7 +1064,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -1342,6 +1470,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
 				(at 0 5.08 0)
 				(effects
@@ -1367,7 +1496,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -1429,6 +1558,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
 				(at 0 6.35 0)
 				(effects
@@ -1454,7 +1584,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -1529,6 +1659,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 8.89 0)
 				(effects
@@ -1683,6 +1814,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "DC"
 				(at 0 7.62 0)
 				(effects
@@ -1892,6 +2024,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 6.35 0)
 				(effects
@@ -2010,6 +2143,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 7.62 0)
 				(effects
@@ -2150,6 +2284,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
 				(hide yes)
@@ -2272,6 +2407,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
 				(hide yes)
@@ -3096,15 +3232,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f4cbefe-c952-424d-9a4e-96eb39a631bf")
-		(property "LCSC Part" "C557647"
-			(at 250.825 63.5 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "ST3"
 			(at 250.825 69.215 0)
 			(effects
@@ -3148,6 +3275,15 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C557647"
+			(at 250.825 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a6635981-4568-4a7f-bde1-6714be36843e")
 		)
@@ -3182,33 +3318,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4450154d-c0c6-408c-955e-41cce118e169")
-		(property "MFR" "PZ254V-12-12P"
-			(at 246.38 109.22 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C492423"
-			(at 246.38 109.22 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Xfcn-PZ254V_1212P/C492423"
-			(at 246.38 109.22 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "J12"
 			(at 247.65 97.79 0)
 			(effects
@@ -3234,7 +3343,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 246.38 109.22 0)
 			(hide yes)
 			(effects
@@ -3244,6 +3353,33 @@
 			)
 		)
 		(property "Description" "Straight Square Pins 2.5mm 12P 6mm -40℃~+105℃ 3mm 2.54mm Double row Black Brass 2x6P 2.54mm Plugin,P=2.54mm  Pin Headers ROHS"
+			(at 246.38 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "PZ254V-12-12P"
+			(at 246.38 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C492423"
+			(at 246.38 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Xfcn-PZ254V_1212P/C492423"
 			(at 246.38 109.22 0)
 			(hide yes)
 			(effects
@@ -3374,33 +3510,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c8f6248-bf0d-4502-a81d-355590497c92")
-		(property "MFR" "HB-PH3-25415PB2GOP"
-			(at 265.43 105.41 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C6332198"
-			(at 265.43 105.41 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/HanboElectronic-HB_PH325415PB2GOP/C6332198"
-			(at 265.43 105.41 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "J5"
 			(at 266.7 106.6801 0)
 			(effects
@@ -3428,7 +3537,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 265.43 105.41 0)
 			(hide yes)
 			(effects
@@ -3438,6 +3547,33 @@
 			)
 		)
 		(property "Description" "Gold 250V 3A Straight Square Pins 2.54mm 5P 260℃ 6mm -40℃~+105℃ 3mm 2.54mm Brass Black Plugin 2.54mm 1x5P Plugin,P=2.54mm  Pin Headers ROHS"
+			(at 265.43 105.41 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "HB-PH3-25415PB2GOP"
+			(at 265.43 105.41 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6332198"
+			(at 265.43 105.41 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/HanboElectronic-HB_PH325415PB2GOP/C6332198"
 			(at 265.43 105.41 90)
 			(hide yes)
 			(effects
@@ -3573,7 +3709,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 131.445 151.765 0)
 			(hide yes)
 			(effects
@@ -3707,7 +3843,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 142.24 163.83 0)
 			(hide yes)
 			(effects
@@ -3732,6 +3868,98 @@
 			(project "kicad_deps"
 				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
 					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 265.43 61.595 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e7da449-74d5-498a-8f50-a0e210d07c37")
+		(property "Reference" "J1"
+			(at 264.795 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 264.795 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 265.43 61.595 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 61.595 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Direct Insert 1P Single Row Black Plugin,P=2.54mm Pin Headers ROHS"
+			(at 265.43 61.595 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "2.54-1*1PPin"
+			(at 265.43 61.595 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C81276"
+			(at 265.43 61.595 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/82426-2_54_11PPin/C81276"
+			(at 265.43 61.595 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b36151bc-bdc2-4b46-8cd3-1e68cefbe702")
+		)
+		(instances
+			(project ""
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3814,33 +4042,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e505116-c0ed-4a39-818f-faca244cc868")
-		(property "MFR" "DB125-3.81-4P-GN-S"
-			(at 237.49 63.5 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C395880"
-			(at 237.49 80.01 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Dorabo-DB125_3_81_4P_GNS/C395880"
-			(at 237.49 80.01 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "ST4"
 			(at 237.49 68.58 0)
 			(effects
@@ -3876,6 +4077,33 @@
 			)
 		)
 		(property "Description" "1x4P 10A -40℃~+105℃ 300V Green 16~26 Straight 3.81mm 0.5~1 1 4 Plugin,P=3.81mm  Screw terminal ROHS"
+			(at 237.49 80.01 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "DB125-3.81-4P-GN-S"
+			(at 237.49 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C395880"
+			(at 237.49 80.01 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Dorabo-DB125_3_81_4P_GNS/C395880"
 			(at 237.49 80.01 0)
 			(hide yes)
 			(effects
@@ -4677,7 +4905,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 26.67 29.845 0)
 			(hide yes)
 			(effects
@@ -4741,7 +4969,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 142.24 151.765 0)
 			(hide yes)
 			(effects
@@ -5147,33 +5375,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c999c331-3871-4a6c-8123-9df99967a5ba")
-		(property "MFR" "PZ254V-11-04P"
-			(at 265.43 90.17 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2691448"
-			(at 265.43 90.17 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Xfcn-PZ254V_1104P/C2691448"
-			(at 265.43 90.17 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "J4"
 			(at 264.795 82.55 0)
 			(effects
@@ -5199,7 +5400,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 265.43 90.17 0)
 			(hide yes)
 			(effects
@@ -5209,6 +5410,33 @@
 			)
 		)
 		(property "Description" "250V 3A Straight Square Pins 2.5mm 4P 6mm -40℃~+105℃ 3mm 2.54mm Plugin Black 1x4P Plugin,P=2.54mm  Pin Headers ROHS"
+			(at 265.43 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "PZ254V-11-04P"
+			(at 265.43 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2691448"
+			(at 265.43 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Xfcn-PZ254V_1104P/C2691448"
 			(at 265.43 90.17 0)
 			(hide yes)
 			(effects
@@ -5253,33 +5481,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce8bac59-b243-45d8-b2ba-7a16b1a85684")
-		(property "MFR" "PZ254V-11-03P"
-			(at 265.43 78.74 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2937625"
-			(at 265.43 78.74 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Xfcn-PZ254V_1103P/C2937625"
-			(at 265.43 78.74 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "J3"
 			(at 266.7 77.47 0)
 			(effects
@@ -5307,7 +5508,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 265.43 78.74 0)
 			(hide yes)
 			(effects
@@ -5317,6 +5518,33 @@
 			)
 		)
 		(property "Description" "250V 3A Straight Square Pins 2.5mm 3P 6mm -40℃~+105℃ 3mm 2.54mm Plugin Black 1x3P Plugin,P=2.54mm  Pin Headers ROHS"
+			(at 265.43 78.74 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "PZ254V-11-03P"
+			(at 265.43 78.74 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2937625"
+			(at 265.43 78.74 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Xfcn-PZ254V_1103P/C2937625"
 			(at 265.43 78.74 0)
 			(hide yes)
 			(effects
@@ -5526,7 +5754,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 131.445 163.83 0)
 			(hide yes)
 			(effects
@@ -5566,33 +5794,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e744e615-1b33-466e-92df-7055349cebe2")
-		(property "MFR" "XY126V-5.0-2P"
-			(at 250.825 53.975 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C557646"
-			(at 250.825 67.945 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Ningbo_Xinlaiya_elec-XY126V_5_02P/C557646"
-			(at 250.825 67.945 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "ST2"
 			(at 250.825 59.055 0)
 			(effects
@@ -5628,6 +5829,33 @@
 			)
 		)
 		(property "Description" "1x2P 10A 300V Green 14~26 Straight 5mm 2.5 1 2 Plugin,P=5mm  Screw terminal ROHS"
+			(at 250.825 67.945 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "XY126V-5.0-2P"
+			(at 250.825 53.975 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C557646"
+			(at 250.825 67.945 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Ningbo_Xinlaiya_elec-XY126V_5_02P/C557646"
 			(at 250.825 67.945 0)
 			(hide yes)
 			(effects
@@ -5673,33 +5901,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9d5cf30-4599-40d7-8bf3-252f3fa782fb")
-		(property "MFR" "MTP125-1102S1"
-			(at 265.43 69.215 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C358684"
-			(at 265.43 69.215 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Mintron-MTP1251102S1/C358684"
-			(at 265.43 69.215 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "J2"
 			(at 266.7 66.675 0)
 			(effects
@@ -5727,7 +5928,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 265.43 69.215 0)
 			(hide yes)
 			(effects
@@ -5737,6 +5938,33 @@
 			)
 		)
 		(property "Description" "Straight Square Pins 2.5mm 2P 6mm -40℃~+105℃ 3mm 2.54mm Plugin Black Brass 1x2P Plugin,P=2.54mm  Pin Headers ROHS"
+			(at 265.43 69.215 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MTP125-1102S1"
+			(at 265.43 69.215 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C358684"
+			(at 265.43 69.215 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Mintron-MTP1251102S1/C358684"
 			(at 265.43 69.215 0)
 			(hide yes)
 			(effects
@@ -5876,7 +6104,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 26.67 34.925 0)
 			(hide yes)
 			(effects

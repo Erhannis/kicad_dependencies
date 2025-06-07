@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20250227)
+	(version 20250513)
 	(generator "eeschema")
 	(generator_version "9.99")
 	(uuid "06bcfa7a-9330-4446-8da2-0f3df8a6d6ab")
@@ -12,6 +12,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -8.89 12.7 0)
 				(effects
@@ -234,6 +235,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
 				(effects
@@ -261,7 +263,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -327,7 +329,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -345,7 +347,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -371,6 +373,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
 				(hide yes)
@@ -703,33 +706,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08aae4f5-7b0d-4879-94e7-80a8f582c6a9")
-		(property "MFR" "CL10A105KB8NNNC"
-			(at 147.955 77.47 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C15849"
-			(at 147.955 77.47 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849"
-			(at 147.955 77.47 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C3_UU1"
 			(at 144.78 78.74 0)
 			(effects
@@ -757,7 +733,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 147.955 77.47 0)
 			(hide yes)
 			(effects
@@ -767,6 +743,33 @@
 			)
 		)
 		(property "Description" "50V 1uF X5R ±10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 147.955 77.47 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "CL10A105KB8NNNC"
+			(at 147.955 77.47 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 147.955 77.47 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849"
 			(at 147.955 77.47 0)
 			(hide yes)
 			(effects
@@ -800,33 +803,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26edee50-9004-4546-b7a6-68eef8154d9d")
-		(property "MFR" "CL10A105KB8NNNC"
-			(at 109.22 77.47 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C15849"
-			(at 109.22 77.47 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849"
-			(at 109.22 77.47 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C2_UU1"
 			(at 106.045 78.74 0)
 			(effects
@@ -854,7 +830,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 109.22 77.47 0)
 			(hide yes)
 			(effects
@@ -864,6 +840,33 @@
 			)
 		)
 		(property "Description" "50V 1uF X5R ±10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 109.22 77.47 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "CL10A105KB8NNNC"
+			(at 109.22 77.47 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 109.22 77.47 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849"
 			(at 109.22 77.47 0)
 			(hide yes)
 			(effects
@@ -897,33 +900,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9559d862-831f-4599-a780-478cac442b53")
-		(property "MFR" "CL10A105KB8NNNC"
-			(at 99.06 73.66 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C15849"
-			(at 99.06 73.66 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849"
-			(at 99.06 73.66 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C1_UU1"
 			(at 95.885 74.93 0)
 			(effects
@@ -951,7 +927,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 99.06 73.66 0)
 			(hide yes)
 			(effects
@@ -961,6 +937,33 @@
 			)
 		)
 		(property "Description" "50V 1uF X5R ±10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 99.06 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "CL10A105KB8NNNC"
+			(at 99.06 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 99.06 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849"
 			(at 99.06 73.66 0)
 			(hide yes)
 			(effects
@@ -993,42 +996,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1567465-c750-4650-bd5b-179606571a96")
-		(property "Product" "https://item.szlcsc.com/504007.html"
-			(at 123.825 64.77 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" "HT42B534-2"
-			(at 123.825 64.77 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C493294"
-			(at 123.825 64.77 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/HoltekSemicon-HT42B5342/C493294"
-			(at 123.825 64.77 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "U1_UU1"
 			(at 124.46 80.391 0)
 			(effects
@@ -1064,6 +1031,42 @@
 			)
 		)
 		(property "Description" "3Mbps USB转UART UART SOP-8  USB ICs ROHS"
+			(at 123.825 64.77 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" "https://item.szlcsc.com/504007.html"
+			(at 123.825 64.77 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "HT42B534-2"
+			(at 123.825 64.77 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C493294"
+			(at 123.825 64.77 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/HoltekSemicon-HT42B5342/C493294"
 			(at 123.825 64.77 0)
 			(hide yes)
 			(effects

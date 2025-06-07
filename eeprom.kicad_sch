@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20250227)
+	(version 20250513)
 	(generator "eeschema")
 	(generator_version "9.99")
 	(uuid "66094780-b7f3-444b-a297-5c13d40571b4")
@@ -18,6 +18,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
 				(effects
@@ -45,7 +46,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -111,7 +112,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -129,7 +130,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -157,6 +158,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 0 90)
 				(effects
@@ -182,7 +184,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -235,7 +237,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -253,7 +255,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -275,6 +277,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -6.35 6.35 0)
 				(effects
@@ -840,24 +843,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10ab7494-9d18-4005-8bf5-e06c24effb78")
-		(property "MFR" "RC0402FR-072KL"
-			(at 152.4 92.71 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C60488"
-			(at 152.4 92.71 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R3_EP1"
 			(at 153.8986 88.9 0)
 			(effects
@@ -886,7 +871,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 152.4 92.71 0)
 			(hide yes)
 			(effects
@@ -896,6 +881,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 152.4 92.71 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "RC0402FR-072KL"
+			(at 152.4 92.71 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C60488"
 			(at 152.4 92.71 0)
 			(hide yes)
 			(effects
@@ -928,24 +931,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18f4879f-2493-4f1a-b429-c8586c422c3f")
-		(property "MFR" "RC0402FR-0710KL"
-			(at 147.32 78.105 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C60490"
-			(at 147.32 78.105 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R2_EP1"
 			(at 151.13 79.6036 0)
 			(effects
@@ -974,7 +959,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 147.32 78.105 0)
 			(hide yes)
 			(effects
@@ -984,6 +969,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 147.32 78.105 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "RC0402FR-0710KL"
+			(at 147.32 78.105 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C60490"
 			(at 147.32 78.105 0)
 			(hide yes)
 			(effects
@@ -1016,24 +1019,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3385b073-386a-4c3c-82dd-46982cb24415")
-		(property "MFR" "RC0402FR-0710KL"
-			(at 153.67 78.105 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C60490"
-			(at 153.67 78.105 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R4_EP1"
 			(at 157.48 79.6036 0)
 			(effects
@@ -1062,7 +1047,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 153.67 78.105 0)
 			(hide yes)
 			(effects
@@ -1072,6 +1057,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 153.67 78.105 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "RC0402FR-0710KL"
+			(at 153.67 78.105 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C60490"
 			(at 153.67 78.105 0)
 			(hide yes)
 			(effects
@@ -1104,24 +1107,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56181880-c3d0-4c92-8ad0-e29df22e1317")
-		(property "MFR" "CL05B104KO5NNNC"
-			(at 119.38 79.375 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 119.38 79.375 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C1_EP1"
 			(at 117.09 78.125 90)
 			(effects
@@ -1147,7 +1132,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 119.38 79.375 0)
 			(hide yes)
 			(effects
@@ -1158,6 +1143,24 @@
 		)
 		(property "Description" ""
 			(at 119.38 79.375 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "CL05B104KO5NNNC"
+			(at 119.38 79.375 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 119.38 79.375 90)
 			(hide yes)
 			(effects
 				(font
@@ -1190,33 +1193,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4cca20e-5766-4009-b192-101cab523f4a")
-		(property "MFR" "93LC56BT-I/OT"
-			(at 132.08 90.17 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C190271"
-			(at 132.08 90.17 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/MicrochipTech-93LC56BT_IOT/C190271"
-			(at 132.08 90.17 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "MEM1_EP1"
 			(at 134.0359 80.645 0)
 			(effects
@@ -1262,6 +1238,33 @@
 				)
 			)
 		)
+		(property "MFR" "93LC56BT-I/OT"
+			(at 132.08 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C190271"
+			(at 132.08 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/MicrochipTech-93LC56BT_IOT/C190271"
+			(at 132.08 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4eac6b95-cb93-4b95-b46b-b371c4d9201c")
 		)
@@ -1298,24 +1301,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb726ffc-1f3b-4b74-9c5c-cd0a7bf235bf")
-		(property "MFR" "RC0402FR-0710KL"
-			(at 111.76 78.105 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C60490"
-			(at 111.76 78.105 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R1_EP1"
 			(at 115.57 79.6036 0)
 			(effects
@@ -1344,7 +1329,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 111.76 78.105 0)
 			(hide yes)
 			(effects
@@ -1354,6 +1339,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 111.76 78.105 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "RC0402FR-0710KL"
+			(at 111.76 78.105 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C60490"
 			(at 111.76 78.105 0)
 			(hide yes)
 			(effects

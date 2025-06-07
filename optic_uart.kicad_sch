@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20250227)
+	(version 20250513)
 	(generator "eeschema")
 	(generator_version "9.99")
 	(uuid "b7d4f9fe-b4e6-44c0-841b-b6801d0e5ec3")
@@ -15,6 +15,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
 				(effects
@@ -42,7 +43,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -108,7 +109,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -126,7 +127,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -155,6 +156,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "L"
 				(at -1.27 0 90)
 				(effects
@@ -180,7 +182,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -310,6 +312,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 7.62 0)
 				(effects
@@ -446,6 +449,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 7.62 0)
 				(effects
@@ -829,15 +833,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "562009f3-6dc8-442f-a391-c18af0c61766")
-		(property "LCSC Part" "C277779"
-			(at 125.73 93.98 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "JR1_OU1"
 			(at 132.08 77.4699 0)
 			(effects
@@ -883,6 +878,15 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C277779"
+			(at 125.73 93.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "acd5b72b-e7a5-4be4-a9d3-35047b3c46d0")
 		)
@@ -911,15 +915,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7265d999-9bb2-4242-b119-1b05f3c055d9")
-		(property "LCSC Part" "C277781"
-			(at 124.46 128.27 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "JT1_OU1"
 			(at 129.54 111.7599 0)
 			(effects
@@ -965,6 +960,15 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C277781"
+			(at 124.46 128.27 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6414b915-f716-4bdf-b4d2-3f5174eac62c")
 		)
@@ -994,33 +998,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e40d55e-695d-4b0e-9d0d-4141be704c66")
-		(property "MFR" "CL05B104KO5NNNC"
-			(at 105.41 82.55 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 105.41 82.55 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
-			(at 105.41 82.55 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C1_OU1"
 			(at 109.22 83.8201 0)
 			(effects
@@ -1048,7 +1025,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 105.41 82.55 0)
 			(hide yes)
 			(effects
@@ -1058,6 +1035,33 @@
 			)
 		)
 		(property "Description" "16V 100nF X7R ±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 105.41 82.55 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "CL05B104KO5NNNC"
+			(at 105.41 82.55 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 105.41 82.55 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 105.41 82.55 0)
 			(hide yes)
 			(effects
@@ -1091,33 +1095,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a81c74cd-c538-43d1-a15f-ff5180e2ff9a")
-		(property "MFR" "CL05B104KO5NNNC"
-			(at 105.41 109.22 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 105.41 109.22 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
-			(at 105.41 109.22 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C2_OU1"
 			(at 109.22 107.9499 0)
 			(effects
@@ -1145,7 +1122,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 105.41 109.22 0)
 			(hide yes)
 			(effects
@@ -1155,6 +1132,33 @@
 			)
 		)
 		(property "Description" "16V 100nF X7R ±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 105.41 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "CL05B104KO5NNNC"
+			(at 105.41 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 105.41 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 105.41 109.22 0)
 			(hide yes)
 			(effects
@@ -1189,33 +1193,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb9e9ae3-bfd4-4c6a-806a-8517087e781a")
-		(property "MFR" "LBMF1608T470M"
-			(at 97.79 86.36 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C223244"
-			(at 97.79 86.36 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/TaiyoYuden-LBMF1608T470M/C223244"
-			(at 97.79 86.36 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "L1_OU1"
 			(at 97.79 91.44 90)
 			(effects
@@ -1241,7 +1218,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 97.79 86.36 0)
 			(hide yes)
 			(effects
@@ -1251,6 +1228,33 @@
 			)
 		)
 		(property "Description" "35mA 47uH ±20% 2.5Ω 0603  Inductors (SMD) ROHS"
+			(at 97.79 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "LBMF1608T470M"
+			(at 97.79 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C223244"
+			(at 97.79 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/TaiyoYuden-LBMF1608T470M/C223244"
 			(at 97.79 86.36 0)
 			(hide yes)
 			(effects

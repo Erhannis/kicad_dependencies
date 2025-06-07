@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20250227)
+	(version 20250513)
 	(generator "eeschema")
 	(generator_version "9.99")
 	(uuid "4bc4f181-1698-4a4b-ba49-a2b32c1df8a6")
@@ -12,6 +12,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
 				(at 5.08 2.54 0)
 				(effects
@@ -811,33 +812,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "228dd9b3-d7d4-420c-bbe4-d3c91c316b41")
-		(property "MFR" "CJ3439KDW"
-			(at 131.445 92.075 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C99824"
-			(at 131.445 92.075 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
-			(at 131.445 92.075 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "Q2_PHS1"
 			(at 137.795 90.805 0)
 			(effects
@@ -884,6 +858,33 @@
 				)
 			)
 		)
+		(property "MFR" "CJ3439KDW"
+			(at 131.445 92.075 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C99824"
+			(at 131.445 92.075 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
+			(at 131.445 92.075 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "189a2d1b-8893-46fb-a95a-b1672380c51c")
 		)
@@ -921,33 +922,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "347a76a4-277b-4c55-b3c9-f5bc30e7f9cd")
-		(property "MFR" "CJ3439KDW"
-			(at 116.205 78.105 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C99824"
-			(at 116.205 78.105 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
-			(at 116.205 78.105 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "Q1_PHS1"
 			(at 122.555 76.835 0)
 			(effects
@@ -994,6 +968,33 @@
 				)
 			)
 		)
+		(property "MFR" "CJ3439KDW"
+			(at 116.205 78.105 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C99824"
+			(at 116.205 78.105 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
+			(at 116.205 78.105 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ca5439be-f35b-42a1-865d-012b795435af")
 		)
@@ -1031,33 +1032,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40426160-9e79-4738-a264-40ed5aa85933")
-		(property "MFR" "CJ3439KDW"
-			(at 116.205 92.075 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C99824"
-			(at 116.205 92.075 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
-			(at 116.205 92.075 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "Q1_PHS1"
 			(at 122.555 90.805 0)
 			(effects
@@ -1104,6 +1078,33 @@
 				)
 			)
 		)
+		(property "MFR" "CJ3439KDW"
+			(at 116.205 92.075 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C99824"
+			(at 116.205 92.075 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
+			(at 116.205 92.075 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "42614a11-3913-4bfa-9987-9395f35598e2")
 		)
@@ -1141,33 +1142,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9aedb519-cfda-405d-b1ab-c95bf3bcc849")
-		(property "MFR" "CJ3439KDW"
-			(at 131.445 78.105 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C99824"
-			(at 131.445 78.105 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
-			(at 131.445 78.105 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "Q2_PHS1"
 			(at 137.795 76.835 0)
 			(effects
@@ -1206,6 +1180,33 @@
 			)
 		)
 		(property "Description" "1PCSN-Channel&1PCSP-Channel SOT-323-6  MOSFETs ROHS"
+			(at 131.445 78.105 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "CJ3439KDW"
+			(at 131.445 78.105 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C99824"
+			(at 131.445 78.105 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/101038-CJ3439KDW/C99824"
 			(at 131.445 78.105 0)
 			(hide yes)
 			(effects

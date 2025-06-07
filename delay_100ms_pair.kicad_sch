@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20250227)
+	(version 20250513)
 	(generator "eeschema")
 	(generator_version "9.99")
 	(uuid "a20d3979-45fc-4ee2-994c-980e402c25fb")
@@ -12,6 +12,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 5.08 0)
 				(effects
@@ -135,7 +136,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -203,7 +204,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -269,6 +270,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
 				(effects
@@ -296,7 +298,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -362,7 +364,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -380,7 +382,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -408,6 +410,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 0 90)
 				(effects
@@ -433,7 +436,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -486,7 +489,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -504,7 +507,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1124,33 +1127,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0067caf9-8220-4dae-9d04-4bc63f05550f")
-		(property "MFR" "0402WGF1002TCE"
-			(at 127 86.995 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 127 86.995 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
-			(at 127 86.995 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R4_D100MSP1"
 			(at 129.54 85.725 0)
 			(effects
@@ -1178,7 +1154,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 127 86.995 0)
 			(hide yes)
 			(effects
@@ -1188,6 +1164,33 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 10kΩ 0402  Chip Resistor - Surface Mount ROHS"
+			(at 127 86.995 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "0402WGF1002TCE"
+			(at 127 86.995 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 127 86.995 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
 			(at 127 86.995 0)
 			(hide yes)
 			(effects
@@ -1221,33 +1224,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0feef0f5-04a9-4613-9953-c70e55b4ac96")
-		(property "MFR" "0402WGF1003TCE"
-			(at 146.05 78.74 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25741"
-			(at 146.05 78.74 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/26484-0402WGF1003TCE/C25741"
-			(at 146.05 78.74 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R6_D100MSP1"
 			(at 148.59 77.47 0)
 			(effects
@@ -1275,7 +1251,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 146.05 78.74 0)
 			(hide yes)
 			(effects
@@ -1285,6 +1261,33 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 100kΩ 0402  Chip Resistor - Surface Mount ROHS"
+			(at 146.05 78.74 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "0402WGF1003TCE"
+			(at 146.05 78.74 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 146.05 78.74 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26484-0402WGF1003TCE/C25741"
 			(at 146.05 78.74 0)
 			(hide yes)
 			(effects
@@ -1318,33 +1321,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2238694c-0ffd-4a5e-8c09-8e8aa60b46e7")
-		(property "MFR" "0402WGF1001TCE"
-			(at 91.44 135.89 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C11702"
-			(at 91.44 135.89 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"
-			(at 91.44 135.89 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R1_D100MSPB1"
 			(at 91.44 130.175 90)
 			(effects
@@ -1370,7 +1346,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 91.44 135.89 0)
 			(hide yes)
 			(effects
@@ -1380,6 +1356,33 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 1kΩ 0402  Chip Resistor - Surface Mount ROHS"
+			(at 91.44 135.89 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "0402WGF1001TCE"
+			(at 91.44 135.89 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 91.44 135.89 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"
 			(at 91.44 135.89 90)
 			(hide yes)
 			(effects
@@ -1413,33 +1416,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "286ddb5f-76e3-4d89-8efd-a0bf5d1ccdf1")
-		(property "MFR" "0402WGF1003TCE"
-			(at 146.05 146.685 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25741"
-			(at 146.05 146.685 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/26484-0402WGF1003TCE/C25741"
-			(at 146.05 146.685 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R6_D100MSPB1"
 			(at 148.59 145.415 0)
 			(effects
@@ -1467,7 +1443,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 146.05 146.685 0)
 			(hide yes)
 			(effects
@@ -1477,6 +1453,33 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 100kΩ 0402  Chip Resistor - Surface Mount ROHS"
+			(at 146.05 146.685 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "0402WGF1003TCE"
+			(at 146.05 146.685 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 146.05 146.685 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26484-0402WGF1003TCE/C25741"
 			(at 146.05 146.685 0)
 			(hide yes)
 			(effects
@@ -1510,33 +1513,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36c1d2d1-601a-4f46-a370-0820e539424a")
-		(property "MFR" "0402WGF1005TCE"
-			(at 122.555 123.825 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C26082"
-			(at 122.555 123.825 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/26825-0402WGF1005TCE/C26082"
-			(at 122.555 123.825 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R3_D100MSPB1"
 			(at 122.555 118.11 90)
 			(effects
@@ -1562,7 +1538,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 122.555 123.825 0)
 			(hide yes)
 			(effects
@@ -1572,6 +1548,33 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors ±1% ±200ppm/℃ 10MΩ 0402  Chip Resistor - Surface Mount ROHS"
+			(at 122.555 123.825 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "0402WGF1005TCE"
+			(at 122.555 123.825 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C26082"
+			(at 122.555 123.825 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26825-0402WGF1005TCE/C26082"
 			(at 122.555 123.825 90)
 			(hide yes)
 			(effects
@@ -1605,33 +1608,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fe01b64-6798-48cb-af79-12dcf0a5aea6")
-		(property "MFR" "0402WGF1002TCE"
-			(at 103.505 67.945 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 103.505 67.945 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
-			(at 103.505 67.945 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R2_D100MSP1"
 			(at 103.505 62.23 90)
 			(effects
@@ -1657,7 +1633,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 103.505 67.945 0)
 			(hide yes)
 			(effects
@@ -1667,6 +1643,33 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 10kΩ 0402  Chip Resistor - Surface Mount ROHS"
+			(at 103.505 67.945 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "0402WGF1002TCE"
+			(at 103.505 67.945 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 103.505 67.945 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
 			(at 103.505 67.945 90)
 			(hide yes)
 			(effects
@@ -1700,33 +1703,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50eedc88-29c0-4930-870e-6220c9764294")
-		(property "MFR" "GRM31CR61A107MEA8L"
-			(at 96.52 64.135 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C883598"
-			(at 96.52 64.135 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/948963-GRM31CR61A107MEA8L/C883598"
-			(at 96.52 64.135 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C1_D100MSP1"
 			(at 100.33 62.865 0)
 			(effects
@@ -1754,7 +1730,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 96.52 64.135 0)
 			(hide yes)
 			(effects
@@ -1764,6 +1740,33 @@
 			)
 		)
 		(property "Description" "10V 100uF X5R ±20% 1206  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 96.52 64.135 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "GRM31CR61A107MEA8L"
+			(at 96.52 64.135 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C883598"
+			(at 96.52 64.135 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/948963-GRM31CR61A107MEA8L/C883598"
 			(at 96.52 64.135 0)
 			(hide yes)
 			(effects
@@ -1797,42 +1800,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65761e5e-2737-44e1-96ad-c4a0de3c725a")
-		(property "Sim.Library" "/home/erhannis/Downloads/LM358.lib"
-			(at 140.335 90.805 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Name" "LM358"
-			(at 140.335 90.805 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 140.335 90.805 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=28 2=2 3=1 4=50 8=99"
-			(at 140.335 90.805 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "U1_D100MSP1"
 			(at 140.335 80.645 0)
 			(effects
@@ -1868,6 +1835,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 140.335 90.805 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "/home/erhannis/Downloads/LM358.lib"
+			(at 140.335 90.805 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "LM358"
+			(at 140.335 90.805 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 140.335 90.805 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=28 2=2 3=1 4=50 8=99"
 			(at 140.335 90.805 0)
 			(hide yes)
 			(effects
@@ -1919,33 +1922,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65c4cd3a-e8d2-4f4f-be27-0373de09065b")
-		(property "MFR" "GRM31CR61A107MEA8L"
-			(at 96.52 132.08 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C883598"
-			(at 96.52 132.08 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/948963-GRM31CR61A107MEA8L/C883598"
-			(at 96.52 132.08 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C1_D100MSPB1"
 			(at 100.33 130.81 0)
 			(effects
@@ -1973,7 +1949,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 96.52 132.08 0)
 			(hide yes)
 			(effects
@@ -1983,6 +1959,33 @@
 			)
 		)
 		(property "Description" "10V 100uF X5R ±20% 1206  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 96.52 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "GRM31CR61A107MEA8L"
+			(at 96.52 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C883598"
+			(at 96.52 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/948963-GRM31CR61A107MEA8L/C883598"
 			(at 96.52 132.08 0)
 			(hide yes)
 			(effects
@@ -2016,42 +2019,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78215901-69fc-42b3-a3c2-e3aa43556b0a")
-		(property "Sim.Library" "/home/erhannis/Downloads/LM358.lib"
-			(at 122.555 70.485 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Name" "LM358"
-			(at 122.555 70.485 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 122.555 70.485 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=28 2=2 3=1 4=50 8=99"
-			(at 122.555 70.485 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "U1_D100MSP1"
 			(at 122.555 60.325 0)
 			(effects
@@ -2087,6 +2054,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 122.555 70.485 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "/home/erhannis/Downloads/LM358.lib"
+			(at 122.555 70.485 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "LM358"
+			(at 122.555 70.485 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 122.555 70.485 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=28 2=2 3=1 4=50 8=99"
 			(at 122.555 70.485 0)
 			(hide yes)
 			(effects
@@ -2138,42 +2141,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a77443b9-8560-4bcb-af0d-17a8c7031110")
-		(property "Sim.Library" "/home/erhannis/Downloads/LM358.lib"
-			(at 122.555 138.43 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Name" "LM358"
-			(at 122.555 138.43 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 122.555 138.43 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=28 2=2 3=1 4=50 8=99"
-			(at 122.555 138.43 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "U1_D100MSP1"
 			(at 122.555 128.27 0)
 			(effects
@@ -2209,6 +2176,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 122.555 138.43 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "/home/erhannis/Downloads/LM358.lib"
+			(at 122.555 138.43 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "LM358"
+			(at 122.555 138.43 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 122.555 138.43 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=28 2=2 3=1 4=50 8=99"
 			(at 122.555 138.43 0)
 			(hide yes)
 			(effects
@@ -2260,33 +2263,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc2b164e-4461-440a-b6fc-e0663d2acb44")
-		(property "MFR" "0402WGF1001TCE"
-			(at 91.44 67.945 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C11702"
-			(at 91.44 67.945 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"
-			(at 91.44 67.945 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R1_D100MSP1"
 			(at 91.44 62.23 90)
 			(effects
@@ -2312,7 +2288,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 91.44 67.945 0)
 			(hide yes)
 			(effects
@@ -2322,6 +2298,33 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 1kΩ 0402  Chip Resistor - Surface Mount ROHS"
+			(at 91.44 67.945 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "0402WGF1001TCE"
+			(at 91.44 67.945 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 91.44 67.945 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"
 			(at 91.44 67.945 90)
 			(hide yes)
 			(effects
@@ -2355,33 +2358,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d39fc2ab-2378-4db6-83ac-95119f6f94d9")
-		(property "MFR" "0402WGF1002TCE"
-			(at 103.505 135.89 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 103.505 135.89 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
-			(at 103.505 135.89 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R2_D100MSPB1"
 			(at 103.505 130.175 90)
 			(effects
@@ -2407,7 +2383,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 103.505 135.89 0)
 			(hide yes)
 			(effects
@@ -2417,6 +2393,33 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 10kΩ 0402  Chip Resistor - Surface Mount ROHS"
+			(at 103.505 135.89 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "0402WGF1002TCE"
+			(at 103.505 135.89 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 103.505 135.89 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
 			(at 103.505 135.89 90)
 			(hide yes)
 			(effects
@@ -2450,33 +2453,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4a40fa4-444b-419c-b185-f35b1a2ba072")
-		(property "MFR" "0402WGF1002TCE"
-			(at 127 94.615 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 127 94.615 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
-			(at 127 94.615 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R5_D100MSP1"
 			(at 129.54 93.345 0)
 			(effects
@@ -2504,7 +2480,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 127 94.615 0)
 			(hide yes)
 			(effects
@@ -2514,6 +2490,33 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 10kΩ 0402  Chip Resistor - Surface Mount ROHS"
+			(at 127 94.615 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "0402WGF1002TCE"
+			(at 127 94.615 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 127 94.615 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
 			(at 127 94.615 0)
 			(hide yes)
 			(effects
@@ -2547,33 +2550,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e968d777-dd4a-4a54-b7e7-d7e30d4b2296")
-		(property "MFR" "0402WGF1005TCE"
-			(at 122.555 55.88 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C26082"
-			(at 122.555 55.88 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/26825-0402WGF1005TCE/C26082"
-			(at 122.555 55.88 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R3_D100MSP1"
 			(at 122.555 50.165 90)
 			(effects
@@ -2599,7 +2575,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 122.555 55.88 0)
 			(hide yes)
 			(effects
@@ -2609,6 +2585,33 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors ±1% ±200ppm/℃ 10MΩ 0402  Chip Resistor - Surface Mount ROHS"
+			(at 122.555 55.88 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "0402WGF1005TCE"
+			(at 122.555 55.88 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C26082"
+			(at 122.555 55.88 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26825-0402WGF1005TCE/C26082"
 			(at 122.555 55.88 90)
 			(hide yes)
 			(effects

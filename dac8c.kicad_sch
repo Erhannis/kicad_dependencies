@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20250227)
+	(version 20250513)
 	(generator "eeschema")
 	(generator_version "9.99")
 	(uuid "649567ce-4bf1-40a0-8cdb-09221c6db83d")
@@ -9,6 +9,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at -2.29 1.25 90)
 				(effects
@@ -150,6 +151,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "X"
 				(at -12.7 -12.7 0)
 				(effects
@@ -556,6 +558,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "FB"
 				(at -1.27 1.905 0)
 				(effects
@@ -701,6 +704,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SJ"
 				(at -5.08 -3.81 0)
 				(effects
@@ -887,6 +891,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SJ"
 				(at -2.54 2.54 0)
 				(effects
@@ -1050,6 +1055,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 0 90)
 				(effects
@@ -1075,7 +1081,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -1128,7 +1134,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1146,7 +1152,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2326,33 +2332,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "476bfafa-4015-4916-b386-d9705fad8acd")
-		(property "MFR" "DAC7578SPWR"
-			(at 131.445 106.045 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1520855"
-			(at 131.445 106.045 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Digital-to-Analog-Converters-DAC_Texas-Instruments-DAC7578SPWR_C1520855.html?s_z=n_C1520855"
-			(at 131.445 106.045 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "X1_D8C1"
 			(at 118.745 118.745 0)
 			(effects
@@ -2390,6 +2369,33 @@
 			)
 		)
 		(property "Description" "2.7V~5.5V TSSOP-16 Digital to Analog Converters (DAC) ROHS"
+			(at 131.445 106.045 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "DAC7578SPWR"
+			(at 131.445 106.045 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1520855"
+			(at 131.445 106.045 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Digital-to-Analog-Converters-DAC_Texas-Instruments-DAC7578SPWR_C1520855.html?s_z=n_C1520855"
 			(at 131.445 106.045 0)
 			(hide yes)
 			(effects
@@ -2465,33 +2471,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f1bcd27-5ea0-4406-ab0b-48154f66bdd8")
-		(property "MFR" "RC0402FR-074K7L"
-			(at 95.885 93.345 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C105871"
-			(at 95.885 93.345 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0402FR-074K7L_C105871.html?s_z=n_4.7k%25CE%25A9"
-			(at 95.885 93.345 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R2_D8C1"
 			(at 97.79 92.0749 0)
 			(effects
@@ -2519,7 +2498,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 95.885 93.345 0)
 			(hide yes)
 			(effects
@@ -2529,6 +2508,33 @@
 			)
 		)
 		(property "Description" "1/16W Thick Film Resistors 50V ±100ppm/℃ ±1% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 95.885 93.345 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "RC0402FR-074K7L"
+			(at 95.885 93.345 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C105871"
+			(at 95.885 93.345 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0402FR-074K7L_C105871.html?s_z=n_4.7k%25CE%25A9"
 			(at 95.885 93.345 0)
 			(hide yes)
 			(effects
@@ -2631,33 +2637,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e06efbd-e2ff-4631-9192-dff4a848b01c")
-		(property "MFR" "RC0402FR-0710KL"
-			(at 88.265 95.885 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C60490"
-			(at 88.265 95.885 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0402FR-0710KL_C60490.html?s_z=n_10k%25CE%25A9"
-			(at 88.265 95.885 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R1_D8C1"
 			(at 90.17 94.6149 0)
 			(effects
@@ -2685,7 +2664,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 88.265 95.885 0)
 			(hide yes)
 			(effects
@@ -2695,6 +2674,33 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 88.265 95.885 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "RC0402FR-0710KL"
+			(at 88.265 95.885 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C60490"
+			(at 88.265 95.885 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0402FR-0710KL_C60490.html?s_z=n_10k%25CE%25A9"
 			(at 88.265 95.885 0)
 			(hide yes)
 			(effects
@@ -2728,33 +2734,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "700a0551-8e79-4a19-8fd6-679fef12c43a")
-		(property "MFR" "RC0402FR-074K7L"
-			(at 109.22 86.36 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C105871"
-			(at 109.22 86.36 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0402FR-074K7L_C105871.html?s_z=n_4.7k%25CE%25A9"
-			(at 109.22 86.36 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R3_D8C1"
 			(at 111.125 85.0899 0)
 			(effects
@@ -2782,7 +2761,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 109.22 86.36 0)
 			(hide yes)
 			(effects
@@ -2792,6 +2771,33 @@
 			)
 		)
 		(property "Description" "1/16W Thick Film Resistors 50V ±100ppm/℃ ±1% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 109.22 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "RC0402FR-074K7L"
+			(at 109.22 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C105871"
+			(at 109.22 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0402FR-074K7L_C105871.html?s_z=n_4.7k%25CE%25A9"
 			(at 109.22 86.36 0)
 			(hide yes)
 			(effects
@@ -2825,33 +2831,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "739f07ac-bd6d-4fff-a630-75381d21d82c")
-		(property "MFR" "RC0402FR-074K7L"
-			(at 112.395 83.185 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C105871"
-			(at 112.395 83.185 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0402FR-074K7L_C105871.html?s_z=n_4.7k%25CE%25A9"
-			(at 112.395 83.185 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R4_D8C1"
 			(at 114.3 81.9149 0)
 			(effects
@@ -2879,7 +2858,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 112.395 83.185 0)
 			(hide yes)
 			(effects
@@ -2889,6 +2868,33 @@
 			)
 		)
 		(property "Description" "1/16W Thick Film Resistors 50V ±100ppm/℃ ±1% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 112.395 83.185 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "RC0402FR-074K7L"
+			(at 112.395 83.185 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C105871"
+			(at 112.395 83.185 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0402FR-074K7L_C105871.html?s_z=n_4.7k%25CE%25A9"
 			(at 112.395 83.185 0)
 			(hide yes)
 			(effects

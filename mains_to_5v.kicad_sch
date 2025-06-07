@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20250227)
+	(version 20250513)
 	(generator "eeschema")
 	(generator_version "9.99")
 	(uuid "d6a4d981-f113-46ae-af85-493a100b4ff3")
@@ -15,6 +15,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
 				(effects
@@ -42,7 +43,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -108,7 +109,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -126,7 +127,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -155,6 +156,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
 				(at 0 2.54 0)
 				(effects
@@ -310,6 +312,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 0 5.08 0)
 				(effects
@@ -441,6 +444,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 0 5.08 0)
 				(effects
@@ -560,6 +564,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 7.62 0)
 				(effects
@@ -714,6 +719,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "F"
 				(at 0 5.08 0)
 				(effects
@@ -890,6 +896,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "L"
 				(at 0 10.16 0)
 				(effects
@@ -1188,6 +1195,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 6.35 0)
 				(effects
@@ -1718,15 +1726,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10192923-03cc-4926-acd8-97f10ecdd80b")
-		(property "LCSC Part" "C164623"
-			(at 154.94 111.76 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "L1_M5V1"
 			(at 153.67 81.915 0)
 			(effects
@@ -1770,6 +1769,15 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C164623"
+			(at 154.94 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c5599dc-751c-42d9-9532-20668576a97a")
 		)
@@ -1801,33 +1809,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14d10df9-fdc5-4984-9dc3-3230046e8d13")
-		(property "MFR" "C58066"
-			(at 108.585 99.06 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C58066"
-			(at 108.585 86.36 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/XuchengElec-C58066/C58066"
-			(at 108.585 86.36 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "F1_M5V1"
 			(at 108.585 78.74 0)
 			(effects
@@ -1871,6 +1852,33 @@
 				)
 			)
 		)
+		(property "MFR" "C58066"
+			(at 108.585 99.06 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C58066"
+			(at 108.585 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/XuchengElec-C58066/C58066"
+			(at 108.585 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "946be747-56a2-4cce-9e59-c19f86e32851")
 		)
@@ -1896,33 +1904,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1af673ab-0591-49b8-93d2-559687f3adfd")
-		(property "MFR" "5D-9"
-			(at 126.365 99.06 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C332361"
-			(at 126.365 86.36 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/HongzhiElec-5D9/C332361"
-			(at 126.365 86.36 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R1_M5V1"
 			(at 126.365 79.375 0)
 			(effects
@@ -1966,6 +1947,33 @@
 				)
 			)
 		)
+		(property "MFR" "5D-9"
+			(at 126.365 99.06 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C332361"
+			(at 126.365 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/HongzhiElec-5D9/C332361"
+			(at 126.365 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "318e763b-8641-46bb-b520-27184c942719")
 		)
@@ -1991,33 +1999,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24b830f8-8003-43ba-a823-5b5b8936e928")
-		(property "MFR" "471KD10"
-			(at 118.745 92.71 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C78346"
-			(at 131.445 92.71 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Brightking-471KD10/C78346"
-			(at 131.445 92.71 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "R2_M5V1"
 			(at 134.62 91.44 90)
 			(effects
@@ -2063,6 +2044,33 @@
 				)
 			)
 		)
+		(property "MFR" "471KD10"
+			(at 118.745 92.71 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C78346"
+			(at 131.445 92.71 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Brightking-471KD10/C78346"
+			(at 131.445 92.71 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5fa8bcb3-d2c2-4f20-9ff0-961acab9615e")
 		)
@@ -2088,33 +2096,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d72aacc-52c7-454a-881d-b4be76a884c0")
-		(property "MFR" "MPX104K31C3KN15600"
-			(at 144.145 92.71 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C489079"
-			(at 144.145 92.71 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Knscha-MPX104K31C3KN15600/C489079"
-			(at 144.145 92.71 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C1_M5V1"
 			(at 147.32 91.44 0)
 			(effects
@@ -2142,7 +2123,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 144.145 92.71 0)
 			(hide yes)
 			(effects
@@ -2152,6 +2133,33 @@
 			)
 		)
 		(property "Description" "100nF ±10% X2 Plugin,P=10mm  Suppression Capacitors ROHS"
+			(at 144.145 92.71 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MPX104K31C3KN15600"
+			(at 144.145 92.71 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C489079"
+			(at 144.145 92.71 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Knscha-MPX104K31C3KN15600/C489079"
 			(at 144.145 92.71 0)
 			(hide yes)
 			(effects
@@ -2185,33 +2193,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a530e73-c6d3-43e3-be08-25e2e1822884")
-		(property "MFR" "EC03-S05"
-			(at 175.26 105.41 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2840800"
-			(at 175.26 92.71 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Endrive-EC03S05/C2840800"
-			(at 175.26 92.71 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "U1_M5V1"
 			(at 175.26 102.87 0)
 			(effects
@@ -2255,6 +2236,33 @@
 				)
 			)
 		)
+		(property "MFR" "EC03-S05"
+			(at 175.26 105.41 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2840800"
+			(at 175.26 92.71 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Endrive-EC03S05/C2840800"
+			(at 175.26 92.71 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bad1091d-1f40-4917-8517-cda6727c03e0")
 		)
@@ -2285,33 +2293,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a66209c2-4514-4824-ac3b-396b6269d6c4")
-		(property "MFR" "XY126V-5.0-2P"
-			(at 90.17 78.74 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C557646"
-			(at 90.17 92.71 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Ningbo_Xinlaiya_elec-XY126V_5_02P/C557646"
-			(at 90.17 92.71 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "J1_M5V1"
 			(at 86.36 93.98 0)
 			(effects
@@ -2357,6 +2338,33 @@
 				)
 			)
 		)
+		(property "MFR" "XY126V-5.0-2P"
+			(at 90.17 78.74 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C557646"
+			(at 90.17 92.71 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Ningbo_Xinlaiya_elec-XY126V_5_02P/C557646"
+			(at 90.17 92.71 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f93c864b-6d0b-4705-b1a3-1e5ce2f5a8a3")
 		)
@@ -2382,33 +2390,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8012a90-e51e-415b-bfb9-ac4e0d4e910c")
-		(property "MFR" "ESD9B5.0ST5G"
-			(at 198.12 92.71 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C3021104"
-			(at 198.12 92.71 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/TechPublic-ESD9B50ST5G/C3021104"
-			(at 198.12 92.71 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "D1_M5V1"
 			(at 200.66 91.44 90)
 			(effects
@@ -2454,6 +2435,33 @@
 				)
 			)
 		)
+		(property "MFR" "ESD9B5.0ST5G"
+			(at 198.12 92.71 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3021104"
+			(at 198.12 92.71 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/TechPublic-ESD9B50ST5G/C3021104"
+			(at 198.12 92.71 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6cd85c08-afe9-4608-8dd8-a4a7eb81df0c")
 		)
@@ -2478,24 +2486,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aff0c84d-4a7f-467b-81b8-0f3470851b78")
-		(property "MFR" "CL21A106KOQNNNE"
-			(at 192.405 92.71 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1713"
-			(at 192.405 92.71 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "C2_M5V1"
 			(at 194.695 93.96 90)
 			(effects
@@ -2521,7 +2511,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 192.405 92.71 0)
 			(hide yes)
 			(effects
@@ -2532,6 +2522,24 @@
 		)
 		(property "Description" ""
 			(at 192.405 92.71 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "CL21A106KOQNNNE"
+			(at 192.405 92.71 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1713"
+			(at 192.405 92.71 90)
 			(hide yes)
 			(effects
 				(font
