@@ -2757,6 +2757,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 160.02 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00f1a9dd-0550-4526-b2e6-8f174e675e1f")
+		(property "Reference" "#PWR035"
+			(at 153.67 110.49 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 110.49 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 110.49 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 110.49 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3dfa7e87-51f7-4ee1-b15d-6b215e118b3c")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 131.445 154.305 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4994,73 +5061,6 @@
 			(project "kicad_deps"
 				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
 					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 111.76 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a62c2a6d-fc4d-47a8-96a9-815f203683f4")
-		(property "Reference" "#PWR035"
-			(at 153.67 111.76 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 111.76 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 111.76 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 111.76 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fef48217-e5c4-48eb-8ebf-1b06df813fbf")
-		)
-		(instances
-			(project "kicad_deps"
-				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7340,6 +7340,118 @@
 		)
 	)
 	(sheet
+		(at 160.02 100.33)
+		(size 16.51 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "91daaba3-e6ae-4074-a1c9-423bdcec64f1")
+		(property "Sheetname" "split_4xamp_n15p15_1a"
+			(at 160.02 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "split_4xamp_n15p15_1a.kicad_sch"
+			(at 160.02 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 160.02 110.49 180)
+			(uuid "d792fb19-4271-4e39-8344-6864f24ab4e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LOAD+" output
+			(at 176.53 103.505 0)
+			(uuid "bbd0ac94-fe69-4dba-a1b7-fa053c178d93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LOAD-" output
+			(at 176.53 108.585 0)
+			(uuid "1d7e01fa-c5b7-4a6b-809a-21b27edd47a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Sig1" input
+			(at 160.02 103.505 180)
+			(uuid "70b18fa7-39d5-4ac9-8d8f-57bdc3be6b12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sig2" input
+			(at 160.02 105.41 180)
+			(uuid "5d81f935-a841-4d77-a3eb-bffd0af7c4ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vcc" input
+			(at 160.02 108.585 180)
+			(uuid "73d5db10-98ba-4bd7-82c7-eb562bf40322")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vee" input
+			(at 160.02 112.395 180)
+			(uuid "da20a678-d4a9-4aeb-82bf-070a05112680")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
+					(page "28")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 127 99.06)
 		(size 17.145 18.415)
 		(exclude_from_sim no)
@@ -8381,98 +8493,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(sheet
-		(at 160.02 99.06)
-		(size 16.51 16.51)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "df25ff21-444d-4db5-907c-1d5de67a83e1")
-		(property "Sheetname" "amp12v2a"
-			(at 160.02 98.3484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "amp12v2a.kicad_sch"
-			(at 160.02 116.1546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "GND" input
-			(at 160.02 111.76 180)
-			(uuid "ee1c54db-f920-40a2-ab12-568959062293")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V+" input
-			(at 160.02 101.6 180)
-			(uuid "7147ea5f-6def-4b45-a61f-288e48ab6084")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V-" input
-			(at 160.02 104.14 180)
-			(uuid "24721387-cb30-43a1-87a5-e8cc9c6f1cfa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Vin" input
-			(at 160.02 107.95 180)
-			(uuid "a761a7ed-e67c-4c9f-957d-bf77e5bd824c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Vout" output
-			(at 176.53 107.95 0)
-			(uuid "697e94a2-8680-4552-aaa4-69d460b58e7b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "kicad_deps"
-				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
-					(page "28")
-				)
 			)
 		)
 	)

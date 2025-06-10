@@ -1,0 +1,3407 @@
+(kicad_sch
+	(version 20250513)
+	(generator "eeschema")
+	(generator_version "9.99")
+	(uuid "71d22942-3e67-4085-94b0-08b241078c06")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Amplifier_Operational:LM358"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LM358"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LM358_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM358_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM358_3_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:IRF540NPBF"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "IRF540NPBF"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:TO-220-3_L10.0-W4.5-P2.54-L"
+				(at 0 -12.7 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_IR_IRF540NPBF_IRF540NPBF_C2566.html"
+				(at 0 -15.24 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C2566"
+				(at 0 -17.78 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "IRF540NPBF_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 2.29) (xy -0.51 -2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.29) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.78) (xy 2.54 1.78) (xy 2.54 2.54) (xy 5.08 2.54) (xy 5.08 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.52 -0.51) (xy 1.52 0.51) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 0) (xy 2.54 -2.54) (xy 5.08 -2.54) (xy 5.08 -0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.51) (xy 0 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.29) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.78) (xy 0 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0.51) (xy 4.32 -0.76) (xy 5.84 -0.76) (xy 5.08 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.1 0.51) (xy 5.59 0.51) (xy 4.57 0.51) (xy 4.06 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:IRF9540NPBF"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "IRF9540NPBF"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:TO-220-3_L10.0-W4.5-P2.54-L"
+				(at 0 -12.7 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_IR_IRF9540NPBF_IRF9540NPBF_C2575.html"
+				(at 0 -15.24 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C2575"
+				(at 0 -17.78 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "IRF9540NPBF_0_1"
+				(polyline
+					(pts
+						(xy -1.78 2.29) (xy -1.78 -2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.51) (xy -1.27 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.29) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.78) (xy -1.27 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.78) (xy 1.27 2.54) (xy 3.81 2.54) (xy 3.81 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -0.25 0.51) (xy -0.25 -0.51) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.78) (xy -1.27 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 3.81 -2.54) (xy 3.81 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -0.51) (xy 4.57 0.76) (xy 3.05 0.76) (xy 3.81 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.57 -0.51) (xy 4.32 -0.51) (xy 3.3 -0.51) (xy 3.05 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 0 0)
+					(length 2.032)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text_box "4x amp; +-15V out, Maybe 1A on both outputs\nLOAD+ = Sig1*4-2V (2v is transistor drop, varies somewhat with load and heat and transistor.)\nLOAD- = -(Sig2*4-2V) (Ditto.)\nOp-amp with mosfet voltage followers.\nSupports like, at least an amp on the outputs?  Limiting factor is transistor power dissipation; by the datasheets LOAD- could be up to 5A and LOAD+ could be like 8A; depends on factors.\nI tested 1A@8V out on LOAD+ successfully.\n2A failed the sizzle test on the LOAD+ transistor; my voltage inverter went into thermal cycling trying to supply 1A for LOAD-, but I imagine it'd be about the same.\nUp to -15V/+15V supply.  (Op-amp supports 30V difference, you might be able to shift up or down.)\nWarning, though - the op-amp only got to like 10.2V out of 12V rail voltage, (but like -11.8V out of -12V rail voltage), so the range is further limited.\n4x gain.\nProbably supports like 175kHz?  By 700kHz GBP / 4 gain.\n\nAdd heatsinks to the transistors.\n\nSolder the jumper and cut the existing feedback connection if you want to risk possible instability for accurate output."
+		(exclude_from_sim no)
+		(at 24.13 20.955 0)
+		(size 79.375 53.34)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "203c8a71-3f3d-446b-baa2-208963508965")
+	)
+	(junction
+		(at 182.245 117.475)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02c41416-bb41-4e0a-ab5e-ab831717b06a")
+	)
+	(junction
+		(at 182.245 66.675)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bbd3c8d-7c50-40b5-a6fa-94607e2b6bd4")
+	)
+	(junction
+		(at 182.245 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "276045dd-bb01-4e3b-bf31-c54a508d46a9")
+	)
+	(junction
+		(at 137.16 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3241f0c5-7ab4-4b4c-9616-e269a9918746")
+	)
+	(junction
+		(at 156.845 125.095)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c14d21f-a4c8-4232-8231-07481e8fcfeb")
+	)
+	(junction
+		(at 182.245 112.395)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "553762b6-47a8-4392-a4da-e66def955036")
+	)
+	(junction
+		(at 156.845 117.475)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "571fd65f-a25c-4e1b-a992-835a99b75cbe")
+	)
+	(junction
+		(at 119.38 122.555)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f3cc3f5-14ce-44c5-bd07-4970906e634e")
+	)
+	(junction
+		(at 155.575 51.435)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "952760dc-5958-4ddf-bba3-1550848fa376")
+	)
+	(junction
+		(at 83.185 131.445)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d66dfab-e91d-4e92-8d82-71171b8724ce")
+	)
+	(junction
+		(at 83.185 151.765)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b39efa0f-7572-428d-9702-08f411085ea6")
+	)
+	(junction
+		(at 118.11 48.895)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6782b16-8926-4281-8179-ece45c27b3d6")
+	)
+	(junction
+		(at 155.575 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea1e4126-bb48-4dc2-99df-049ee64608ed")
+	)
+	(junction
+		(at 138.43 122.555)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb9c9ea1-6ffc-410f-9547-73131b1b5f49")
+	)
+	(wire
+		(pts
+			(xy 138.43 114.935) (xy 142.5617 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02f699db-4509-4f72-abca-58500cfc8e6a")
+	)
+	(wire
+		(pts
+			(xy 83.185 151.765) (xy 83.185 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e0b3889-26e2-425f-ac55-da25f8ffbdb7")
+	)
+	(wire
+		(pts
+			(xy 138.43 122.555) (xy 138.43 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e4dc34-c8a1-4254-b4f4-122cea1d0571")
+	)
+	(wire
+		(pts
+			(xy 137.16 66.04) (xy 137.16 53.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "150e359b-4f3b-43bc-81b6-69002592c4f2")
+	)
+	(wire
+		(pts
+			(xy 149.225 66.04) (xy 155.575 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1625cd11-26c5-46a5-9c58-5519358da245")
+	)
+	(wire
+		(pts
+			(xy 182.245 117.475) (xy 182.245 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "166ea443-329c-49ef-9cd5-2e60ebddccd3")
+	)
+	(wire
+		(pts
+			(xy 83.185 129.54) (xy 83.185 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b842aad-2dfb-46bd-8891-e8d42715fa01")
+	)
+	(wire
+		(pts
+			(xy 182.245 99.695) (xy 182.245 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a122b12-2d5f-4bf0-88ef-a5c59f0fb9b5")
+	)
+	(wire
+		(pts
+			(xy 182.245 111.76) (xy 182.245 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37368913-86d8-47dd-a4a8-b0cc9616ac3b")
+	)
+	(wire
+		(pts
+			(xy 137.16 66.04) (xy 137.16 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f979a79-5c0c-45f6-9194-b864669d8211")
+	)
+	(wire
+		(pts
+			(xy 182.245 112.395) (xy 182.245 117.475)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49d8a96a-853f-4a12-9efa-e714e283881b")
+	)
+	(wire
+		(pts
+			(xy 182.245 60.96) (xy 182.245 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d60d213-aa77-4341-a60b-8daf73e1f9e2")
+	)
+	(wire
+		(pts
+			(xy 141.605 66.04) (xy 137.16 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f795d70-210d-4dbf-acff-a363fcfde032")
+	)
+	(wire
+		(pts
+			(xy 135.89 127.635) (xy 138.43 127.635)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "525b4636-84bd-4c35-a65e-57f5e9b4d196")
+	)
+	(wire
+		(pts
+			(xy 118.11 48.895) (xy 111.125 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54192f34-7866-44d9-9e66-1d11bd11f8f4")
+	)
+	(wire
+		(pts
+			(xy 137.16 48.895) (xy 118.11 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e569af8-7727-48b1-a6b1-ec8d2054b20c")
+	)
+	(wire
+		(pts
+			(xy 155.575 60.96) (xy 155.575 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6199eb18-0406-4686-b7c8-e031b31fcf60")
+	)
+	(wire
+		(pts
+			(xy 153.67 125.095) (xy 156.845 125.095)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64931f5d-60b0-4a52-8a59-c3b587569ca8")
+	)
+	(wire
+		(pts
+			(xy 119.38 122.555) (xy 126.365 122.555)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c3b5af4-cfd5-4928-9ee3-62ccf80939f1")
+	)
+	(wire
+		(pts
+			(xy 182.245 144.145) (xy 182.245 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df36c45-9e01-408b-8b31-bf3d60b07ffa")
+	)
+	(wire
+		(pts
+			(xy 83.185 131.445) (xy 83.185 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72478193-0f3c-4826-935f-223f314aa748")
+	)
+	(wire
+		(pts
+			(xy 182.245 66.675) (xy 189.23 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a0041f-6b6e-4ebb-b2c4-91c07c758970")
+	)
+	(wire
+		(pts
+			(xy 113.03 122.555) (xy 119.38 122.555)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a570817-e360-4092-9f14-254d94d1ac2c")
+	)
+	(wire
+		(pts
+			(xy 150.1817 114.935) (xy 156.845 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e88572-f979-446f-91cd-5f8eaec686e4")
+	)
+	(wire
+		(pts
+			(xy 182.245 67.31) (xy 182.245 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9544512-786e-4ab7-9635-3a159b42b04a")
+	)
+	(wire
+		(pts
+			(xy 156.845 125.095) (xy 177.165 125.095)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa4b9e51-f014-4f34-be45-8565ac708045")
+	)
+	(wire
+		(pts
+			(xy 137.16 80.645) (xy 137.16 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a2808a-0dd9-4f7c-b1ba-6f0bc43a11f7")
+	)
+	(wire
+		(pts
+			(xy 182.245 79.375) (xy 182.245 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b258492e-fe03-47c5-96c7-5d6adb923bdc")
+	)
+	(wire
+		(pts
+			(xy 156.845 117.475) (xy 165.735 117.475)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc2dad06-7617-47e6-8a9e-34c27696fab5")
+	)
+	(wire
+		(pts
+			(xy 155.575 66.04) (xy 155.575 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdd4c42a-6ab8-44df-9dec-1cb891db4f12")
+	)
+	(wire
+		(pts
+			(xy 182.245 112.395) (xy 189.23 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0a873ec-e85e-43e2-af3f-4395364e4c1c")
+	)
+	(wire
+		(pts
+			(xy 155.575 51.435) (xy 174.625 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c28dedda-1a29-4033-bc05-8bbd582c250e")
+	)
+	(wire
+		(pts
+			(xy 155.575 60.96) (xy 165.735 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c75999aa-1694-46ed-a169-0602f143dbb3")
+	)
+	(wire
+		(pts
+			(xy 156.845 117.475) (xy 156.845 125.095)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d466a412-279b-4c3e-b43a-d9db03ed3b63")
+	)
+	(wire
+		(pts
+			(xy 156.845 114.935) (xy 156.845 117.475)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d82f6f94-9271-4525-be9d-32125d00eeed")
+	)
+	(wire
+		(pts
+			(xy 182.245 56.515) (xy 182.245 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c4655c-ea9c-4ca8-b826-45704b33c0e7")
+	)
+	(wire
+		(pts
+			(xy 182.245 34.925) (xy 182.245 46.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e62b7119-3756-4786-a25f-7df73aae9836")
+	)
+	(wire
+		(pts
+			(xy 83.185 154.94) (xy 83.185 151.765)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f122774e-1491-4d69-8b60-b81856f13778")
+	)
+	(wire
+		(pts
+			(xy 152.4 51.435) (xy 155.575 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa9da673-0968-43ee-b96f-ab13dd5700de")
+	)
+	(wire
+		(pts
+			(xy 133.985 122.555) (xy 138.43 122.555)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf7c41f-2eca-4f27-bbfc-bd7b65a06851")
+	)
+	(wire
+		(pts
+			(xy 173.355 60.96) (xy 182.245 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff3a47c7-e47b-41a7-8779-bcbd783d6312")
+	)
+	(wire
+		(pts
+			(xy 173.355 117.475) (xy 182.245 117.475)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff54d5de-c24a-4686-bd95-53b18398618c")
+	)
+	(hierarchical_label "Sig1"
+		(shape input)
+		(at 111.125 48.895 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01037183-3b8c-4fb0-951a-ae24e0a14598")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 135.89 127.635 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09b35814-45d1-4fd9-acbf-7e936a74d9d9")
+	)
+	(hierarchical_label "Vcc"
+		(shape input)
+		(at 182.245 34.925 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1fb136e6-d93f-4726-aed8-570ce96c689c")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 182.245 99.695 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25258102-2b7d-4b00-ba59-aaa8bc966222")
+	)
+	(hierarchical_label "Vee"
+		(shape input)
+		(at 182.245 144.145 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2dd73f76-b1c6-464a-8aa1-8f1aa9468bd9")
+	)
+	(hierarchical_label "Vcc"
+		(shape input)
+		(at 83.185 129.54 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d58e559-0638-4a17-83cd-900146d8139c")
+	)
+	(hierarchical_label "Vee"
+		(shape input)
+		(at 83.185 154.94 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e75710c-b0f9-4f9d-8db8-99c7fc791782")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 90.805 131.445 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5fb3673c-4607-4c20-a5ea-781a44884446")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 118.11 56.515 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70bc2479-fcb2-4d13-83a4-2e2af1818371")
+	)
+	(hierarchical_label "Sig2"
+		(shape input)
+		(at 113.03 122.555 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "808fc12a-15a5-421f-8e35-4d34c8152afa")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 90.805 151.765 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83fda04e-d55c-4068-97b7-72c8787ab475")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 119.38 130.175 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f6733f4-000a-4d9e-9a17-bebae41dd15b")
+	)
+	(hierarchical_label "LOAD+"
+		(shape output)
+		(at 189.23 66.675 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c61bb0b7-a4b1-4c25-a76d-4c54b0cdfa54")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 182.245 79.375 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dde4c022-830d-4b5f-848f-fa659545dbe5")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 137.16 80.645 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb21db12-43cf-41af-8a4f-1633bf807e27")
+	)
+	(hierarchical_label "LOAD-"
+		(shape output)
+		(at 189.23 112.395 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4796c14-8f92-455d-904d-6a5da18e3552")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 126.365 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c5a2de0-33d4-4084-9055-c3cf13874a60")
+		(property "Reference" "R7_S4AN15P151A1"
+			(at 121.285 125.0949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 121.285 127.6349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 117.602 126.365 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 100kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 119.38 126.365 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0402WGF1003TCE"
+			(at 119.38 126.365 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 119.38 126.365 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26484-0402WGF1003TCE/C25741"
+			(at 119.38 126.365 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2a1670ad-2f41-4417-bba8-1f21fde18774")
+		)
+		(pin "1"
+			(uuid "3039abd4-3d63-4f00-bd8c-ba4914fd03de")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/91daaba3-e6ae-4074-a1c9-423bdcec64f1"
+					(reference "R7_S4AN15P151A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 130.175 122.555 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c585e0d-5eeb-493d-a7d9-1d77f10bca3a")
+		(property "Reference" "R5_S4AN15P151A1"
+			(at 130.175 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 130.175 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 130.175 120.777 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 130.175 122.555 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0402WGF1002TCE"
+			(at 130.175 122.555 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 130.175 122.555 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+			(at 130.175 122.555 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e10066af-b384-4615-894f-00fcf75d2571")
+		)
+		(pin "1"
+			(uuid "9477b8fe-668c-4279-b401-e5935e547c9c")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/91daaba3-e6ae-4074-a1c9-423bdcec64f1"
+					(reference "R5_S4AN15P151A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 86.995 151.765 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27ae9fc6-2644-4e85-9d7e-40b7f0937814")
+		(property "Reference" "C2_S4AN15P151A1"
+			(at 86.995 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 86.995 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 90.805 150.7998 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "50V 100nF Y5V ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 86.995 151.765 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0402F104M500NT"
+			(at 86.995 151.765 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1581"
+			(at 86.995 151.765 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/1933-0402F104M500NT/C1581"
+			(at 86.995 151.765 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "102e37b2-28ca-451a-b17d-0ada3f119f79")
+		)
+		(pin "1"
+			(uuid "fb42b33e-f8fb-46ea-9c21-cee5931a282e")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/91daaba3-e6ae-4074-a1c9-423bdcec64f1"
+					(reference "C2_S4AN15P151A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 182.245 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b708512-1948-4265-99fc-a9725d1e9a7f")
+		(property "Reference" "R4_S4AN15P151A1"
+			(at 184.785 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 184.785 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 184.023 71.12 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 182.245 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0402WGF1002TCE"
+			(at 182.245 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 182.245 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+			(at 182.245 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7229d798-cf9c-462e-ad0e-ca4824d6bbbe")
+		)
+		(pin "1"
+			(uuid "b8efab79-0765-4f07-8ce4-2b2c674db4ed")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/91daaba3-e6ae-4074-a1c9-423bdcec64f1"
+					(reference "R4_S4AN15P151A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 145.415 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45e9f8b4-02ea-4978-9903-d90fb71fdc9e")
+		(property "Reference" "R2_S4AN15P151A1"
+			(at 145.415 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "30k"
+			(at 145.415 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 145.415 64.262 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±5% 30kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 145.415 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0402WGJ0303TCE"
+			(at 145.415 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25553"
+			(at 145.415 66.04 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26296-0402WGJ0303TCE/C25553"
+			(at 145.415 66.04 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "33b367d5-a417-42a0-bae0-12ba92679a57")
+		)
+		(pin "1"
+			(uuid "e670ee0c-ddce-4b71-9592-7bc3caab82fc")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/91daaba3-e6ae-4074-a1c9-423bdcec64f1"
+					(reference "R2_S4AN15P151A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 86.995 131.445 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64d3b3fd-16ff-4623-9d03-f88ba5d9c62d")
+		(property "Reference" "C1_S4AN15P151A1"
+			(at 86.995 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 86.995 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 90.805 130.4798 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "50V 100nF Y5V ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 86.995 131.445 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0402F104M500NT"
+			(at 86.995 131.445 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1581"
+			(at 86.995 131.445 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/1933-0402F104M500NT/C1581"
+			(at 86.995 131.445 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e3a4c945-6435-4ca0-b054-45a51017100d")
+		)
+		(pin "1"
+			(uuid "454992c0-d053-474f-bd7c-8c80ca9bb6e1")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/91daaba3-e6ae-4074-a1c9-423bdcec64f1"
+					(reference "C1_S4AN15P151A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 182.245 107.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65dbb1b1-a225-4257-a488-e84bef494ce7")
+		(property "Reference" "R6_S4AN15P151A1"
+			(at 184.785 109.2201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 184.785 106.6801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 184.023 107.95 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 182.245 107.95 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0402WGF1002TCE"
+			(at 182.245 107.95 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 182.245 107.95 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+			(at 182.245 107.95 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bd74e9ca-94f5-468d-8605-d033ecf95388")
+		)
+		(pin "1"
+			(uuid "6cd47115-9822-4413-baa5-af0342825ec9")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/91daaba3-e6ae-4074-a1c9-423bdcec64f1"
+					(reference "R6_S4AN15P151A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.3717 114.935 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ce6a5cd-9c17-4398-b538-7094a8885262")
+		(property "Reference" "R3_S4AN15P151A1"
+			(at 146.3717 108.585 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40k"
+			(at 146.3717 111.125 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 146.3717 113.157 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 40.2kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 146.3717 114.935 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0402WGF4022TCE"
+			(at 146.3717 114.935 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25893"
+			(at 146.3717 114.935 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26636-0402WGF4022TCE/C25893"
+			(at 146.3717 114.935 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "da8af872-6315-4ddc-ac05-de4b1f171317")
+		)
+		(pin "1"
+			(uuid "93b101d4-68f7-410b-964b-835cab850dad")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/91daaba3-e6ae-4074-a1c9-423bdcec64f1"
+					(reference "R3_S4AN15P151A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 169.545 117.475 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d309451-cce5-4b60-b606-fb67b4b41939")
+		(property "Reference" "JP2_S4AN15P151A1"
+			(at 169.545 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 169.545 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "erhannis:SolderJumper-2_P0.5mm_Open_Pad0.5x0.5mm"
+			(at 169.545 117.475 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 169.545 117.475 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 169.545 117.475 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "711bf38e-ec2c-4fb3-bf73-0aac790176d4")
+		)
+		(pin "2"
+			(uuid "95d581e2-caa1-4894-a229-839c4b3a8382")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/91daaba3-e6ae-4074-a1c9-423bdcec64f1"
+					(reference "JP2_S4AN15P151A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 118.11 52.705 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7205c673-bb94-45c6-8509-848ca904c8ed")
+		(property "Reference" "R8_S4AN15P151A1"
+			(at 120.015 51.4349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 120.015 53.9749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 116.332 52.705 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 100kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 118.11 52.705 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0402WGF1003TCE"
+			(at 118.11 52.705 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 118.11 52.705 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26484-0402WGF1003TCE/C25741"
+			(at 118.11 52.705 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cf6d24a4-7e54-43ad-8672-3a928ccfcef0")
+		)
+		(pin "1"
+			(uuid "ab6be0d3-cc05-4384-b5d6-c2dd9dcca485")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/91daaba3-e6ae-4074-a1c9-423bdcec64f1"
+					(reference "R8_S4AN15P151A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:IRF540NPBF")
+		(at 179.705 51.435 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75b88734-f9e8-4eec-9c00-ab2dc6d357ba")
+		(property "Reference" "Q1_S4AN15P151A1"
+			(at 186.69 50.1649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF540NPBF"
+			(at 186.69 52.7049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:TO-220-3_L10.0-W4.5-P2.54-L"
+			(at 179.705 64.135 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_IR_IRF540NPBF_IRF540NPBF_C2566.html"
+			(at 179.705 66.675 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 179.705 51.435 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2566"
+			(at 179.705 69.215 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "178f260c-f199-48e2-89e4-72591af2e133")
+		)
+		(pin "3"
+			(uuid "63a437a8-c345-429b-91fd-32db5f897ca1")
+		)
+		(pin "1"
+			(uuid "a2ce6e69-ebb0-4e80-b1cc-8f2e8673d90e")
+		)
+		(instances
+			(project ""
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/91daaba3-e6ae-4074-a1c9-423bdcec64f1"
+					(reference "Q1_S4AN15P151A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM358")
+		(at 85.725 140.97 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f92a9e5-a622-45ba-b68e-372877cf67cd")
+		(property "Reference" "U1_S4AN15P151A1"
+			(at 83.82 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM358"
+			(at 83.82 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL"
+			(at 85.725 140.97 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "Dual 20nA 0.3V/us 700kHz SOIC-8 Operational Amplifier ROHS"
+			(at 85.725 140.97 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LM358DR"
+			(at 85.725 140.97 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5423"
+			(at 85.725 140.97 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/TexasInstruments-LM358DR/C5423"
+			(at 85.725 140.97 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "9f3aa916-cbd4-4379-a5d7-52b0ddec9927")
+		)
+		(pin "8"
+			(uuid "95276097-7706-4f51-85ec-28d9f2b1e273")
+		)
+		(pin "7"
+			(uuid "34aa16dc-6d1a-4c7c-bb1a-e4dbcaf6bc7d")
+		)
+		(pin "6"
+			(uuid "249f8eae-2858-40b0-acc9-54a70add5cc4")
+		)
+		(pin "5"
+			(uuid "41b749e8-5f10-43d2-9ec5-af9468f71f38")
+		)
+		(pin "1"
+			(uuid "ea0607a8-adb9-4e16-bbbd-73d8e695bda5")
+		)
+		(pin "2"
+			(uuid "89b310c0-b66d-4ed9-8bed-b7a2cec89b6c")
+		)
+		(pin "3"
+			(uuid "baff4ac1-8c9a-4484-8b48-52abbff7c809")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/91daaba3-e6ae-4074-a1c9-423bdcec64f1"
+					(reference "U1_S4AN15P151A1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM358")
+		(at 146.05 125.095 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab7975dc-dab5-4fd1-a1ff-6993b320a5b2")
+		(property "Reference" "U1_S4AN15P151A1"
+			(at 146.05 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM358"
+			(at 146.05 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL"
+			(at 146.05 125.095 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "Dual 20nA 0.3V/us 700kHz SOIC-8 Operational Amplifier ROHS"
+			(at 146.05 125.095 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LM358DR"
+			(at 146.05 125.095 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5423"
+			(at 146.05 125.095 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/TexasInstruments-LM358DR/C5423"
+			(at 146.05 125.095 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "9f3aa916-cbd4-4379-a5d7-52b0ddec9928")
+		)
+		(pin "8"
+			(uuid "95276097-7706-4f51-85ec-28d9f2b1e274")
+		)
+		(pin "7"
+			(uuid "34aa16dc-6d1a-4c7c-bb1a-e4dbcaf6bc7e")
+		)
+		(pin "6"
+			(uuid "249f8eae-2858-40b0-acc9-54a70add5cc5")
+		)
+		(pin "5"
+			(uuid "41b749e8-5f10-43d2-9ec5-af9468f71f39")
+		)
+		(pin "1"
+			(uuid "ea0607a8-adb9-4e16-bbbd-73d8e695bda6")
+		)
+		(pin "2"
+			(uuid "89b310c0-b66d-4ed9-8bed-b7a2cec89b6d")
+		)
+		(pin "3"
+			(uuid "baff4ac1-8c9a-4484-8b48-52abbff7c80a")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/91daaba3-e6ae-4074-a1c9-423bdcec64f1"
+					(reference "U1_S4AN15P151A1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 169.545 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d13e722b-1b08-4b8c-9411-ece31509fe8b")
+		(property "Reference" "JP1_S4AN15P151A1"
+			(at 169.545 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 169.545 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "erhannis:SolderJumper-2_P0.5mm_Open_Pad0.5x0.5mm"
+			(at 169.545 60.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 169.545 60.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 169.545 60.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e94808cc-3566-4f3e-bc0a-3b68145c9f91")
+		)
+		(pin "2"
+			(uuid "d0e6d2b4-bbf4-42aa-aa5d-31e3909c9983")
+		)
+		(instances
+			(project ""
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/91daaba3-e6ae-4074-a1c9-423bdcec64f1"
+					(reference "JP1_S4AN15P151A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM358")
+		(at 144.78 51.435 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "def9d0fa-7e2d-4ce6-b38c-380156842ca8")
+		(property "Reference" "U1_S4AN15P151A1"
+			(at 144.78 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM358"
+			(at 144.78 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL"
+			(at 144.78 51.435 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "Dual 20nA 0.3V/us 700kHz SOIC-8 Operational Amplifier ROHS"
+			(at 144.78 51.435 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LM358DR"
+			(at 144.78 51.435 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5423"
+			(at 144.78 51.435 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/TexasInstruments-LM358DR/C5423"
+			(at 144.78 51.435 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "9f3aa916-cbd4-4379-a5d7-52b0ddec9929")
+		)
+		(pin "8"
+			(uuid "95276097-7706-4f51-85ec-28d9f2b1e275")
+		)
+		(pin "7"
+			(uuid "34aa16dc-6d1a-4c7c-bb1a-e4dbcaf6bc7f")
+		)
+		(pin "6"
+			(uuid "249f8eae-2858-40b0-acc9-54a70add5cc6")
+		)
+		(pin "5"
+			(uuid "41b749e8-5f10-43d2-9ec5-af9468f71f3a")
+		)
+		(pin "1"
+			(uuid "ea0607a8-adb9-4e16-bbbd-73d8e695bda7")
+		)
+		(pin "2"
+			(uuid "89b310c0-b66d-4ed9-8bed-b7a2cec89b6e")
+		)
+		(pin "3"
+			(uuid "baff4ac1-8c9a-4484-8b48-52abbff7c80b")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/91daaba3-e6ae-4074-a1c9-423bdcec64f1"
+					(reference "U1_S4AN15P151A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:IRF9540NPBF")
+		(at 180.975 125.095 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5df7f70-d264-413b-a84b-71ab34c87b45")
+		(property "Reference" "Q2_S4AN15P151A1"
+			(at 186.69 126.3651 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF9540NPBF"
+			(at 186.69 123.8251 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:TO-220-3_L10.0-W4.5-P2.54-L"
+			(at 180.975 112.395 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_IR_IRF9540NPBF_IRF9540NPBF_C2575.html"
+			(at 180.975 109.855 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.975 125.095 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2575"
+			(at 180.975 107.315 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb4c43c4-921b-49a6-b426-18edf9f1582a")
+		)
+		(pin "2"
+			(uuid "bfd227ca-1f5f-4d58-bf71-472ddb70b31c")
+		)
+		(pin "3"
+			(uuid "c6f4d074-c5ce-420a-9244-bf7109dd1c6d")
+		)
+		(instances
+			(project ""
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/91daaba3-e6ae-4074-a1c9-423bdcec64f1"
+					(reference "Q2_S4AN15P151A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7ce8736-1725-4787-9173-66a797307ec0")
+		(property "Reference" "R1_S4AN15P151A1"
+			(at 139.7 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 139.7 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 138.938 74.93 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 137.16 74.93 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0402WGF1002TCE"
+			(at 137.16 74.93 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 137.16 74.93 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+			(at 137.16 74.93 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "32f85065-7366-419f-8708-f0e931e123df")
+		)
+		(pin "1"
+			(uuid "0c9fd7b4-562e-426e-845e-37317213b778")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/91daaba3-e6ae-4074-a1c9-423bdcec64f1"
+					(reference "R1_S4AN15P151A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
