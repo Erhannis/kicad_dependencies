@@ -801,7 +801,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Buck regulator to 5V ~1A\n\nMax Vin ~20V\nProbably could be cost optimized."
+	(text_box "Buck regulator to 5V ~1A\n\nMax Vin ~16V (because of the caps)\nProbably could be cost optimized."
 		(exclude_from_sim no)
 		(at 122.555 20.32 0)
 		(size 37.465 17.145)
