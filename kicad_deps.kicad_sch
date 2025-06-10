@@ -1810,216 +1810,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:DC-050-T25"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "DC"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DC-050-T25"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:DC-IN-SMD_DC-050-T25"
-				(at 0 -10.16 0)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C113716"
-				(at 0 -12.7 0)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DC-050-T25_0_1"
-				(arc
-					(start -5.08 -3.56)
-					(mid -6.1393 -2.54)
-					(end -5.08 -1.52)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.78 -2.54) (xy -1.52 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0 4.06)
-					(end 1.02 1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.56) (xy -5.08 3.56)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.52) (xy -5.08 1.52)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 1.02 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy -1.78 0) (xy -1.78 -2.54) (xy -2.03 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy -4.83 -2.54) (xy -5.33 -1.52) (xy -5.84 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 2.54 180)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -2.54 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda2kicad:XY126V-5.0-2P"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2530,87 +2320,25 @@
 		)
 		(uuid "d58e55e2-afe0-469a-87e2-c5550c448573")
 	)
-	(junction
-		(at 132.715 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "622e5717-cc90-4f8e-b5fc-c4553580e0a3")
-	)
-	(junction
-		(at 132.715 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2874296-c7d5-4f65-80ad-a42d0ab4bc71")
-	)
 	(wire
 		(pts
-			(xy 132.715 24.13) (xy 132.715 35.56)
+			(xy 133.35 6.35) (xy 135.89 6.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4293417f-5aad-4e4c-9f83-75e13453f323")
+		(uuid "6b756ae3-b53f-408b-9643-0855ccfeb021")
 	)
 	(wire
 		(pts
-			(xy 132.08 35.56) (xy 132.715 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "747ff436-3e03-4bdf-995c-0c0455c13709")
-	)
-	(wire
-		(pts
-			(xy 132.715 35.56) (xy 137.795 35.56)
+			(xy 132.08 35.56) (xy 137.795 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8a65abb2-abb2-442c-bd13-0bbbbe1cff2c")
-	)
-	(wire
-		(pts
-			(xy 132.715 21.59) (xy 132.715 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96ae3cc2-72be-4954-9017-8861b3428822")
-	)
-	(wire
-		(pts
-			(xy 135.89 25.4) (xy 137.795 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a457134e-3cfb-47de-95de-7368805759b7")
-	)
-	(wire
-		(pts
-			(xy 132.715 19.05) (xy 135.89 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8a82768-fea9-4fc1-b2b7-3f5f5b8697a5")
-	)
-	(wire
-		(pts
-			(xy 135.89 19.05) (xy 135.89 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5bf65c3-5b7d-4883-abc2-e6528e63d78d")
 	)
 	(wire
 		(pts
@@ -2621,6 +2349,26 @@
 			(type default)
 		)
 		(uuid "c063b045-c15b-4d5c-bce7-c52d846a85e3")
+	)
+	(wire
+		(pts
+			(xy 135.89 6.35) (xy 135.89 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb90583a-1f57-43ad-a2c8-d5f5ef7b63bc")
+	)
+	(wire
+		(pts
+			(xy 135.89 25.4) (xy 137.795 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa2dde38-82e7-4068-82a3-4fcef9c10db0")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3801,6 +3549,73 @@
 			(project "kicad_deps"
 				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 12.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58246e95-67c4-4f31-b817-f4c6f4f30912")
+		(property "Reference" "#PWR036"
+			(at 107.95 12.7 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 12.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 12.7 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 12.7 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 12.7 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f279f83b-fc06-4900-b14c-3269ccf7555b")
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -5061,104 +4876,6 @@
 			(project "kicad_deps"
 				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
 					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:DC-050-T25")
-		(at 125.095 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae2ba35b-3bd2-4f05-bd7a-18b78b5d3874")
-		(property "Reference" "DC1_PC18650X3S1"
-			(at 123.2953 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DC-050-T25"
-			(at 123.2953 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:DC-IN-SMD_DC-050-T25"
-			(at 125.095 31.75 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.095 21.59 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "3A 12V SMD DC Power Connectors ROHS"
-			(at 125.095 21.59 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" "DC-050-T25"
-			(at 125.095 34.29 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C113716"
-			(at 125.095 21.59 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Sofng-DC_050T25/C113716"
-			(at 125.095 21.59 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "681a2462-ebe6-44bf-8200-193737d720e4")
-		)
-		(pin "2"
-			(uuid "164793a1-3cf8-4510-8bdc-7144b4c6591c")
-		)
-		(pin "3"
-			(uuid "57c819ac-18aa-4244-9e0d-a7d5fda7fd13")
-		)
-		(instances
-			(project ""
-				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
-					(reference "DC1_PC18650X3S1")
 					(unit 1)
 				)
 			)
@@ -8428,6 +8145,78 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 2.54)
+		(size 19.05 12.065)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cdc4de42-21d4-406f-9619-34e7f51b724e")
+		(property "Sheetname" "charger_18650_3s"
+			(at 114.3 1.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "charger_18650_3s.kicad_sch"
+			(at 114.3 15.1896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 114.3 12.7 180)
+			(uuid "b962952b-4e72-461c-9f37-82620baddaa9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin" input
+			(at 114.3 6.35 180)
+			(uuid "c96975ea-f73b-483a-9a20-3645466bd253")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" input
+			(at 133.35 6.35 0)
+			(uuid "cb8e1b2d-c1d8-436a-9a39-fc75c627f19e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "kicad_deps"
+				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
+					(page "29")
+				)
 			)
 		)
 	)
