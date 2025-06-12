@@ -510,175 +510,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:RVT1C471M0607"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RVT1C471M0607"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-RD"
-				(at 0 -7.62 0)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C2977552"
-				(at 0 -10.16 0)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RVT1C471M0607_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.29 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.78 1.78) (xy -1.78 0.76)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 1.78) (xy -0.51 -1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.15 1.79)
-					(mid 5.5048 -0.0047)
-					(end 1.13 -1.75)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda2kicad:SS54_C22452"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -783,6 +614,175 @@
 					(at 5.08 0 180)
 					(length 3.81)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:TAJD477K006RNJ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TAJD477K006RNJ"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:CASE-D_7343"
+				(at 0 -7.62 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Tantalum-Capacitors_AVX_TAJD477K006RNJ_470uF-477-10-6-3V_C7229.html"
+				(at 0 -10.16 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C7229"
+				(at 0 -12.7 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TAJD477K006RNJ_0_1"
+				(polyline
+					(pts
+						(xy -0.51 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 -2.03) (xy -0.51 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 -2.03) (xy 0.51 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.03 -1.52) (xy 2.03 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.02) (xy 1.52 -1.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -975,6 +975,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.085 91.44) (xy 172.085 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44bc8a6-51f5-4656-8e67-7e7d83afbe34")
+	)
+	(wire
+		(pts
 			(xy 127.635 72.39) (xy 172.085 72.39)
 		)
 		(stroke
@@ -1052,16 +1062,6 @@
 			(type default)
 		)
 		(uuid "de864aaa-5759-4bcf-8228-32f1e320b48f")
-	)
-	(wire
-		(pts
-			(xy 172.085 93.98) (xy 172.085 104.775)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1f74841-8b85-4383-8345-b8abafe6375c")
 	)
 	(wire
 		(pts
@@ -1304,35 +1304,35 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:RVT1C471M0607")
-		(at 172.085 88.9 270)
+		(lib_id "easyeda2kicad:TAJD477K006RNJ")
+		(at 172.085 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4242d0df-0ddc-406c-a450-977a4e7a5f6d")
+		(uuid "95b3a8fb-881b-4089-848d-e1ced1116d4a")
 		(property "Reference" "C2_B5V1"
-			(at 176.53 89.1123 90)
+			(at 175.895 85.7249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "470uF"
-			(at 176.53 91.6523 90)
+			(at 175.895 88.2649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-RD"
-			(at 164.465 88.9 0)
+		(property "Footprint" "easyeda2kicad:CASE-D_7343"
+			(at 179.705 87.63 0)
 			(hide yes)
 			(effects
 				(font
@@ -1340,8 +1340,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 172.085 88.9 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tantalum-Capacitors_AVX_TAJD477K006RNJ_470uF-477-10-6-3V_C7229.html"
+			(at 182.245 87.63 0)
 			(hide yes)
 			(effects
 				(font
@@ -1349,8 +1349,8 @@
 				)
 			)
 		)
-		(property "Description" "470uF 16V 185mA@120Hz ±20% SMD,D6.3xL7.7mm Aluminum Electrolytic Capacitors - SMD ROHS"
-			(at 172.085 88.9 0)
+		(property "Description" ""
+			(at 172.085 87.63 0)
 			(hide yes)
 			(effects
 				(font
@@ -1358,41 +1358,23 @@
 				)
 			)
 		)
-		(property "MFR" "RVT1C471M0607"
-			(at 161.925 88.9 0)
+		(property "LCSC Part" "C7229"
+			(at 184.785 87.63 0)
 			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "LCSC" "C2977552"
-			(at 172.085 88.9 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_ROQANG-RVT1C471M0607_C2977552.html?s_z=n_470uF"
-			(at 172.085 88.9 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "40138014-828b-44a9-bf82-d7b24a091415")
 		)
 		(pin "1"
-			(uuid "c54cbebe-4721-4f86-a5e9-bdeaa333bbbb")
+			(uuid "70bcfb92-b20a-4bde-a1c7-b7874eec7811")
+		)
+		(pin "2"
+			(uuid "c25cbc77-3862-4fe4-8b4e-0072dad67197")
 		)
 		(instances
-			(project ""
+			(project "kicad_deps"
 				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/92995d4c-c32c-4b18-a861-06a61dce9f41"
 					(reference "C2_B5V1")
 					(unit 1)

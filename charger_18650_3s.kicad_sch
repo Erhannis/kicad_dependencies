@@ -1649,15 +1649,6 @@
 				)
 			)
 		)
-		(property "URL" "https://jlcpcb.com/partdetail/Xinglight-XL_1608UBC04/C965807"
-			(at 88.9 85.725 90)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "URL" "https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286"
 			(at 88.9 85.725 90)
 			(hide yes)

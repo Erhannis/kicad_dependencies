@@ -2084,7 +2084,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "450mΩ ±25% 600Ω@100MHz 0603 Ferrite Beads ROHS"
 			(at 144.145 67.945 0)
 			(hide yes)
 			(effects
@@ -2093,7 +2093,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GZ1608D601TF"
+			(at 144.145 67.945 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1002"
+			(at 144.145 67.945 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Sunlord-GZ1608D601TF/C1002"
 			(at 144.145 67.945 0)
 			(hide yes)
 			(effects
@@ -2151,7 +2169,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "50V 1uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 187.325 88.265 0)
 			(hide yes)
 			(effects
@@ -2160,8 +2178,26 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL10A105KB8NNNC"
 			(at 187.325 88.265 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 187.325 88.265 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849"
+			(at 187.325 88.265 90)
 			(hide yes)
 			(effects
 				(font
@@ -2290,7 +2326,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 194.945 88.265 0)
 			(hide yes)
 			(effects
@@ -2299,8 +2335,26 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CC0603KRX7R9BB104"
 			(at 194.945 88.265 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 194.945 88.265 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Yageo-CC0603KRX7R9BB104/C14663"
+			(at 194.945 88.265 90)
 			(hide yes)
 			(effects
 				(font
